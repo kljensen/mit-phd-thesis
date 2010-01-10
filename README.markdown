@@ -9,4 +9,4 @@ This is a [LaTeX](http://www.latex-project.org/) template for a Ph.D. thesis at 
 * The final output can be found here: [Kyle Jensen's MIT Ph.D. thesis](http://cloud.github.com/downloads/kljensen/mit-phd-thesis/kljensen-mit-phd-thesis.pdf)
 
 Kyle  
-[kljensen@gmail.com](kljensen@gmail.com)
+[kljensen@gmail.com](mailto://kljensen@gmail.com)

@@ -1,0 +1,153 @@
+% -*-latex-*-
+% $Log: cover.tex,v $
+% Revision 1.7  2001/02/08 18:53:16  boojum
+% changed some \newpages to \cleardoublepages
+%
+% Revision 1.6  1999/10/21 14:49:31  boojum
+% changed comment referring to documentstyle
+%
+% Revision 1.5  1999/10/21 14:39:04  boojum
+% *** empty log message ***
+%
+% Revision 1.4  1997/04/18  17:54:10  othomas
+% added page numbers on abstract and cover, and made 1 abstract
+% page the default rather than 2.  (anne hunter tells me this
+% is the new institute standard.)
+%
+% Revision 1.4  1997/04/18  17:54:10  othomas
+% added page numbers on abstract and cover, and made 1 abstract
+% page the default rather than 2.  (anne hunter tells me this
+% is the new institute standard.)
+%
+% Revision 1.3  93/05/17  17:06:29  starflt
+% Added acknowledgements section (suggested by tompalka)
+% 
+% Revision 1.2  92/04/22  13:13:13  epeisach
+% Fixes for 1991 course 6 requirements
+% Phrase "and to grant others the right to do so" has been added to 
+% permission clause
+% Second copy of abstract is not counted as separate pages so numbering works
+% out
+% 
+% Revision 1.1  92/04/22  13:08:20  epeisach
+\addcontentsline{toc}{chapter}{Cover page}
+\title{Motif discovery in sequential data}
+\author{Kyle L. Jensen}
+\department{Department of Chemical Engineering}
+% If the thesis is for two degrees simultaneously, list them both
+% separated by \and like this:
+ \degree{Doctor of Philosophy}
+%\degree{Bachelor of Science in Computer Science and Engineering}
+\degreemonth{May}
+\degreeyear{2006}
+\thesisdate{April 27, 2006}
+
+%% By default, the thesis will be copyrighted to MIT.  If you need to copyright
+%% the thesis to yourself, just specify the `vi' documentclass option.  If for
+%% some reason you want to exactly specify the copyright notice text, you can
+%% use the \copyrightnoticetext command.  
+\copyrightnoticetext{\copyright ~Kyle L. Jensen, 2006.}
+
+\begin{comment}
+\copyrightnoticetext{\copyright ~Kyle L. Jensen, 2005. \\
+{\footnotesize
+This work is licensed under the Creative
+Commons Attribution-NonCommercial 2.5
+License. To view a copy of this license, visit
+\url{http://creativecommons.org/licenses/by-nc/2.5/} or send a
+letter to
+Creative Commons
+543 Howard Street, 5th Floor,
+San Francisco, California, 94105, USA.
+}}
+\end{comment}
+
+% If there is more than one supervisor, use the \supervisor command
+% once for each.
+\supervisor{Gregory N. Stephanopoulos}{Bayer Professor of Chemical Engineering}
+
+% This is the department committee chairman, not the thesis committee
+% chairman.  You should replace this with your Department's Committee
+% Chairman.
+\chairman{Daniel Blankschtein}{Chairman, Department Committee on Graduate Students}
+
+% Make the titlepage based on the above information.  If you need
+% something special and can't use the standard form, you can specify
+% the exact text of the titlepage yourself.  Put it in a titlepage
+% environment and leave blank lines where you want vertical space.
+% The spaces will be adjusted to fill the entire page.  The dotted
+% lines for the signatures are made with the \signature command.
+\maketitle
+
+% The abstractpage environment sets up everything on the page except
+% the text itself.  The title and other header material are put at the
+% top of the page, and the supervisors are listed at the bottom.  A
+% new page is begun both before and after.  Of course, an abstract may
+% be more than one page itself.  If you need more control over the
+% format of the page, you can use the abstract environment, which puts
+% the word "Abstract" at the beginning and single spaces its text.
+
+%% You can either \input (*not* \include) your abstract file, or you can put
+%% the text of the abstract directly between the \begin{abstractpage} and
+%% \end{abstractpage} commands.
+
+% First copy: start a new page, and save the page number.
+\cleardoublepage
+% Uncomment the next line if you do NOT want a page number on your
+% abstract and acknowledgments pages.
+\pagestyle{empty}
+\setcounter{savepage}{\thepage}
+\begin{abstractpage}\addcontentsline{toc}{chapter}{Abstract}
+\input{Body/abstract}
+\end{abstractpage}
+
+% Additional copy: start a new page, and reset the page number.  This way,
+% the second copy of the abstract is not counted as separate pages.
+% Uncomment the next 6 lines if you need two copies of the abstract
+% page.
+% \setcounter{page}{\thesavepage}
+% \begin{abstractpage}
+% \input{abstract}
+% \end{abstractpage}
+
+\cleardoublepage
+
+\section*{Acknowledgments}\addcontentsline{toc}{chapter}{Acknowledgments}
+
+
+I am indebted to many people who both directly and indirectly
+contributed to this thesis.  First, I would like to thank those
+collaborators who directly contributed.  Most of all, I'm grateful
+for the help and friendship of Mark Styczynski. Mark was my
+collaborator on all matters computational for the past four years
+--- his influence is evident throughout this document.  I'm also
+grateful for my collaboration with Christopher Loose, who performed
+many of the experiments on antimicrobial peptides detailed in this
+thesis.  Finally, I would like to thank Isidore Rigoutsos, who
+straddled the line between collaborator and advisor.  Isidore taught
+me an attention to detail and a penchant for the UNIX command line
+and vi editor.
+
+Most importantly, I am indebted to Greg Stephanopoulos, my advisor,
+whose guidance and support was unwavering these past six years. Greg
+is the perpetual optimist --- always positive in the face of my many
+failures along the way.  He also gave me the freedom to pursue
+projects of my own choosing, which contributed greatly to my
+academic independence, if not the selection of wise projects.
+
+I am much obliged to my thesis committee members: my advisor Greg,
+Isidore, Bill Green, and Bob Berwick.  My committee was always
+flexible in scheduling and judicious in their application of both
+carrots and sticks.
+
+There are numerous people who contributed indirectly to this thesis.
+First among these is my intelligent, lovely, and vivacious wife
+Kathryn Miller--Jensen.  Next, my parents Carl and Julie, my sister
+Heather, and my in-laws, Ron, Joyce, Suzanne, Jeff, and Mindi.
+Finally, there are innumerable friends who contributed and to whom I
+am greatly appreciative including Michael Raab, Joel Moxley, Bill
+Schmitt, and Jatin Misra.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -*-latex-*-

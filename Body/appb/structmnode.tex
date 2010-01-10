@@ -1,0 +1,56 @@
+\hypertarget{structmnode}{
+\section{mnode Struct Reference}
+\label{structmnode}\index{mnode@{mnode}}
+}
+{\tt \#include $<$convll.h$>$}
+
+Collaboration diagram for mnode:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=60pt]{structmnode__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int \hyperlink{structmnode_o0}{clique\-Membership}
+\item 
+\hyperlink{structmnode}{mnode} $\ast$ \hyperlink{structmnode_o1}{next}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+This data structure is just a link to list of integers used for bookkeeping during the convolution stage.
+
+
+
+Definition at line 49 of file convll.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structmnode_o0}{
+\index{mnode@{mnode}!cliqueMembership@{cliqueMembership}}
+\index{cliqueMembership@{cliqueMembership}!mnode@{mnode}}
+\subsubsection[cliqueMembership]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structmnode_o0}{mnode::clique\-Membership}}}
+\label{structmnode_o0}
+
+
+Clique to which this belongs. 
+
+Definition at line 52 of file convll.h.
+
+Referenced by mll\-To\-CSet(), print\-Member\-Stacks(), push\-Mem\-Stack(), and set\-Stack\-True().\hypertarget{structmnode_o1}{
+\index{mnode@{mnode}!next@{next}}
+\index{next@{next}!mnode@{mnode}}
+\subsubsection[next]{\setlength{\rightskip}{0pt plus 5cm}struct \hyperlink{structmnode}{mnode}$\ast$ \hyperlink{structmnode_o1}{mnode::next}}}
+\label{structmnode_o1}
+
+
+A pointer to the next member in the linked list of mll\_\-t space objects. 
+
+Definition at line 55 of file convll.h.
+
+Referenced by mll\-To\-CSet(), pop\-Mem\-Stack(), print\-Member\-Stacks(), push\-Mem\-Stack(), and set\-Stack\-True().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{convll_8h}{convll.h}\end{CompactItemize}

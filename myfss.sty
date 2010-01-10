@@ -1,0 +1,613 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{myfss}[2005/07/11 my font selection scheme]
+\RequirePackage{patchcmd}
+\RequirePackage[LY1]{fontenc}
+%here are two variables to hold the weight and width axes and their previous values:
+\def\fwei{md}%...lt, md, sb, bd, bl...maybe more
+\def\fwid{nw}%...cd, hc, nw, sx, ex...maybe more(note hc instead of sc---these codes must not conflict with shape codes)
+\def\oldfwei{\fwei}
+\def\oldfwid{\fwid}
+%define middle-level author commands to acess them (4-letter names WWww, where WW=weight, ww=width,
+%so, these are middle-level series commands:
+\DeclareRobustCommand{\ltcdseries}{%light condensed series
+  \not@math@alphabet\ltcdseries\relax
+  \def\fwei{lt}\def\fwid{cd}\fontseries{ltcd}\selectfont}
+\DeclareTextFontCommand{\textltcd}{\ltcdseries}
+\DeclareRobustCommand{\lthcseries}{%light demi-condensed series
+  \not@math@alphabet\lthcseries\relax
+  \def\fwei{lt}\def\fwid{hc}\fontseries{lthc}\selectfont}
+\DeclareTextFontCommand{\textlthc}{\lthcseries}
+\DeclareRobustCommand{\ltnwseries}{%light normal-width series
+  \not@math@alphabet\ltnwseries\relax
+  \def\fwei{lt}\def\fwid{nw}\fontseries{ltnw}\selectfont}
+\DeclareTextFontCommand{\textltnw}{\ltnwseries}
+\DeclareRobustCommand{\ltsxseries}{%light semi-extended series
+  \not@math@alphabet\ltsxseries\relax
+  \def\fwei{lt}\def\fwid{sx}\fontseries{ltsx}\selectfont}
+\DeclareTextFontCommand{\textltsx}{\ltsxseries}
+\DeclareRobustCommand{\ltexseries}{%light extended series
+  \not@math@alphabet\ltexseries\relax
+  \def\fwei{lt}\def\fwid{ex}\fontseries{ltex}\selectfont}
+\DeclareTextFontCommand{\textltex}{\ltexseries}
+\DeclareRobustCommand{\mdcdseries}{%medium (book?) condensed series
+  \not@math@alphabet\mdcdseries\relax
+  \def\fwei{md}\def\fwid{cd}\fontseries{mdcd}\selectfont}
+\DeclareTextFontCommand{\textmdcd}{\mdcdseries}
+\DeclareRobustCommand{\mdhcseries}{%medium (book?) semi-condensed series
+  \not@math@alphabet\mdhcseries\relax
+  \def\fwei{md}\def\fwid{hc}\fontseries{mdhc}\selectfont}
+\DeclareTextFontCommand{\textmdhc}{\mdhcseries}
+\DeclareRobustCommand{\mdnwseries}{%medium (book?) normal-width series
+  \not@math@alphabet\mdnwseries\relax
+  \def\fwei{md}\def\fwid{nw}\fontseries{mdnw}\selectfont}
+\DeclareTextFontCommand{\textmdnw}{\mdnwseries}
+\DeclareRobustCommand{\mdsxseries}{%medium (book?) semi-extended series
+  \not@math@alphabet\mdsxseries\relax
+  \def\fwei{md}\def\fwid{sx}\fontseries{mdsx}\selectfont}
+\DeclareTextFontCommand{\textmdsx}{\mdsxseries}
+\DeclareRobustCommand{\mdexseries}{%medium (book?) extended series
+  \not@math@alphabet\mdexseries\relax
+  \def\fwei{md}\def\fwid{ex}\fontseries{mdex}\selectfont}
+\DeclareTextFontCommand{\textmdex}{\mdexseries}
+\DeclareRobustCommand{\sbcdseries}{%semi-bold condensed series
+  \not@math@alphabet\sbcdseries\relax
+  \def\fwei{sb}\def\fwid{cd}\fontseries{sbcd}\selectfont}
+\DeclareTextFontCommand{\textsbcd}{\sbcdseries}
+\DeclareRobustCommand{\sbhcseries}{%semi-bold semi-condensed series
+  \not@math@alphabet\sbhcseries\relax
+  \def\fwei{sb}\def\fwid{hc}\fontseries{sbhc}\selectfont}
+\DeclareTextFontCommand{\textsbhc}{\sbhcseries}
+\DeclareRobustCommand{\sbnwseries}{%semi-bold normal-width series
+  \not@math@alphabet\sbnwseries\relax
+  \def\fwei{sb}\def\fwid{nw}\fontseries{sbnw}\selectfont}
+\DeclareTextFontCommand{\textsbnw}{\sbnwseries}
+\DeclareRobustCommand{\sbsxseries}{%semi-bold semi-extended series
+  \not@math@alphabet\sbsxseries\relax
+  \def\fwei{sb}\def\fwid{sx}\fontseries{sbsx}\selectfont}
+\DeclareTextFontCommand{\textsbsx}{\sbsxseries}
+\DeclareRobustCommand{\sbexseries}{%semi-bold extended series
+  \not@math@alphabet\sbexseries\relax
+  \def\fwei{sb}\def\fwid{ex}\fontseries{sbex}\selectfont}
+\DeclareTextFontCommand{\textsbex}{\sbexseries}
+\DeclareRobustCommand{\bdcdseries}{%bold condensed series
+  \not@math@alphabet\bdcdseries\relax
+  \def\fwei{bd}\def\fwid{cd}\fontseries{bdcd}\selectfont}
+\DeclareTextFontCommand{\textbdcd}{\bdcdseries}
+\DeclareRobustCommand{\bdhcseries}{%bold semi-condensed series
+  \not@math@alphabet\bdhcseries\relax
+  \def\fwei{bd}\def\fwid{hc}\fontseries{bdhc}\selectfont}
+\DeclareTextFontCommand{\textbdhc}{\bdhcseries}
+\DeclareRobustCommand{\bdnwseries}{%bold normal-width series
+  \not@math@alphabet\bdnwseries\relax
+  \def\fwei{bd}\def\fwid{nw}\fontseries{bdnw}\selectfont}
+\DeclareTextFontCommand{\textbdnw}{\bdnwseries}
+\DeclareRobustCommand{\bdsxseries}{%bold semi-extended series
+  \not@math@alphabet\bdsxseries\relax
+  \def\fwei{bd}\def\fwid{sx}\fontseries{bdsx}\selectfont}
+\DeclareTextFontCommand{\textbdsx}{\bdsxseries}
+\DeclareRobustCommand{\bdexseries}{%bold extended series
+  \not@math@alphabet\bdexseries\relax
+  \def\fwei{bd}\def\fwid{ex}\fontseries{bdex}\selectfont}
+\DeclareTextFontCommand{\textbdex}{\bdexseries}
+\DeclareRobustCommand{\blcdseries}{%black condensed series
+  \not@math@alphabet\blcdseries\relax
+  \def\fwei{bl}\def\fwid{cd}\fontseries{blcd}\selectfont}
+\DeclareTextFontCommand{\textblcd}{\blcdseries}
+\DeclareRobustCommand{\blhcseries}{%black semi-condensed series
+  \not@math@alphabet\blhcseries\relax
+  \def\fwei{bl}\def\fwid{hc}\fontseries{blhc}\selectfont}
+\DeclareTextFontCommand{\textblhc}{\blhcseries}
+\DeclareRobustCommand{\blnwseries}{%black normal-width series
+  \not@math@alphabet\blnwseries\relax
+  \def\fwei{bl}\def\fwid{nw}\fontseries{blnw}\selectfont}
+\DeclareTextFontCommand{\textblnw}{\blnwseries}
+\DeclareRobustCommand{\blsxseries}{%black semi-extended series
+  \not@math@alphabet\blsxseries\relax
+  \def\fwei{bl}\def\fwid{sx}\fontseries{blsx}\selectfont}
+\DeclareTextFontCommand{\textblsx}{\blsxseries}
+\DeclareRobustCommand{\blexseries}{%black extended series
+  \not@math@alphabet\blexseries\relax
+  \def\fwei{bl}\def\fwid{ex}\fontseries{blex}\selectfont}
+\DeclareTextFontCommand{\textblex}{\blexseries}
+%more can be added as needed; now some old nfss series commands have to change
+\renewcommand*{\mdseries}{\mdweight}
+\renewcommand*{\textbf}[1]{\textbd{#1}}
+\renewcommand*{\bfseries}{\bdweight}
+%now for the highlevel commands for weight:
+\DeclareRobustCommand{\ltweight}{%light
+  \not@math@alphabet\ltweight\relax
+  \def\fwei{lt}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textlt}{\ltweight}
+\DeclareRobustCommand{\mdweight}{%medium (book?)
+  \not@math@alphabet\mdweight\relax
+  \def\fwei{md}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textmd}{\mdweight}
+\DeclareRobustCommand{\sbweight}{%semi-bold
+  \not@math@alphabet\sbweight\relax
+  \def\fwei{sb}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textsb}{\sbweight}
+\DeclareRobustCommand{\bdweight}{%bold
+  \not@math@alphabet\bdweight\relax
+  \def\fwei{bd}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textbd}{\bdweight}
+\DeclareRobustCommand{\blweight}{%black
+  \not@math@alphabet\blweight\relax
+  \def\fwei{bl}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textbl}{\blweight}
+%finally, the high-level commands for width:
+\DeclareRobustCommand{\cdwidth}{%condensed
+  \not@math@alphabet\cdwidth\relax
+  \def\fwid{cd}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textcd}{\cdwidth}
+\DeclareRobustCommand{\hcwidth}{%half-condensed
+  \not@math@alphabet\hcwidth\relax
+  \def\fwid{hc}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\texthc}{\hcwidth}
+\DeclareRobustCommand{\nwwidth}{%normal-width
+  \not@math@alphabet\nwwidth\relax
+  \def\fwid{nw}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textnw}{\nwwidth}
+\DeclareRobustCommand{\sxwidth}{%semi-extended
+  \not@math@alphabet\sxwidth\relax
+  \def\fwid{sx}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textsx}{\sxwidth}
+\DeclareRobustCommand{\exwidth}{%extended
+  \not@math@alphabet\exwidth\relax
+  \def\fwid{ex}\fontseries{\fwei\fwid}\selectfont}
+\DeclareTextFontCommand{\textex}{\exwidth}
+%now patch the \textWWww and \textWW commands so that they rest the variables when they're done:
+\def\fwwSave{\xdef\oldfwei{\fwei}\xdef\oldfwid{\fwid}}
+\def\fwwRestore{\def\fwei{\oldfwei}\def\fwid{\oldfwid}}
+\patchcommand\textltcd{\fwwSave}{\fwwRestore}
+\patchcommand\textlthc{\fwwSave}{\fwwRestore}
+\patchcommand\textltnw{\fwwSave}{\fwwRestore}
+\patchcommand\textltsx{\fwwSave}{\fwwRestore}
+\patchcommand\textltex{\fwwSave}{\fwwRestore}
+\patchcommand\textmdcd{\fwwSave}{\fwwRestore}
+\patchcommand\textmdhc{\fwwSave}{\fwwRestore}
+\patchcommand\textmdnw{\fwwSave}{\fwwRestore}
+\patchcommand\textmdsx{\fwwSave}{\fwwRestore}
+\patchcommand\textmdex{\fwwSave}{\fwwRestore}
+\patchcommand\textsbcd{\fwwSave}{\fwwRestore}
+\patchcommand\textsbhc{\fwwSave}{\fwwRestore}
+\patchcommand\textsbnw{\fwwSave}{\fwwRestore}
+\patchcommand\textsbsx{\fwwSave}{\fwwRestore}
+\patchcommand\textsbex{\fwwSave}{\fwwRestore}
+\patchcommand\textbdcd{\fwwSave}{\fwwRestore}
+\patchcommand\textbdhc{\fwwSave}{\fwwRestore}
+\patchcommand\textbdnw{\fwwSave}{\fwwRestore}
+\patchcommand\textbdsx{\fwwSave}{\fwwRestore}
+\patchcommand\textbdex{\fwwSave}{\fwwRestore}
+\patchcommand\textblcd{\fwwSave}{\fwwRestore}
+\patchcommand\textblhc{\fwwSave}{\fwwRestore}
+\patchcommand\textblnw{\fwwSave}{\fwwRestore}
+\patchcommand\textblsx{\fwwSave}{\fwwRestore}
+\patchcommand\textblex{\fwwSave}{\fwwRestore}
+\patchcommand\textlt{\fwwSave}{\fwwRestore}
+\patchcommand\textmd{\fwwSave}{\fwwRestore}
+\patchcommand\textsb{\fwwSave}{\fwwRestore}
+\patchcommand\textbd{\fwwSave}{\fwwRestore}
+\patchcommand\textbl{\fwwSave}{\fwwRestore}
+\patchcommand\textcd{\fwwSave}{\fwwRestore}
+\patchcommand\texthc{\fwwSave}{\fwwRestore}
+\patchcommand\textnw{\fwwSave}{\fwwRestore}
+\patchcommand\textsx{\fwwSave}{\fwwRestore}
+\patchcommand\textex{\fwwSave}{\fwwRestore}
+%finally, set the standard series defaults (some fonts might want to override these:
+\renewcommand{\bfdefault}{bdnw}%the "`bold"' series
+\renewcommand{\mddefault}{mdnw}%the book series
+%more weights and widths can be added as needed, as long as they don't conflict with each other or with the 
+%shape codes, and as long as they agree with the .fd file
+
+%here are two variables to hold the major and minor shape axes and their previous values:
+\def\fshA{r}
+\def\fshB{rg}
+\def\oldfshA{\fshA}
+\def\oldfshB{\fshB}
+%first, define 49*2 middle-level author commands to acess the otf font features:
+\DeclareRobustCommand{\rrgshape}{%Roman regular
+  \not@math@alphabet\rrgshape\relax
+  \def\fshA{r}\def\fshB{rg}\fontshape{rrg}\selectfont}
+\DeclareTextFontCommand{\textrrg}{\rrgshape}
+\DeclareRobustCommand{\racshape}{%Roman all-caps
+  \not@math@alphabet\racshape\relax
+  \def\fshA{r}\def\fshB{ac}\fontshape{rac}\selectfont}
+\DeclareTextFontCommand{\textrac}{\racshape}
+\DeclareRobustCommand{\rscshape}{%Roman small caps
+  \not@math@alphabet\rscshape\relax
+  \def\fshA{r}\def\fshB{sc}\fontshape{rsc}\selectfont}
+\DeclareTextFontCommand{\textrsc}{\rscshape}
+\DeclareRobustCommand{\rswshape}{%Roman swashes
+  \not@math@alphabet\rswshape\relax
+  \def\fshA{r}\def\fshB{sw}\fontshape{rsw}\selectfont}
+\DeclareTextFontCommand{\textrsw}{\rswshape}
+\DeclareRobustCommand{\rinshape}{%Roman inferiors
+  \not@math@alphabet\rinshape\relax
+  \def\fshA{r}\def\fshB{in}\fontshape{rin}\selectfont}
+\DeclareTextFontCommand{\textrin}{\rinshape}
+\DeclareRobustCommand{\rsushape}{%Roman superiors
+  \not@math@alphabet\rsushape\relax
+  \def\fshA{r}\def\fshB{su}\fontshape{rsu}\selectfont}
+\DeclareTextFontCommand{\textrsu}{\rsushape}
+\DeclareRobustCommand{\rnushape}{%Roman numerators
+  \not@math@alphabet\rnushape\relax
+  \def\fshA{r}\def\fshB{nu}\fontshape{rnu}\selectfont}
+\DeclareTextFontCommand{\textrnu}{\rnushape}
+\DeclareRobustCommand{\rdeshape}{%Roman denominators
+  \not@math@alphabet\rdeshape\relax
+  \def\fshA{r}\def\fshB{de}\fontshape{rde}\selectfont}
+\DeclareTextFontCommand{\textrde}{\rdeshape}
+\DeclareRobustCommand{\rposhape}{%Roman proportional old-style
+  \not@math@alphabet\rposhape\relax
+  \def\fshA{r}\def\fshB{po}\fontshape{rpo}\selectfont}
+\DeclareTextFontCommand{\textrpo}{\rposhape}
+\DeclareRobustCommand{\rplshape}{%Roman proportional lining
+  \not@math@alphabet\rplshape\relax
+  \def\fshA{r}\def\fshB{pl}\fontshape{rpl}\selectfont}
+\DeclareTextFontCommand{\textrpl}{\rplshape}
+\DeclareRobustCommand{\rtoshape}{%Roman tabular old-style
+  \not@math@alphabet\rtoshape\relax
+  \def\fshA{r}\def\fshB{to}\fontshape{rto}\selectfont}
+\DeclareTextFontCommand{\textrto}{\rtoshape}
+\DeclareRobustCommand{\rtlshape}{%Roman tabular lining
+  \not@math@alphabet\rtlshape\relax
+  \def\fshA{r}\def\fshB{tl}\fontshape{rtl}\selectfont}
+\DeclareTextFontCommand{\textrtl}{\rtlshape}
+\DeclareRobustCommand{\irgshape}{%Italic regular
+  \not@math@alphabet\irgshape\relax
+  \def\fshA{i}\def\fshB{rg}\fontshape{irg}\selectfont}
+\DeclareTextFontCommand{\textirg}{\irgshape}
+\DeclareRobustCommand{\iacshape}{%Italic all-caps
+  \not@math@alphabet\iacshape\relax
+  \def\fshA{i}\def\fshB{ac}\fontshape{iac}\selectfont}
+\DeclareTextFontCommand{\textiac}{\iacshape}
+\DeclareRobustCommand{\iscshape}{%Italic small caps
+  \not@math@alphabet\iscshape\relax
+  \def\fshA{i}\def\fshB{sc}\fontshape{isc}\selectfont}
+\DeclareTextFontCommand{\textisc}{\iscshape}
+\DeclareRobustCommand{\iswshape}{%Italic swashes
+  \not@math@alphabet\iswshape\relax
+  \def\fshA{i}\def\fshB{sw}\fontshape{isw}\selectfont}
+\DeclareTextFontCommand{\textisw}{\iswshape}
+\DeclareRobustCommand{\iinshape}{%Italic inferiors
+  \not@math@alphabet\iinshape\relax
+  \def\fshA{i}\def\fshB{in}\fontshape{iin}\selectfont}
+\DeclareTextFontCommand{\textiin}{\iinshape}
+\DeclareRobustCommand{\isushape}{%Italic superiors
+  \not@math@alphabet\isushape\relax
+  \def\fshA{i}\def\fshB{su}\fontshape{isu}\selectfont}
+\DeclareTextFontCommand{\textisu}{\isushape}
+\DeclareRobustCommand{\inushape}{%Italic numerators
+  \not@math@alphabet\inushape\relax
+  \def\fshA{i}\def\fshB{nu}\fontshape{inu}\selectfont}
+\DeclareTextFontCommand{\textinu}{\inushape}
+\DeclareRobustCommand{\ideshape}{%Italic denominators
+  \not@math@alphabet\ideshape\relax
+  \def\fshA{i}\def\fshB{de}\fontshape{ide}\selectfont}
+\DeclareTextFontCommand{\textide}{\ideshape}
+\DeclareRobustCommand{\iposhape}{%Italic proportional old-style
+  \not@math@alphabet\iposhape\relax
+  \def\fshA{i}\def\fshB{po}\fontshape{ipo}\selectfont}
+\DeclareTextFontCommand{\textipo}{\iposhape}
+\DeclareRobustCommand{\iplshape}{%Italic proportional lining
+  \not@math@alphabet\iplshape\relax
+  \def\fshA{i}\def\fshB{pl}\fontshape{ipl}\selectfont}
+\DeclareTextFontCommand{\textipl}{\iplshape}
+\DeclareRobustCommand{\itoshape}{%Italic tabular old-style
+  \not@math@alphabet\itoshape\relax
+  \def\fshA{i}\def\fshB{to}\fontshape{ito}\selectfont}
+\DeclareTextFontCommand{\textito}{\itoshape}
+\DeclareRobustCommand{\itlshape}{%Italic tabular lining
+  \not@math@alphabet\itlshape\relax
+  \def\fshA{i}\def\fshB{tl}\fontshape{itl}\selectfont}
+\DeclareTextFontCommand{\textitl}{\itlshape}
+\DeclareRobustCommand{\srgshape}{%Slanted regular
+  \not@math@alphabet\srgshape\relax
+  \def\fshA{s}\def\fshB{rg}\fontshape{srg}\selectfont}
+\DeclareTextFontCommand{\textsrg}{\srgshape}
+\DeclareRobustCommand{\sacshape}{%Slanted all-caps
+  \not@math@alphabet\sacshape\relax
+  \def\fshA{s}\def\fshB{ac}\fontshape{sac}\selectfont}
+\DeclareTextFontCommand{\textsac}{\sacshape}
+\DeclareRobustCommand{\sscshape}{%Slanted small caps
+  \not@math@alphabet\sscshape\relax
+  \def\fshA{s}\def\fshB{sc}\fontshape{ssc}\selectfont}
+\DeclareTextFontCommand{\textssc}{\sscshape}
+\DeclareRobustCommand{\sswshape}{%Slanted swashes
+  \not@math@alphabet\sswshape\relax
+  \def\fshA{s}\def\fshB{sw}\fontshape{ssw}\selectfont}
+\DeclareTextFontCommand{\textssw}{\sswshape}
+\DeclareRobustCommand{\sinshape}{%Slanted inferiors
+  \not@math@alphabet\sinshape\relax
+  \def\fshA{s}\def\fshB{in}\fontshape{sin}\selectfont}
+\DeclareTextFontCommand{\textsin}{\sinshape}
+\DeclareRobustCommand{\ssushape}{%Slanted superiors
+  \not@math@alphabet\ssushape\relax
+  \def\fshA{s}\def\fshB{su}\fontshape{ssu}\selectfont}
+\DeclareTextFontCommand{\textssu}{\ssushape}
+\DeclareRobustCommand{\snushape}{%Slanted numerators
+  \not@math@alphabet\snushape\relax
+  \def\fshA{s}\def\fshB{nu}\fontshape{snu}\selectfont}
+\DeclareTextFontCommand{\textsnu}{\snushape}
+\DeclareRobustCommand{\sdeshape}{%Slanted denominators
+  \not@math@alphabet\sdeshape\relax
+  \def\fshA{s}\def\fshB{de}\fontshape{sde}\selectfont}
+\DeclareTextFontCommand{\textsde}{\sdeshape}
+\DeclareRobustCommand{\sposhape}{%Slanted proportional old-style
+  \not@math@alphabet\sposhape\relax
+  \def\fshA{s}\def\fshB{po}\fontshape{spo}\selectfont}
+\DeclareTextFontCommand{\textspo}{\sposhape}
+\DeclareRobustCommand{\splshape}{%Slanted proportional lining
+  \not@math@alphabet\splshape\relax
+  \def\fshA{s}\def\fshB{pl}\fontshape{spl}\selectfont}
+\DeclareTextFontCommand{\textspl}{\splshape}
+\DeclareRobustCommand{\stoshape}{%Slanted tabular old-style
+  \not@math@alphabet\stoshape\relax
+  \def\fshA{s}\def\fshB{to}\fontshape{sto}\selectfont}
+\DeclareTextFontCommand{\textsto}{\stoshape}
+\DeclareRobustCommand{\stlshape}{%Slanted tabular lining
+  \not@math@alphabet\stlshape\relax
+  \def\fshA{s}\def\fshB{tl}\fontshape{stl}\selectfont}
+\DeclareTextFontCommand{\textstl}{\stlshape}
+\DeclareRobustCommand{\urgshape}{%UprightItalic regular
+  \not@math@alphabet\urgshape\relax
+  \def\fshA{u}\def\fshB{rg}\fontshape{urg}\selectfont}
+\DeclareTextFontCommand{\texturg}{\urgshape}
+\DeclareRobustCommand{\uacshape}{%UprightItalic all-caps
+  \not@math@alphabet\uacshape\relax
+  \def\fshA{u}\def\fshB{ac}\fontshape{uac}\selectfont}
+\DeclareTextFontCommand{\textuac}{\uacshape}
+\DeclareRobustCommand{\uscshape}{%UprightItalic small caps
+  \not@math@alphabet\uscshape\relax
+  \def\fshA{u}\def\fshB{sc}\fontshape{usc}\selectfont}
+\DeclareTextFontCommand{\textusc}{\uscshape}
+\DeclareRobustCommand{\uswshape}{%UprightItalic swashes
+  \not@math@alphabet\uswshape\relax
+  \def\fshA{u}\def\fshB{sw}\fontshape{usw}\selectfont}
+\DeclareTextFontCommand{\textusw}{\uswshape}
+\DeclareRobustCommand{\uinshape}{%UprightItalic inferiors
+  \not@math@alphabet\uinshape\relax
+  \def\fshA{u}\def\fshB{in}\fontshape{uin}\selectfont}
+\DeclareTextFontCommand{\textuin}{\uinshape}
+\DeclareRobustCommand{\usushape}{%UprightItalic superiors
+  \not@math@alphabet\usushape\relax
+  \def\fshA{u}\def\fshB{su}\fontshape{usu}\selectfont}
+\DeclareTextFontCommand{\textusu}{\usushape}
+\DeclareRobustCommand{\unushape}{%UprightItalic numerators
+  \not@math@alphabet\unushape\relax
+  \def\fshA{u}\def\fshB{nu}\fontshape{unu}\selectfont}
+\DeclareTextFontCommand{\textunu}{\unushape}
+\DeclareRobustCommand{\udeshape}{%UprightItalic denominators
+  \not@math@alphabet\udeshape\relax
+  \def\fshA{u}\def\fshB{de}\fontshape{ude}\selectfont}
+\DeclareTextFontCommand{\textude}{\udeshape}
+\DeclareRobustCommand{\uposhape}{%UprightItalic proportional old-style
+  \not@math@alphabet\uposhape\relax
+  \def\fshA{u}\def\fshB{po}\fontshape{upo}\selectfont}
+\DeclareTextFontCommand{\textupo}{\uposhape}
+\DeclareRobustCommand{\uplshape}{%UprightItalic proportional lining
+  \not@math@alphabet\uplshape\relax
+  \def\fshA{u}\def\fshB{pl}\fontshape{upl}\selectfont}
+\DeclareTextFontCommand{\textupl}{\uplshape}
+\DeclareRobustCommand{\utoshape}{%UprightItalic tabular old-style
+  \not@math@alphabet\utoshape\relax
+  \def\fshA{u}\def\fshB{to}\fontshape{uto}\selectfont}
+\DeclareTextFontCommand{\textuto}{\utoshape}
+\DeclareRobustCommand{\utlshape}{%UprightItalic tabular lining
+  \not@math@alphabet\utlshape\relax
+  \def\fshA{u}\def\fshB{tl}\fontshape{utl}\selectfont}
+\DeclareTextFontCommand{\textutl}{\utlshape}
+\DeclareRobustCommand{\ornshape}{%ornaments
+  \not@math@alphabet\ornshape\relax
+  \fontshape{z}\selectfont}
+\DeclareTextFontCommand{\textorn}{\ornshape}
+
+%now the high-level commands: given a digraph, they change only one axis:
+%the major axis:
+\DeclareRobustCommand{\rmshape}{%Roman
+  \not@math@alphabet\rmshape\relax
+  \def\fshA{r}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textrm}{\rmshape}
+\DeclareRobustCommand{\itshape}{%Italic
+  \not@math@alphabet\itshape\relax
+  \def\fshA{i}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textit}{\itshape}
+\DeclareRobustCommand{\slshape}{%Slanted
+  \not@math@alphabet\slshape\relax
+  \def\fshA{s}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textsl}{\slshape}
+\DeclareRobustCommand{\uishape}{%UprightItalic
+  \not@math@alphabet\uishape\relax
+  \def\fshA{u}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textui}{\uishape}
+%the minor axis:
+\DeclareRobustCommand{\rgshape}{%regular
+  \not@math@alphabet\rgshape\relax
+  \def\fshB{rg}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textrg}{\rgshape}
+\DeclareRobustCommand{\acshape}{%all-caps
+  \not@math@alphabet\acshape\relax
+  \def\fshB{ac}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textac}{\acshape}
+\DeclareRobustCommand{\scshape}{%small-caps
+  \not@math@alphabet\scshape\relax
+  \def\fshB{sc}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textsc}{\scshape}
+\DeclareRobustCommand{\swshape}{%swashes
+  \not@math@alphabet\swshape\relax
+  \def\fshB{sw}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textsw}{\swshape}
+
+\DeclareRobustCommand{\inshape}{%inferiors
+  \not@math@alphabet\inshape\relax
+  \def\fshB{in}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textin}{\inshape}
+\DeclareRobustCommand{\sushape}{%superiors
+  \not@math@alphabet\sushape\relax
+  \def\fshB{su}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textsu}{\sushape}
+\DeclareRobustCommand{\nushape}{%numerators
+  \not@math@alphabet\nushape\relax
+  \def\fshB{nu}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textnu}{\nushape}
+\DeclareRobustCommand{\deshape}{%denominators
+  \not@math@alphabet\deshape\relax
+  \def\fshB{de}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textde}{\deshape}
+
+\DeclareRobustCommand{\poshape}{%proportional oldstyle
+  \not@math@alphabet\poshape\relax
+  \def\fshB{po}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textpo}{\poshape}
+\DeclareRobustCommand{\plshape}{%proportional lining
+  \not@math@alphabet\plshape\relax
+  \def\fshB{pl}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textpl}{\plshape}
+\DeclareRobustCommand{\toshape}{%tabular oldstyle
+  \not@math@alphabet\toshape\relax
+  \def\fshB{to}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\textto}{\toshape}
+\DeclareRobustCommand{\tlshape}{%tabular lining
+  \not@math@alphabet\tlshape\relax
+  \def\fshB{tl}\fontshape{\fshA\fshB}\selectfont}
+\DeclareTextFontCommand{\texttl}{\tlshape}
+
+%now patch the \textXXX and \textXX commands so that they rest the global variables when they're done:
+\def\fshSave{\xdef\oldfshA{\fshA}\xdef\oldfshB{\fshB}}
+\def\fshRestore{\def\fshA{\oldfshA}\def\fshB{\oldfshB}}
+
+\patchcommand\textrrg{\fshSave}{\fshRestore}
+\patchcommand\textrac{\fshSave}{\fshRestore}
+\patchcommand\textrsc{\fshSave}{\fshRestore}
+\patchcommand\textrsw{\fshSave}{\fshRestore}
+\patchcommand\textrin{\fshSave}{\fshRestore}
+\patchcommand\textrsu{\fshSave}{\fshRestore}
+\patchcommand\textrnu{\fshSave}{\fshRestore}
+\patchcommand\textrde{\fshSave}{\fshRestore}
+\patchcommand\textrpo{\fshSave}{\fshRestore}
+\patchcommand\textrpl{\fshSave}{\fshRestore}
+\patchcommand\textrto{\fshSave}{\fshRestore}
+\patchcommand\textrtl{\fshSave}{\fshRestore}
+\patchcommand\textirg{\fshSave}{\fshRestore}
+\patchcommand\textiac{\fshSave}{\fshRestore}
+\patchcommand\textisc{\fshSave}{\fshRestore}
+\patchcommand\textisw{\fshSave}{\fshRestore}
+\patchcommand\textiin{\fshSave}{\fshRestore}
+\patchcommand\textisu{\fshSave}{\fshRestore}
+\patchcommand\textinu{\fshSave}{\fshRestore}
+\patchcommand\textide{\fshSave}{\fshRestore}
+\patchcommand\textipo{\fshSave}{\fshRestore}
+\patchcommand\textipl{\fshSave}{\fshRestore}
+\patchcommand\textito{\fshSave}{\fshRestore}
+\patchcommand\textitl{\fshSave}{\fshRestore}
+\patchcommand\textsrg{\fshSave}{\fshRestore}
+\patchcommand\textsac{\fshSave}{\fshRestore}
+\patchcommand\textssc{\fshSave}{\fshRestore}
+\patchcommand\textssw{\fshSave}{\fshRestore}
+\patchcommand\textsin{\fshSave}{\fshRestore}
+\patchcommand\textssu{\fshSave}{\fshRestore}
+\patchcommand\textsnu{\fshSave}{\fshRestore}
+\patchcommand\textsde{\fshSave}{\fshRestore}
+\patchcommand\textspo{\fshSave}{\fshRestore}
+\patchcommand\textspl{\fshSave}{\fshRestore}
+\patchcommand\textsto{\fshSave}{\fshRestore}
+\patchcommand\textstl{\fshSave}{\fshRestore}
+\patchcommand\texturg{\fshSave}{\fshRestore}
+\patchcommand\textuac{\fshSave}{\fshRestore}
+\patchcommand\textusc{\fshSave}{\fshRestore}
+\patchcommand\textusw{\fshSave}{\fshRestore}
+\patchcommand\textuin{\fshSave}{\fshRestore}
+\patchcommand\textusu{\fshSave}{\fshRestore}
+\patchcommand\textunu{\fshSave}{\fshRestore}
+\patchcommand\textude{\fshSave}{\fshRestore}
+\patchcommand\textupo{\fshSave}{\fshRestore}
+\patchcommand\textupl{\fshSave}{\fshRestore}
+\patchcommand\textuto{\fshSave}{\fshRestore}
+\patchcommand\textutl{\fshSave}{\fshRestore}
+\patchcommand\textrm{\fshSave}{\fshRestore}
+\patchcommand\textit{\fshSave}{\fshRestore}
+\patchcommand\textsl{\fshSave}{\fshRestore}
+\patchcommand\textui{\fshSave}{\fshRestore}
+\patchcommand\textrg{\fshSave}{\fshRestore}
+\patchcommand\textac{\fshSave}{\fshRestore}
+\patchcommand\textsc{\fshSave}{\fshRestore}
+\patchcommand\textsw{\fshSave}{\fshRestore}
+\patchcommand\textin{\fshSave}{\fshRestore}
+\patchcommand\textsu{\fshSave}{\fshRestore}
+\patchcommand\textnu{\fshSave}{\fshRestore}
+\patchcommand\textde{\fshSave}{\fshRestore}
+\patchcommand\textpo{\fshSave}{\fshRestore}
+\patchcommand\textpl{\fshSave}{\fshRestore}
+\patchcommand\textto{\fshSave}{\fshRestore}
+\patchcommand\texttl{\fshSave}{\fshRestore}
+%finally, set the standard shape defaults
+\renewcommand{\itdefault}{irg}
+\renewcommand{\sldefault}{srg}
+\renewcommand{\scdefault}{rsc}
+\renewcommand{\updefault}{rrg}
+
+%now setup an easy interface for using ornaments; requires the font family's .sty
+\newcommand*{\DeclareTextOrnament}[3]{%orn number, char number, font family; declared in the font family's package
+  \expandafter\def\csname orn#1#3\endcsname{#2}}
+\DeclareRobustCommand{\ornament}[4][\rmdefault]{%orn #, size, leading, font family [optional, defaults to \rmdefault]
+{\ornshape\fontsize{#3}{#4}\selectfont\char \csname orn#2#1\endcsname}}%
+%e.g., \ornament{1}{10}{10} or \ornament[ACaslonPro]{1}{10}{10}
+
+%now to setup footnotemarks to be rsu
+\def\@makefnmark{\hbox{\sushape\@thefnmark}}
+
+%now commands to compose text fractions:
+%vulgar fractions (aka special):
+\newcommand*{\textsolidus}{\char 4}
+\newcommand*{\vfrac}[2]{%
+\def\nadj{.15ex}\def\dadj{-.4ex}%maybe these adjustments are font-dependant and should be defined in the font .sty?
+\if s\fshA\def\nadj{.15ex}\def\dadj{-.8ex}\fi%
+\if u\fshA\def\nadj{.00ex}\def\dadj{-.2ex}\fi%
+\textnu{#1}\hspace{\nadj}\textsolidus\/\hspace{\dadj}\textde{#2}}%that's eyeballed cf. mine with their precomposeds
+%compound vulgar fractions:
+\newcommand*{\cvfrac}[3]{%
+\textpl{#1}\thinspace\vfrac{#2}{#3}}
+%nut fractions (aka case fractions):
+\newcommand*{\nfrac}[2]{%
+\setbox201=\hbox spread 1pt{\inshape#1}%
+\setbox200=\hbox spread 1pt{\inshape#2}%
+\edef\rwid{.04\csname\f@size\endcsname}%\rwid
+\def\icor{}%this is my own italic correction (does this assume inferior figures are monowidth?)
+\if i\fshA\def\icor{\ }\fi%
+\if s\fshA\def\icor{\ }\fi%
+\ifdim\wd200>\wd201\setbox201=\hbox to\wd200{\hfil\icor\inshape#1\hfil}\setbox200=\hbox to\wd200{\hfil\inshape#2\hfil}%
+\else\setbox201=\hbox to\wd201{\hfil\inshape#1\hfil}\setbox200=\hbox to\wd201{\hfil\inshape#2\icor\hfil}\fi%
+\hbox{\vbox{\box201\vskip.5pt\hrule height .4pt\vskip.5pt\box200}}}
+%maybe I should make the following three dimensions change with the font size and boldness:
+%1. the spread 1pt that lengthens the rule a little
+%2. the default thickness of the rule
+%3. the \vskip.5pt that spaces the numbers from the rule
+%---but I tried these from tiny to huge and they looked alright together to me. The rule thickness is in 
+%greater need of adjustment. Also, in cases where the denominator is longer and the fraction is italic or slanted,
+%the rule looks like it overhangs too far to the left.  Does someone want to fix this?
+%compound nut fractions:
+\newcommand*{\cnfrac}[3]{%
+\textpl{#1}\thinspace\nfrac{#2}{#3}}
+%shilling fractions (suitable for either oldstyle or lining figures):
+\newcommand*{\sfrac}[2]{%in the os case, I'd like to raise 0,1,2 higher in numerators, but I don't know how.
+{\vbox{\hbox{#1}\vfil}/#2}}
+%compound shilling fractions aren't really possible---the whole part runs into the numerator, even if you mix os/lin.
+%sometimes, I need to talk about time signatures (this assumes 10/12):
+\newcommand*{\timesig}[2]{%
+\setbox201=\hbox spread 1pt{\bdweight\plshape\footnotesize#1}%
+\setbox200=\hbox spread 1pt{\bdweight\plshape\footnotesize#2}%
+\edef\rwid{.04\csname\f@size\endcsname}%\rwid
+\def\icor{}%this is my own italic correction (does this assume inferior figures are monowidth?)
+\if i\fshA\def\icor{\ }\fi%
+\if s\fshA\def\icor{\ }\fi%
+\ifdim\wd200>\wd201\setbox201=\hbox to\wd200{\hfil\icor\bdweight\plshape\footnotesize#1\hfil}\setbox200=\hbox to\wd200{\hfil\bdweight\plshape\footnotesize#2\hfil}%
+\else\setbox201=\hbox to\wd201{\hfil\bdweight\plshape\footnotesize#1\hfil}\setbox200=\hbox to\wd201{\hfil\bdweight\plshape\footnotesize#2\icor\hfil}\fi%
+\raisebox{-.5ex}[0pt][0pt]{\hbox{\vbox{\box201\hrule height .0pt\box200}}}}
+
+%my style for setting quantities
+\newcommand*{\q}[1]{%set quantities in proportional lining figures
+\textpl{#1}}
+\newcommand*{\qr}[2]{%set a range of quantities in proportional lining figures, with an all-caps en dash
+\q{#1}\textac{\hspace{.0833em}--\hspace{.0833em}}\q{#2}}%those are half a \thinspace, i.e., 1/12 em
+
+

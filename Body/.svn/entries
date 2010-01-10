@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="247"
+   name=""
+   committed-date="2006-02-23T16:32:39.454549Z"
+   url="svn+ssh://spiralrib.mit.edu/data/SVN/Papers/jensen2006thesis/trunk/Body"
+   last-author="kljensen"
+   kind="dir"
+   revision="247"/>
+<entry
+   committed-rev="269"
+   name="appa.tex"
+   text-time="2006-02-24T18:52:50.000000Z"
+   committed-date="2006-03-11T17:48:18.232367Z"
+   checksum="780544f8cf906d42d76ae07ec8270ad8"
+   last-author="kljensen"
+   kind="file"
+   revision="269"/>
+<entry
+   committed-rev="247"
+   name="appb.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="d7de942e8d540078bad9f0d866585d52"
+   last-author="kljensen"
+   kind="file"/>
+<entry
+   name="appb"
+   kind="dir"
+   schedule="add"/>
+<entry
+   committed-rev="247"
+   name="appc.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="34fce80d2ac6106e8d0b84554743d1f8"
+   last-author="kljensen"
+   kind="file"/>
+<entry
+   name="Images-appa"
+   kind="dir"/>
+<entry
+   name="Images-appb"
+   kind="dir"
+   schedule="add"/>
+<entry
+   name="Images-appc"
+   kind="dir"
+   schedule="add"/>
+<entry
+   committed-rev="269"
+   name="header.tex"
+   text-time="2006-03-10T15:17:52.000000Z"
+   committed-date="2006-03-11T17:48:18.232367Z"
+   checksum="119245adec75afc3782e92276d874c8c"
+   last-author="kljensen"
+   kind="file"
+   revision="269"/>
+<entry
+   committed-rev="269"
+   name="chap1.tex"
+   text-time="2006-03-10T17:38:11.000000Z"
+   committed-date="2006-03-11T17:48:18.232367Z"
+   checksum="14f39d52c160a9d6ad4ff8a17e80cf5d"
+   last-author="kljensen"
+   kind="file"
+   revision="269"/>
+<entry
+   committed-rev="247"
+   name="contents.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="1948edb671d742d106464b55f95fd051"
+   last-author="kljensen"
+   kind="file"/>
+<entry
+   committed-rev="269"
+   name="chap3.tex"
+   text-time="2006-03-03T14:44:46.000000Z"
+   committed-date="2006-03-11T17:48:18.232367Z"
+   checksum="a2c64305eee65fdf2e77b9695fa353ed"
+   last-author="kljensen"
+   kind="file"
+   revision="269"/>
+<entry
+   name="Images-chap1"
+   kind="dir"/>
+<entry
+   committed-rev="247"
+   name="biblio.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="330ba7d1ca0e681af1e951b700169b79"
+   last-author="kljensen"
+   kind="file"/>
+<entry
+   name="Images-chap2"
+   kind="dir"/>
+<entry
+   name="Images-chap3"
+   kind="dir"/>
+<entry
+   committed-rev="247"
+   name="abstract.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="1bb0f8e4f5c207c72f7f18f9ceeb0056"
+   last-author="kljensen"
+   kind="file"/>
+<entry
+   committed-rev="247"
+   name="cover.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="f4ae74722668aa38a9860cde356f2164"
+   last-author="kljensen"
+   kind="file"/>
+<entry
+   committed-rev="247"
+   name="propcover.tex"
+   text-time="2006-02-23T16:28:13.000000Z"
+   committed-date="2006-02-23T16:32:39.454549Z"
+   checksum="81c7974f942d201a4e6c95c575e356a1"
+   last-author="kljensen"
+   kind="file"/>
+</wc-entries>

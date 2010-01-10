@@ -1,0 +1,109 @@
+ \psset{xunit=0.4cm,yunit=0.4cm}
+    \begin{pspicture}(-1,-1)(23,31)%\showgrid
+    	\rput(8.625,25){
+		\scalebox{0.25}{
+			%\psframe[linewidth=1mm](0,0)(23,23)
+			\pscurve[linewidth=2mm,linecolor=gray](5.5,18.3)(11.5,22.3)(19.5,19.8)(13.5,12.5)(17.5,7.5)(15.5,2.3)(8.5,0.5)(2.5,5.5)
+			\psframe(0,0)(23,23)
+			\pnode(0,0){bl}
+			\pnode(23,0){br}
+			%\psgrid[griddots=5,subgriddiv=0,gridlabels=0pt](0,0)(23,23)
+		}
+	}
+	\rput(0,0){
+		\pnode(0,23){tl}
+		\pnode(23,23){tr}
+		\ncline[linestyle=dotted]{bl}{tl}
+		\ncline[linestyle=dotted]{br}{tr}
+		\psgrid[griddots=5,subgriddiv=0,gridlabels=0pt](0,0)(23,23)
+		%\psframe(0,0)(23,23)
+	}
+	\rput[tl](-1,22.5){
+		\rput(0,0){\small \texttt X}
+		\rput(0,-1){\small \texttt Z}
+		\rput(0,-2){\small \texttt B}
+		\rput(0,-3){\small \texttt V}
+		\rput(0,-4){\small \texttt Y}
+		\rput(0,-5){\small \texttt W}
+		\rput(0,-6){\small \texttt T}
+		\rput(0,-7){\small \texttt S}
+		\rput(0,-8){\small \texttt P}
+		\rput(0,-9){\small \texttt F}
+		\rput(0,-10){\small \texttt M}
+		\rput(0,-11){\small \texttt K}
+		\rput(0,-12){\small \texttt L}
+		\rput(0,-13){\small \texttt I}
+		\rput(0,-14){\small \texttt H}
+		\rput(0,-15){\small \texttt G}
+		\rput(0,-16){\small \texttt E}
+		\rput(0,-17){\small \texttt Q}
+		\rput(0,-18){\small \texttt C}
+		\rput(0,-19){\small \texttt D}
+		\rput(0,-20){\small \texttt N}
+		\rput(0,-21){\small \texttt R}
+		\rput(0,-22){\small \texttt A}
+	}
+	\rput[tl](0.5,-1){
+		\rput[t](0,0){\small \texttt A}
+		\rput[t](1,0){\small \texttt R}
+		\rput[t](2,0){\small \texttt N}
+		\rput[t](3,0){\small \texttt D}
+		\rput[t](4,0){\small \texttt C}
+		\rput[t](5,0){\small \texttt Q}
+		\rput[t](6,0){\small \texttt E}
+		\rput[t](7,0){\small \texttt G}
+		\rput[t](8,0){\small \texttt H}
+		\rput[t](9,0){\small \texttt I}
+		\rput[t](10,0){\small \texttt L}
+		\rput[t](11,0){\small \texttt K}
+		\rput[t](12,0){\small \texttt M}
+		\rput[t](13,0){\small \texttt F}
+		\rput[t](14,0){\small \texttt P}
+		\rput[t](15,0){\small \texttt S}
+		\rput[t](16,0){\small \texttt T}
+		\rput[t](17,0){\small \texttt W}
+		\rput[t](18,0){\small \texttt Y}
+		\rput[t](19,0){\small \texttt V}
+		\rput[t](20,0){\small \texttt B}
+		\rput[t](21,0){\small \texttt Z}
+		\rput[t](22,0){\small \texttt X}
+	}
+	\rput(0,0){
+		\newcommand{\mydot}{\psdot(0,0)}
+		\psset{arrowscale=2}
+		\psset{linewidth=0.5mm}
+		\pscurve[linewidth=2mm,linecolor=gray](5.5,18.3)(11.5,22.3)(19.5,19.8)(13.5,12.5)(17.5,7.5)(15.5,2.3)(8.5,0.5)(2.5,5.5)
+		
+		\rput(5.5,18.3){\rnode{a}{\mydot}}
+		\rput(5.5,17.0){\texttt{(Q,Y)}}
+
+		\rput(11.5,22.3){\rnode{b}{\mydot}}
+		\rput[b](12,20.5){\texttt{(K,X)}}
+		
+		\rput(19.5,19.8){\rnode{c}{\mydot}}
+		\rput[l](20.5,19.8){\texttt{(V,V)}}
+		
+		\rput(13.5,12.5){\rnode{d}{\mydot}}
+		\rput[r](12.5,12.5){\texttt{(F,M)}}
+		
+		\rput(17.5,7.5){\rnode{e}{\mydot}}
+		\rput[l](18.5,7.5){\texttt{(W,G)}}
+		
+		\rput(15.5,2.3){\rnode{f}{\mydot}}
+		\rput[t](17.5,2){\texttt{(S,N)}}
+		
+		\rput(8.5,0.5){\rnode{g}{\mydot}}
+		\rput[b](8.8,1.8){\texttt{(H,A)}}
+		
+		\rput(2.5,5.5){\rnode{h}{\mydot}}
+		\rput[b](2.5,6.2){\texttt{(N,Q)}}
+
+		\ncline{->}{a}{b}
+		\ncline{->}{b}{c}
+		\ncline{->}{c}{d}
+		\ncline{->}{d}{e}
+		\ncline{->}{e}{f}
+		\ncline{->}{f}{g}
+		\ncline{->}{g}{h}
+	}
+    \end{pspicture}

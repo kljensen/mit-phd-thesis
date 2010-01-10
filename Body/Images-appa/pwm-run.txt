@@ -1,0 +1,36 @@
+>cat motifs.txt
+AGCTGAC
+GACTAAT
+GGCTAAT
+TTCTAAC
+....edited for space...
+TACTAAC
+TACTAAC
+TTTTAAC
+
+>motif.py motifs.txt
+Frequency Matrix:
+A 0.067 0.627 0.000 0.000 0.893 1.000 0.000
+T 0.773 0.240 0.120 1.000 0.027 0.000 0.133
+G 0.093 0.120 0.000 0.000 0.080 0.000 0.000
+C 0.067 0.013 0.880 0.000 0.000 0.000 0.867
+
+Position 1: entropy = 1.127, information = 0.873
+Position 2: entropy = 1.367, information = 0.633
+Position 3: entropy = 0.529, information = 1.471
+Position 4: entropy = 0.000, information = 2.000
+Position 5: entropy = 0.576, information = 1.424
+Position 6: entropy = 0.000, information = 2.000
+Position 7: entropy = 0.567, information = 1.433
+
+Total Information Content = 9.834
+
+Sequence AGCTGAC has score s = 2.999
+Sequence GACTAAT has score s = 6.650
+Sequence GGCTAAT has score s = 4.266
+Sequence CATTAAC has score s = 5.991
+...edited for space...
+Sequence TACTAAC has score s = 12.401
+Sequence TACTAAC has score s = 12.401
+Sequence TTTTAAC has score s = 8.142
+Mean score = 9.834

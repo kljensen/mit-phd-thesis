@@ -1,0 +1,42 @@
+\chapter{Abbreviations and reference data}
+
+		\begin{figure}[phtb]
+		\centering
+		\includegraphics[width=\textwidth]{Body/Images-appa/aas.pdf}
+		\caption[Amino acid structures and abbreviations]{Amino acid structures and abbreviations.  The figure shows the chemical
+structure of the 20 naturally occurring amino acids and their three letter and
+one letter abbreviations.}
+		\label{fig:aas} \end{figure}
+
+		\begin{figure}[phtb]
+		\centering
+		\includegraphics{Body/Images-appa/bases.pdf}
+		\caption[Nucleotide base structures and abbreviations]{Nulceotide base structures and abbreviations.}
+		\label{fig:bases} \end{figure}
+
+    \begin{table}
+	\caption{Standard codon table}\label{table:codonTable}
+
+\begin{verbatim}
+                       A      C      G      U
+                 _____________________________
+             AA  |    Lys    Asn    Lys    Asn
+        F    AC  |    Thr    Thr    Thr    Thr
+        i    AG  |    Arg    Ser    Arg    Ser
+        r    AU  |    Ile    Ile    MET    Ile
+        s P  CA  |    Gln    His    Gln    His
+        t o  CC  |    Pro    Pro    Pro    Pro
+          s  CG  |    Arg    Arg    Arg    Arg
+        & i  CU  |    Leu    Leu    Leu    Leu
+          t  GA  |    Glu    Asp    Glu    Asp
+        S i  GC  |    Ala    Ala    Ala    Ala
+        e o  GG  |    Gly    Gly    Gly    Gly
+        c n  GU  |    Val    Val    Val    Val
+        o    UA  |     .     Tyr     .     Tyr
+        n    UC  |    Ser    Ser    Ser    Ser
+        d    UG  |     .     Cys    Trp    Cys
+             UU  |    Leu    Phe    Leu    Phe
+
+\end{verbatim}
+
+    \end{table}

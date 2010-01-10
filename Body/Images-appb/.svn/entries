@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="svn+ssh://spiralrib.mit.edu/data/SVN/Papers/jensen2006thesis/trunk/Body/Images-appb"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+</wc-entries>

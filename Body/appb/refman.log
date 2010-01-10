@@ -1,0 +1,3327 @@
+This is pdfTeX, Version 3.14159-1.10b (Web2C 7.4.5) (format=pdflatex 2006.2.24)  3 MAR 2006 09:28
+**refman.tex
+(./refman.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/book.cls
+Document Class: book 2001/04/21 v1.4e Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/bk10.clo
+File: bk10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
+\headwidth=\dimen103
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf/tex/latex/tools/multicol.sty
+Package: multicol 2000/07/10 v1.5z multicolumn formatting (FMi)
+\c@tracingmulticols=\count89
+\mult@box=\box26
+\multicol@leftmargin=\dimen106
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
+\full@width=\dimen107
+\page@free=\dimen108
+\premulticols=\dimen109
+\postmulticols=\dimen110
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
+\last@try=\dimen111
+\multicolovershoot=\dimen112
+\multicolundershoot=\dimen113
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/share/texmf/tex/latex/misc/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks15
+\float@box=\box52
+\@float@everytoks=\toks16
+\@floatcapt=\box53
+)
+(/usr/share/texmf/tex/latex/base/textcomp.sty
+Package: textcomp 2001/06/05 v1.94 Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(/usr/share/texmf/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texmf/tex/latex/psnfss/times.sty
+Package: times 2002/09/08 PSNFSS-v9.0a (SPQR) 
+)
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/01/22 v6.73n Hypertext links for LaTeX
+\@linkdim=\dimen114
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/01/22 v6.73n Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 1744.
+Package hyperref Info: Hyper figures OFF on input line 1792.
+Package hyperref Info: Link nesting OFF on input line 1797.
+Package hyperref Info: Hyper index ON on input line 1800.
+Package hyperref Info: Plain pages ON on input line 1805.
+Package hyperref Info: Backreferencing ON on input line 1810.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 1916.
+(/usr/share/texmf/tex/latex/hyperref/backref.sty
+Package: backref 2002/06/09 v1.20 Bibliographical back referencing
+)
+(/usr/share/texmf/tex/latex/misc/url.sty
+\Urlmuskip=\muskip10
+Package: url 1999/03/28  ver 1.5x  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2055.
+\Fld@menulength=\count100
+\Field@Width=\dimen115
+\Fld@charsize=\dimen116
+\Choice@toks=\toks17
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 2513.
+Package hyperref Info: Link nesting OFF on input line 2518.
+Package hyperref Info: Hyper index ON on input line 2521.
+Package hyperref Info: backreferencing ON on input line 2526.
+Package hyperref Info: Link coloring ON on input line 2531.
+\c@Item=\count101
+\c@Hfootnote=\count102
+)
+*hyperref using driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2003/01/22 v6.73n Hyperref driver for pdfTeX
+
+(/usr/share/texmf/tex/latex/psnfss/pifont.sty
+Package: pifont 2002/09/08 PSNFSS-v9.0a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 62.
+
+(/usr/share/texmf/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 63.
+
+(/usr/share/texmf/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\Fld@listcount=\count103
+\@outlinefile=\write3
+) (./doxygen.sty
+Package: doxygen 
+
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 1998/07/07 v4.1b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 59.
+LaTeX Info: Redefining \addtolength on input line 60.
+\calc@denominator=\count106
+)
+(/usr/share/texmf/tex/latex/tools/array.sty
+Package: array 1998/05/13 v2.3m Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks19
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\tmplength=\skip49
+)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2001/06/05 v1.94 Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2001/06/05 v1.94 Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 38.
+))
+\@indexfile=\write4
+\openout4 = `refman.idx'.
+
+
+Writing index file refman.idx
+(./refman.aux (./structbitSet__t.aux) (./structcnode.aux) (./structcSet__t.aux)
+(./structfSeq__t.aux) (./structmnode.aux) (./structrdh__t.aux)
+(./structsHash__t.aux) (./structsHashEntry__t.aux) (./structsOffset__t.aux)
+(./structsPat__t.aux) (./structsSize__t.aux) (./bitSet_8c.aux) (./bitSet_8h.aux
+) (./convll_8c.aux) (./convll_8h.aux) (./fastaSeqIO_8c.aux)
+(./fastaSeqIO_8h.aux) (./gemoda-r_8c.aux) (./gemoda-s_8c.aux) (./matdata_8h.aux
+) (./matrices_8c.aux) (./matrices_8h.aux) (./matrixmap_8h.aux)
+(./newConv_8c.aux) (./patStats_8c.aux) (./patStats_8h.aux)
+(./realCompare_8c.aux) (./realCompare_8h.aux) (./realIo_8c.aux)
+(./realIo_8h.aux) (./spat_8h.aux) (./words_8c.aux))
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+
+(/usr/share/texmf/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 28.
+
+(/usr/share/texmf/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count107
+\scratchcounter=\count108
+\scratchtoks=\toks20
+\scratchdimen=\dimen121
+\scratchskip=\skip50
+\scratchmuskip=\muskip11
+\scratchbox=\box54
+\scratchread=\read1
+\scratchwrite=\write5
+\zeropoint=\dimen122
+\minusone=\count109
+\thousandpoint=\dimen123
+\emptytoks=\toks21
+\nextbox=\box55
+\nextdepth=\dimen124
+\everyline=\toks22
+\!!counta=\count110
+\!!countb=\count111
+\recursecounter=\count112
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+LaTeX Info: Redefining \color on input line 71.
+
+(/usr/share/texmf/tex/latex/config/color.cfg
+File: color.cfg 2001/08/31 v1.1 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+Package hyperref Info: Link coloring ON on input line 28.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
+\c@section@level=\count115
+)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+ (./refman.out) (./refman.out)
+\openout3 = `refman.out'.
+
+[1
+
+
+{/usr/share/texmf/dvips/config/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
+ (./refman.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+
+! pdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.276 ...}{}IO.h File Reference}{119}{section.3.7}
+                                                   [1
+
+])
+\tf@toc=\write6
+\openout6 = `refman.toc'.
+
+
+! pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.42 \clearemptydoublepage
+                          
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+ [2]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+(./dir_000000.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 4.
+ <dir_000000_dep.pdf, id=217, 72.27pt x 38.1425pt>
+File: dir_000000_dep.pdf Graphic file (type pdf)
+
+<use dir_000000_dep.pdf>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 16.
+ (/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+! pdfTeX warning (ext4): destination with the same identifier (name{page.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.46 \chapter
+             {gemoda Data Structure Documentation} [1
+
+
+ <./dir_000000_dep.pdf>]
+! pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \penalty 
+l.46 \chapter
+             {gemoda Data Structure Documentation} [2
+
+]
+Chapter 2.
+(./structbitGraph__t.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 5.
+ (/usr/share/texmf/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+<structbitGraph__t__coll__graph.pdf, id=237, 64.24pt x 90.3375pt>
+File: structbitGraph__t__coll__graph.pdf Graphic file (type pdf)
+
+<use structbitGraph__t__coll__graph.pdf> [3 <./structbitGraph__t__coll__graph.p
+df>]
+Underfull \hbox (badness 8019) in paragraph at lines 41--44
+/ptmr8t/Set-True(), bit-Graph-Set-True-Diagonal(), bit-Graph-Set-True-Sym(), co
+py-Bit-Graph(),
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 41--44
+/ptmr8t/fill-Bit-Graph(), filter-Iter(), find-Cliques(), get-Stat-Mat(), mask-B
+it-Graph(), new-Bit-
+ []
+
+) [4]
+\openout2 = `structbitSet__t.aux'.
+
+ (./structbitSet__t.tex [5
+
+]) [6]
+\openout2 = `structcnode.aux'.
+
+ (./structcnode.tex
+<structcnode__coll__graph.pdf, id=313, 83.31125pt x 90.3375pt>
+File: structcnode__coll__graph.pdf Graphic file (type pdf)
+
+<use structcnode__coll__graph.pdf>
+Underfull \hbox (badness 2582) in paragraph at lines 47--50
+/ptmr8t/single-Clique-Conv(), sort-By-Stats(), swap-Nodec-Set(), uniq-Clique(),
+ whole-Clique-
+ []
+
+[7
+
+
+ <./structcnode__coll__graph.pdf>]
+Underfull \hbox (badness 3029) in paragraph at lines 69--72
+[]/ptmr8t/Referenced by calc-Stat-All-Cliqs(), fill-Member-Stacks(), get-Larges
+t-Length(), get-
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 80--83
+[]/ptmr8t/Referenced by add-To-Stacks(), calc-Stat-Cliq(), find-Clique-Centroid
+(), get-Largest-
+ []
+
+) [8]
+\openout2 = `structcSet__t.aux'.
+
+ (./structcSet__t.tex
+Underfull \hbox (badness 5475) in paragraph at lines 35--38
+[]/ptmr8t/Referenced by add-To-Stacks(), bit-Set-To-CSet(), check-Cliquec-Set()
+, find-Clique-
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 35--38
+/ptmr8t/CSet(), prune-Cll(), push-Conv-Clique(), remove-Supers(), swap-Nodec-Se
+t(), uniq-
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 46--47
+[]/ptmr8t/Referenced by bit-Set-To-CSet(), calc-Stat-Cliq(), check-Cliquec-Set(
+), find-Clique-
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 46--47
+/ptmr8t/Centroid(), get-Largest-Support(), main(), mll-To-CSet(), output-Real-P
+ats(), output-
+ []
+
+[9
+
+
+]) [10]
+\openout2 = `structfSeq__t.aux'.
+
+ (./structfSeq__t.tex) [11
+
+
+]
+\openout2 = `structmnode.aux'.
+
+ (./structmnode.tex
+<structmnode__coll__graph.pdf, id=398, 85.31876pt x 22.0825pt>
+File: structmnode__coll__graph.pdf Graphic file (type pdf)
+
+<use structmnode__coll__graph.pdf>) [12
+
+
+ <./structmnode__coll__graph.pdf>]
+\openout2 = `structrdh__t.aux'.
+
+
+(./structrdh__t.tex [13
+
+
+]) [14]
+\openout2 = `structsHash__t.aux'.
+
+ (./structsHash__t.tex
+<structsHash__t__coll__graph.pdf, id=467, 78.2925pt x 90.3375pt>
+File: structsHash__t__coll__graph.pdf Graphic file (type pdf)
+
+<use structsHash__t__coll__graph.pdf> [15
+
+
+ <./structsHash__t__coll__graph.pdf>]) [16]
+\openout2 = `structsHashEntry__t.aux'.
+
+ (./structsHashEntry__t.tex [17
+
+
+]) [18]
+\openout2 = `structsOffset__t.aux'.
+
+ (./structsOffset__t.tex [19
+
+
+])
+[20]
+\openout2 = `structsPat__t.aux'.
+
+ (./structsPat__t.tex
+<structsPat__t__coll__graph.pdf, id=570, 58.2175pt x 90.3375pt>
+File: structsPat__t__coll__graph.pdf Graphic file (type pdf)
+
+<use structsPat__t__coll__graph.pdf> [21
+
+
+ <./structsPat__t__coll__graph.pdf>])
+[22]
+\openout2 = `structsSize__t.aux'.
+
+ (./structsSize__t.tex) [23
+
+
+] [24
+
+
+]
+Chapter 3.
+(./align_8c.tex <align_8c__incl.pdf, id=636, 303.1325pt x 283.0575pt>
+File: align_8c__incl.pdf Graphic file (type pdf)
+
+<use align_8c__incl.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+[26 <./align_8c__incl.pdf>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 61.
+ [27]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 154--154
+[]/pcrr8t@8.0pt/105         alignMat (words[i].string, words[j].string, words[i
+].length, mat);[] 
+ []
+
+[28]) [29]
+\openout2 = `bitSet_8c.aux'.
+
+ (./bitSet_8c.tex
+<bitSet_8c__incl.pdf, id=701, 226.8475pt x 92.345pt>
+File: bitSet_8c__incl.pdf Graphic file (type pdf)
+ <use bitSet_8c__incl.pdf>
+[30
+
+ <./bitSet_8c__incl.pdf>] [31]
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 153--153
+[]/pcrr8t@8.0pt/402     + bits_in_char[(n >> 16) & 0xffu] + bits_in_char[(n >> 
+24) & 0xffu];[] 
+ []
+
+[32] [33] [34] [35] [36] [37]
+Underfull \hbox (badness 1009) in paragraph at lines 548--549
+[]/ptmr8t/Referenced by bit-Graph-Check-Bit(), find-Cliques(), get-Stat-Mat(), 
+mask-Bit-Graph(),
+ []
+
+[38] [39]
+Underfull \hbox (badness 1436) in paragraph at lines 657--658
+/ptmr8t/find-Cliques(), get-Stat-Mat(), old-Get-Stat-Mat(), print-Bit-Set(), si
+ngle-Linkage(), and
+ []
+
+
+Overfull \hbox (67.80026pt too wide) in paragraph at lines 681--681
+[]/pcrr8t@8.0pt/447            "\nSorry, no support for 64-bit architectures ju
+st yet! - countSet\n");[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 681--681
+[]/pcrr8t@8.0pt/452   // Just count the number of true bits in each char, and d
+o this for[] 
+ []
+
+[40] [41]
+Underfull \hbox (badness 1360) in paragraph at lines 808--809
+[]/ptmr8t/Referenced by empty-Bit-Graph(), empty-Bit-Graph-Row(), filter-Graph(
+), filter-Iter(),
+ []
+
+[42] [43] [44]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 944--944
+[]/pcrr8t@8.0pt/25       fprintf (stderr, "\nMemory error --- couldn't allocate
+ bitArray!"[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 988--988
+[]/pcrr8t@8.0pt/823       fprintf (stderr, "Memory error - Cannot allocate bitG
+raphGraph - "[] 
+ []
+
+[45]
+Underfull \hbox (badness 1137) in paragraph at lines 1038--1039
+[]/ptmr8t/Referenced by bit-Set-To-CSet(), filter-Iter(), find-Cliques(), get-S
+tat-Mat(), prune-Bit-
+ []
+
+[46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 1187--1187
+[]/pcrr8t@8.0pt/558   printf ("bitSet (addr = %d; %d members)\n", (int) s1, cou
+ntSet (s1));[] 
+ []
+
+[48]
+Overfull \hbox (135.0003pt too wide) in paragraph at lines 1219--1219
+[]/pcrr8t@8.0pt/88      if (BSNUMSLOTS(x) > s1->slots) { Conditional changed, 5
+/25, by MPS: check x against s1->max,[] 
+ []
+
+[49]
+Underfull \hbox (badness 2828) in paragraph at lines 1235--1236
+[]/ptmr8t/Referenced by bit-Graph-Set-True(), bit-Graph-Set-True-Diagonal(), bi
+t-Graph-Set-True-
+ []
+
+) [50]
+\openout2 = `bitSet_8h.aux'.
+
+ (./bitSet_8h.tex <bitSet_8h__incl.pdf, id=1092, 140.525pt x 92.345pt>
+File: bitSet_8h__incl.pdf Graphic file (type pdf)
+
+<use bitSet_8h__incl.pdf>
+<bitSet_8h__dep__incl.pdf, id=1093, 481.8pt x 391.4625pt>
+File: bitSet_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use bitSet_8h__dep__incl.pdf>
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+ [51
+
+
+ <./bitSet_8h__incl.pdf> <./bitSet_8h__dep__incl.pdf>]
+Underfull \hbox (badness 10000) detected at line 35
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 35
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 41
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 43
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 45
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 49
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 49
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 51
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 51
+[][]
+ []
+
+[52] [53] [54] [55]
+Underfull \vbox (badness 3158) has occurred while \output is active []
+
+ [56]
+[57]
+Underfull \vbox (badness 2261) has occurred while \output is active []
+
+ [58]
+Underfull \hbox (badness 1009) in paragraph at lines 498--499
+[]/ptmr8t/Referenced by bit-Graph-Check-Bit(), find-Cliques(), get-Stat-Mat(), 
+mask-Bit-Graph(),
+ []
+
+[59]
+Underfull \hbox (badness 1436) in paragraph at lines 562--563
+/ptmr8t/find-Cliques(), get-Stat-Mat(), old-Get-Stat-Mat(), print-Bit-Set(), si
+ngle-Linkage(), and
+ []
+
+[60]
+Underfull \hbox (badness 1360) in paragraph at lines 643--644
+[]/ptmr8t/Referenced by empty-Bit-Graph(), empty-Bit-Graph-Row(), filter-Graph(
+), filter-Iter(),
+ []
+
+[61]
+Underfull \hbox (badness 1137) in paragraph at lines 771--772
+[]/ptmr8t/Referenced by bit-Set-To-CSet(), filter-Iter(), find-Cliques(), get-S
+tat-Mat(), prune-Bit-
+ []
+
+[62]
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [63]
+Underfull \hbox (badness 2828) in paragraph at lines 852--853
+[]/ptmr8t/Referenced by bit-Graph-Set-True(), bit-Graph-Set-True-Diagonal(), bi
+t-Graph-Set-True-
+ []
+
+) [64]
+\openout2 = `convll_8c.aux'.
+
+ (./convll_8c.tex <convll_8c__incl.pdf, id=1505, 313.17pt x 171.64125pt>
+File: convll_8c__incl.pdf Graphic file (type pdf)
+
+<use convll_8c__incl.pdf> [65
+
+
+ <./convll_8c__incl.pdf>] [66] [67] [68]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 283--283
+[]/pcrr8t@8.0pt/279   // Initialize an array of integers of size p to sentinel 
+values of -1[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 283--283
+[]/pcrr8t@8.0pt/288       fprintf (stderr, "\nClique of zero size! - checkCliqu
+ecSet\n");[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 283--283
+[]/pcrr8t@8.0pt/305       // Also check to see if we've already reached the p t
+hreshold,[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 283--283
+[]/pcrr8t@8.0pt/318   // Now just see what the value of the last number in the 
+array is;[] 
+ []
+
+[69]
+Overfull \hbox (53.40025pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1428       fprintf (stderr, "Memory error - completeConv\n%s\n"
+, strerror (errno));[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1432   // The number of offsets will never change, so this can 
+be defined[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1433   // now, though we will have to change what is in these a
+rrays later.[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1439   // NOTE: This assumes that the elemPats all meet the sup
+port criterion[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1441   // So we'll do this as long as the head is non-null.. th
+at means that[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1443   // convolved and the linked list for the next round is s
+et to head,[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 355--355
+[]/pcrr8t@8.0pt/1444   // so this continues until the linked list for the "next
+ round" at[] 
+ []
+
+[70] [71] [72]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 499--499
+[]/pcrr8t@8.0pt/779       else if ((first->set->members[i] + 1) < second->set->
+members[j])[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 499--499
+[]/pcrr8t@8.0pt/790       intersection = pushMemStack (intersection, first->set
+->members[i]);[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 499--499
+[]/pcrr8t@8.0pt/797   // Send the value of the clique's new support out of this
+ function[] 
+ []
+
+[73]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1157   // First count up how many members there are in the memb
+er linked list[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1170       fprintf (stderr, "Memory error - mllTlCSet cliquemem
+bers\n%s\n",[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1175   // In order to stay in the same format as with bitSet tr
+anslation to[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1176   // cSet, we ensure that the ids of the members are ascen
+ding with[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1177   // ascending index number in the cSet.  This is accompli
+shed by noting[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1178   // that since the intersection members are pushed onto t
+he stack,[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/1179   // a LIFO operation, that the first intersected nodes of
+f the stack[] 
+ []
+
+[74]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 639--639
+[]/pcrr8t@8.0pt/77   // to the next member of the list.  Otherwise, since by de
+fault the[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 639--639
+[]/pcrr8t@8.0pt/83   // Check to see if there is a set.  If there is, and there
+ are members,[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 639--639
+[]/pcrr8t@8.0pt/84   // then first free the members.  And if there is a set, th
+en free it.[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 639--639
+[]/pcrr8t@8.0pt/95   // Both the members and set have been freed, so now can fr
+ee the cll_t[] 
+ []
+
+[75]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 674--674
+[]/pcrr8t@8.0pt/446       fprintf (stderr, "\nCan't pop a null linked list - po
+pMemStack\n");[] 
+ []
+
+[76] [77]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 774--774
+[]/pcrr8t@8.0pt/1486   printf ("\nSupport = %d\t(id = %d)\n", node->set->size, 
+node->id);[] 
+ []
+
+[78]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 955--955
+[]/pcrr8t@8.0pt/522     // We'll do this similar to the pruneBitGraph function.
+.. we will[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 955--955
+[]/pcrr8t@8.0pt/523     // keep track of which source sequence each motif occur
+rence was in.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 955--955
+[]/pcrr8t@8.0pt/524     // Again, since the occurrences are listed monotonicall
+y, we only[] 
+ []
+
+[79]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 955--955
+[]/pcrr8t@8.0pt/530       fprintf (stderr, "Memory error - pruneCll\n%s\n", str
+error (errno));[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1015--1015
+[]/pcrr8t@8.0pt/351   // If the -p flag has been assigned a value, then check t
+he clique[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1015--1015
+[]/pcrr8t@8.0pt/352   // and only proceed if that criterion is met.  Otherwise,
+ free the[] 
+ []
+
+[81]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 1015--1015
+[]/pcrr8t@8.0pt/372       // If the -p flag wasn't set, then just push the cSet
+ onto the linked[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1060--1060
+[]/pcrr8t@8.0pt/35       fprintf (stderr, "\nMemory Error - pushCll\n%s\n", str
+error (errno));[] 
+ []
+
+[82] [83] [84]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 1186--1186
+[]/pcrr8t@8.0pt/426   // by our method of filling the member stacks, which is q
+uite simple:[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1186--1186
+[]/pcrr8t@8.0pt/429   // bitSet_t's) and add that clique to each node's members
+hip list.[] 
+ []
+
+[85]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1309--1309
+[]/pcrr8t@8.0pt/971       fprintf (stderr, "\nFirst clique not found! (removeSu
+pers)\n");[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1309--1309
+[]/pcrr8t@8.0pt/975   // Now this is trickier, to remove nodes from the middle 
+of a linked[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1309--1309
+[]/pcrr8t@8.0pt/976   // list; this means that we need to remember which node w
+e were just[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1309--1309
+[]/pcrr8t@8.0pt/1028       // first, and so the second is not a subset.  If the
+ breakflag[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1309--1309
+[]/pcrr8t@8.0pt/1034       // know that every member of the second clique is in
+ the first[] 
+ []
+
+[87]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1352--1352
+[]/pcrr8t@8.0pt/628       fprintf (stderr, "\nInvalid offset number! - searchMe
+msWithList\n");[] 
+ []
+
+[88]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1486--1486
+[]/pcrr8t@8.0pt/670       fprintf (stderr, "\nNonexistent clique! - singleCliqu
+eConv\n");[] 
+ []
+
+[89]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1486--1486
+[]/pcrr8t@8.0pt/684       fprintf (stderr, "\nFirst clique not found! - singleC
+liqueConv\n");[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1486--1486
+[]/pcrr8t@8.0pt/701       fprintf (stderr, "\nSecond clique not found! - single
+CliqueConv\n");[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 1486--1486
+[]/pcrr8t@8.0pt/710     mergeIntersect (first, second, survivingMems, printStat
+us, &newSupport);[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1486--1486
+[]/pcrr8t@8.0pt/726   // If the support of the clique just formed by convolutio
+n meets the[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1486--1486
+[]/pcrr8t@8.0pt/738   // either didn't meet the support criterion or have been 
+pushed on[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1534--1534
+[]/pcrr8t@8.0pt/927   // Then we free the useless clique's members and its set 
+data structure[] 
+ []
+
+
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [91]
+[92]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1624--1624
+[]/pcrr8t@8.0pt/877       // If the proposed clique is a superset of some other
+ clique(s)[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1624--1624
+[]/pcrr8t@8.0pt/889   // If we've gotten here, we've checked all cliques in the
+ previous[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1624--1624
+[]/pcrr8t@8.0pt/890   // level and haven't found the proposed clique to be a su
+perset or[] 
+ []
+
+[93]
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1218   // cliques that must be convolved against the current pr
+imary clique.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1219   // A bitset is used to make it easy to deal with duplica
+tes, where[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1224     searchMemsWithList (node->set->members, node->set->siz
+e, memList,[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1226   // We'll use this "secondGuess" to store where the previ
+ous clique[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1227   // being convolved was... since we will progressing mono
+tonically[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1228   // in descending order, this will save us some time in t
+raversing the[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1238   // If the offsets that we are looking for are in no othe
+r cliques,[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1245   // Otherwise, we start our secondGuess at the head and g
+et going.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1251   // Note that we start from the end of the cSet member li
+st so that[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1699--1699
+[]/pcrr8t@8.0pt/1252   // we can convolve the highest-id cliques first, which a
+re at the[] 
+ []
+
+[94]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 1780--1780
+[]/pcrr8t@8.0pt/1289   // It starts off all true, and gets changed to false if 
+the patterns[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1780--1780
+[]/pcrr8t@8.0pt/1303   // Convolve a whole clique at a time, traversing the lin
+ked list.[] 
+ []
+
+[95]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1780--1780
+[]/pcrr8t@8.0pt/1316   // printf("\n*******************************************
+*********\n");[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1780--1780
+[]/pcrr8t@8.0pt/1318   // printf("\n*******************************************
+*********\n");[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1780--1780
+[]/pcrr8t@8.0pt/1320   // For each clique that is still 'true' in printStatus a
+nd is thus[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1780--1780
+[]/pcrr8t@8.0pt/1321   // maximal, perform some sort of output.  Yankcll will p
+ull out the[] 
+ []
+
+[96]
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 1842--1842
+[]/pcrr8t@8.0pt/1369   // If we are on the head, make the new head be our curre
+nt node's "next".[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 1842--1842
+[]/pcrr8t@8.0pt/1379   // Change next in curr, then change id and length inform
+ation in curr[] 
+ []
+
+) [97]
+\openout2 = `convll_8h.aux'.
+
+ (./convll_8h.tex <convll_8h__incl.pdf, id=1954, 226.8475pt x 96.36pt>
+File: convll_8h__incl.pdf Graphic file (type pdf)
+
+<use convll_8h__incl.pdf>
+<convll_8h__dep__incl.pdf, id=1955, 393.47pt x 281.05pt>
+File: convll_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use convll_8h__dep__incl.pdf> [98
+
+
+ <./convll_8h__incl.pdf> <./convll_8h__dep__incl.pdf>] [99]
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [100]
+[101] [102]
+Underfull \vbox (badness 1552) has occurred while \output is active []
+
+ [103]
+[104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+ [106]
+[107]
+Underfull \vbox (badness 1609) has occurred while \output is active []
+
+ [108])
+[109]
+\openout2 = `fastaSeqIO_8c.aux'.
+
+ (./fastaSeqIO_8c.tex
+<fastaSeqIO_8c__incl.pdf, id=2314, 329.23pt x 128.48pt>
+File: fastaSeqIO_8c__incl.pdf Graphic file (type pdf)
+
+<use fastaSeqIO_8c__incl.pdf> [110
+
+
+ <./fastaSeqIO_8c__incl.pdf>] [111] [112]
+[113]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 338--338
+[]/pcrr8t@8.0pt/130             fprintf(stderr, "\nMemory Error\n%s\n", strerro
+r(errno));[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 338--338
+[]/pcrr8t@8.0pt/145                 fprintf(stderr, "\nMemory Error\n%s\n", str
+error(errno));[] 
+ []
+
+[114] [115]
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 459--459
+[]/pcrr8t@8.0pt/263             aos[i].label = (char *) malloc ( (ll[i].size+1)
+ * sizeof(char) );[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 459--459
+[]/pcrr8t@8.0pt/265                 fprintf(stderr, "\nMemory Error\n%s\n", str
+error(errno));[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 459--459
+[]/pcrr8t@8.0pt/279             aos[i].seq = (char *) malloc ( (ss[i].size+1) *
+ sizeof(char) );[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 459--459
+[]/pcrr8t@8.0pt/281                 fprintf(stderr, "\nMemory Error\n%s\n", str
+error(errno));[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+[117]) [118]
+\openout2 = `fastaSeqIO_8h.aux'.
+
+ (./fastaSeqIO_8h.tex
+<fastaSeqIO_8h__incl.pdf, id=2414, 216.81pt x 20.075pt>
+File: fastaSeqIO_8h__incl.pdf Graphic file (type pdf)
+
+<use fastaSeqIO_8h__incl.pdf>
+<fastaSeqIO_8h__dep__incl.pdf, id=2415, 542.025pt x 206.7725pt>
+File: fastaSeqIO_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use fastaSeqIO_8h__dep__incl.pdf> [119
+
+
+ <./fastaSeqIO_8h__incl.pdf> <./fastaSeqIO_8h__dep__incl.pdf>] [120]) [121]
+\openout2 = `gemoda-r_8c.aux'.
+
+ (./gemoda-r_8c.tex
+<gemoda-r_8c__incl.pdf, id=2485, 636.3775pt x 627.34375pt>
+File: gemoda-r_8c__incl.pdf Graphic file (type pdf)
+
+<use gemoda-r_8c__incl.pdf> [122
+
+
+ <./gemoda-r_8c__incl.pdf>] [123]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/645     // Note that we prune based on p before setting the dia
+gonal false.[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/649     pruneBitGraph (bg, indexToSeq, offsetToIndex, numberOfS
+equences, p);[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/652     // Now we set the main diagonal false for clustering an
+d filtering.[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/659       findCliques (Q, cand, mask, bg, support, 0, &elemPats
+, indexToSeq, p);[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/663       singleLinkage (Q, cand, mask, bg, support, 0, &elemPa
+ts, indexToSeq,[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/667         "Clusters found!  Now filtering clusters (if option
+ set)...\n");[] 
+ []
+
+
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 124--124
+[]/pcrr8t@8.0pt/682       allCliques = completeConv (&elemPats, support, size, 
+0, indexToSeq, p);[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+[125]
+Overfull \hbox (48.60025pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/206   while ((inputOption = getopt (argc, argv, "p:m:e:i:o:l:g:
+k:c:njs:")) != EOF)[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/224           fprintf (stderr, "Error allocating memory for opt
+ions.\n");[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/249  *   number of support and removes all of their nodes, and 
+does this[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/250  *   recursively so that nodes that are connected to many s
+parsely connected[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/252  * This option is deprecated as it is at worst no-gain and 
+at best useful.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/255  *   minor tweaking.  For almost all cases in which it does
+ not speed[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/256  *   up computations, it will have a trivial time to perfor
+m.  Thus, if[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/261 ***********************************************************
+*************/[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127]
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/297   // Require an input file, a nonzero length, and a similar
+ity threshold[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/333       fprintf (OUTPUT_FILE, "Minimum # of sequences with mo
+tif = %d\n", P);[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/342   // printf("size = %d,indexSize = %d\n",data->size,data->i
+ndexSize);[] 
+ []
+
+
+Overfull \hbox (53.40025pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/343   // printf("size1 = %d,size2 = %d\n",data->seq[0]->size1,d
+ata->seq[0]->size2);[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/357     getStatMat (oam, sup, L, &supportDim, &lengthDim, data-
+>size, samp,[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/368           data->offsetToIndex, data->size, noConvolve, OUTP
+UT_FILE);[] 
+ []
+
+
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/376       cumDMatrix (d, allCliques, supportDim, lengthDim, oam
+Size, data->size);[] 
+ []
+
+
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 405--405
+[]/pcrr8t@8.0pt/387       outputRealPatsWCentroid (data, allCliques, L, OUTPUT_
+FILE, extraParams,[] 
+ []
+
+[129] [130]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/408     // Since we don't immediately know which node is in whi
+ch source[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/409     // sequence, we can't just count them up regularly.  In
+stead, we'll[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/411     // increment _something_.  What we chose to do here is 
+just make[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/412     // an array of integers of length = <p>.  Then, we try 
+to put the[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/413     // source sequence number of each neighbor (including i
+tself, since[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/414     // the main diagonal is still true at this time) into t
+he next slot[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 573--573
+[]/pcrr8t@8.0pt/417     // offsetToIndex structure so that we know the next seq
+uence number[] 
+ []
+
+[131]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
+Overfull \hbox (331.80043pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/39        "-l <word size> \n\t-k <support> -g <threshold> -m <m
+atrix name> [-z] \n\t[-c <cluster method [0|1]>] [-p <unique support>] \n\n\n"[
+] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/42        "File containing all sequences to be searched, in Fas
+ta format.\n\n"[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/44        "Minimum length of motifs; also the sliding window le
+ngth\n\t"[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/45        "over which all motifs must meet the similarity crite
+rion\n\n"[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/49        "Similarity threshold.  Two windows, when scored with
+ the\n\t"[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/50        " similarity matrix defined by the -m flag, must have
+ at least\n\t"[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/51        " this score in order to be deemed 'connected'.  This
+ criterion\n\t"[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/55        "\n\tsimilarity of the unique words in the input.  No
+te that the "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/56        "\n\tclustering method will have a significant impact
+ on both the "[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/57        "\n\tresults that one obtains and the computation tim
+e.\n\n\t"[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/59        "Uses established methods to find all maximal cliques
+ in the "[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/60        "\n\t\tdata.  This will give the most thorough result
+s (that are "[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/61        "\n\t\tprovably exhaustive), but will also give less-
+significant "[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/62        "\n\t\tresults in addition to the most interesting an
+d most\n\t"[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/63        "significant ones.  The results are deterministic but
+ may take some "[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/64        "\n\t\ttime on data sets with high similarity or if t
+he similarity "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/68        "\n\t\tare connected are put in the same cluster.  Th
+is method is "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/69        "\n\t\talso deterministic and will be faster than cli
+que-finding, "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/70        "\n\t\tbut it loses guarantees of exhaustiveness in s
+earching the "[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/74        "\n\tat least <unique support> different input sequen
+ces.  Note "[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 632--632
+[]/pcrr8t@8.0pt/75        "\n\tthat this parameter must be less than or equal t
+o the total "[] 
+ []
+
+) [133]
+\openout2 = `gemoda-s_8c.aux'.
+
+ (./gemoda-s_8c.tex
+<gemoda-s_8c__incl.pdf, id=2575, 511.9125pt x 440.64626pt>
+File: gemoda-s_8c__incl.pdf Graphic file (type pdf)
+
+<use gemoda-s_8c__incl.pdf> [134
+
+
+ <./gemoda-s_8c__incl.pdf>] [135]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 100--100
+[]/pcrr8t@8.0pt/105         alignMat (words[i].string, words[j].string, words[i
+].length, mat);[] 
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 114--115
+[]/ptmr8t/References bit-Graph-Set-False-Diagonal(), complete-Conv(), delete-Bi
+t-Set(), fill-Set(),
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 114--115
+/ptmr8t/filter-Graph(), find-Cliques(), new-Bit-Set(), prune-Bit-Graph(), prune
+-Cll(), single-
+ []
+
+[136]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/645     // Note that we prune based on p before setting the dia
+gonal false.[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/649     pruneBitGraph (bg, indexToSeq, offsetToIndex, numberOfS
+equences, p);[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/652     // Now we set the main diagonal false for clustering an
+d filtering.[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/659       findCliques (Q, cand, mask, bg, support, 0, &elemPats
+, indexToSeq, p);[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/663       singleLinkage (Q, cand, mask, bg, support, 0, &elemPa
+ts, indexToSeq,[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/667         "Clusters found!  Now filtering clusters (if option
+ set)...\n");[] 
+ []
+
+
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 182--182
+[]/pcrr8t@8.0pt/682       allCliques = completeConv (&elemPats, support, size, 
+0, indexToSeq, p);[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]
+[138]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 319--319
+[]/pcrr8t@8.0pt/427           words = (sPat_t *) realloc (words, (wc + 1) * siz
+eof (sPat_t));[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 319--319
+[]/pcrr8t@8.0pt/441           fprintf (stderr, "\nMemory Error\n%s\n", strerror
+ (errno));[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 319--319
+[]/pcrr8t@8.0pt/477           words[prev].offset[words[prev].support - 1].next 
+= ep->idx;[] 
+ []
+
+[140]
+Overfull \hbox (48.60025pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/236     while ((inputOption = getopt (argc, argv, "i:o:l:g:k:m:
+p:zc:ns:")) != EOF)[] 
+ []
+
+[141]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/253           fprintf (stderr, "Error allocating memory for opt
+ions.\n");[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/284           fprintf (stderr, "Error allocating memory for opt
+ions.\n");[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/296  *   number of support and removes all of their nodes, and 
+does this[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/297  *   recursively so that nodes that are connected to many s
+parsely connected[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/299  * This option is deprecated as it is at worst no-gain and 
+at best useful.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/302  *   minor tweaking.  For almost all cases in which it does
+ not speed[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/303  *   up computations, it will have a trivial time to perfor
+m.  Thus, if[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/308 ***********************************************************
+*************/[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/309         // Optional pruning parameter to require at motif o
+ccurrences[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/347     // Require an input file, a nonzero length, and a simil
+arity threshold[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [143]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/397       fprintf (OUTPUT_FILE, "Minimum # of sequences with mo
+tif = %d\n", P);[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [144]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/414     // Align the words that we just found by applying the s
+imilarity[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/425     // Note that this matrix is better called "Index to off
+set", and[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/428     offsetToIndex = (int **) malloc (numberOfSequences * si
+zeof (int *));[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/432         "Unable to allocate memory - offsetToIndex in gemod
+a.c\n%s\n",[] 
+ []
+
+
+Overfull \hbox (48.60025pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/447             "Unable to allocate memory - offsetToIndex[%d] 
+in gemoda.c\n%s\n",[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/462     // Now create translation matrices such that we can get
+ the sequence[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [145]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146]
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/542     getStatMat (oam, sup, L, &supportDim, &lengthDim, numbe
+rOfSequences,[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/557     convolve (oam, sup, R, indexToSeq, P, clusterMethod, of
+fsetToIndex,[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/569       calcStatAllCliqs (d, allCliques, numberOfOffsets - nu
+mberOfSequences);[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 800--800
+[]/pcrr8t@8.0pt/574     // pattern <pattern id num>: len=<motif length> sup=<mo
+tif instances>[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [148]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 858--858
+[]/pcrr8t@8.0pt/101   fprintf (stdout, "\nThe following similarity matrices are
+ installed "[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 858--858
+[]/pcrr8t@8.0pt/103         "were obtained from publically available BLAST dist
+ributions. \n\n"[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 858--858
+[]/pcrr8t@8.0pt/113         "Similar to idmat, but it returns -10 in place of 0
+. "  "\n\n"[] 
+ []
+
+[149]
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 858--858
+[]/pcrr8t@8.0pt/134         "PHDhtm clustering = {75,80,85}percent and backgrou
+nd frequency\n\t"[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 858--858
+[]/pcrr8t@8.0pt/136         "From Ng, Henikoff, & Henikoff, Bioinformatics 16: 
+760.\n\n"[] 
+ []
+
+
+Overfull \hbox (96.60028pt too wide) in paragraph at lines 858--858
+[]/pcrr8t@8.0pt/139         "McLachlan, and Eisenberg in Proteins 10, 229-239, 
+obtained from AAindex.\n\n");[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/408     // Since we don't immediately know which node is in whi
+ch source[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/409     // sequence, we can't just count them up regularly.  In
+stead, we'll[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/411     // increment _something_.  What we chose to do here is 
+just make[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/412     // an array of integers of length = <p>.  Then, we try 
+to put the[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/413     // source sequence number of each neighbor (including i
+tself, since[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/414     // the main diagonal is still true at this time) into t
+he next slot[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 974--974
+[]/pcrr8t@8.0pt/417     // offsetToIndex structure so that we know the next seq
+uence number[] 
+ []
+
+[150]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [151]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/40         "File containing all sequences to be searched, in Fa
+sta format.\n\n"[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/42         "Minimum length of motifs; also the sliding window l
+ength\n\t"[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/43         "over which all motifs must meet the similarity crit
+erion\n\n"[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/44         "-k <support>:\n\t"  "Minimum number of motif occurr
+ences.\n\n"[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/46         "Similarity threshold.  Two windows, when scored wit
+h the\n\t"[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/47         " similarity matrix defined by the -m flag, must hav
+e at least\n\t"[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/49         " this score in order to be deemed 'connected'.  Thi
+s criterion\n\t"[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/52         "Name of the similarity matrix to be used to compare
+ windows.\n\t"[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/53          "Use -z to see a list of matrices installed by defa
+ult.\n\n\n"[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/55         "Lists all of the similarity matrices available with
+ the\n\t"[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/56         "initial installation of Gemoda.  Note that this ove
+rrides\n\t"[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/60         "\n\tsimilarity of the unique words in the input.  N
+ote that the "[] 
+ []
+
+[152]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/62         "\n\tclustering method will have a significant impac
+t on both the "[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/63          "\n\tresults that one obtains and the computation t
+ime.\n\n\t"[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/65         "Uses established methods to find all maximal clique
+s in the "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/66         "\n\t\tdata.  This will give the most thorough resul
+ts (that are "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/68         "\n\t\tprovably exhaustive), but will also give less
+-significant "[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/69          "\n\t\tresults in addition to the most interesting 
+and most\n\t"[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/71         "significant ones.  The results are deterministic bu
+t may take some "[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/73         "\n\t\ttime on data sets with high similarity or if 
+the similarity "[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/76         "Uses a single-linkage-type clustering where all nod
+es that "[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/77         "\n\t\tare connected are put in the same cluster.  T
+his method is "[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/79         "\n\t\talso deterministic and will be faster than cl
+ique-finding, "[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/81         "\n\t\tbut it loses guarantees of exhaustiveness in 
+searching the "[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/84         "\n\tat least <unique support> different input seque
+nces.  Note "[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 1045--1045
+[]/pcrr8t@8.0pt/86         "\n\tthat this parameter must be less than or equal 
+to the total "[] 
+ []
+
+) [153]
+\openout2 = `matdata_8h.aux'.
+
+ (./matdata_8h.tex
+<matdata_8h__dep__incl.pdf, id=2721, 273.02pt x 130.4875pt>
+File: matdata_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use matdata_8h__dep__incl.pdf>) [154
+
+
+ <./matdata_8h__dep__incl.pdf>]
+\openout2 = `matrices_8c.aux'.
+
+
+(./matrices_8c.tex <matrices_8c__incl.pdf, id=2744, 275.0275pt x 130.4875pt>
+File: matrices_8c__incl.pdf Graphic file (type pdf)
+
+<use matrices_8c__incl.pdf> [155
+
+
+ <./matrices_8c__incl.pdf>]) [156]
+\openout2 = `matrices_8h.aux'.
+
+
+(./matrices_8h.tex
+<matrices_8h__dep__incl.pdf, id=2778, 275.0275pt x 20.075pt>
+File: matrices_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use matrices_8h__dep__incl.pdf> [157
+
+
+ <./matrices_8h__dep__incl.pdf>] [158]
+[159] [160] [161] [162] [163] [164]) [165]
+\openout2 = `matrixmap_8h.aux'.
+
+ (./matrixmap_8h.tex
+<matrixmap_8h__incl.pdf, id=3067, 174.6525pt x 56.21pt>
+File: matrixmap_8h__incl.pdf Graphic file (type pdf)
+
+<use matrixmap_8h__incl.pdf>
+<matrixmap_8h__dep__incl.pdf, id=3068, 174.6525pt x 20.075pt>
+File: matrixmap_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use matrixmap_8h__dep__incl.pdf>) [166
+
+
+ <./matrixmap_8h__incl.pdf> <./matrixmap_8h__dep__incl.pdf>] [167]
+\openout2 = `newConv_8c.aux'.
+
+ (./newConv_8c.tex
+<newConv_8c__incl.pdf, id=3107, 329.23pt x 133.49875pt>
+File: newConv_8c__incl.pdf Graphic file (type pdf)
+
+<use newConv_8c__incl.pdf>
+Underfull \vbox (badness 1275) has occurred while \output is active []
+
+ [168
+
+
+ <./newConv_8c__incl.pdf>]
+Underfull \hbox (badness 1424) in paragraph at lines 52--53
+[]/ptmr8t/References bit-Graph-Set-False-Diagonal(), complete-Conv(), delete-Bi
+t-Set(), fill-Set(),
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 52--53
+/ptmr8t/filter-Graph(), find-Cliques(), new-Bit-Set(), prune-Bit-Graph(), prune
+-Cll(), single-
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/645     // Note that we prune based on p before setting the dia
+gonal false.[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/649     pruneBitGraph (bg, indexToSeq, offsetToIndex, numberOfS
+equences, p);[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/652     // Now we set the main diagonal false for clustering an
+d filtering.[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/659       findCliques (Q, cand, mask, bg, support, 0, &elemPats
+, indexToSeq, p);[] 
+ []
+
+[169]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/663       singleLinkage (Q, cand, mask, bg, support, 0, &elemPa
+ts, indexToSeq,[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/667         "Clusters found!  Now filtering clusters (if option
+ set)...\n");[] 
+ []
+
+
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 120--120
+[]/pcrr8t@8.0pt/682       allCliques = completeConv (&elemPats, support, size, 
+0, indexToSeq, p);[] 
+ []
+
+[170]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 166--166
+[]/pcrr8t@8.0pt/366     // Iteratively call the filtering by copying the previo
+us "work" into[] 
+ []
+
+[171]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/237     // Note the convention that the first time the function
+ is called,[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/238     // it is done with an empty "changed" bitSet as a senti
+nel.  It is[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/239     // the responsibility of the master function calling th
+e iterator[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/240     // to catch future empty changed sets to know that conv
+ergence has[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/243     // So, if it's your first time through, go through each
+ node and make[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/244     // sure that each is connected to at least <support> - 
+1 others.[] 
+ []
+
+[172]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 290--290
+[]/pcrr8t@8.0pt/297           fprintf (stderr, "\nEnd of bitSet reached! - iter
+,row\n");[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [173]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 403--403
+[]/pcrr8t@8.0pt/54     // Find which vertex in subg maximizes |cand intersect g
+amma(u) |[] 
+ []
+
+[174]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 403--403
+[]/pcrr8t@8.0pt/79     // This loop iterates over all possible values of cand -
+ gamma() by[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 403--403
+[]/pcrr8t@8.0pt/112         findCliques (Q, candQ, newMask, oG, support, qCount
+, elemPats,[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 403--403
+[]/pcrr8t@8.0pt/120         // 1. countSet(newMask) == 0 [connected subgraph is
+ maximal][] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 403--403
+[]/pcrr8t@8.0pt/121         // 2. Qcount >= minCount [connected subgraph has en
+ough nodes][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [175]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/408     // Since we don't immediately know which node is in whi
+ch source[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/409     // sequence, we can't just count them up regularly.  In
+stead, we'll[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/411     // increment _something_.  What we chose to do here is 
+just make[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/412     // an array of integers of length = <p>.  Then, we try 
+to put the[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/413     // source sequence number of each neighbor (including i
+tself, since[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/414     // the main diagonal is still true at this time) into t
+he next slot[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 519--519
+[]/pcrr8t@8.0pt/417     // offsetToIndex structure so that we know the next seq
+uence number[] 
+ []
+
+[176]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [177]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 633--633
+[]/pcrr8t@8.0pt/522     // We'll do this similar to the pruneBitGraph function.
+.. we will[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 633--633
+[]/pcrr8t@8.0pt/523     // keep track of which source sequence each motif occur
+rence was in.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 633--633
+[]/pcrr8t@8.0pt/524     // Again, since the occurrences are listed monotonicall
+y, we only[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 633--633
+[]/pcrr8t@8.0pt/530       fprintf (stderr, "Memory error - pruneCll\n%s\n", str
+error (errno));[] 
+ []
+
+[178]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [179]
+[180]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 705--705
+[]/pcrr8t@8.0pt/177         // if this vertex has been clustered already, skip 
+it and go[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 705--705
+[]/pcrr8t@8.0pt/202     singleLinkage (Q, cand, mask, oG, support, 0, elemPats,
+ indexToSeq,[] 
+ []
+
+) [181]
+\openout2 = `patStats_8c.aux'.
+
+ (./patStats_8c.tex
+<patStats_8c__incl.pdf, id=3240, 423.5825pt x 283.0575pt>
+File: patStats_8c__incl.pdf Graphic file (type pdf)
+
+<use patStats_8c__incl.pdf> [182
+
+
+ <./patStats_8c__incl.pdf>]
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/634       fprintf (stderr, "Support for cluster less than 2... 
+exiting.\n");[] 
+ []
+
+[183]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/639     // OK, so support is at least two.  So we make the conn
+ections all[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/640     // on the first level, knowing that each node being con
+nected has[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/641     // at least zero in common.  There are [(size of cluste
+r) - 1] of[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/643     // And we know we can call for d[0][1] because if the s
+econd index[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/650     // Now we actually calculate the probability... the fir
+st connection[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/651     // has to be made no matter what, and after that we mul
+tiply for[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/652     // every connection after the first one.  So we descend
+ iteratively[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/653     // until we have made all connections, terminating afte
+r we've made[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/660       stat *= ((double) (numWindows - (i + 1))) / ((double)
+ (i + 2));[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/664     // the number of extensions... normally we'd want to ha
+ve the last[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/666     // alteredD[support][numwindows]/alteredD[support][numw
+indows-1],[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/667     // so that means we want our last d to be d[support][nu
+mwindows].[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/668     // Here, we note that the calculation of p's would be c
+ontinuously[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/669     // re-normalizing, so multiplying all p's is the same a
+s dividing[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 144--144
+[]/pcrr8t@8.0pt/671     interimP = ((double) d[support][length + 1]) / ((double
+) d[support][1]);[] 
+ []
+
+[184]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/538     // We also note that the number of disjoint node-pairs 
+with a given[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/539     //  number of other nodes in common is defined by d[sup
+port][0].[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/540     // So, in order to properly account for all "unique" co
+mparisons[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/541     //  (which is equal to (# streaks + # disjoint node-pai
+rs), we must[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/550     // the support and the length dimensions.  Now, d[suppo
+rt][0] will[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/551     // necessarily include d[support][1] being added to it.
+  We don't[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/552     // want to add this anymore, otherwise we would be unde
+restimating[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/553     // the probability of making that first connection.  Fo
+r instance,[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/555     // connected, and no nodes whatsoever with more than 20
+ in common,[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/562     // Rather than storing doubles and doing lots of multip
+lications,[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/563     // we're going to limit the number of operations done i
+n the actual[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/564     // probability calculation by only storing cumulative s
+ums in d.[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/570     // We go up to the last possible index in the length di
+rection, which[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/575     // (currLength + 1) integers, we know we're OK to acces
+s [currLength].[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [185]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/595     // Now we need to forcibly set d[0][0] to its correct v
+alue... it's[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/596     // just the total number of comparisons, not including 
+comparisons[] 
+ []
+
+
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/599     // of sequences (assuming one delimiter per sequence). 
+ We don't count[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/600     // the main diagonal, so the first row has one less, an
+d we want to[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/601     // sum over all the subsequent rows in the upper half o
+f the matrix.[] 
+ []
+
+
+Overfull \hbox (82.20027pt too wide) in paragraph at lines 250--250
+[]/pcrr8t@8.0pt/607         for (i = 0; i <= maxSup; i++) { printf("support = %
+d:\t",i); for (j = 0; j <=[] 
+ []
+
+[186] [187]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/365     (unsigned int **) malloc ((currSupport + 1) * sizeof (u
+nsigned int *));[] 
+ []
+
+[188]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/377     (unsigned int *) malloc ((currLength + 1) * sizeof (uns
+igned int));[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/380       fprintf (stderr, "\nMemory error --- couldn't allocat
+e array!"[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/405           fprintf (OUTPUT_FILE, "Actual time will be less t
+han this, "[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [189]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [190]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/495             if(x != 0){ printf("%d:\t%d %d\n", j, x, y); ff
+lush(stdout); }[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/504     // We need to rescale by the sampling factor for all i>
+0 in d[i][0].[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/512     // but rather than figuring that out, we will just assi
+gn it in the[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 561--561
+[]/pcrr8t@8.0pt/513     // cumulative function, since there it is merely the nu
+mber of unique[] 
+ []
+
+[191]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 639--639
+[]/pcrr8t@8.0pt/98     (unsigned int **) realloc (d, (newVal + 1) * sizeof (uns
+igned int *));[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 639--639
+[]/pcrr8t@8.0pt/101       fprintf (stderr, "\nMemory error --- couldn't allocat
+e array!"[] 
+ []
+
+[192] [193]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/228     (unsigned int **) malloc ((currSupport + 1) * sizeof (u
+nsigned int *));[] 
+ []
+
+[194]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/240     (unsigned int *) malloc ((currLength + 1) * sizeof (uns
+igned int));[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/243       fprintf (stderr, "\nMemory error --- couldn't allocat
+e array!"[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [195]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/302             if(x != 0){ printf("%d:\t%d %d\n", j, x, y); ff
+lush(stdout); }[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/311     // We know that the "blanks", inserted to delimit uniqu
+e sequences[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/312     // and prevent convolution through them, will skew our 
+statistics,[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/313     // so we subtract them.  We know that they will never b
+e similar to[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/314     // any others, so will only add to the d[0][0] number. 
+ Furthermore,[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 811--811
+[]/pcrr8t@8.0pt/315     // we know how many they add.  Since d never hits the m
+ain diagonal[] 
+ []
+
+[196]) [197]
+\openout2 = `patStats_8h.aux'.
+
+ (./patStats_8h.tex
+<patStats_8h__incl.pdf, id=3381, 325.215pt x 283.0575pt>
+File: patStats_8h__incl.pdf Graphic file (type pdf)
+
+<use patStats_8h__incl.pdf>
+<patStats_8h__dep__incl.pdf, id=3382, 170.6375pt x 92.345pt>
+File: patStats_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use patStats_8h__dep__incl.pdf> [198
+
+
+ <./patStats_8h__incl.pdf> <./patStats_8h__dep__incl.pdf>] [199]) [200]
+\openout2 = `realCompare_8c.aux'.
+
+ (./realCompare_8c.tex
+<realCompare_8c__incl.pdf, id=3437, 684.5575pt x 435.6275pt>
+File: realCompare_8c__incl.pdf Graphic file (type pdf)
+
+<use realCompare_8c__incl.pdf>
+Overfull \hbox (13.0pt too wide) in paragraph at lines 10--12
+ [] 
+ []
+
+[201
+
+
+ <./realCompare_8c__incl.pdf>]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 105--105
+[]/pcrr8t@8.0pt/140     view1 = gsl_matrix_submatrix (data->seq[seq1], pos1, 0,
+ L, dim);[] 
+ []
+
+[202]
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 140--140
+[]/pcrr8t@8.0pt/266   double (*comparisonFunc) (rdh_t *, int, int, int, double 
+*) = &rmsdCompare;[] 
+ []
+
+[203]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 242--242
+[]/pcrr8t@8.0pt/214     view1 = gsl_matrix_submatrix (data->seq[seq1], pos1, 0,
+ L, dim);[] 
+ []
+
+[204]
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 242--242
+[]/pcrr8t@8.0pt/235            (gsl_matrix_get (mat1, i, 0) - gsl_matrix_get (m
+at2, i, 0)) >[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 242--242
+[]/pcrr8t@8.0pt/249         // printf("mat1val=%lf,mat2val=%lf\n",gsl_matrix_ge
+t(mat1,i,j),[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 242--242
+[]/pcrr8t@8.0pt/251         numerator += pow (j, weight) * sqrt (gsl_matrix_get
+ (mat1, i, j)[] 
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 256--257
+[]/ptmr8t/References bit-Graph-Set-True-Sym(), get-Comp-Func, get-Rdh-Index-Seq
+-Pos(), rdh_-
+ []
+
+
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 324--324
+[]/pcrr8t@8.0pt/293   double (*comparisonFunc) (rdh_t *, int, int, int, double 
+*) = &rmsdCompare;[] 
+ []
+
+[205]
+Overfull \hbox (72.60027pt too wide) in paragraph at lines 324--324
+[]/pcrr8t@8.0pt/323         // printf("score (%2d,%2d) vs. (%2d, %2d) =\t%lf\n"
+,seq1, pos1, seq2, pos2,[] 
+ []
+
+[206] [207]
+Overfull \hbox (58.20026pt too wide) in paragraph at lines 416--416
+[]/pcrr8t@8.0pt/78         printf("matrix1:\n"); gsl_matrix_pretty_fprintf(stdo
+ut, mat1copy, "%f ");[] 
+ []
+
+
+Overfull \hbox (63.00026pt too wide) in paragraph at lines 416--416
+[]/pcrr8t@8.0pt/79        printf("\nmatrix2:\n"); gsl_matrix_pretty_fprintf(std
+out, mat2copy, "%f ");[] 
+ []
+
+) [208]
+\openout2 = `realCompare_8h.aux'.
+
+ (./realCompare_8h.tex
+<realCompare_8h__incl.pdf, id=3512, 566.115pt x 435.6275pt>
+File: realCompare_8h__incl.pdf Graphic file (type pdf)
+
+<use realCompare_8h__incl.pdf>
+<realCompare_8h__dep__incl.pdf, id=3513, 204.765pt x 92.345pt>
+File: realCompare_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use realCompare_8h__dep__incl.pdf> [209
+
+
+ <./realCompare_8h__incl.pdf> <./realCompare_8h__dep__incl.pdf>] [210]
+Underfull \hbox (badness 4454) in paragraph at lines 98--99
+[]/ptmr8t/References bit-Graph-Set-True-Sym(), get-Comp-Func, get-Rdh-Index-Seq
+-Pos(), rdh_-
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 137--77
+[]/ptmr8t/Referenced by find-Clique-Centroid(), output-Real-Pats-WCentroid(), a
+nd real-
+ []
+
+[211]
+\openout2 = `realIo_8c.aux'.
+
+ (./realIo_8c.tex <realIo_8c__incl.pdf, id=3576, 652.4375pt x 626.34pt>
+File: realIo_8c__incl.pdf Graphic file (type pdf)
+
+<use realIo_8c__incl.pdf> [212
+
+
+ <./realIo_8c__incl.pdf>]
+Underfull \hbox (badness 4072) in paragraph at lines 67--68
+[]/ptmr8t/int [][]output-Real-Pats-WCentroid[][] ([][]rdh_-t[][] $/cmsy10/^^C$/
+ptmr8t/data, [][]cll_-t[][] $/cmsy10/^^C$/ptmr8t/all-Pats, int L, FILE
+ []
+
+[213]
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 168--168
+[]/pcrr8t@8.0pt/169   int fieldCount = 0;       // number of positions in a sin
+gle sequence[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 168--168
+[]/pcrr8t@8.0pt/173   // NOTE this is not checking the dimensionality of the la
+st sequence...[] 
+ []
+
+[214]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 247--247
+[]/pcrr8t@8.0pt/100       fprintf (stderr, "Passed NULL string to countFields -
+- error!");[] 
+ []
+
+[215] [216]
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 389--389
+[]/pcrr8t@8.0pt/1099   double (*comparisonFunc) (rdh_t *, int, int, int, double
+ *) = NULL;[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 389--389
+[]/pcrr8t@8.0pt/1103   cliqueAdjMat = (double *) malloc (curCliq->set->size * s
+izeof (double));[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 389--389
+[]/pcrr8t@8.0pt/1115   // We'll accumulate our comparison function values... ex
+cept here[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 389--389
+[]/pcrr8t@8.0pt/1121   // Note that we only need to compare each unique pair, a
+nd can apply[] 
+ []
+
+[217]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 389--389
+[]/pcrr8t@8.0pt/1123   // hence the somewhat odd indices of initiation for the 
+for loops.[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 389--389
+[]/pcrr8t@8.0pt/1159   // If we had a duplicate on the minimum, we locate all d
+uplicates.[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [218]
+[219]
+Underfull \hbox (badness 1810) in paragraph at lines 475--476
+[]/ptmr8t/Referenced by general-Match-Factor(), get-Rdh-Value(), mass-Spec-Comp
+are-WElut(),
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 486--486
+[]/pcrr8t@8.0pt/528       fprintf (stderr, "Passed bad data to getRdhSeqLength 
+-- error!");[] 
+ []
+
+[220]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 523--523
+[]/pcrr8t@8.0pt/635   if (data == NULL || data->indexToSeq == NULL || data->ind
+exToPos == NULL[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 523--523
+[]/pcrr8t@8.0pt/638       fprintf (stderr, "Passed bad data to getRdhIndexSeqPo
+s -- error!");[] 
+ []
+
+
+Overfull \hbox (19.80023pt too wide) in paragraph at lines 550--550
+[]/pcrr8t@8.0pt/691   if (data == NULL || data->label == NULL || data->label[se
+qNo] == NULL)[] 
+ []
+
+[221]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 577--577
+[]/pcrr8t@8.0pt/333   if (data == NULL || data->seq == NULL || data->seq[seqNo]
+ == NULL)[] 
+ []
+
+
+Overfull \hbox (15.00023pt too wide) in paragraph at lines 577--577
+[]/pcrr8t@8.0pt/335       fprintf (stderr, "Passed bad data to getRdhSeqLength 
+-- error!");[] 
+ []
+
+
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 605--605
+[]/pcrr8t@8.0pt/669       || posNo > getRdhSeqLength (data, seqNo) || dimNo > g
+etRdhDim (data))[] 
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 619--620
+[]/ptmr8t/References rdh_-t::index-Size, rdh_-t::index-To-Pos, rdh_-t::index-To
+-Seq, rdh_-t::label,
+ []
+
+[222]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 667--667
+[]/pcrr8t@8.0pt/308   data->seq = (gsl_matrix **) malloc (data->size * sizeof (
+gsl_matrix *));[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [223]
+[224]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 809--809
+[]/pcrr8t@8.0pt/402   // NOTE that it should be size of int, not int *... I thi
+nk we got[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 809--809
+[]/pcrr8t@8.0pt/405   data->indexToSeq = (int *) malloc (data->indexSize * size
+of (int));[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 809--809
+[]/pcrr8t@8.0pt/415   data->indexToPos = (int *) malloc (data->indexSize * size
+of (int));[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [225]
+[226]
+Overfull \hbox (43.80025pt too wide) in paragraph at lines 851--851
+[]/pcrr8t@8.0pt/1208   getRdhIndexSeqPos (data, curCliq->set->members[indmin], 
+&curSeq, &curPos);[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 851--851
+[]/pcrr8t@8.0pt/1212   // so we want 1 to end.  The length of candidates is one
+ more than[] 
+ []
+
+
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 851--851
+[]/pcrr8t@8.0pt/1213   // the maxSup, so we know we can reach candidates[maxSup
+] without[] 
+ []
+
+
+Overfull \hbox (48.60025pt too wide) in paragraph at lines 851--851
+[]/pcrr8t@8.0pt/1217       getRdhIndexSeqPos (data, curCliq->set->members[candi
+dates[i]], &curSeq,[] 
+ []
+
+[227]
+Overfull \hbox (87.00027pt too wide) in paragraph at lines 907--907
+[]/pcrr8t@8.0pt/1075          for(k=curPos ; k<curPos+curCliq->length+L ; k++){
+ fprintf(OUTPUT_FILE, "%c",[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1002--1002
+[]/pcrr8t@8.0pt/1242   double (*comparisonFunc) (rdh_t *, int, int, int, double
+ *) = NULL;[] 
+ []
+
+[228]
+Overfull \hbox (0.60022pt too wide) in paragraph at lines 1002--1002
+[]/pcrr8t@8.0pt/1276       centroid = makeAlternateCentroid (data, curCliq, can
+didates);[] 
+ []
+
+
+Overfull \hbox (87.00027pt too wide) in paragraph at lines 1002--1002
+[]/pcrr8t@8.0pt/1297          for(k=curPos ; k<curPos+curCliq->length+L ; k++){
+ fprintf(OUTPUT_FILE, "%c",[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [229]
+[230] [231]
+Underfull \hbox (badness 1248) in paragraph at lines 1108--1109
+[]/ptmr8t/References count-Fields(), init-Rdh-Gsl-Mat(), set-Rdh-Col-From-Strin
+g(), and set-Rdh-
+ []
+
+
+Overfull \hbox (87.00027pt too wide) in paragraph at lines 1165--1165
+[]/pcrr8t@8.0pt/906      for ( l=0 ; l<numFields ; l++ ){ setRdhIndex(data, seq
+No, l, indexNo); indexNo++;[] 
+ []
+
+[232]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1233--1233
+[]/pcrr8t@8.0pt/1004   status = checkRealDataFormat (buf, nl, sep, &numSeq, &di
+mensions);[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 1233--1233
+[]/pcrr8t@8.0pt/1008            "Data file is poorly formatted or no sequences 
+read!\n");[] 
+ []
+
+
+Overfull \hbox (53.40025pt too wide) in paragraph at lines 1233--1233
+[]/pcrr8t@8.0pt/1010            "Each sequence needs to be the same dimensional
+ity!  QUITTING!\n");[] 
+ []
+
+
+Overfull \hbox (48.60025pt too wide) in paragraph at lines 1233--1233
+[]/pcrr8t@8.0pt/1011       fprintf (stderr, "numSeq = %d, dimensions = %d, stat
+us = %d\n", numSeq,[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1233--1233
+[]/pcrr8t@8.0pt/1016   // From here on, we assume that the sequence file is wel
+l-formatted[] 
+ []
+
+[233]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 1321--1321
+[]/pcrr8t@8.0pt/758       fprintf (stderr, "Passed bad data to setRdhColFromStr
+ing -- error!");[] 
+ []
+
+[234] [235]
+Overfull \hbox (29.40024pt too wide) in paragraph at lines 1356--1356
+[]/pcrr8t@8.0pt/602   if (data == NULL || data->indexToSeq == NULL || data->ind
+exToPos == NULL[] 
+ []
+
+[236]
+Overfull \hbox (34.20024pt too wide) in paragraph at lines 1420--1420
+[]/pcrr8t@8.0pt/578       || posNo > getRdhSeqLength (data, seqNo) || dimNo > g
+etRdhDim (data))[] 
+ []
+
+[237]
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 1485--1485
+[]/pcrr8t@8.0pt/47   memsize = end - begin + 2;    // An extra space in mem for
+ null-termination[] 
+ []
+
+
+Overfull \hbox (10.20023pt too wide) in paragraph at lines 1485--1485
+[]/pcrr8t@8.0pt/73       fprintf (stderr, "\nError making double from string: %
+s\n", str);[] 
+ []
+
+) [238]
+\openout2 = `realIo_8h.aux'.
+
+ (./realIo_8h.tex
+<realIo_8h__incl.pdf, id=3830, 429.605pt x 319.1925pt>
+File: realIo_8h__incl.pdf Graphic file (type pdf)
+
+<use realIo_8h__incl.pdf>
+<realIo_8h__dep__incl.pdf, id=3831, 291.0875pt x 96.36pt>
+File: realIo_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use realIo_8h__dep__incl.pdf> [239
+
+
+ <./realIo_8h__incl.pdf> <./realIo_8h__dep__incl.pdf>]
+Underfull \hbox (badness 4072) in paragraph at lines 48--49
+[]/ptmr8t/int [][]output-Real-Pats-WCentroid[][] ([][]rdh_-t[][] $/cmsy10/^^C$/
+ptmr8t/data, [][]cll_-t[][] $/cmsy10/^^C$/ptmr8t/all-Pats, int L, FILE
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 83--84
+[]/ptmr8t/Referenced by general-Match-Factor(), get-Rdh-Value(), mass-Spec-Comp
+are-WElut(),
+ []
+
+[240] [241]) [242]
+\openout2 = `spat_8h.aux'.
+
+ (./spat_8h.tex
+<spat_8h__dep__incl.pdf, id=3907, 152.57pt x 92.345pt>
+File: spat_8h__dep__incl.pdf Graphic file (type pdf)
+
+<use spat_8h__dep__incl.pdf>) [243
+
+
+ <./spat_8h__dep__incl.pdf>]
+\openout2 = `words_8c.aux'.
+
+ (./words_8c.tex
+<words_8c__incl.pdf, id=3923, 305.14pt x 202.7575pt>
+File: words_8c__incl.pdf Graphic file (type pdf)
+ <use words_8c__incl.pdf>
+[244
+
+
+ <./words_8c__incl.pdf>] [245]
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 210--210
+[]/pcrr8t@8.0pt/427           words = (sPat_t *) realloc (words, (wc + 1) * siz
+eof (sPat_t));[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [246]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 210--210
+[]/pcrr8t@8.0pt/441           fprintf (stderr, "\nMemory Error\n%s\n", strerror
+ (errno));[] 
+ []
+
+
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 210--210
+[]/pcrr8t@8.0pt/477           words[prev].offset[words[prev].support - 1].next 
+= ep->idx;[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [247]
+[248] [249]
+Overfull \hbox (5.40022pt too wide) in paragraph at lines 385--385
+[]/pcrr8t@8.0pt/176   this.hash = (sHashEntry_t **) malloc (n * sizeof (sHashEn
+try_t *));[] 
+ []
+
+
+Overfull \hbox (24.60023pt too wide) in paragraph at lines 418--418
+[]/pcrr8t@8.0pt/308       strncpy (string, thisHash->hash[i][j].key, thisHash->
+hash[i][j].L);[] 
+ []
+
+[250] [251]
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 544--544
+[]/pcrr8t@8.0pt/210   thisIndex = hashFunction ((unsigned char *) string) % thi
+sHash->totalSize;[] 
+ []
+
+
+Overfull \hbox (39.00024pt too wide) in paragraph at lines 544--544
+[]/pcrr8t@8.0pt/216       if (strncmp (thisHash->hash[thisIndex][i].key, string
+, newEntry->L) ==[] 
+ []
+
+[252]
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+
+ []
+
+[253]) [254] (./refman.ind [255
+
+
+] [256] [257] [258] [259] [260] [261] [262]
+[263] [264] [265] [266] [267
+
+]) (./refman.aux (./structbitSet__t.aux)
+(./structcnode.aux) (./structcSet__t.aux) (./structfSeq__t.aux)
+(./structmnode.aux) (./structrdh__t.aux) (./structsHash__t.aux)
+(./structsHashEntry__t.aux) (./structsOffset__t.aux) (./structsPat__t.aux)
+(./structsSize__t.aux) (./bitSet_8c.aux) (./bitSet_8h.aux) (./convll_8c.aux)
+(./convll_8h.aux) (./fastaSeqIO_8c.aux) (./fastaSeqIO_8h.aux)
+(./gemoda-r_8c.aux) (./gemoda-s_8c.aux) (./matdata_8h.aux) (./matrices_8c.aux)
+(./matrices_8h.aux) (./matrixmap_8h.aux) (./newConv_8c.aux) (./patStats_8c.aux)
+(./patStats_8h.aux) (./realCompare_8c.aux) (./realCompare_8h.aux)
+(./realIo_8c.aux) (./realIo_8h.aux) (./spat_8h.aux) (./words_8c.aux)) ) 
+Here is how much of TeX's memory you used:
+ 5750 strings out of 95437
+ 82241 string characters out of 1190233
+ 138754 words of memory out of 1000001
+ 7190 multiletter control sequences out of 10000+50000
+ 47750 words of font info for 51 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 31i,13n,43p,2185b,566s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 4885 PDF objects out of 300000
+ 1236 named destinations out of 131072
+ 457 words of extra memory for PDF output out of 65536
+
+! pdfTeX warning (dest): name{words_8c-source} has been referenced but does not
+ exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{realIo_8c-source} has been referenced but does no
+t exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{realCompare_8h-source} has been referenced but do
+es not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{realCompare_8c-source} has been referenced but do
+es not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{patStats_8c-source} has been referenced but does 
+not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{newConv_8c-source} has been referenced but does n
+ot exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{matrixmap_8h-source} has been referenced but does
+ not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{matrices_8h-source} has been referenced but does 
+not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{matrices_8c-source} has been referenced but does 
+not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{matdata_8h-source} has been referenced but does n
+ot exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{gemoda-s_8c-source} has been referenced but does 
+not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{gemoda-r_8c-source} has been referenced but does 
+not exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{convll_8h-source} has been referenced but does no
+t exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{convll_8c-source} has been referenced but does no
+t exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{bitSet_8h-source} has been referenced but does no
+t exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{bitSet_8c-source} has been referenced but does no
+t exist, replaced by a fixed one
+
+! pdfTeX warning (dest): name{align_8c-source} has been referenced but does not
+ exist, replaced by a fixed one
+
+{/usr/share/texmf/dvips/psnfss/8r.enc}{/usr/share/texmf/dvips/tetex/bbad153f.en
+c}</usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb>{/usr/share/texmf/dvips/t
+etex/aae443f0.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb>
+Output written on refman.pdf (271 pages, 1295946 bytes).

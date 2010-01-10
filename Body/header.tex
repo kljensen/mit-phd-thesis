@@ -1,0 +1,153 @@
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}    % if you want extra symbols
+\usepackage{mathrsfs}
+\usepackage{program}
+\usepackage{newlfont}
+\usepackage{rotating}
+\usepackage{varioref}
+\usepackage{graphicx}
+%\usepackage{txfont}
+\usepackage{makeidx}
+\usepackage{tocbibind}
+\usepackage{program}
+\usepackage{import}
+\usepackage{subfigure}
+\usepackage{verbatim}
+\usepackage{colortbl}
+
+%\usepackage[LY1]{fontenc}
+%\usepackage{patchcmd}
+%\usepackage{myfss}
+%\usepackage{caslon}
+%\renewcommand{\encodingdefault}{LY1}
+%\rmshape \rgshape
+
+\usepackage[oldstyle]{agaramond}
+%\usepackage[lining]{agaramond}
+\usepackage[small]{eulervm}
+\usepackage{courier} % for texttt
+
+
+
+\usepackage{ulem} %underlines
+\normalem % normal emph w/ ulem
+
+\usepackage[numbers,square,sort&compress]{natbib}
+\usepackage[pdftex,plainpages=false,breaklinks=true,colorlinks=true,urlcolor=blue,citecolor=blue, linkcolor=blue,bookmarks=true,bookmarksopen=true,bookmarksopenlevel=0,pdfstartview=Fit,pdfview=Fit,pagebackref,linktocpage=true,bookmarksnumbered=true]{hyperref}
+\usepackage{hypernat}
+\usepackage{array}
+\usepackage{supertabular}
+
+%%% stuff for doxygen
+%\usepackage{times}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{alltt}
+\usepackage{Body/appb/doxygen}
+%%%%%%%%%%%
+
+
+
+
+% Symbols used by the authors
+    \DeclareMathOperator{\suffix}{suffix}
+    \DeclareMathOperator{\prefix}{prefix}
+    \DeclareMathOperator{\prob}{Pr}
+\newcommand{\conv}{\curvearrowright}
+\newcommand{\ttt}[1]{\texttt{#1}}
+\newcommand{\vect}[1]{\begin{pmatrix}#1\end{pmatrix}}
+\newcommand{\paren}[1]{\left(#1\right)}
+\newcommand{\brac}[1]{\left[#1\right]}
+\newcommand{\braces}[1]{\left\{#1\right\}}
+\newcommand{\avector}[2]{(#1_1,#1_2,\ldots,#1_{#2})} 
+\newcommand{\aset}[2]{{#1_1,#1_2,\ldots,#1_{#2}}} 
+\newcommand{\ith}[1]{\ensuremath{{#1^{\textrm{th}}}}} 
+\newcommand{\nd}[1]{\ensuremath{{#1^{\textrm{nd}}}}} 
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+\DeclareMathSymbol{\N}{\mathbin}{AMSb}{"4E}
+\DeclareMathSymbol{\realNums}{\mathbin}{AMSb}{"52}
+
+
+\newcommand{\curls}[1]{\left\{#1\right\}}
+%\newcommand{\teirRegEx}{\ensuremath{\paren{\Sigma\cup\curls{\brac{\Sigma\Sigma^{\ast}\Sigma}}}\paren{\Sigma\cup\curls{.}\cup\curls{\brac{\Sigma\Sigma^{\ast}\Sigma}}}^{\ast}\paren{\Sigma\cup\curls{\brac{\Sigma\Sigma^{\ast}\Sigma}}}\cup\Sigma}}
+\newcommand{\teirRegEx}{\ensuremath{\Sigma\paren{\Sigma\cup\curls{.}}\Sigma}}
+\newcommand{\teiresias}{\texttt{TEIRESIAS}}
+\newcommand{\Teiresias}{\texttt{TEIRESIAS}}
+\newcommand{\Fasta}{FastA}
+\newcommand{\fasta}{FastA}
+\newcommand{\psiblast}{psi--Blast}
+\newcommand{\prosite}{PROSITE}
+\newcommand{\biodictionary}{Bio--Dictionary}
+\newcommand{\genbank}{GENBANK}
+\newcommand{\embl}{EMBL}
+\newcommand{\etal}{\emph{et.\ al.\ }}
+\newcommand{\sptr}{SwissProt/TrEMBL}
+\newcommand{\swissp}{SWISS--PROT}
+\newcommand{\swissprot}{\swissp}
+\newcommand{\swissptr}{SWISS--PROT/TrEMBL}
+\newcommand{\swissprottrembl}{\swissptr}
+\newcommand{\amsdb}{AMSDb}
+\newcommand{\ncbi}{NCBI}
+\newcommand{\blosum}{BLOSUM}
+\newcommand{\pam}{PAM}
+\newcommand{\oligo}{oligonucleotide}
+\newcommand{\Oligo}{Oligonucleotide}
+\newcommand{\blast}{BLAST}
+\newcommand{\pr}[1]{\prob\left(#1\right)}
+\newcommand{\prt}[1]{\prob\left(\textrm{#1}\right)}
+\newcommand{\cp}[2]{\prob\left(#1\mid #2\right)}
+\newcommand{\cpt}[2]{\prob\left(\textrm{#1}\mid \textrm{#2}\right)}
+\newcommand{\ex}[1]{\mathbf{E}\left[#1\right]}
+%\newcommand{\var}[1]{\textrm{var}\left(#1\right)}
+\newcommand{\phip}[3]{\Phi\paren{\frac{#1-\paren{#2}}{#3}}}
+%\newcommand{\vect}[1]{\mathbf{#1}}
+\newcommand{\ten}[1]{\mathbf{#1}}
+\newcommand{\pdf}[2]{p_{#1}\left(#2\right)}
+\newcommand{\pmf}[2]{p_{#1}\left(#2\right)}
+\newcommand{\transf}[2]{M_{#1}\left(#2\right)}
+\newcommand{\expo}[1]{\exp\left[#1\right]}
+\newcommand{\pd}[2]{\frac{\partial}{\partial #2}\brac{#1}}
+\setlength{\extrarowheight}{3pt}
+\newcommand{\marnote}[1]{\marginpar{\raggedleft\footnotesize\bfseries\hspace{0pt} #1}}
+
+\usepackage{fancyhdr}
+%\renewcommand{\chaptermark}[1]{\markboth{\textit{\chaptername}\ \thechapter.\ #1}{}}
+
+%this defines the basic headers and footer
+% styles when we use the 'fancyhdr' styles
+%\lhead[\fancyplain{}{\itshape\footnotesize\thepage}]{\fancyplain{}{\itshape\footnotesize\rightmark}}
+%\rhead[\fancyplain{}{\itshape\footnotesize\leftmark}]{\fancyplain{}{\itshape\footnotesize\thepage}}
+%\lhead[\fancyplain{}\bfseries\thepage]{\fancyplain{}\bfseries\rightmark}
+%\rhead[\fancyplain{}\bfseries\leftmark]{\fancyplain{}\bfseries\thepage}
+%\pagestyle{fancyplain}
+\addtolength{\headwidth}{0.5\marginparsep}
+\addtolength{\headwidth}{0.5\marginparwidth}
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\lhead[\fancyplain{}{\footnotesize\thepage}]{\fancyplain{}{\footnotesize\rightmark}}
+\rhead[\fancyplain{}{\footnotesize\leftmark}]{\fancyplain{}{\footnotesize\thepage}}
+\cfoot{}
+\cfoot{}
+
+% Special Float captions
+% Different font in captions
+\newcommand{\captionfonts}{\mdseries}
+\newcommand{\floatnamefonts}{\bfseries}
+\makeatletter  % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\floatnamefonts #1:~~\captionfonts #2}}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\floatnamefonts #1: \captionfonts #2\par}
+  \else
+    \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother   % Cancel the effect of \makeatletter
+
+\makeindex

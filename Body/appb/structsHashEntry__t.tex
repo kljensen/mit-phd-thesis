@@ -1,0 +1,74 @@
+\hypertarget{structsHashEntry__t}{
+\section{s\-Hash\-Entry\_\-t Struct Reference}
+\label{structsHashEntry__t}\index{sHashEntry_t@{sHashEntry\_\-t}}
+}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+char $\ast$ \hyperlink{structsHashEntry__t_o0}{key}
+\item 
+int \hyperlink{structsHashEntry__t_o1}{L}
+\item 
+int \hyperlink{structsHashEntry__t_o2}{data}
+\item 
+int \hyperlink{structsHashEntry__t_o3}{idx}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+Type for a hash table entry. This datatype is used to populate a hash table. The most important members of this data structure are the string, or the key, and the index to which that key hashes.
+
+
+
+Definition at line 114 of file words.c.
+
+\subsection*{Field Documentation}
+\hypertarget{structsHashEntry__t_o2}{
+\index{sHashEntry_t@{s\-Hash\-Entry\_\-t}!data@{data}}
+\index{data@{data}!sHashEntry_t@{s\-Hash\-Entry\_\-t}}
+\subsubsection[data]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsHashEntry__t_o2}{s\-Hash\-Entry\_\-t::data}}}
+\label{structsHashEntry__t_o2}
+
+
+A throw away variable, used to store any necessary data 
+
+Definition at line 121 of file words.c.
+
+Referenced by count\-Words2(), and print\-SHash().\hypertarget{structsHashEntry__t_o3}{
+\index{sHashEntry_t@{s\-Hash\-Entry\_\-t}!idx@{idx}}
+\index{idx@{idx}!sHashEntry_t@{s\-Hash\-Entry\_\-t}}
+\subsubsection[idx]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsHashEntry__t_o3}{s\-Hash\-Entry\_\-t::idx}}}
+\label{structsHashEntry__t_o3}
+
+
+The integer to which the {\em key\/} of length {\em L\/} hashes 
+
+Definition at line 123 of file words.c.
+
+Referenced by count\-Words2().\hypertarget{structsHashEntry__t_o0}{
+\index{sHashEntry_t@{s\-Hash\-Entry\_\-t}!key@{key}}
+\index{key@{key}!sHashEntry_t@{s\-Hash\-Entry\_\-t}}
+\subsubsection[key]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ \hyperlink{structsHashEntry__t_o0}{s\-Hash\-Entry\_\-t::key}}}
+\label{structsHashEntry__t_o0}
+
+
+A pointer to a string 
+
+Definition at line 117 of file words.c.
+
+Referenced by count\-Words2(), print\-SHash(), and search\-SHash().\hypertarget{structsHashEntry__t_o1}{
+\index{sHashEntry_t@{s\-Hash\-Entry\_\-t}!L@{L}}
+\index{L@{L}!sHashEntry_t@{s\-Hash\-Entry\_\-t}}
+\subsubsection[L]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsHashEntry__t_o1}{s\-Hash\-Entry\_\-t::L}}}
+\label{structsHashEntry__t_o1}
+
+
+The length of the string that should be used to compute the hash 
+
+Definition at line 119 of file words.c.
+
+Referenced by count\-Words2(), print\-SHash(), and search\-SHash().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{words_8c}{words.c}\end{CompactItemize}

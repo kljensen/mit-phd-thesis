@@ -1,0 +1,115 @@
+\hypertarget{structrdh__t}{
+\section{rdh\_\-t Struct Reference}
+\label{structrdh__t}\index{rdh_t@{rdh\_\-t}}
+}
+{\tt \#include $<$real\-Io.h$>$}
+
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int \hyperlink{structrdh__t_o0}{size}
+\item 
+int \hyperlink{structrdh__t_o1}{index\-Size}
+\item 
+char $\ast$$\ast$ \hyperlink{structrdh__t_o2}{label}
+\item 
+gsl\_\-matrix $\ast$$\ast$ \hyperlink{structrdh__t_o3}{seq}
+\item 
+int $\ast$ \hyperlink{structrdh__t_o4}{index\-To\-Seq}
+\item 
+int $\ast$ \hyperlink{structrdh__t_o5}{index\-To\-Pos}
+\item 
+int $\ast$$\ast$ \hyperlink{structrdh__t_o6}{offset\-To\-Index}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+This is a data structure, which is used to store real valued data. Basically, this is an array of gsl\_\-matrix objects, where each matrix represents a single, multidimensional array that was read in from a Fast\-A formatted file.
+
+
+
+Definition at line 24 of file real\-Io.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structrdh__t_o1}{
+\index{rdh_t@{rdh\_\-t}!indexSize@{indexSize}}
+\index{indexSize@{indexSize}!rdh_t@{rdh\_\-t}}
+\subsubsection[indexSize]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structrdh__t_o1}{rdh\_\-t::index\-Size}}}
+\label{structrdh__t_o1}
+
+
+The size of the index, where the index is used to store pointers to the different sequences in this object. 
+
+Definition at line 30 of file real\-Io.h.
+
+Referenced by get\-Rdh\-Index\-Seq\-Pos(), init\-Rdh(), init\-Rdh\-Index(), real\-Comparison(), and set\-Rdh\-Index().\hypertarget{structrdh__t_o5}{
+\index{rdh_t@{rdh\_\-t}!indexToPos@{indexToPos}}
+\index{indexToPos@{indexToPos}!rdh_t@{rdh\_\-t}}
+\subsubsection[indexToPos]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ \hyperlink{structrdh__t_o5}{rdh\_\-t::index\-To\-Pos}}}
+\label{structrdh__t_o5}
+
+
+The array of integers that tell us to which position in a sequence each index in the gsl\_\-matrix array corresponds. 
+
+Definition at line 40 of file real\-Io.h.
+
+Referenced by free\-Rdh(), get\-Rdh\-Index\-Seq\-Pos(), init\-Rdh(), init\-Rdh\-Index(), and set\-Rdh\-Index().\hypertarget{structrdh__t_o4}{
+\index{rdh_t@{rdh\_\-t}!indexToSeq@{indexToSeq}}
+\index{indexToSeq@{indexToSeq}!rdh_t@{rdh\_\-t}}
+\subsubsection[indexToSeq]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ \hyperlink{structrdh__t_o4}{rdh\_\-t::index\-To\-Seq}}}
+\label{structrdh__t_o4}
+
+
+The array of integers that will tell us to which sequence each index and the gsl\_\-matrix array corresponds. 
+
+Definition at line 37 of file real\-Io.h.
+
+Referenced by free\-Rdh(), get\-Rdh\-Index\-Seq\-Pos(), init\-Rdh(), init\-Rdh\-Index(), main(), and set\-Rdh\-Index().\hypertarget{structrdh__t_o2}{
+\index{rdh_t@{rdh\_\-t}!label@{label}}
+\index{label@{label}!rdh_t@{rdh\_\-t}}
+\subsubsection[label]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$$\ast$ \hyperlink{structrdh__t_o2}{rdh\_\-t::label}}}
+\label{structrdh__t_o2}
+
+
+The array of labels that store the names of each sequence. 
+
+Definition at line 32 of file real\-Io.h.
+
+Referenced by free\-Rdh(), get\-Rdh\-Label(), init\-Rdh(), and set\-Rdh\-Label().\hypertarget{structrdh__t_o6}{
+\index{rdh_t@{rdh\_\-t}!offsetToIndex@{offsetToIndex}}
+\index{offsetToIndex@{offsetToIndex}!rdh_t@{rdh\_\-t}}
+\subsubsection[offsetToIndex]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$$\ast$ \hyperlink{structrdh__t_o6}{rdh\_\-t::offset\-To\-Index}}}
+\label{structrdh__t_o6}
+
+
+The array that points from a particular offset to its index. 
+
+Definition at line 42 of file real\-Io.h.
+
+Referenced by free\-Rdh(), init\-Rdh\-Index(), and main().\hypertarget{structrdh__t_o3}{
+\index{rdh_t@{rdh\_\-t}!seq@{seq}}
+\index{seq@{seq}!rdh_t@{rdh\_\-t}}
+\subsubsection[seq]{\setlength{\rightskip}{0pt plus 5cm}gsl\_\-matrix$\ast$$\ast$ \hyperlink{structrdh__t_o3}{rdh\_\-t::seq}}}
+\label{structrdh__t_o3}
+
+
+The array of matrices that store the data we read in. 
+
+Definition at line 34 of file real\-Io.h.
+
+Referenced by free\-Rdh(), general\-Match\-Factor(), get\-Rdh\-Dim(), get\-Rdh\-Seq\-Length(), get\-Rdh\-Value(), init\-Rdh(), init\-Rdh\-Gsl\-Mat(), mass\-Spec\-Compare\-WElut(), output\-Real\-Pats(), rmsd\-Compare(), set\-Rdh\-Col\-From\-String(), set\-Rdh\-Label(), and set\-Rdh\-Value().\hypertarget{structrdh__t_o0}{
+\index{rdh_t@{rdh\_\-t}!size@{size}}
+\index{size@{size}!rdh_t@{rdh\_\-t}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structrdh__t_o0}{rdh\_\-t::size}}}
+\label{structrdh__t_o0}
+
+
+The number of sequences stored in this data structure. 
+
+Definition at line 27 of file real\-Io.h.
+
+Referenced by init\-Rdh(), init\-Rdh\-Index(), and main().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{realIo_8h}{real\-Io.h}\end{CompactItemize}

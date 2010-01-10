@@ -1,0 +1,76 @@
+\RequirePackage[LY1]{fontenc}
+\RequirePackage{myfss}
+\ProvidesPackage{caslon}[2005/07/11 sets up Caslon font]
+
+%set default
+\renewcommand{\rmdefault}{ACaslonPro}%I'm just assuming it will be the default roman
+
+%map ornaments 
+\DeclareTextOrnament{1}{49}{ACaslonPro}
+\DeclareTextOrnament{2}{50}{ACaslonPro}
+\DeclareTextOrnament{3}{51}{ACaslonPro}
+\DeclareTextOrnament{4}{111}{ACaslonPro}
+\DeclareTextOrnament{5}{121}{ACaslonPro}
+\DeclareTextOrnament{6}{114}{ACaslonPro}
+\DeclareTextOrnament{7}{116}{ACaslonPro}
+\DeclareTextOrnament{8}{66}{ACaslonPro}
+\DeclareTextOrnament{9}{98}{ACaslonPro}
+\DeclareTextOrnament{10}{86}{ACaslonPro}
+\DeclareTextOrnament{11}{118}{ACaslonPro}
+\DeclareTextOrnament{12}{91}{ACaslonPro}
+\DeclareTextOrnament{13}{93}{ACaslonPro}
+\DeclareTextOrnament{14}{106}{ACaslonPro}
+\DeclareTextOrnament{15}{74}{ACaslonPro}
+\DeclareTextOrnament{16}{75}{ACaslonPro}
+\DeclareTextOrnament{17}{108}{ACaslonPro}
+\DeclareTextOrnament{18}{99}{ACaslonPro}
+\DeclareTextOrnament{19}{67}{ACaslonPro}
+\DeclareTextOrnament{20}{104}{ACaslonPro}
+\DeclareTextOrnament{21}{72}{ACaslonPro}
+\DeclareTextOrnament{22}{71}{ACaslonPro}
+\DeclareTextOrnament{23}{103}{ACaslonPro}
+\DeclareTextOrnament{24}{105}{ACaslonPro}
+\DeclareTextOrnament{25}{73}{ACaslonPro}
+\DeclareTextOrnament{26}{109}{ACaslonPro}
+\DeclareTextOrnament{27}{77}{ACaslonPro}
+\DeclareTextOrnament{28}{78}{ACaslonPro}
+\DeclareTextOrnament{29}{110}{ACaslonPro}
+\DeclareTextOrnament{30}{80}{ACaslonPro}
+\DeclareTextOrnament{31}{112}{ACaslonPro}
+\DeclareTextOrnament{32}{88}{ACaslonPro}
+\DeclareTextOrnament{33}{120}{ACaslonPro}
+\DeclareTextOrnament{34}{122}{ACaslonPro}
+\DeclareTextOrnament{35}{90}{ACaslonPro}
+\DeclareTextOrnament{36}{53}{ACaslonPro}
+\DeclareTextOrnament{37}{52}{ACaslonPro}
+\DeclareTextOrnament{38}{102}{ACaslonPro}
+\DeclareTextOrnament{39}{70}{ACaslonPro}
+\DeclareTextOrnament{40}{65}{ACaslonPro}
+\DeclareTextOrnament{41}{97}{ACaslonPro}
+\DeclareTextOrnament{42}{100}{ACaslonPro}
+\DeclareTextOrnament{43}{68}{ACaslonPro}
+\DeclareTextOrnament{44}{83}{ACaslonPro}
+\DeclareTextOrnament{45}{115}{ACaslonPro}
+\DeclareTextOrnament{46}{113}{ACaslonPro}
+\DeclareTextOrnament{47}{119}{ACaslonPro}
+\DeclareTextOrnament{48}{101}{ACaslonPro}
+\DeclareTextOrnament{49}{85}{ACaslonPro}
+\DeclareTextOrnament{50}{117}{ACaslonPro}
+\DeclareTextOrnament{51}{81}{ACaslonPro}
+\DeclareTextOrnament{52}{87}{ACaslonPro}
+\DeclareTextOrnament{53}{69}{ACaslonPro}
+
+%are the following always needed, or are they quirks of Caslon?
+\newcommand*{\Euro}{ euro}%should be at \char 1
+\renewcommand*{\ae}{\char 26}
+\renewcommand*{\AE}{\char 29}
+\renewcommand*{\o}{\char 28}
+\renewcommand*{\O}{\char 31}
+\newcommand*{\asterisk}{\char 42}
+%\renewcommand*{\"}{\char 127}%don't do this; it breaks all the compounds that you actually use for diereses.
+\newcommand*{\porm}{\char 177}
+\newcommand*{\squared}{\char 178}
+\newcommand*{\cubed}{\char 179}
+\newcommand*{\totheone}{\char 185}
+\renewcommand*{\texttimes}{\char 215}
+\renewcommand*{\textdivide}{\char 247}

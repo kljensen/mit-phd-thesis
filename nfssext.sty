@@ -1,0 +1,106 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{nfssext}[2003/03/14 v1.2 Experimental NFSS Extensions]
+\newcommand*{\exfs@tempa}{}
+\newcommand*{\exfs@tempb}{}
+\newcommand*{\exfs@try@family}[2][]{%
+  \let\exfs@tempa\relax
+  \begingroup
+    \fontfamily{#2}\try@load@fontshape
+    \expandafter\ifx\csname\curr@fontshape\endcsname\relax
+      \edef\exfs@tempa{#1}%
+      \ifx\exfs@tempa\@empty
+        \PackageWarning{nfssext}{%
+          Font family '\f@encoding/#2' not available\MessageBreak
+          Ignoring font switch}%
+      \else
+        \PackageInfo{nfssext}{%
+          Font family '\f@encoding/#2' not available\MessageBreak
+          Font family '\f@encoding/#1' tried instead}%
+        \exfs@try@family{#1}%
+      \fi
+    \else
+      \gdef\exfs@tempa{\fontfamily{#2}\selectfont}%
+    \fi
+  \endgroup
+  \exfs@tempa}
+\def\exfs@get@base#1#2#3#4\@nil{#1#2#3}
+\DeclareRobustCommand{\lnstyle}{%
+  \not@math@alphabet\lnstyle\relax
+  \exfs@try@family[\expandafter\exfs@get@base\f@family\@nil]%
+                  {\expandafter\exfs@get@base\f@family\@nil x}}
+\DeclareRobustCommand{\osstyle}{%
+  \not@math@alphabet\osstyle\relax
+  \exfs@try@family{\expandafter\exfs@get@base\f@family\@nil j}}
+\DeclareRobustCommand{\instyle}{%
+  \not@math@alphabet\instyle\relax
+  \exfs@try@family{\expandafter\exfs@get@base\f@family\@nil 0}}
+\DeclareRobustCommand{\sustyle}{%
+  \not@math@alphabet\sustyle\relax
+  \exfs@try@family{\expandafter\exfs@get@base\f@family\@nil 1}}
+\DeclareRobustCommand{\swstyle}{%
+  \not@math@alphabet\swstyle\relax
+  \exfs@try@family{\expandafter\exfs@get@base\f@family\@nil w}}
+\newcommand*{\sidefault}{si}
+\DeclareRobustCommand{\sishape}{%
+  \not@math@alphabet\sishape\relax
+  \fontshape\sidefault\selectfont}
+\newcommand*{\exfs@merge@shape}[3]{%
+  \edef\exfs@tempa{#1}%
+  \edef\exfs@tempb{#2}%
+  \ifx\f@shape\exfs@tempb
+    \expandafter\ifx\csname\f@encoding/\f@family/\f@series/#3\endcsname\relax
+    \else
+      \edef\exfs@tempa{#3}%
+    \fi
+  \fi
+  \fontshape{\exfs@tempa}\selectfont}
+\DeclareRobustCommand{\itshape}{%
+  \not@math@alphabet\itshape\mathit
+  \exfs@merge@shape{\itdefault}{\scdefault}{\sidefault}}
+\DeclareRobustCommand{\scshape}{%
+  \not@math@alphabet\scshape\relax
+  \exfs@merge@shape{\scdefault}{\itdefault}{\sidefault}}
+\DeclareRobustCommand{\upshape}{%
+  \not@math@alphabet\upshape\relax
+  \exfs@merge@shape{\updefault}{\sidefault}{\scdefault}}
+\DeclareRobustCommand{\dfshape}{%
+  \not@math@alphabet\dfshape\relax
+  \fontshape\shapedefault\selectfont}
+\newcommand*{\swshapedefault}{\itdefault}
+\DeclareRobustCommand{\swshape}{%
+  \not@math@alphabet\swshape\relax
+  \swstyle\fontshape\swshapedefault\selectfont}
+\DeclareTextFontCommand{\textln}{\lnstyle}
+\DeclareTextFontCommand{\textos}{\osstyle}
+\DeclareTextFontCommand{\textin}{\instyle}
+\DeclareTextFontCommand{\textsu}{\sustyle}
+\DeclareTextFontCommand{\textsi}{\sishape}
+\DeclareTextFontCommand{\textdf}{\dfshape}
+\DeclareTextFontCommand{\textsw}{\swshape}
+\newcommand*{\DeclareTextOrnament}[7]{%
+  \expandafter\def\csname#1@orn\@roman#2\endcsname{#3/#4/#5/#6/#7}}
+\begingroup
+  \catcode`\/=12
+  \gdef\exfs@split@orndef#1/#2/#3/#4/#5\@nil{%
+    \def\f@encoding{#1}%
+    \def\f@family{#2}%
+    \def\f@series{#3}%
+    \def\f@shape{#4}%
+    \def\exfs@tempa{#5}}
+\endgroup
+\def\exfs@base@family{\expandafter\exfs@get@base\f@family\@nil}
+\DeclareRobustCommand{\ornament}[1]{%
+  \expandafter\ifx\csname\exfs@base@family @orn\@roman#1\endcsname\relax
+    \PackageWarning{nfssext}{%
+      Ornament #1 undefined for font family '\exfs@base@family'\MessageBreak
+      Setting debug mark}%
+    \rule{1ex}{1ex}%
+  \else
+    \begingroup
+      \edef\exfs@tempb{\csname\exfs@base@family @orn\@roman#1\endcsname}%
+      \expandafter\expandafter\expandafter\exfs@split@orndef
+        \expandafter\string\exfs@tempb\@nil
+      \selectfont\char\exfs@tempa
+    \endgroup
+  \fi}
+\endinput

@@ -1,0 +1,487 @@
+\contentsline {chapter}{\numberline {1}gemoda Directory Documentation}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO/ Directory Reference}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}gemoda Data Structure Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t Struct Reference}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Field Documentation}{4}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}graph}{4}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}size}{4}{subsubsection.2.1.2.2}
+\contentsline {section}{\numberline {2.2}bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t Struct Reference}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Field Documentation}{5}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}bytes}{5}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}max}{5}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}slots}{5}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}tf}{6}{subsubsection.2.2.2.4}
+\contentsline {section}{\numberline {2.3}cnode Struct Reference}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Field Documentation}{7}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}id}{7}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}length}{8}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}next}{8}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}set}{8}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}stat}{8}{subsubsection.2.3.2.5}
+\contentsline {section}{\numberline {2.4}c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t Struct Reference}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Detailed Description}{9}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Field Documentation}{9}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}members}{9}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}size}{9}{subsubsection.2.4.2.2}
+\contentsline {section}{\numberline {2.5}f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t Struct Reference}{11}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{11}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Field Documentation}{11}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}label}{11}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}seq}{11}{subsubsection.2.5.2.2}
+\contentsline {section}{\numberline {2.6}mnode Struct Reference}{12}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Detailed Description}{12}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Field Documentation}{12}{subsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.2.1}cliqueMembership}{12}{subsubsection.2.6.2.1}
+\contentsline {subsubsection}{\numberline {2.6.2.2}next}{12}{subsubsection.2.6.2.2}
+\contentsline {section}{\numberline {2.7}rdh\_\discretionary {-}{}{}t Struct Reference}{13}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Detailed Description}{13}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Field Documentation}{13}{subsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.2.1}indexSize}{13}{subsubsection.2.7.2.1}
+\contentsline {subsubsection}{\numberline {2.7.2.2}indexToPos}{13}{subsubsection.2.7.2.2}
+\contentsline {subsubsection}{\numberline {2.7.2.3}indexToSeq}{14}{subsubsection.2.7.2.3}
+\contentsline {subsubsection}{\numberline {2.7.2.4}label}{14}{subsubsection.2.7.2.4}
+\contentsline {subsubsection}{\numberline {2.7.2.5}offsetToIndex}{14}{subsubsection.2.7.2.5}
+\contentsline {subsubsection}{\numberline {2.7.2.6}seq}{14}{subsubsection.2.7.2.6}
+\contentsline {subsubsection}{\numberline {2.7.2.7}size}{14}{subsubsection.2.7.2.7}
+\contentsline {section}{\numberline {2.8}s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t Struct Reference}{15}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Detailed Description}{15}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Field Documentation}{15}{subsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.2.1}hash}{15}{subsubsection.2.8.2.1}
+\contentsline {subsubsection}{\numberline {2.8.2.2}hashSize}{15}{subsubsection.2.8.2.2}
+\contentsline {subsubsection}{\numberline {2.8.2.3}iHashSize}{16}{subsubsection.2.8.2.3}
+\contentsline {subsubsection}{\numberline {2.8.2.4}totalSize}{16}{subsubsection.2.8.2.4}
+\contentsline {section}{\numberline {2.9}s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t Struct Reference}{17}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Detailed Description}{17}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Field Documentation}{17}{subsection.2.9.2}
+\contentsline {subsubsection}{\numberline {2.9.2.1}data}{17}{subsubsection.2.9.2.1}
+\contentsline {subsubsection}{\numberline {2.9.2.2}idx}{17}{subsubsection.2.9.2.2}
+\contentsline {subsubsection}{\numberline {2.9.2.3}key}{17}{subsubsection.2.9.2.3}
+\contentsline {subsubsection}{\numberline {2.9.2.4}L}{18}{subsubsection.2.9.2.4}
+\contentsline {section}{\numberline {2.10}s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t Struct Reference}{19}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Detailed Description}{19}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Field Documentation}{19}{subsection.2.10.2}
+\contentsline {subsubsection}{\numberline {2.10.2.1}next}{19}{subsubsection.2.10.2.1}
+\contentsline {subsubsection}{\numberline {2.10.2.2}pos}{19}{subsubsection.2.10.2.2}
+\contentsline {subsubsection}{\numberline {2.10.2.3}prev}{19}{subsubsection.2.10.2.3}
+\contentsline {subsubsection}{\numberline {2.10.2.4}seq}{20}{subsubsection.2.10.2.4}
+\contentsline {section}{\numberline {2.11}s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t Struct Reference}{21}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Detailed Description}{21}{subsection.2.11.1}
+\contentsline {subsection}{\numberline {2.11.2}Field Documentation}{21}{subsection.2.11.2}
+\contentsline {subsubsection}{\numberline {2.11.2.1}length}{21}{subsubsection.2.11.2.1}
+\contentsline {subsubsection}{\numberline {2.11.2.2}offset}{21}{subsubsection.2.11.2.2}
+\contentsline {subsubsection}{\numberline {2.11.2.3}string}{22}{subsubsection.2.11.2.3}
+\contentsline {subsubsection}{\numberline {2.11.2.4}support}{22}{subsubsection.2.11.2.4}
+\contentsline {section}{\numberline {2.12}s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t Struct Reference}{23}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}Detailed Description}{23}{subsection.2.12.1}
+\contentsline {subsection}{\numberline {2.12.2}Field Documentation}{23}{subsection.2.12.2}
+\contentsline {subsubsection}{\numberline {2.12.2.1}size}{23}{subsubsection.2.12.2.1}
+\contentsline {subsubsection}{\numberline {2.12.2.2}start}{23}{subsubsection.2.12.2.2}
+\contentsline {subsubsection}{\numberline {2.12.2.3}stop}{23}{subsubsection.2.12.2.3}
+\contentsline {chapter}{\numberline {3}gemoda File Documentation}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}align.c File Reference}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{26}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Define Documentation}{27}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}ALIGN\_\discretionary {-}{}{}ALPHABET}{27}{subsubsection.3.1.2.1}
+\contentsline {subsection}{\numberline {3.1.3}Function Documentation}{27}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}alignMat}{27}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}alignWordsMat\_\discretionary {-}{}{}bit}{28}{subsubsection.3.1.3.2}
+\contentsline {subsection}{\numberline {3.1.4}Variable Documentation}{29}{subsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.4.1}aaOrder}{29}{subsubsection.3.1.4.1}
+\contentsline {section}{\numberline {3.2}bit\discretionary {-}{}{}Set.c File Reference}{30}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{31}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Function Documentation}{31}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}bitcount32}{31}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}bitcount32\_\discretionary {-}{}{}precomp}{32}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}bitcount64}{32}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}bitGraphCheckBit}{32}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}bitGraphRowIntersection}{33}{subsubsection.3.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.6}bitGraphRowUnion}{33}{subsubsection.3.2.2.6}
+\contentsline {subsubsection}{\numberline {3.2.2.7}bitGraphSetFalse}{33}{subsubsection.3.2.2.7}
+\contentsline {subsubsection}{\numberline {3.2.2.8}bitGraphSetFalseDiagonal}{34}{subsubsection.3.2.2.8}
+\contentsline {subsubsection}{\numberline {3.2.2.9}bitGraphSetFalseSym}{34}{subsubsection.3.2.2.9}
+\contentsline {subsubsection}{\numberline {3.2.2.10}bitGraphSetTrue}{34}{subsubsection.3.2.2.10}
+\contentsline {subsubsection}{\numberline {3.2.2.11}bitGraphSetTrueDiagonal}{35}{subsubsection.3.2.2.11}
+\contentsline {subsubsection}{\numberline {3.2.2.12}bitGraphSetTrueSym}{35}{subsubsection.3.2.2.12}
+\contentsline {subsubsection}{\numberline {3.2.2.13}bitSet3WayIntersection}{36}{subsubsection.3.2.2.13}
+\contentsline {subsubsection}{\numberline {3.2.2.14}bitSetDifference}{36}{subsubsection.3.2.2.14}
+\contentsline {subsubsection}{\numberline {3.2.2.15}bitSetIntersection}{37}{subsubsection.3.2.2.15}
+\contentsline {subsubsection}{\numberline {3.2.2.16}bitSetSum}{37}{subsubsection.3.2.2.16}
+\contentsline {subsubsection}{\numberline {3.2.2.17}bitSetUnion}{38}{subsubsection.3.2.2.17}
+\contentsline {subsubsection}{\numberline {3.2.2.18}checkBit}{38}{subsubsection.3.2.2.18}
+\contentsline {subsubsection}{\numberline {3.2.2.19}copyBitGraph}{39}{subsubsection.3.2.2.19}
+\contentsline {subsubsection}{\numberline {3.2.2.20}copySet}{39}{subsubsection.3.2.2.20}
+\contentsline {subsubsection}{\numberline {3.2.2.21}countBitGraphNonZero}{40}{subsubsection.3.2.2.21}
+\contentsline {subsubsection}{\numberline {3.2.2.22}countSet}{40}{subsubsection.3.2.2.22}
+\contentsline {subsubsection}{\numberline {3.2.2.23}deleteBitGraph}{41}{subsubsection.3.2.2.23}
+\contentsline {subsubsection}{\numberline {3.2.2.24}deleteBitSet}{41}{subsubsection.3.2.2.24}
+\contentsline {subsubsection}{\numberline {3.2.2.25}emptyBitGraph}{42}{subsubsection.3.2.2.25}
+\contentsline {subsubsection}{\numberline {3.2.2.26}emptyBitGraphRow}{42}{subsubsection.3.2.2.26}
+\contentsline {subsubsection}{\numberline {3.2.2.27}emptySet}{42}{subsubsection.3.2.2.27}
+\contentsline {subsubsection}{\numberline {3.2.2.28}fillBitGraph}{43}{subsubsection.3.2.2.28}
+\contentsline {subsubsection}{\numberline {3.2.2.29}fillSet}{43}{subsubsection.3.2.2.29}
+\contentsline {subsubsection}{\numberline {3.2.2.30}flipBits}{43}{subsubsection.3.2.2.30}
+\contentsline {subsubsection}{\numberline {3.2.2.31}maskBitGraph}{44}{subsubsection.3.2.2.31}
+\contentsline {subsubsection}{\numberline {3.2.2.32}newBitArray}{44}{subsubsection.3.2.2.32}
+\contentsline {subsubsection}{\numberline {3.2.2.33}newBitGraph}{45}{subsubsection.3.2.2.33}
+\contentsline {subsubsection}{\numberline {3.2.2.34}newBitSet}{46}{subsubsection.3.2.2.34}
+\contentsline {subsubsection}{\numberline {3.2.2.35}nextBitBitSet}{46}{subsubsection.3.2.2.35}
+\contentsline {subsubsection}{\numberline {3.2.2.36}printBinaryBitSet}{48}{subsubsection.3.2.2.36}
+\contentsline {subsubsection}{\numberline {3.2.2.37}printBitGraph}{48}{subsubsection.3.2.2.37}
+\contentsline {subsubsection}{\numberline {3.2.2.38}printBitSet}{48}{subsubsection.3.2.2.38}
+\contentsline {subsubsection}{\numberline {3.2.2.39}setFalse}{49}{subsubsection.3.2.2.39}
+\contentsline {subsubsection}{\numberline {3.2.2.40}setTrue}{49}{subsubsection.3.2.2.40}
+\contentsline {section}{\numberline {3.3}bit\discretionary {-}{}{}Set.h File Reference}{51}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{53}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Define Documentation}{53}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}BITSLOT}{53}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}BSBITSIZE}{54}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3}BSCLEAR}{54}{subsubsection.3.3.2.3}
+\contentsline {subsubsection}{\numberline {3.3.2.4}BSINTERSECTION}{54}{subsubsection.3.3.2.4}
+\contentsline {subsubsection}{\numberline {3.3.2.5}BSMASK}{54}{subsubsection.3.3.2.5}
+\contentsline {subsubsection}{\numberline {3.3.2.6}BSNUMSLOTS}{54}{subsubsection.3.3.2.6}
+\contentsline {subsubsection}{\numberline {3.3.2.7}BSSET}{54}{subsubsection.3.3.2.7}
+\contentsline {subsubsection}{\numberline {3.3.2.8}BSTEST}{54}{subsubsection.3.3.2.8}
+\contentsline {subsubsection}{\numberline {3.3.2.9}BSUNION}{55}{subsubsection.3.3.2.9}
+\contentsline {subsection}{\numberline {3.3.3}Typedef Documentation}{55}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}bit\_\discretionary {-}{}{}t}{55}{subsubsection.3.3.3.1}
+\contentsline {subsection}{\numberline {3.3.4}Function Documentation}{55}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}bitGraphCheckBit}{55}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}bitGraphRowIntersection}{55}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}bitGraphRowUnion}{56}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}bitGraphSetFalse}{56}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}bitGraphSetFalseDiagonal}{56}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}bitGraphSetFalseSym}{56}{subsubsection.3.3.4.6}
+\contentsline {subsubsection}{\numberline {3.3.4.7}bitGraphSetTrue}{57}{subsubsection.3.3.4.7}
+\contentsline {subsubsection}{\numberline {3.3.4.8}bitGraphSetTrueDiagonal}{57}{subsubsection.3.3.4.8}
+\contentsline {subsubsection}{\numberline {3.3.4.9}bitGraphSetTrueSym}{57}{subsubsection.3.3.4.9}
+\contentsline {subsubsection}{\numberline {3.3.4.10}bitSet3WayDifference}{57}{subsubsection.3.3.4.10}
+\contentsline {subsubsection}{\numberline {3.3.4.11}bitSet3WayIntersection}{57}{subsubsection.3.3.4.11}
+\contentsline {subsubsection}{\numberline {3.3.4.12}bitSetDifference}{58}{subsubsection.3.3.4.12}
+\contentsline {subsubsection}{\numberline {3.3.4.13}bitSetIntersection}{58}{subsubsection.3.3.4.13}
+\contentsline {subsubsection}{\numberline {3.3.4.14}bitSetSum}{58}{subsubsection.3.3.4.14}
+\contentsline {subsubsection}{\numberline {3.3.4.15}bitSetUnion}{58}{subsubsection.3.3.4.15}
+\contentsline {subsubsection}{\numberline {3.3.4.16}checkBit}{59}{subsubsection.3.3.4.16}
+\contentsline {subsubsection}{\numberline {3.3.4.17}copyBitGraph}{59}{subsubsection.3.3.4.17}
+\contentsline {subsubsection}{\numberline {3.3.4.18}copySet}{59}{subsubsection.3.3.4.18}
+\contentsline {subsubsection}{\numberline {3.3.4.19}countBitGraphNonZero}{59}{subsubsection.3.3.4.19}
+\contentsline {subsubsection}{\numberline {3.3.4.20}countSet}{59}{subsubsection.3.3.4.20}
+\contentsline {subsubsection}{\numberline {3.3.4.21}deleteBitGraph}{60}{subsubsection.3.3.4.21}
+\contentsline {subsubsection}{\numberline {3.3.4.22}deleteBitSet}{60}{subsubsection.3.3.4.22}
+\contentsline {subsubsection}{\numberline {3.3.4.23}emptyBitGraph}{60}{subsubsection.3.3.4.23}
+\contentsline {subsubsection}{\numberline {3.3.4.24}emptyBitGraphRow}{60}{subsubsection.3.3.4.24}
+\contentsline {subsubsection}{\numberline {3.3.4.25}emptySet}{61}{subsubsection.3.3.4.25}
+\contentsline {subsubsection}{\numberline {3.3.4.26}fillBitGraph}{61}{subsubsection.3.3.4.26}
+\contentsline {subsubsection}{\numberline {3.3.4.27}fillSet}{61}{subsubsection.3.3.4.27}
+\contentsline {subsubsection}{\numberline {3.3.4.28}flipBits}{61}{subsubsection.3.3.4.28}
+\contentsline {subsubsection}{\numberline {3.3.4.29}maskBitGraph}{61}{subsubsection.3.3.4.29}
+\contentsline {subsubsection}{\numberline {3.3.4.30}newBitArray}{62}{subsubsection.3.3.4.30}
+\contentsline {subsubsection}{\numberline {3.3.4.31}newBitGraph}{62}{subsubsection.3.3.4.31}
+\contentsline {subsubsection}{\numberline {3.3.4.32}newBitSet}{62}{subsubsection.3.3.4.32}
+\contentsline {subsubsection}{\numberline {3.3.4.33}nextBitBitSet}{62}{subsubsection.3.3.4.33}
+\contentsline {subsubsection}{\numberline {3.3.4.34}printBinaryBitSet}{63}{subsubsection.3.3.4.34}
+\contentsline {subsubsection}{\numberline {3.3.4.35}printBitGraph}{63}{subsubsection.3.3.4.35}
+\contentsline {subsubsection}{\numberline {3.3.4.36}printBitSet}{63}{subsubsection.3.3.4.36}
+\contentsline {subsubsection}{\numberline {3.3.4.37}setFalse}{63}{subsubsection.3.3.4.37}
+\contentsline {subsubsection}{\numberline {3.3.4.38}setTrue}{64}{subsubsection.3.3.4.38}
+\contentsline {section}{\numberline {3.4}convll.c File Reference}{65}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Detailed Description}{66}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Function Documentation}{66}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}addToStacks}{66}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}bitSetToCSet}{67}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.3}checkCliquecSet}{68}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\numberline {3.4.2.4}completeConv}{70}{subsubsection.3.4.2.4}
+\contentsline {subsubsection}{\numberline {3.4.2.5}emptyMemberStacks}{71}{subsubsection.3.4.2.5}
+\contentsline {subsubsection}{\numberline {3.4.2.6}fillMemberStacks}{71}{subsubsection.3.4.2.6}
+\contentsline {subsubsection}{\numberline {3.4.2.7}initheadCll}{72}{subsubsection.3.4.2.7}
+\contentsline {subsubsection}{\numberline {3.4.2.8}mergeIntersect}{72}{subsubsection.3.4.2.8}
+\contentsline {subsubsection}{\numberline {3.4.2.9}mllToCSet}{73}{subsubsection.3.4.2.9}
+\contentsline {subsubsection}{\numberline {3.4.2.10}popAllCll}{74}{subsubsection.3.4.2.10}
+\contentsline {subsubsection}{\numberline {3.4.2.11}popCll}{75}{subsubsection.3.4.2.11}
+\contentsline {subsubsection}{\numberline {3.4.2.12}popMemStack}{76}{subsubsection.3.4.2.12}
+\contentsline {subsubsection}{\numberline {3.4.2.13}popWholeMemStack}{76}{subsubsection.3.4.2.13}
+\contentsline {subsubsection}{\numberline {3.4.2.14}printCll}{77}{subsubsection.3.4.2.14}
+\contentsline {subsubsection}{\numberline {3.4.2.15}printCllPattern}{78}{subsubsection.3.4.2.15}
+\contentsline {subsubsection}{\numberline {3.4.2.16}printCSet}{78}{subsubsection.3.4.2.16}
+\contentsline {subsubsection}{\numberline {3.4.2.17}printMemberStacks}{79}{subsubsection.3.4.2.17}
+\contentsline {subsubsection}{\numberline {3.4.2.18}pruneCll}{79}{subsubsection.3.4.2.18}
+\contentsline {subsubsection}{\numberline {3.4.2.19}pushClique}{81}{subsubsection.3.4.2.19}
+\contentsline {subsubsection}{\numberline {3.4.2.20}pushCll}{82}{subsubsection.3.4.2.20}
+\contentsline {subsubsection}{\numberline {3.4.2.21}pushConvClique}{83}{subsubsection.3.4.2.21}
+\contentsline {subsubsection}{\numberline {3.4.2.22}pushcSet}{84}{subsubsection.3.4.2.22}
+\contentsline {subsubsection}{\numberline {3.4.2.23}pushMemStack}{84}{subsubsection.3.4.2.23}
+\contentsline {subsubsection}{\numberline {3.4.2.24}removeSupers}{85}{subsubsection.3.4.2.24}
+\contentsline {subsubsection}{\numberline {3.4.2.25}searchMemsWithList}{87}{subsubsection.3.4.2.25}
+\contentsline {subsubsection}{\numberline {3.4.2.26}setStackTrue}{88}{subsubsection.3.4.2.26}
+\contentsline {subsubsection}{\numberline {3.4.2.27}singleCliqueConv}{89}{subsubsection.3.4.2.27}
+\contentsline {subsubsection}{\numberline {3.4.2.28}swapNodecSet}{91}{subsubsection.3.4.2.28}
+\contentsline {subsubsection}{\numberline {3.4.2.29}uniqClique}{92}{subsubsection.3.4.2.29}
+\contentsline {subsubsection}{\numberline {3.4.2.30}wholeCliqueConv}{93}{subsubsection.3.4.2.30}
+\contentsline {subsubsection}{\numberline {3.4.2.31}wholeRoundConv}{95}{subsubsection.3.4.2.31}
+\contentsline {subsubsection}{\numberline {3.4.2.32}yankCll}{96}{subsubsection.3.4.2.32}
+\contentsline {subsection}{\numberline {3.4.3}Variable Documentation}{97}{subsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.3.1}cliquecounter}{97}{subsubsection.3.4.3.1}
+\contentsline {section}{\numberline {3.5}convll.h File Reference}{98}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{99}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Typedef Documentation}{100}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.2.1}cll\_\discretionary {-}{}{}t}{100}{subsubsection.3.5.2.1}
+\contentsline {subsubsection}{\numberline {3.5.2.2}mll\_\discretionary {-}{}{}t}{100}{subsubsection.3.5.2.2}
+\contentsline {subsection}{\numberline {3.5.3}Function Documentation}{100}{subsection.3.5.3}
+\contentsline {subsubsection}{\numberline {3.5.3.1}addToStacks}{100}{subsubsection.3.5.3.1}
+\contentsline {subsubsection}{\numberline {3.5.3.2}bitSetToCSet}{100}{subsubsection.3.5.3.2}
+\contentsline {subsubsection}{\numberline {3.5.3.3}completeConv}{101}{subsubsection.3.5.3.3}
+\contentsline {subsubsection}{\numberline {3.5.3.4}emptyMemberStacks}{101}{subsubsection.3.5.3.4}
+\contentsline {subsubsection}{\numberline {3.5.3.5}fillMemberStacks}{101}{subsubsection.3.5.3.5}
+\contentsline {subsubsection}{\numberline {3.5.3.6}initheadCll}{101}{subsubsection.3.5.3.6}
+\contentsline {subsubsection}{\numberline {3.5.3.7}mergeIntersect}{102}{subsubsection.3.5.3.7}
+\contentsline {subsubsection}{\numberline {3.5.3.8}mllToCSet}{102}{subsubsection.3.5.3.8}
+\contentsline {subsubsection}{\numberline {3.5.3.9}popAllCll}{102}{subsubsection.3.5.3.9}
+\contentsline {subsubsection}{\numberline {3.5.3.10}popCll}{103}{subsubsection.3.5.3.10}
+\contentsline {subsubsection}{\numberline {3.5.3.11}popMemStack}{103}{subsubsection.3.5.3.11}
+\contentsline {subsubsection}{\numberline {3.5.3.12}popWholeMemStack}{103}{subsubsection.3.5.3.12}
+\contentsline {subsubsection}{\numberline {3.5.3.13}printCll}{103}{subsubsection.3.5.3.13}
+\contentsline {subsubsection}{\numberline {3.5.3.14}printCllPattern}{104}{subsubsection.3.5.3.14}
+\contentsline {subsubsection}{\numberline {3.5.3.15}printMemberStacks}{104}{subsubsection.3.5.3.15}
+\contentsline {subsubsection}{\numberline {3.5.3.16}pushClique}{104}{subsubsection.3.5.3.16}
+\contentsline {subsubsection}{\numberline {3.5.3.17}pushCll}{104}{subsubsection.3.5.3.17}
+\contentsline {subsubsection}{\numberline {3.5.3.18}pushConvClique}{105}{subsubsection.3.5.3.18}
+\contentsline {subsubsection}{\numberline {3.5.3.19}pushcSet}{105}{subsubsection.3.5.3.19}
+\contentsline {subsubsection}{\numberline {3.5.3.20}pushMemStack}{105}{subsubsection.3.5.3.20}
+\contentsline {subsubsection}{\numberline {3.5.3.21}removeSupers}{106}{subsubsection.3.5.3.21}
+\contentsline {subsubsection}{\numberline {3.5.3.22}searchMemsWithList}{106}{subsubsection.3.5.3.22}
+\contentsline {subsubsection}{\numberline {3.5.3.23}setStackTrue}{106}{subsubsection.3.5.3.23}
+\contentsline {subsubsection}{\numberline {3.5.3.24}singleCliqueConv}{107}{subsubsection.3.5.3.24}
+\contentsline {subsubsection}{\numberline {3.5.3.25}swapNodecSet}{107}{subsubsection.3.5.3.25}
+\contentsline {subsubsection}{\numberline {3.5.3.26}uniqClique}{107}{subsubsection.3.5.3.26}
+\contentsline {subsubsection}{\numberline {3.5.3.27}wholeCliqueConv}{108}{subsubsection.3.5.3.27}
+\contentsline {subsubsection}{\numberline {3.5.3.28}wholeRoundConv}{108}{subsubsection.3.5.3.28}
+\contentsline {subsubsection}{\numberline {3.5.3.29}yankCll}{109}{subsubsection.3.5.3.29}
+\contentsline {section}{\numberline {3.6}Fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO/fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c File Reference}{110}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Define Documentation}{111}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}BIG\_\discretionary {-}{}{}BUFFER}{111}{subsubsection.3.6.1.1}
+\contentsline {subsubsection}{\numberline {3.6.1.2}BUFFER}{111}{subsubsection.3.6.1.2}
+\contentsline {subsection}{\numberline {3.6.2}Function Documentation}{111}{subsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.2.1}CountFSeqs}{111}{subsubsection.3.6.2.1}
+\contentsline {subsubsection}{\numberline {3.6.2.2}countLines}{111}{subsubsection.3.6.2.2}
+\contentsline {subsubsection}{\numberline {3.6.2.3}FreeFSeqs}{112}{subsubsection.3.6.2.3}
+\contentsline {subsubsection}{\numberline {3.6.2.4}initAofFSeqs}{112}{subsubsection.3.6.2.4}
+\contentsline {subsubsection}{\numberline {3.6.2.5}measureLine}{113}{subsubsection.3.6.2.5}
+\contentsline {subsubsection}{\numberline {3.6.2.6}printFSeqSubSeq}{113}{subsubsection.3.6.2.6}
+\contentsline {subsubsection}{\numberline {3.6.2.7}ReadFile}{114}{subsubsection.3.6.2.7}
+\contentsline {subsubsection}{\numberline {3.6.2.8}ReadFSeqs}{115}{subsubsection.3.6.2.8}
+\contentsline {subsubsection}{\numberline {3.6.2.9}ReadTxtSeqs}{117}{subsubsection.3.6.2.9}
+\contentsline {subsubsection}{\numberline {3.6.2.10}WriteFSeqA}{117}{subsubsection.3.6.2.10}
+\contentsline {section}{\numberline {3.7}Fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO/fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h File Reference}{119}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Function Documentation}{120}{subsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1.1}CountFSeqs}{120}{subsubsection.3.7.1.1}
+\contentsline {subsubsection}{\numberline {3.7.1.2}countLines}{120}{subsubsection.3.7.1.2}
+\contentsline {subsubsection}{\numberline {3.7.1.3}FreeFSeqs}{120}{subsubsection.3.7.1.3}
+\contentsline {subsubsection}{\numberline {3.7.1.4}initAofFSeqs}{120}{subsubsection.3.7.1.4}
+\contentsline {subsubsection}{\numberline {3.7.1.5}measureLine}{120}{subsubsection.3.7.1.5}
+\contentsline {subsubsection}{\numberline {3.7.1.6}printFSeqSubSeq}{120}{subsubsection.3.7.1.6}
+\contentsline {subsubsection}{\numberline {3.7.1.7}ReadFSeqs}{120}{subsubsection.3.7.1.7}
+\contentsline {subsubsection}{\numberline {3.7.1.8}ReadTxtSeqs}{121}{subsubsection.3.7.1.8}
+\contentsline {subsubsection}{\numberline {3.7.1.9}WriteFSeqA}{121}{subsubsection.3.7.1.9}
+\contentsline {section}{\numberline {3.8}gemoda-r.c File Reference}{122}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Detailed Description}{123}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Function Documentation}{123}{subsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.2.1}convolve}{123}{subsubsection.3.8.2.1}
+\contentsline {subsubsection}{\numberline {3.8.2.2}countExtraParams}{125}{subsubsection.3.8.2.2}
+\contentsline {subsubsection}{\numberline {3.8.2.3}main}{125}{subsubsection.3.8.2.3}
+\contentsline {subsubsection}{\numberline {3.8.2.4}parseExtraParams}{130}{subsubsection.3.8.2.4}
+\contentsline {subsubsection}{\numberline {3.8.2.5}pruneBitGraph}{130}{subsubsection.3.8.2.5}
+\contentsline {subsubsection}{\numberline {3.8.2.6}usage}{133}{subsubsection.3.8.2.6}
+\contentsline {section}{\numberline {3.9}gemoda-s.c File Reference}{134}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}Detailed Description}{135}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Function Documentation}{135}{subsection.3.9.2}
+\contentsline {subsubsection}{\numberline {3.9.2.1}alignWordsMat\_\discretionary {-}{}{}bit}{135}{subsubsection.3.9.2.1}
+\contentsline {subsubsection}{\numberline {3.9.2.2}convolve}{136}{subsubsection.3.9.2.2}
+\contentsline {subsubsection}{\numberline {3.9.2.3}countWords2}{138}{subsubsection.3.9.2.3}
+\contentsline {subsubsection}{\numberline {3.9.2.4}getMatrixByName}{140}{subsubsection.3.9.2.4}
+\contentsline {subsubsection}{\numberline {3.9.2.5}main}{140}{subsubsection.3.9.2.5}
+\contentsline {subsubsection}{\numberline {3.9.2.6}matrixlist}{149}{subsubsection.3.9.2.6}
+\contentsline {subsubsection}{\numberline {3.9.2.7}pruneBitGraph}{150}{subsubsection.3.9.2.7}
+\contentsline {subsubsection}{\numberline {3.9.2.8}usage}{152}{subsubsection.3.9.2.8}
+\contentsline {section}{\numberline {3.10}matdata.h File Reference}{154}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Detailed Description}{154}{subsection.3.10.1}
+\contentsline {subsection}{\numberline {3.10.2}Define Documentation}{154}{subsection.3.10.2}
+\contentsline {subsubsection}{\numberline {3.10.2.1}MATRIX\_\discretionary {-}{}{}SIZE}{154}{subsubsection.3.10.2.1}
+\contentsline {section}{\numberline {3.11}matrices.c File Reference}{155}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Detailed Description}{155}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Define Documentation}{155}{subsection.3.11.2}
+\contentsline {subsubsection}{\numberline {3.11.2.1}DEFAULT\_\discretionary {-}{}{}MATRIX}{155}{subsubsection.3.11.2.1}
+\contentsline {subsection}{\numberline {3.11.3}Function Documentation}{156}{subsection.3.11.3}
+\contentsline {subsubsection}{\numberline {3.11.3.1}getMatrixByName}{156}{subsubsection.3.11.3.1}
+\contentsline {section}{\numberline {3.12}matrices.h File Reference}{157}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Detailed Description}{158}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Variable Documentation}{159}{subsection.3.12.2}
+\contentsline {subsubsection}{\numberline {3.12.2.1}aaOrder}{159}{subsubsection.3.12.2.1}
+\contentsline {subsubsection}{\numberline {3.12.2.2}alpha\_\discretionary {-}{}{}mat}{159}{subsubsection.3.12.2.2}
+\contentsline {subsubsection}{\numberline {3.12.2.3}beta\_\discretionary {-}{}{}mat}{159}{subsubsection.3.12.2.3}
+\contentsline {subsubsection}{\numberline {3.12.2.4}blosum100}{159}{subsubsection.3.12.2.4}
+\contentsline {subsubsection}{\numberline {3.12.2.5}blosum30}{159}{subsubsection.3.12.2.5}
+\contentsline {subsubsection}{\numberline {3.12.2.6}blosum35}{159}{subsubsection.3.12.2.6}
+\contentsline {subsubsection}{\numberline {3.12.2.7}blosum40}{159}{subsubsection.3.12.2.7}
+\contentsline {subsubsection}{\numberline {3.12.2.8}blosum45}{159}{subsubsection.3.12.2.8}
+\contentsline {subsubsection}{\numberline {3.12.2.9}blosum50}{160}{subsubsection.3.12.2.9}
+\contentsline {subsubsection}{\numberline {3.12.2.10}blosum55}{160}{subsubsection.3.12.2.10}
+\contentsline {subsubsection}{\numberline {3.12.2.11}blosum60}{160}{subsubsection.3.12.2.11}
+\contentsline {subsubsection}{\numberline {3.12.2.12}blosum62}{160}{subsubsection.3.12.2.12}
+\contentsline {subsubsection}{\numberline {3.12.2.13}blosum65}{160}{subsubsection.3.12.2.13}
+\contentsline {subsubsection}{\numberline {3.12.2.14}blosum70}{160}{subsubsection.3.12.2.14}
+\contentsline {subsubsection}{\numberline {3.12.2.15}blosum75}{160}{subsubsection.3.12.2.15}
+\contentsline {subsubsection}{\numberline {3.12.2.16}blosum80}{160}{subsubsection.3.12.2.16}
+\contentsline {subsubsection}{\numberline {3.12.2.17}blosum85}{160}{subsubsection.3.12.2.17}
+\contentsline {subsubsection}{\numberline {3.12.2.18}blosum90}{160}{subsubsection.3.12.2.18}
+\contentsline {subsubsection}{\numberline {3.12.2.19}blosumn}{161}{subsubsection.3.12.2.19}
+\contentsline {subsubsection}{\numberline {3.12.2.20}coil\_\discretionary {-}{}{}mat}{161}{subsubsection.3.12.2.20}
+\contentsline {subsubsection}{\numberline {3.12.2.21}dayhoff}{161}{subsubsection.3.12.2.21}
+\contentsline {subsubsection}{\numberline {3.12.2.22}dna\_\discretionary {-}{}{}idmat}{161}{subsubsection.3.12.2.22}
+\contentsline {subsubsection}{\numberline {3.12.2.23}identity\_\discretionary {-}{}{}aa}{161}{subsubsection.3.12.2.23}
+\contentsline {subsubsection}{\numberline {3.12.2.24}idmat}{161}{subsubsection.3.12.2.24}
+\contentsline {subsubsection}{\numberline {3.12.2.25}pam100}{161}{subsubsection.3.12.2.25}
+\contentsline {subsubsection}{\numberline {3.12.2.26}pam110}{161}{subsubsection.3.12.2.26}
+\contentsline {subsubsection}{\numberline {3.12.2.27}pam120}{161}{subsubsection.3.12.2.27}
+\contentsline {subsubsection}{\numberline {3.12.2.28}pam130}{161}{subsubsection.3.12.2.28}
+\contentsline {subsubsection}{\numberline {3.12.2.29}pam140}{162}{subsubsection.3.12.2.29}
+\contentsline {subsubsection}{\numberline {3.12.2.30}pam150}{162}{subsubsection.3.12.2.30}
+\contentsline {subsubsection}{\numberline {3.12.2.31}pam160}{162}{subsubsection.3.12.2.31}
+\contentsline {subsubsection}{\numberline {3.12.2.32}pam190}{162}{subsubsection.3.12.2.32}
+\contentsline {subsubsection}{\numberline {3.12.2.33}pam200}{162}{subsubsection.3.12.2.33}
+\contentsline {subsubsection}{\numberline {3.12.2.34}pam210}{162}{subsubsection.3.12.2.34}
+\contentsline {subsubsection}{\numberline {3.12.2.35}pam220}{162}{subsubsection.3.12.2.35}
+\contentsline {subsubsection}{\numberline {3.12.2.36}pam230}{162}{subsubsection.3.12.2.36}
+\contentsline {subsubsection}{\numberline {3.12.2.37}pam240}{162}{subsubsection.3.12.2.37}
+\contentsline {subsubsection}{\numberline {3.12.2.38}pam250}{162}{subsubsection.3.12.2.38}
+\contentsline {subsubsection}{\numberline {3.12.2.39}pam260}{163}{subsubsection.3.12.2.39}
+\contentsline {subsubsection}{\numberline {3.12.2.40}pam280}{163}{subsubsection.3.12.2.40}
+\contentsline {subsubsection}{\numberline {3.12.2.41}pam290}{163}{subsubsection.3.12.2.41}
+\contentsline {subsubsection}{\numberline {3.12.2.42}pam300}{163}{subsubsection.3.12.2.42}
+\contentsline {subsubsection}{\numberline {3.12.2.43}pam310}{163}{subsubsection.3.12.2.43}
+\contentsline {subsubsection}{\numberline {3.12.2.44}pam320}{163}{subsubsection.3.12.2.44}
+\contentsline {subsubsection}{\numberline {3.12.2.45}pam330}{163}{subsubsection.3.12.2.45}
+\contentsline {subsubsection}{\numberline {3.12.2.46}pam340}{163}{subsubsection.3.12.2.46}
+\contentsline {subsubsection}{\numberline {3.12.2.47}pam360}{163}{subsubsection.3.12.2.47}
+\contentsline {subsubsection}{\numberline {3.12.2.48}pam370}{163}{subsubsection.3.12.2.48}
+\contentsline {subsubsection}{\numberline {3.12.2.49}pam380}{164}{subsubsection.3.12.2.49}
+\contentsline {subsubsection}{\numberline {3.12.2.50}pam390}{164}{subsubsection.3.12.2.50}
+\contentsline {subsubsection}{\numberline {3.12.2.51}pam400}{164}{subsubsection.3.12.2.51}
+\contentsline {subsubsection}{\numberline {3.12.2.52}pam430}{164}{subsubsection.3.12.2.52}
+\contentsline {subsubsection}{\numberline {3.12.2.53}pam440}{164}{subsubsection.3.12.2.53}
+\contentsline {subsubsection}{\numberline {3.12.2.54}pam450}{164}{subsubsection.3.12.2.54}
+\contentsline {subsubsection}{\numberline {3.12.2.55}pam460}{164}{subsubsection.3.12.2.55}
+\contentsline {subsubsection}{\numberline {3.12.2.56}pam490}{164}{subsubsection.3.12.2.56}
+\contentsline {subsubsection}{\numberline {3.12.2.57}pam500}{164}{subsubsection.3.12.2.57}
+\contentsline {subsubsection}{\numberline {3.12.2.58}phat\_\discretionary {-}{}{}t75\_\discretionary {-}{}{}b73}{164}{subsubsection.3.12.2.58}
+\contentsline {subsubsection}{\numberline {3.12.2.59}phat\_\discretionary {-}{}{}t80\_\discretionary {-}{}{}b78}{165}{subsubsection.3.12.2.59}
+\contentsline {subsubsection}{\numberline {3.12.2.60}phat\_\discretionary {-}{}{}t85\_\discretionary {-}{}{}b82}{165}{subsubsection.3.12.2.60}
+\contentsline {section}{\numberline {3.13}matrixmap.h File Reference}{166}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Detailed Description}{166}{subsection.3.13.1}
+\contentsline {subsection}{\numberline {3.13.2}Variable Documentation}{166}{subsection.3.13.2}
+\contentsline {subsubsection}{\numberline {3.13.2.1}mat}{166}{subsubsection.3.13.2.1}
+\contentsline {subsubsection}{\numberline {3.13.2.2}matrix\_\discretionary {-}{}{}map}{166}{subsubsection.3.13.2.2}
+\contentsline {subsubsection}{\numberline {3.13.2.3}name}{167}{subsubsection.3.13.2.3}
+\contentsline {section}{\numberline {3.14}new\discretionary {-}{}{}Conv.c File Reference}{168}{section.3.14}
+\contentsline {subsection}{\numberline {3.14.1}Detailed Description}{168}{subsection.3.14.1}
+\contentsline {subsection}{\numberline {3.14.2}Function Documentation}{169}{subsection.3.14.2}
+\contentsline {subsubsection}{\numberline {3.14.2.1}convolve}{169}{subsubsection.3.14.2.1}
+\contentsline {subsubsection}{\numberline {3.14.2.2}filterGraph}{170}{subsubsection.3.14.2.2}
+\contentsline {subsubsection}{\numberline {3.14.2.3}filterIter}{171}{subsubsection.3.14.2.3}
+\contentsline {subsubsection}{\numberline {3.14.2.4}findCliques}{174}{subsubsection.3.14.2.4}
+\contentsline {subsubsection}{\numberline {3.14.2.5}pruneBitGraph}{176}{subsubsection.3.14.2.5}
+\contentsline {subsubsection}{\numberline {3.14.2.6}pruneCll}{178}{subsubsection.3.14.2.6}
+\contentsline {subsubsection}{\numberline {3.14.2.7}singleLinkage}{180}{subsubsection.3.14.2.7}
+\contentsline {section}{\numberline {3.15}pat\discretionary {-}{}{}Stats.c File Reference}{182}{section.3.15}
+\contentsline {subsection}{\numberline {3.15.1}Detailed Description}{183}{subsection.3.15.1}
+\contentsline {subsection}{\numberline {3.15.2}Function Documentation}{183}{subsection.3.15.2}
+\contentsline {subsubsection}{\numberline {3.15.2.1}calcStatAllCliqs}{183}{subsubsection.3.15.2.1}
+\contentsline {subsubsection}{\numberline {3.15.2.2}calcStatCliq}{183}{subsubsection.3.15.2.2}
+\contentsline {subsubsection}{\numberline {3.15.2.3}cumDMatrix}{184}{subsubsection.3.15.2.3}
+\contentsline {subsubsection}{\numberline {3.15.2.4}freeD}{186}{subsubsection.3.15.2.4}
+\contentsline {subsubsection}{\numberline {3.15.2.5}getLargestLength}{187}{subsubsection.3.15.2.5}
+\contentsline {subsubsection}{\numberline {3.15.2.6}getLargestSupport}{187}{subsubsection.3.15.2.6}
+\contentsline {subsubsection}{\numberline {3.15.2.7}getStatMat}{188}{subsubsection.3.15.2.7}
+\contentsline {subsubsection}{\numberline {3.15.2.8}increaseMem}{191}{subsubsection.3.15.2.8}
+\contentsline {subsubsection}{\numberline {3.15.2.9}measureDiagonal}{193}{subsubsection.3.15.2.9}
+\contentsline {subsubsection}{\numberline {3.15.2.10}oldGetStatMat}{193}{subsubsection.3.15.2.10}
+\contentsline {subsubsection}{\numberline {3.15.2.11}sortByStats}{196}{subsubsection.3.15.2.11}
+\contentsline {subsubsection}{\numberline {3.15.2.12}statCompare}{197}{subsubsection.3.15.2.12}
+\contentsline {section}{\numberline {3.16}pat\discretionary {-}{}{}Stats.h File Reference}{198}{section.3.16}
+\contentsline {subsection}{\numberline {3.16.1}Function Documentation}{199}{subsection.3.16.1}
+\contentsline {subsubsection}{\numberline {3.16.1.1}calcStatAllCliqs}{199}{subsubsection.3.16.1.1}
+\contentsline {subsubsection}{\numberline {3.16.1.2}cumDMatrix}{199}{subsubsection.3.16.1.2}
+\contentsline {subsubsection}{\numberline {3.16.1.3}freeD}{199}{subsubsection.3.16.1.3}
+\contentsline {subsubsection}{\numberline {3.16.1.4}getStatMat}{199}{subsubsection.3.16.1.4}
+\contentsline {subsubsection}{\numberline {3.16.1.5}sortByStats}{199}{subsubsection.3.16.1.5}
+\contentsline {section}{\numberline {3.17}real\discretionary {-}{}{}Compare.c File Reference}{201}{section.3.17}
+\contentsline {subsection}{\numberline {3.17.1}Detailed Description}{201}{subsection.3.17.1}
+\contentsline {subsection}{\numberline {3.17.2}Function Documentation}{202}{subsection.3.17.2}
+\contentsline {subsubsection}{\numberline {3.17.2.1}generalMatchFactor}{202}{subsubsection.3.17.2.1}
+\contentsline {subsubsection}{\numberline {3.17.2.2}getCompFunc}{203}{subsubsection.3.17.2.2}
+\contentsline {subsubsection}{\numberline {3.17.2.3}massSpecCompareWElut}{203}{subsubsection.3.17.2.3}
+\contentsline {subsubsection}{\numberline {3.17.2.4}realComparison}{205}{subsubsection.3.17.2.4}
+\contentsline {subsubsection}{\numberline {3.17.2.5}rmsdCompare}{207}{subsubsection.3.17.2.5}
+\contentsline {section}{\numberline {3.18}real\discretionary {-}{}{}Compare.h File Reference}{209}{section.3.18}
+\contentsline {subsection}{\numberline {3.18.1}Detailed Description}{210}{subsection.3.18.1}
+\contentsline {subsection}{\numberline {3.18.2}Function Documentation}{210}{subsection.3.18.2}
+\contentsline {subsubsection}{\numberline {3.18.2.1}generalMatchFactor}{210}{subsubsection.3.18.2.1}
+\contentsline {subsubsection}{\numberline {3.18.2.2}massSpecCompareWElut}{210}{subsubsection.3.18.2.2}
+\contentsline {subsubsection}{\numberline {3.18.2.3}realComparison}{211}{subsubsection.3.18.2.3}
+\contentsline {subsubsection}{\numberline {3.18.2.4}rmsdCompare}{211}{subsubsection.3.18.2.4}
+\contentsline {subsection}{\numberline {3.18.3}Variable Documentation}{211}{subsection.3.18.3}
+\contentsline {subsubsection}{\numberline {3.18.3.1}getCompFunc}{211}{subsubsection.3.18.3.1}
+\contentsline {section}{\numberline {3.19}real\discretionary {-}{}{}Io.c File Reference}{212}{section.3.19}
+\contentsline {subsection}{\numberline {3.19.1}Detailed Description}{213}{subsection.3.19.1}
+\contentsline {subsection}{\numberline {3.19.2}Function Documentation}{213}{subsection.3.19.2}
+\contentsline {subsubsection}{\numberline {3.19.2.1}checkRealDataFormat}{213}{subsubsection.3.19.2.1}
+\contentsline {subsubsection}{\numberline {3.19.2.2}countFields}{215}{subsubsection.3.19.2.2}
+\contentsline {subsubsection}{\numberline {3.19.2.3}countTotalFields}{216}{subsubsection.3.19.2.3}
+\contentsline {subsubsection}{\numberline {3.19.2.4}findCliqueCentroid}{217}{subsubsection.3.19.2.4}
+\contentsline {subsubsection}{\numberline {3.19.2.5}freeRdh}{219}{subsubsection.3.19.2.5}
+\contentsline {subsubsection}{\numberline {3.19.2.6}getRdhDim}{220}{subsubsection.3.19.2.6}
+\contentsline {subsubsection}{\numberline {3.19.2.7}getRdhIndexSeqPos}{220}{subsubsection.3.19.2.7}
+\contentsline {subsubsection}{\numberline {3.19.2.8}getRdhLabel}{221}{subsubsection.3.19.2.8}
+\contentsline {subsubsection}{\numberline {3.19.2.9}getRdhSeqLength}{221}{subsubsection.3.19.2.9}
+\contentsline {subsubsection}{\numberline {3.19.2.10}getRdhValue}{222}{subsubsection.3.19.2.10}
+\contentsline {subsubsection}{\numberline {3.19.2.11}initRdh}{222}{subsubsection.3.19.2.11}
+\contentsline {subsubsection}{\numberline {3.19.2.12}initRdhGslMat}{224}{subsubsection.3.19.2.12}
+\contentsline {subsubsection}{\numberline {3.19.2.13}initRdhIndex}{224}{subsubsection.3.19.2.13}
+\contentsline {subsubsection}{\numberline {3.19.2.14}makeAlternateCentroid}{226}{subsubsection.3.19.2.14}
+\contentsline {subsubsection}{\numberline {3.19.2.15}outputRealPats}{227}{subsubsection.3.19.2.15}
+\contentsline {subsubsection}{\numberline {3.19.2.16}outputRealPatsWCentroid}{228}{subsubsection.3.19.2.16}
+\contentsline {subsubsection}{\numberline {3.19.2.17}parseRealData}{230}{subsubsection.3.19.2.17}
+\contentsline {subsubsection}{\numberline {3.19.2.18}printRdhSeq}{231}{subsubsection.3.19.2.18}
+\contentsline {subsubsection}{\numberline {3.19.2.19}pushOnRdhSeq}{231}{subsubsection.3.19.2.19}
+\contentsline {subsubsection}{\numberline {3.19.2.20}readRealData}{233}{subsubsection.3.19.2.20}
+\contentsline {subsubsection}{\numberline {3.19.2.21}setRdhColFromString}{234}{subsubsection.3.19.2.21}
+\contentsline {subsubsection}{\numberline {3.19.2.22}setRdhIndex}{235}{subsubsection.3.19.2.22}
+\contentsline {subsubsection}{\numberline {3.19.2.23}setRdhLabel}{236}{subsubsection.3.19.2.23}
+\contentsline {subsubsection}{\numberline {3.19.2.24}setRdhValue}{237}{subsubsection.3.19.2.24}
+\contentsline {subsubsection}{\numberline {3.19.2.25}wordToDouble}{237}{subsubsection.3.19.2.25}
+\contentsline {section}{\numberline {3.20}real\discretionary {-}{}{}Io.h File Reference}{239}{section.3.20}
+\contentsline {subsection}{\numberline {3.20.1}Function Documentation}{240}{subsection.3.20.1}
+\contentsline {subsubsection}{\numberline {3.20.1.1}freeRdh}{240}{subsubsection.3.20.1.1}
+\contentsline {subsubsection}{\numberline {3.20.1.2}getRdhDim}{240}{subsubsection.3.20.1.2}
+\contentsline {subsubsection}{\numberline {3.20.1.3}getRdhIndexSeqPos}{240}{subsubsection.3.20.1.3}
+\contentsline {subsubsection}{\numberline {3.20.1.4}initRdhIndex}{241}{subsubsection.3.20.1.4}
+\contentsline {subsubsection}{\numberline {3.20.1.5}outputRealPats}{241}{subsubsection.3.20.1.5}
+\contentsline {subsubsection}{\numberline {3.20.1.6}outputRealPatsWCentroid}{241}{subsubsection.3.20.1.6}
+\contentsline {subsubsection}{\numberline {3.20.1.7}readRealData}{242}{subsubsection.3.20.1.7}
+\contentsline {section}{\numberline {3.21}spat.h File Reference}{243}{section.3.21}
+\contentsline {section}{\numberline {3.22}words.c File Reference}{244}{section.3.22}
+\contentsline {subsection}{\numberline {3.22.1}Detailed Description}{245}{subsection.3.22.1}
+\contentsline {subsection}{\numberline {3.22.2}Define Documentation}{245}{subsection.3.22.2}
+\contentsline {subsubsection}{\numberline {3.22.2.1}SHASH\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}KEY\_\discretionary {-}{}{}SIZE}{245}{subsubsection.3.22.2.1}
+\contentsline {subsection}{\numberline {3.22.3}Function Documentation}{245}{subsection.3.22.3}
+\contentsline {subsubsection}{\numberline {3.22.3.1}countWords2}{245}{subsubsection.3.22.3.1}
+\contentsline {subsubsection}{\numberline {3.22.3.2}destroySHash}{248}{subsubsection.3.22.3.2}
+\contentsline {subsubsection}{\numberline {3.22.3.3}destroySPatA}{248}{subsubsection.3.22.3.3}
+\contentsline {subsubsection}{\numberline {3.22.3.4}hash1}{249}{subsubsection.3.22.3.4}
+\contentsline {subsubsection}{\numberline {3.22.3.5}hashpjw}{249}{subsubsection.3.22.3.5}
+\contentsline {subsubsection}{\numberline {3.22.3.6}initSHash}{249}{subsubsection.3.22.3.6}
+\contentsline {subsubsection}{\numberline {3.22.3.7}printSHash}{250}{subsubsection.3.22.3.7}
+\contentsline {subsubsection}{\numberline {3.22.3.8}printSPats}{251}{subsubsection.3.22.3.8}
+\contentsline {subsubsection}{\numberline {3.22.3.9}searchSHash}{251}{subsubsection.3.22.3.9}
+\contentsline {subsubsection}{\numberline {3.22.3.10}sieve3}{253}{subsubsection.3.22.3.10}

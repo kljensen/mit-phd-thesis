@@ -1,0 +1,76 @@
+\hypertarget{structbitSet__t}{
+\section{bit\-Set\_\-t Struct Reference}
+\label{structbitSet__t}\index{bitSet_t@{bitSet\_\-t}}
+}
+{\tt \#include $<$bit\-Set.h$>$}
+
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int \hyperlink{structbitSet__t_o0}{max}
+\item 
+int \hyperlink{structbitSet__t_o1}{slots}
+\item 
+int \hyperlink{structbitSet__t_o2}{bytes}
+\item 
+\hyperlink{bitSet_8h_a9}{bit\_\-t} $\ast$ \hyperlink{structbitSet__t_o3}{tf}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+A bit set is a data structure for storing set objects that allows for quick set operations such as intersections, unions, differences, and so forth. On a standard 32-bit architecture, 32 operations can be performed at the same time, greatly speeding the clique finding stage of the algorithm.
+
+
+
+Definition at line 24 of file bit\-Set.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structbitSet__t_o2}{
+\index{bitSet_t@{bit\-Set\_\-t}!bytes@{bytes}}
+\index{bytes@{bytes}!bitSet_t@{bit\-Set\_\-t}}
+\subsubsection[bytes]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structbitSet__t_o2}{bit\-Set\_\-t::bytes}}}
+\label{structbitSet__t_o2}
+
+
+This variable actually holds the total number of bits, rather than the number of bytes. However, we chose to keep this name rather than make a variety of changes.
+
+Definition at line 37 of file bit\-Set.h.
+
+Referenced by empty\-Set(), fill\-Set(), and new\-Bit\-Set().\hypertarget{structbitSet__t_o0}{
+\index{bitSet_t@{bit\-Set\_\-t}!max@{max}}
+\index{max@{max}!bitSet_t@{bit\-Set\_\-t}}
+\subsubsection[max]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structbitSet__t_o0}{bit\-Set\_\-t::max}}}
+\label{structbitSet__t_o0}
+
+
+The maximum integer that can be set to true or false.
+
+Definition at line 28 of file bit\-Set.h.
+
+Referenced by new\-Bit\-Set(), next\-Bit\-Bit\-Set(), set\-False(), and set\-True().\hypertarget{structbitSet__t_o1}{
+\index{bitSet_t@{bit\-Set\_\-t}!slots@{slots}}
+\index{slots@{slots}!bitSet_t@{bit\-Set\_\-t}}
+\subsubsection[slots]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structbitSet__t_o1}{bit\-Set\_\-t::slots}}}
+\label{structbitSet__t_o1}
+
+
+The total number of slots, where a slot holds a number of bits equal to the size of a bit\_\-t space object.
+
+Definition at line 32 of file bit\-Set.h.
+
+Referenced by bit\-Set3Way\-Intersection(), bit\-Set\-Difference(), bit\-Set\-Intersection(), bit\-Set\-Sum(), bit\-Set\-Union(), copy\-Set(), and new\-Bit\-Set().\hypertarget{structbitSet__t_o3}{
+\index{bitSet_t@{bit\-Set\_\-t}!tf@{tf}}
+\index{tf@{tf}!bitSet_t@{bit\-Set\_\-t}}
+\subsubsection[tf]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{bitSet_8h_a9}{bit\_\-t}$\ast$ \hyperlink{structbitSet__t_o3}{bit\-Set\_\-t::tf}}}
+\label{structbitSet__t_o3}
+
+
+A pointer to a bit\_\-t, which is used to store an array of these objects.
+
+Definition at line 40 of file bit\-Set.h.
+
+Referenced by bit\-Set3Way\-Intersection(), bit\-Set\-Difference(), bit\-Set\-Intersection(), bit\-Set\-Sum(), bit\-Set\-Union(), check\-Bit(), copy\-Set(), count\-Set(), delete\-Bit\-Set(), empty\-Set(), fill\-Set(), flip\-Bits(), new\-Bit\-Set(), next\-Bit\-Bit\-Set(), print\-Binary\-Bit\-Set(), set\-False(), and set\-True().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{bitSet_8h}{bit\-Set.h}\end{CompactItemize}

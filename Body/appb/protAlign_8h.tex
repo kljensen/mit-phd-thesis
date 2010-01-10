@@ -1,0 +1,204 @@
+\hypertarget{protAlign_8h}{
+\subsection*{prot\-Align.h File Reference}
+\label{protAlign_8h}\index{protAlign.h@{protAlign.h}}
+}
+{\tt \#include $<$stdio.h$>$}\par
+{\tt \#include $<$errno.h$>$}\par
+{\tt \#include $<$string.h$>$}\par
+{\tt \#include $<$stdlib.h$>$}\par
+{\tt \#include $<$math.h$>$}\par
+{\tt \#include $<$gsl/gsl\_\-matrix.h$>$}\par
+{\tt \#include $<$gsl/gsl\_\-vector.h$>$}\par
+{\tt \#include $<$gsl/gsl\_\-linalg.h$>$}\par
+{\tt \#include $<$gsl/gsl\_\-blas.h$>$}\par
+{\tt \#include \char`\"{}pdb.h\char`\"{}}\par
+{\tt \#include \char`\"{}bit\-Set.h\char`\"{}}\par
+{\tt \#include \char`\"{}convll.h\char`\"{}}\par
+
+
+Include dependency graph for prot\-Align.h:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{protAlign_8h__incl}
+\end{center}
+\end{figure}
+
+
+This graph shows which files directly or indirectly include this file:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{protAlign_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsubsection*{Data Structures}
+\begin{CompactItemize}
+\item 
+struct \hyperlink{structcaPoint__t}{ca\-Point\_\-t}
+\end{CompactItemize}
+\subsubsection*{Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{structcaPoint__t}{ca\-Point\_\-t} $\ast$ \hyperlink{protAlign_8h_a0}{get\-Ca\-Point} (\hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$$\ast$pdbs, int num, int window, int $\ast$num\-Windows, int $\ast$num\-Chains)
+\item 
+\hyperlink{structbitGraph__t}{bit\-Graph\_\-t} $\ast$ \hyperlink{protAlign_8h_a1}{align\-Pdbs} (\hyperlink{structcaPoint__t}{ca\-Point\_\-t} $\ast$cap, \hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$$\ast$pdbs, int L, double g, int num\-Windows)
+\item 
+int \hyperlink{protAlign_8h_a2}{move\-To\-Centroid} (gsl\_\-matrix $\ast$m)
+\item 
+int \hyperlink{protAlign_8h_a3}{pdb2mat} (\hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$s, int chain\-Num, int res\-Start, int res\-Stop, gsl\_\-matrix $\ast$m)
+\item 
+gsl\_\-matrix $\ast$ \hyperlink{protAlign_8h_a4}{sum\-Outer\-Prod} (gsl\_\-matrix $\ast$a, gsl\_\-matrix $\ast$b)
+\item 
+int \hyperlink{protAlign_8h_a5}{gsl\_\-matrix\_\-pretty\_\-fprintf} (FILE $\ast$fp, const gsl\_\-matrix $\ast$a, const char $\ast$format)
+\item 
+int \hyperlink{protAlign_8h_a6}{rotate\-Mats} (gsl\_\-matrix $\ast$a, gsl\_\-matrix $\ast$b)
+\item 
+double \hyperlink{protAlign_8h_a7}{gsl\_\-matrix\_\-rmsd} (gsl\_\-matrix $\ast$a, gsl\_\-matrix $\ast$b)
+\item 
+int \hyperlink{protAlign_8h_a8}{output\-Prot\-Pats} (\hyperlink{structcaPoint__t}{ca\-Point\_\-t} $\ast$cap, \hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$$\ast$pdbs, \hyperlink{structcnode}{cll\_\-t} $\ast$all\-Pats, int L, int us, FILE $\ast$FH, int format)
+\end{CompactItemize}
+
+
+\subsubsection*{Function Documentation}
+\hypertarget{protAlign_8h_a1}{
+\index{protAlign.h@{prot\-Align.h}!alignPdbs@{alignPdbs}}
+\index{alignPdbs@{alignPdbs}!protAlign.h@{prot\-Align.h}}
+\paragraph[alignPdbs]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{structbitGraph__t}{bit\-Graph\_\-t}$\ast$ align\-Pdbs (\hyperlink{structcaPoint__t}{ca\-Point\_\-t} $\ast$ {\em cap}, \hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$$\ast$ {\em pdbs}, int {\em L}, double {\em g}, int {\em num\-Windows})}\hfill}
+\label{protAlign_8h_a1}
+
+
+
+
+Definition at line 26 of file prot\-Align.c.
+
+References bit\-Graph\-Set\-True\-Sym(), gsl\_\-matrix\_\-rmsd(), move\-To\-Centroid(), new\-Bit\-Graph(), pdb2mat(), ca\-Point\_\-t::pdb\-No, and rotate\-Mats().
+
+Referenced by main().
+
+
+
+\hypertarget{protAlign_8h_a0}{
+\index{protAlign.h@{prot\-Align.h}!getCaPoint@{getCaPoint}}
+\index{getCaPoint@{getCaPoint}!protAlign.h@{prot\-Align.h}}
+\paragraph[getCaPoint]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{structcaPoint__t}{ca\-Point\_\-t}$\ast$ get\-Ca\-Point (\hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$$\ast$ {\em pdbs}, int {\em num}, int {\em window}, int $\ast$ {\em num\-Windows}, int $\ast$ {\em num\-Chains})}\hfill}
+\label{protAlign_8h_a0}
+
+
+
+
+Definition at line 69 of file prot\-Align.c.
+
+References Chain\_\-::Aano, ca\-Point\_\-t::ca\-No, ca\-Point\_\-t::chain\-No, Pdbentry\_\-::Chainno, Pdbentry\_\-::Chains, NULL, and ca\-Point\_\-t::pdb\-No.
+
+Referenced by main().
+
+
+
+\hypertarget{protAlign_8h_a5}{
+\index{protAlign.h@{prot\-Align.h}!gsl_matrix_pretty_fprintf@{gsl\_\-matrix\_\-pretty\_\-fprintf}}
+\index{gsl_matrix_pretty_fprintf@{gsl\_\-matrix\_\-pretty\_\-fprintf}!protAlign.h@{prot\-Align.h}}
+\paragraph[gsl\_\-matrix\_\-pretty\_\-fprintf]{\setlength{\rightskip}{0pt plus 5cm}int gsl\_\-matrix\_\-pretty\_\-fprintf (FILE $\ast$ {\em fp}, const gsl\_\-matrix $\ast$ {\em a}, const char $\ast$ {\em format})}\hfill}
+\label{protAlign_8h_a5}
+
+
+
+
+Definition at line 241 of file prot\-Align.c.
+
+
+
+\hypertarget{protAlign_8h_a7}{
+\index{protAlign.h@{prot\-Align.h}!gsl_matrix_rmsd@{gsl\_\-matrix\_\-rmsd}}
+\index{gsl_matrix_rmsd@{gsl\_\-matrix\_\-rmsd}!protAlign.h@{prot\-Align.h}}
+\paragraph[gsl\_\-matrix\_\-rmsd]{\setlength{\rightskip}{0pt plus 5cm}double gsl\_\-matrix\_\-rmsd (gsl\_\-matrix $\ast$ {\em a}, gsl\_\-matrix $\ast$ {\em b})}\hfill}
+\label{protAlign_8h_a7}
+
+
+
+
+Definition at line 310 of file prot\-Align.c.
+
+Referenced by align\-Pdbs(), and rmsd\-Compare().
+
+
+
+\hypertarget{protAlign_8h_a2}{
+\index{protAlign.h@{prot\-Align.h}!moveToCentroid@{moveToCentroid}}
+\index{moveToCentroid@{moveToCentroid}!protAlign.h@{prot\-Align.h}}
+\paragraph[moveToCentroid]{\setlength{\rightskip}{0pt plus 5cm}int move\-To\-Centroid (gsl\_\-matrix $\ast$ {\em m})}\hfill}
+\label{protAlign_8h_a2}
+
+
+
+
+Definition at line 129 of file prot\-Align.c.
+
+Referenced by align\-Pdbs(), output\-Prot\-Pats(), and rmsd\-Compare().
+
+
+
+\hypertarget{protAlign_8h_a8}{
+\index{protAlign.h@{prot\-Align.h}!outputProtPats@{outputProtPats}}
+\index{outputProtPats@{outputProtPats}!protAlign.h@{prot\-Align.h}}
+\paragraph[outputProtPats]{\setlength{\rightskip}{0pt plus 5cm}int output\-Prot\-Pats (\hyperlink{structcaPoint__t}{ca\-Point\_\-t} $\ast$ {\em cap}, \hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$$\ast$ {\em pdbs}, \hyperlink{structcnode}{cll\_\-t} $\ast$ {\em all\-Pats}, int {\em L}, int {\em us}, FILE $\ast$ {\em FH}, int {\em format})}\hfill}
+\label{protAlign_8h_a8}
+
+
+
+
+Definition at line 353 of file prot\-Align.c.
+
+References ca\-Point\_\-t::ca\-No, ca\-Point\_\-t::chain\-No, cnode::length, c\-Set\_\-t::members, move\-To\-Centroid(), cnode::next, NULL, pdb2mat(), ca\-Point\_\-t::pdb\-No, rotate\-Mats(), cnode::set, and c\-Set\_\-t::size.
+
+Referenced by main().
+
+
+
+\hypertarget{protAlign_8h_a3}{
+\index{protAlign.h@{prot\-Align.h}!pdb2mat@{pdb2mat}}
+\index{pdb2mat@{pdb2mat}!protAlign.h@{prot\-Align.h}}
+\paragraph[pdb2mat]{\setlength{\rightskip}{0pt plus 5cm}int pdb2mat (\hyperlink{structPdbentry__}{Pdbentry\_\-} $\ast$ {\em s}, int {\em chain\-Num}, int {\em res\-Start}, int {\em res\-Stop}, gsl\_\-matrix $\ast$ {\em m})}\hfill}
+\label{protAlign_8h_a3}
+
+
+
+
+Definition at line 164 of file prot\-Align.c.
+
+References Chain\_\-::Aano, Chain\_\-::Atoms, Pdbentry\_\-::Chainno, Pdbentry\_\-::Chains, and NULL.
+
+Referenced by align\-Pdbs(), and output\-Prot\-Pats().
+
+
+
+\hypertarget{protAlign_8h_a6}{
+\index{protAlign.h@{prot\-Align.h}!rotateMats@{rotateMats}}
+\index{rotateMats@{rotateMats}!protAlign.h@{prot\-Align.h}}
+\paragraph[rotateMats]{\setlength{\rightskip}{0pt plus 5cm}int rotate\-Mats (gsl\_\-matrix $\ast$ {\em a}, gsl\_\-matrix $\ast$ {\em b})}\hfill}
+\label{protAlign_8h_a6}
+
+
+
+
+Definition at line 261 of file prot\-Align.c.
+
+References NULL, and sum\-Outer\-Prod().
+
+Referenced by align\-Pdbs(), output\-Prot\-Pats(), and rmsd\-Compare().
+
+
+
+\hypertarget{protAlign_8h_a4}{
+\index{protAlign.h@{prot\-Align.h}!sumOuterProd@{sumOuterProd}}
+\index{sumOuterProd@{sumOuterProd}!protAlign.h@{prot\-Align.h}}
+\paragraph[sumOuterProd]{\setlength{\rightskip}{0pt plus 5cm}gsl\_\-matrix$\ast$ sum\-Outer\-Prod (gsl\_\-matrix $\ast$ {\em a}, gsl\_\-matrix $\ast$ {\em b})}\hfill}
+\label{protAlign_8h_a4}
+
+
+
+
+Definition at line 206 of file prot\-Align.c.
+
+Referenced by rotate\-Mats().
+
+
+

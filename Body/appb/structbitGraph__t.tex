@@ -1,0 +1,56 @@
+\hypertarget{structbitGraph__t}{
+\section{bit\-Graph\_\-t Struct Reference}
+\label{structbitGraph__t}\index{bitGraph_t@{bitGraph\_\-t}}
+}
+{\tt \#include $<$bit\-Set.h$>$}
+
+Collaboration diagram for bit\-Graph\_\-t:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=49pt]{structbitGraph__t__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int \hyperlink{structbitGraph__t_o0}{size}
+\item 
+\hyperlink{structbitSet__t}{bit\-Set\_\-t} $\ast$$\ast$ \hyperlink{structbitGraph__t_o1}{graph}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+A bit graph is an array of bit sets. The graph must be of size size x size. This data structure is used to store adjacency matrices. In particular, a bit graph is used in the clustering step. It can easily be considered a set of sets.
+
+
+
+Definition at line 48 of file bit\-Set.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structbitGraph__t_o1}{
+\index{bitGraph_t@{bit\-Graph\_\-t}!graph@{graph}}
+\index{graph@{graph}!bitGraph_t@{bit\-Graph\_\-t}}
+\subsubsection[graph]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{structbitSet__t}{bit\-Set\_\-t}$\ast$$\ast$ \hyperlink{structbitGraph__t_o1}{bit\-Graph\_\-t::graph}}}
+\label{structbitGraph__t_o1}
+
+
+A pointer used to store an array of \hyperlink{structbitSet__t}{bit\-Set\_\-t} space objects.
+
+Definition at line 56 of file bit\-Set.h.
+
+Referenced by bit\-Graph\-Check\-Bit(), bit\-Graph\-Row\-Intersection(), bit\-Graph\-Row\-Union(), bit\-Graph\-Set\-False(), bit\-Graph\-Set\-False\-Diagonal(), bit\-Graph\-Set\-False\-Sym(), bit\-Graph\-Set\-True(), bit\-Graph\-Set\-True\-Diagonal(), bit\-Graph\-Set\-True\-Sym(), copy\-Bit\-Graph(), count\-Bit\-Graph\-Non\-Zero(), delete\-Bit\-Graph(), empty\-Bit\-Graph(), empty\-Bit\-Graph\-Row(), fill\-Bit\-Graph(), filter\-Iter(), find\-Cliques(), get\-Stat\-Mat(), mask\-Bit\-Graph(), new\-Bit\-Graph(), print\-Bit\-Graph(), prune\-Bit\-Graph(), and single\-Linkage().\hypertarget{structbitGraph__t_o0}{
+\index{bitGraph_t@{bit\-Graph\_\-t}!size@{size}}
+\index{size@{size}!bitGraph_t@{bit\-Graph\_\-t}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structbitGraph__t_o0}{bit\-Graph\_\-t::size}}}
+\label{structbitGraph__t_o0}
+
+
+The total size of a bit graph, which is assumed to be symmetric. There are {\em size\/} bit sets in a bit graph, each of size {\em size\/}.
+
+Definition at line 53 of file bit\-Set.h.
+
+Referenced by convolve(), copy\-Bit\-Graph(), filter\-Graph(), find\-Cliques(), get\-Stat\-Mat(), main(), new\-Bit\-Graph(), and old\-Get\-Stat\-Mat().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{bitSet_8h}{bit\-Set.h}\end{CompactItemize}

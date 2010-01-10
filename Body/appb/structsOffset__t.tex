@@ -1,0 +1,76 @@
+\hypertarget{structsOffset__t}{
+\section{s\-Offset\_\-t Struct Reference}
+\label{structsOffset__t}\index{sOffset_t@{sOffset\_\-t}}
+}
+{\tt \#include $<$spat.h$>$}
+
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int \hyperlink{structsOffset__t_o0}{seq}
+\item 
+int \hyperlink{structsOffset__t_o1}{pos}
+\item 
+int \hyperlink{structsOffset__t_o2}{next}
+\item 
+int \hyperlink{structsOffset__t_o3}{prev}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+This object is used to store the location of a particular word and a set of sequences. That is if we hash a word, we would like to know where it came from. This data structure provides that information.
+
+
+
+Definition at line 13 of file spat.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structsOffset__t_o2}{
+\index{sOffset_t@{s\-Offset\_\-t}!next@{next}}
+\index{next@{next}!sOffset_t@{s\-Offset\_\-t}}
+\subsubsection[next]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsOffset__t_o2}{s\-Offset\_\-t::next}}}
+\label{structsOffset__t_o2}
+
+
+The index of the word that follows this word at {\em pos\/} plus 1.
+
+Definition at line 23 of file spat.h.
+
+Referenced by count\-Words2().\hypertarget{structsOffset__t_o1}{
+\index{sOffset_t@{s\-Offset\_\-t}!pos@{pos}}
+\index{pos@{pos}!sOffset_t@{s\-Offset\_\-t}}
+\subsubsection[pos]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsOffset__t_o1}{s\-Offset\_\-t::pos}}}
+\label{structsOffset__t_o1}
+
+
+The position in the sequence where the word is located.
+
+Definition at line 20 of file spat.h.
+
+Referenced by count\-Words2(), and main().\hypertarget{structsOffset__t_o3}{
+\index{sOffset_t@{s\-Offset\_\-t}!prev@{prev}}
+\index{prev@{prev}!sOffset_t@{s\-Offset\_\-t}}
+\subsubsection[prev]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsOffset__t_o3}{s\-Offset\_\-t::prev}}}
+\label{structsOffset__t_o3}
+
+
+The index of the word that precedes this word at {\em pos\/} minus 1.
+
+Definition at line 26 of file spat.h.
+
+Referenced by count\-Words2().\hypertarget{structsOffset__t_o0}{
+\index{sOffset_t@{s\-Offset\_\-t}!seq@{seq}}
+\index{seq@{seq}!sOffset_t@{s\-Offset\_\-t}}
+\subsubsection[seq]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsOffset__t_o0}{s\-Offset\_\-t::seq}}}
+\label{structsOffset__t_o0}
+
+
+The sequence from which the word came.
+
+Definition at line 17 of file spat.h.
+
+Referenced by count\-Words2(), and main().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{spat_8h}{spat.h}\end{CompactItemize}

@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="200.00000"
+   inkscape:export-xdpi="200.00000"
+   inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+   sodipodi:docbase="/home/kljensen/Burns/Papers/jensen2005machine/Images"
+   sodipodi:docname="pockets.svg"
+   height="297mm"
+   width="210mm"
+   inkscape:version="0.41"
+   sodipodi:version="0.32"
+   id="svg1">
+  <defs
+     id="defs3">
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.87064004"
+       fy="0.47592780"
+       fx="0.12912586"
+       cy="0.47592780"
+       cx="0.12912586"
+       id="radialGradient2252"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.16257489"
+       fy="0.45998144"
+       fx="0.10517193"
+       cy="0.45998144"
+       cx="0.10517193"
+       id="radialGradient2249"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.05794156"
+       fy="0.52951550"
+       fx="0.03429864"
+       cy="0.52951550"
+       cx="0.03429864"
+       id="radialGradient2308"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.94530231"
+       fy="0.49261802"
+       fx="0.10231581"
+       cy="0.49261802"
+       cx="0.10231581"
+       id="radialGradient2245"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.09476674"
+       fy="0.47475895"
+       fx="0.14876154"
+       cy="0.47475895"
+       cx="0.14876154"
+       id="radialGradient2248"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       gradientTransform="scale(0.981900,1.018433)"
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       id="radialGradient2243"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.99274021"
+       fy="0.45460743"
+       fx="-0.03426594"
+       cy="0.45460743"
+       cx="-0.03426594"
+       id="radialGradient2234"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.15786016"
+       fy="0.41838914"
+       fx="0.12308171"
+       cy="0.41838914"
+       cx="0.12308171"
+       id="radialGradient2254"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.01227117"
+       fy="0.51811606"
+       fx="0.09379365"
+       cy="0.51811606"
+       cx="0.09379365"
+       id="radialGradient2242"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.23516309"
+       fy="0.42353204"
+       fx="0.00176516"
+       cy="0.42353204"
+       cx="0.00176516"
+       id="radialGradient2235"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.99358559"
+       fy="0.45202357"
+       fx="0.13952909"
+       cy="0.45202357"
+       cx="0.13952909"
+       id="radialGradient2238"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.92758179"
+       fy="0.51786393"
+       fx="0.10572406"
+       cy="0.51786393"
+       cx="0.10572406"
+       id="radialGradient2247"
+       xlink:href="#linearGradient3061" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.75388616"
+       fy="0.47570258"
+       fx="0.07089464"
+       cy="0.47570258"
+       cx="0.07089464"
+       id="radialGradient2255"
+       xlink:href="#linearGradient3061" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.00531185"
+       fy="0.45947254"
+       fx="0.13576421"
+       cy="0.45947254"
+       cx="0.13576421"
+       id="radialGradient2240"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.90021598"
+       fy="0.43060628"
+       fx="0.19133353"
+       cy="0.43060628"
+       cx="0.19133353"
+       id="radialGradient2237"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.96065199"
+       fy="0.44716057"
+       fx="0.12610430"
+       cy="0.44716057"
+       cx="0.12610430"
+       id="radialGradient2253"
+       xlink:href="#linearGradient3056" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.03396523"
+       fy="0.45113680"
+       fx="0.06667502"
+       cy="0.45113680"
+       cx="0.06667502"
+       id="radialGradient2250"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.06329954"
+       fy="0.46590915"
+       fx="0.11026470"
+       cy="0.46590915"
+       cx="0.11026470"
+       id="radialGradient2241"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.00361717"
+       fy="0.45007837"
+       fx="0.11726084"
+       cy="0.45007837"
+       cx="0.11726084"
+       id="radialGradient2239"
+       xlink:href="#linearGradient3051" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.92262757"
+       fy="0.48981532"
+       fx="0.10250594"
+       cy="0.48981532"
+       cx="0.10250594"
+       id="radialGradient2244"
+       xlink:href="#linearGradient3061" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.11545432"
+       fy="0.47777122"
+       fx="0.09255625"
+       cy="0.47777122"
+       cx="0.09255625"
+       id="radialGradient2251"
+       xlink:href="#linearGradient3061" />
+    <linearGradient
+       id="linearGradient3061">
+      <stop
+         id="stop3062"
+         offset="0.000000"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         id="stop3063"
+         offset="1.000000"
+         style="stop-color:#bdbdbf;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.85013694"
+       fy="0.48086977"
+       fx="0.12504770"
+       cy="0.48086977"
+       cx="0.12504770"
+       id="radialGradient2236"
+       xlink:href="#linearGradient3061" />
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.98911941"
+       fy="0.40717503"
+       fx="0.06539200"
+       cy="0.40717503"
+       cx="0.06539200"
+       id="radialGradient2256"
+       xlink:href="#linearGradient3056" />
+    <linearGradient
+       id="linearGradient3051">
+      <stop
+         id="stop3052"
+         offset="0.0000000"
+         style="stop-color:#bdbdbd;stop-opacity:1.0000000;" />
+      <stop
+         id="stop3053"
+         offset="1.000000"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="1.23328626"
+       fy="0.49757218"
+       fx="0.09627371"
+       cy="0.49757218"
+       cx="0.09627371"
+       id="radialGradient2246"
+       xlink:href="#linearGradient3051" />
+    <linearGradient
+       id="linearGradient3056">
+      <stop
+         id="stop3057"
+         offset="0.000000"
+         style="stop-color:#ffcac7;stop-opacity:1;" />
+      <stop
+         id="stop3058"
+         offset="1.000000"
+         style="stop-color:#000000;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.79082364"
+       fy="0.47399977"
+       fx="0.04939421"
+       cy="0.47399977"
+       cx="0.04939421"
+       id="radialGradient2233"
+       xlink:href="#linearGradient3056" />
+    <linearGradient
+       id="linearGradient2324">
+      <stop
+         id="stop2325"
+         offset="0.0000000"
+         style="stop-color:#2f2d24;stop-opacity:0.98039216;" />
+      <stop
+         id="stop2326"
+         offset="0.25000000"
+         style="stop-color:#555144;stop-opacity:0.98823529;" />
+      <stop
+         id="stop2327"
+         offset="0.50000000"
+         style="stop-color:#807b68;stop-opacity:0.64313728;" />
+      <stop
+         id="stop2329"
+         offset="0.75000000"
+         style="stop-color:#bcb8a4;stop-opacity:0.27118644;" />
+      <stop
+         id="stop2328"
+         offset="1.0000000"
+         style="stop-color:#cbcbbd;stop-opacity:0.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2298">
+      <stop
+         id="stop2299"
+         offset="0.0000000"
+         style="stop-color:#040403;stop-opacity:0.98039216;" />
+      <stop
+         id="stop2302"
+         offset="0.25000000"
+         style="stop-color:#5b5648;stop-opacity:0.98823529;" />
+      <stop
+         id="stop2333"
+         offset="0.37500000"
+         style="stop-color:#948e77;stop-opacity:0.99215686;" />
+      <stop
+         id="stop2300"
+         offset="0.50000000"
+         style="stop-color:#ada68c;stop-opacity:0.82485878;" />
+      <stop
+         id="stop2301"
+         offset="1.0000000"
+         style="stop-color:#cbcbbd;stop-opacity:0.0000000;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient552">
+      <stop
+         id="stop553"
+         offset="0.0000000"
+         style="stop-color:#ebebeb;stop-opacity:0.0000000;" />
+      <stop
+         id="stop2291"
+         offset="0.50000000"
+         style="stop-color:#adadad;stop-opacity:1.0000000;" />
+      <stop
+         id="stop554"
+         offset="1.000000"
+         style="stop-color:#6f6f67;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       spreadMethod="pad"
+       gradientUnits="objectBoundingBox"
+       r="0.96979290"
+       fy="0.24218747"
+       fx="0.24060242"
+       cy="0.24218747"
+       cx="0.24060242"
+       id="radialGradient555"
+       xlink:href="#linearGradient552" />
+    <radialGradient
+       r="51.235801"
+       fy="197.82972"
+       fx="369.97959"
+       cy="197.82972"
+       cx="369.97959"
+       gradientTransform="scale(0.761467,1.313255)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2223"
+       xlink:href="#linearGradient2324"
+       inkscape:collect="always" />
+    <radialGradient
+       r="60.788761"
+       fy="221.45668"
+       fx="274.62652"
+       cy="221.45668"
+       cx="274.62652"
+       spreadMethod="pad"
+       gradientTransform="scale(0.818602,1.221595)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2225"
+       xlink:href="#linearGradient2298"
+       inkscape:collect="always" />
+    <radialGradient
+       r="58.405621"
+       fy="196.21124"
+       fx="204.66473"
+       cy="196.21124"
+       cx="204.66473"
+       gradientTransform="scale(0.761467,1.313255)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2227"
+       xlink:href="#linearGradient2324"
+       inkscape:collect="always" />
+    <radialGradient
+       r="45.609590"
+       fy="216.74806"
+       fx="596.26439"
+       cy="216.74806"
+       cx="596.26439"
+       gradientTransform="scale(0.790129,1.265616)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2229"
+       xlink:href="#linearGradient2298"
+       inkscape:collect="always" />
+    <radialGradient
+       r="54.604356"
+       fy="184.50178"
+       fx="587.51930"
+       cy="184.50178"
+       cx="587.51930"
+       gradientTransform="scale(0.761467,1.313255)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2231"
+       xlink:href="#linearGradient2298"
+       inkscape:collect="always" />
+    <radialGradient
+       r="58.799092"
+       fy="216.92980"
+       fx="451.35447"
+       cy="216.92980"
+       cx="451.35447"
+       spreadMethod="pad"
+       gradientTransform="scale(0.787942,1.269129)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2257"
+       xlink:href="#linearGradient2298"
+       inkscape:collect="always" />
+    <radialGradient
+       r="50.345655"
+       fy="181.42453"
+       fx="848.83265"
+       cy="181.42453"
+       cx="848.83265"
+       spreadMethod="pad"
+       gradientTransform="scale(0.717461,1.393804)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2259"
+       xlink:href="#linearGradient2298"
+       inkscape:collect="always" />
+    <radialGradient
+       r="56.494874"
+       fy="175.78610"
+       fx="748.83913"
+       cy="175.78610"
+       cx="748.83913"
+       spreadMethod="pad"
+       gradientTransform="scale(0.740806,1.349881)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2261"
+       xlink:href="#linearGradient2298"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="393.92405"
+       x2="178.90290"
+       y1="583.18661"
+       x1="206.73562"
+       gradientTransform="matrix(0.000000,1.437517,-0.391300,0.000000,568.7826,-63.67151)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2301"
+       xlink:href="#linearGradient552"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="578.12611"
+       x2="216.01320"
+       y1="635.47840"
+       x1="222.19825"
+       gradientTransform="matrix(0.000000,1.437517,-0.391300,0.000000,568.7826,-63.67151)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2303"
+       xlink:href="#linearGradient552"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="433.67405"
+       x2="261.32511"
+       y1="176.19904"
+       x1="209.38465"
+       gradientTransform="matrix(0.000000,1.327631,-0.423687,0.000000,592.1684,-63.67151)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2306"
+       xlink:href="#linearGradient552"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="260.48498"
+       x2="227.02482"
+       y1="170.22903"
+       x1="223.10478"
+       gradientTransform="matrix(0.000000,1.327631,-0.423687,0.000000,592.1684,-63.67151)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2308"
+       xlink:href="#linearGradient552"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2319"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2321"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2324"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2326"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2328"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2332"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2335"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+    <radialGradient
+       r="18.207847"
+       fy="53.787520"
+       fx="234.68678"
+       cy="53.787520"
+       cx="234.68678"
+       spreadMethod="pad"
+       gradientTransform="scale(0.981900,1.018433)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient2337"
+       xlink:href="#linearGradient3051"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:current-layer="svg1"
+     inkscape:window-y="32"
+     inkscape:window-x="32"
+     inkscape:window-height="801"
+     inkscape:window-width="1259"
+     inkscape:cy="732.50162"
+     inkscape:cx="375.46404"
+     inkscape:zoom="1.2279853"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1.0000000"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata4">
+    <rdf:RDF
+       id="RDF5">
+      <cc:Work
+         id="Work6"
+         rdf:about="">
+        <dc:format
+           id="format7">image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+           id="type9" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(0.000000,0.750000,-0.750000,0.000000,583.6645,-63.67151)"
+     style="opacity:0.48620686"
+     id="g2343">
+    <path
+       id="rect2304"
+       d="M 278.78870,204.51945 C 259.61500,204.51945 244.17914,219.95532 244.17914,239.12902 L 244.17914,291.04337 C 244.17914,310.21706 259.61500,325.65293 278.78870,325.65293 L 279.80663,325.65293 C 298.98033,325.65293 314.41620,310.21706 314.41620,291.04337 L 314.41620,239.12902 C 314.41620,219.95532 298.98033,204.51945 279.80663,204.51945 L 278.78870,204.51945 z "
+       style="fill:url(#radialGradient2223);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.990552,-0.137141,0.137141,0.990552,0.000000,0.000000)" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       id="rect2303"
+       d="M 217.48353,209.39101 C 198.30984,209.39101 181.83456,217.48951 181.83456,236.66320 L 181.83456,288.57753 C 181.83456,307.75122 197.27042,323.18708 216.44411,323.18708 L 217.46204,323.18708 C 236.63573,323.18708 258.09033,301.39105 258.09033,282.21736 L 254.98803,245.28807 C 254.98803,226.11438 240.56048,210.81812 221.38679,210.81812 L 217.48353,209.39101 z "
+       style="fill:url(#radialGradient2225);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.990552,-0.137141,0.137141,0.990552,0.000000,0.000000)" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       id="rect2296"
+       d="M 159.55990,197.26091 C 140.38622,197.26091 124.95036,212.69676 124.95036,231.87045 L 125.64836,278.74320 C 125.64836,297.91688 140.38622,318.39429 159.55990,318.39429 L 160.57783,318.39429 C 179.75151,318.39429 195.18736,302.95843 195.18736,283.78475 L 195.18736,231.87045 C 195.18736,212.69676 179.75151,197.26091 160.57783,197.26091 L 159.55990,197.26091 z "
+       style="fill:url(#radialGradient2227);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.990552,-0.137141,0.137141,0.990552,0.000000,0.000000)" />
+    <path
+       id="rect2305"
+       d="M 467.34274,230.62465 C 448.16903,230.62465 430.96463,236.56695 430.96463,255.74065 L 430.96463,307.65502 C 430.96463,326.82873 445.64028,332.91062 464.81399,332.91062 L 468.71724,334.33773 C 487.89095,334.33773 494.70195,321.81830 494.70195,302.64459 L 496.36200,268.42987 C 496.36200,249.25617 494.87175,229.58523 475.69804,229.58523 L 467.34274,230.62465 z "
+       style="fill:url(#radialGradient2229);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.990552,-0.137141,0.137141,0.990552,0.000000,0.000000)" />
+    <path
+       id="rect2306"
+       d="M 440.29935,172.51559 C 421.12563,172.51559 405.68976,187.95147 405.68976,207.12518 L 405.68976,259.03951 C 405.68976,278.21322 421.12563,293.64909 440.29935,293.64909 L 441.31725,293.64909 C 460.49096,293.64909 475.92683,278.21322 475.92683,259.03951 L 475.92683,207.12518 C 475.92683,187.95147 460.49096,172.51559 441.31725,172.51559 L 440.29935,172.51559 z "
+       style="fill:url(#radialGradient2231);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.999580,-2.898690e-2,2.898690e-2,0.999580,0.000000,0.000000)" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       id="rect2307"
+       d="M 346.34533,213.87253 C 327.17164,213.87253 315.62942,230.87510 315.62942,250.04879 L 318.42141,281.79693 C 318.42141,300.97062 326.27182,326.66029 345.44551,326.66029 L 350.35707,328.22699 C 369.53076,328.22699 383.95832,312.65154 383.95832,293.47785 L 386.62667,259.40277 C 386.62667,240.22908 366.53695,213.87253 347.36326,213.87253 L 346.34533,213.87253 z "
+       style="fill:url(#radialGradient2257);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.990552,-0.137141,0.137141,0.990552,0.000000,0.000000)" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       id="rect2308"
+       d="M 606.94738,195.09600 C 589.74951,195.09600 577.80952,214.72511 577.80952,233.88998 L 585.52399,267.76239 C 585.52399,286.92727 588.13850,302.62866 605.33637,302.62866 C 622.53424,302.62866 633.16199,292.07848 633.16199,272.91360 L 633.16199,221.22137 C 633.16199,202.05650 624.14525,195.09600 606.94738,195.09600 z "
+       style="fill:url(#radialGradient2259);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.997795,-6.637562e-2,3.209709e-2,0.999485,0.000000,0.000000)" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       id="rect2309"
+       d="M 549.91772,176.45650 C 530.74400,176.45650 522.18704,198.27638 522.18704,217.45010 L 518.60055,256.99814 C 518.60055,276.17185 527.93362,291.36671 547.10734,291.36671 L 548.12524,291.36671 C 567.29895,291.36671 582.73483,275.93083 582.73483,256.75712 L 580.37920,212.89952 C 580.37920,193.72580 572.22394,174.50257 553.05023,174.50257 L 549.91772,176.45650 z "
+       style="fill:url(#radialGradient2261);fill-opacity:0.75000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
+       transform="matrix(0.999221,-3.946303e-2,3.946303e-2,0.999221,0.000000,0.000000)" />
+  </g>
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:nodetypes="cccccccccccccccsssc"
+     id="path909"
+     d="M 538.96307,32.522635 C 459.56472,21.070953 422.81462,52.372225 424.34151,59.243237 C 425.86840,66.114250 453.35244,60.770125 455.64278,76.802485 C 464.04068,104.28653 426.63184,99.705850 428.15874,108.86720 C 429.68562,117.26511 448.77177,99.705857 457.93311,114.97477 C 467.09446,130.24368 436.55664,145.51259 436.55664,150.09327 C 436.55664,154.67394 465.56757,152.38360 464.80413,169.94285 C 464.04068,187.50210 439.61042,190.55588 439.61042,196.66345 C 439.61042,202.77101 468.62135,207.35169 467.85790,222.62061 C 467.09446,237.88952 436.55664,244.76052 436.55664,250.10464 C 436.55664,255.44877 464.04068,255.44877 469.38480,269.95423 C 474.72892,284.45970 441.13731,289.80382 441.13731,294.38449 C 441.13731,298.96517 472.43859,303.54584 472.43859,314.23408 C 472.43859,324.92232 442.66420,322.63198 444.19110,334.08367 C 445.71798,345.53535 476.25581,335.61056 476.25581,353.93325 C 481.59993,376.07318 447.81746,374.40314 445.98042,380.53456 C 444.82402,384.39424 473.42584,379.50975 476.06495,391.34209 C 482.27070,419.16528 454.57358,410.83685 453.94888,414.17388 C 451.15754,429.08493 530.56516,420.35302 550.41475,427.22403"
+     style="fill:url(#linearGradient2306);fill-opacity:0.75000000;fill-rule:evenodd;stroke:url(#linearGradient2308);stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:nodetypes="cscsccccccccccccccc"
+     id="path2293"
+     d="M 322.27509,463.66514 C 361.97426,469.39099 396.16463,428.73751 398.09943,417.85841 C 400.09225,406.65301 371.24033,423.58425 369.71344,398.00882 C 368.95000,382.35818 402.15987,381.97646 394.81171,380.44957 C 387.46355,378.92267 369.33171,373.19684 368.18655,365.18066 C 359.78865,337.69662 392.61681,343.80418 391.08991,334.64283 C 389.56302,326.24493 377.34789,339.22350 368.18655,323.95459 C 359.02520,308.68568 390.32647,297.99744 390.32647,293.41676 C 390.32647,288.83610 356.73487,294.18021 357.49831,276.62097 C 358.26175,259.06171 389.56302,259.06171 389.56302,252.95414 C 389.56302,246.84658 359.02520,243.79280 359.78865,228.52389 C 360.55209,213.25497 392.61681,208.67430 392.61681,203.33019 C 392.61681,197.98606 364.36932,198.74951 359.02520,184.24404 C 353.68108,169.73858 384.98235,162.10412 384.98235,157.52345 C 384.98235,152.94277 352.15419,147.59865 352.15419,136.91041 C 352.15419,126.22217 375.05756,125.45873 373.53066,114.00704 C 372.00378,102.55535 349.86385,103.31880 349.86385,84.996107 C 349.86385,66.673412 371.24033,66.673412 372.76722,57.512065 C 374.29411,48.350718 295.55450,18.576340 275.70492,11.705327"
+     style="fill:url(#linearGradient2301);fill-opacity:0.75000000;fill-rule:evenodd;stroke:url(#linearGradient2303);stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     id="path3222"
+     d="M 404.38587,20.307505 L 398.27830,83.673497 L 407.43965,133.29746 L 411.25687,179.10420 L 415.07410,221.09371 L 413.54721,270.71767 L 418.12788,314.23407 L 420.41822,353.16980 L 426.52578,398.21309 L 450.95605,460.05219"
+     style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:2.5000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.0000000;stroke-opacity:1.0000000" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,593.3840,-62.24786)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path2202"
+     style="font-size:12.000000;fill:url(#radialGradient2337);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,600.2551,-13.38734)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3213"
+     style="font-size:12.000000;fill:url(#radialGradient2335);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,606.3626,32.41939)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3214"
+     style="font-size:12.000000;fill:url(#radialGradient2332);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,608.6530,77.46266)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3215"
+     style="font-size:12.000000;fill:url(#radialGradient2328);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,607.8895,129.3770)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3216"
+     style="font-size:12.000000;fill:url(#radialGradient2326);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,613.2336,166.7858)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3217"
+     style="font-size:12.000000;fill:url(#radialGradient2324);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,613.9971,209.5387)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3218"
+     style="font-size:12.000000;fill:url(#radialGradient2321);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(-0.635444,0.757292,-0.745558,-0.625599,618.5777,252.2916)"
+     sodipodi:ry="8.6596298"
+     sodipodi:rx="8.3265762"
+     sodipodi:cy="55.172279"
+     sodipodi:cx="238.13986"
+     d="M 246.46644 55.172279 A 8.3265762 8.6596298 0 1 1  229.81329,55.172279 A 8.3265762 8.6596298 0 1 1  246.46644 55.172279 z"
+     id="path3219"
+     style="font-size:12.000000;fill:url(#radialGradient2319);fill-rule:evenodd;stroke:#000000;stroke-width:1.3333333pt"
+     sodipodi:type="arc" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:nodetypes="cccc"
+     id="rect3234"
+     d="M 424.64343,250.96160 L 406.47148,239.70398 L 402.45089,246.19396 L 420.62285,257.45159"
+     style="fill:#ffffff;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000002pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+  <path
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:nodetypes="cccc"
+     id="path3236"
+     d="M 424.64339,250.96160 L 406.47144,239.70398 M 402.45085,246.19397 L 420.62281,257.45159"
+     style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000002pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2138"
+     y="224.42274"
+     x="478.95786"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       y="224.42274"
+       x="478.95786"
+       id="tspan2140"
+       sodipodi:role="line">P1</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2339"
+     y="273.84885"
+     x="483.02954"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2343"
+       sodipodi:role="line"
+       y="273.84885"
+       x="483.02954">P1'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2345"
+     y="316.36868"
+     x="486.28693"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2349"
+       sodipodi:role="line"
+       y="316.36868"
+       x="486.28693">P2'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2351"
+     y="356.4455"
+     x="491.9873"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2355"
+       sodipodi:role="line"
+       y="356.44550"
+       x="491.98730">P3'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2357"
+     y="401.83105"
+     x="491.17297"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2361"
+       sodipodi:role="line"
+       y="401.83105"
+       x="491.17297">P4'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2363"
+     y="173.79083"
+     x="476.51483"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2367"
+       sodipodi:role="line"
+       y="173.79083"
+       x="476.51483">P2</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2369"
+     y="124.00436"
+     x="470.45389"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2373"
+       sodipodi:role="line"
+       y="124.00436"
+       x="470.45389">P3</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2375"
+     y="79.464317"
+     x="470.06226"
+     style="line-height:100%;writing-mode:lr;text-anchor:start;font-family:Verdana;stroke-opacity:1.0000000;stroke-linejoin:miter;stroke-linecap:butt;stroke-width:1.0000000pt;stroke:none;fill-opacity:1.0000000;fill:#000000;font-stretch:normal;font-weight:normal;font-variant:normal;font-style:normal;font-size:12.000000"
+     xml:space="preserve"><tspan
+       id="tspan2379"
+       sodipodi:role="line"
+       y="79.464317"
+       x="470.06226">P4</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2381"
+     y="228.49446"
+     x="382.61066"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2421"
+       sodipodi:role="line"
+       y="228.49446"
+       x="382.61066">S1</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2385"
+     y="278.73489"
+     x="381.79626"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2417"
+       sodipodi:role="line"
+       y="278.73489"
+       x="381.79626">S1'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2389"
+     y="318.81171"
+     x="387.49667"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2423"
+       sodipodi:role="line"
+       y="318.81171"
+       x="387.49667">S2'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2393"
+     y="363.77457"
+     x="388.311"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2425"
+       sodipodi:role="line"
+       y="363.77457"
+       x="388.31100">S3'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2397"
+     y="401.83105"
+     x="389.12537"
+     style="line-height:100%;writing-mode:lr;text-anchor:start;font-family:Verdana;stroke-opacity:1.0000000;stroke-linejoin:miter;stroke-linecap:butt;stroke-width:1.0000000pt;stroke:none;fill-opacity:1.0000000;fill:#000000;font-stretch:normal;font-weight:normal;font-variant:normal;font-style:normal;font-size:12.000000"
+     xml:space="preserve"><tspan
+       id="tspan2427"
+       sodipodi:role="line"
+       y="401.83105"
+       x="389.12537">S4'</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2401"
+     y="183.56294"
+     x="380.98196"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2419"
+       sodipodi:role="line"
+       y="183.56294"
+       x="380.98196">S2</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2405"
+     y="140.2912"
+     x="375.73535"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2415"
+       sodipodi:role="line"
+       y="140.29120"
+       x="375.73535">S3</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2409"
+     y="81.907341"
+     x="368.01465"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2413"
+       sodipodi:role="line"
+       y="81.907341"
+       x="368.01465">S4</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     sodipodi:linespacing="100%"
+     id="text2429"
+     y="12.21606"
+     x="385.38312"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:start;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2433"
+       sodipodi:role="line"
+       y="12.216060"
+       x="385.38312">substrate</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(0.000000,1.000000,-1.000000,0.000000,0.000000,0.000000)"
+     sodipodi:linespacing="100%"
+     id="text2435"
+     y="-541.01642"
+     x="229.57353"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:middle;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2439"
+       sodipodi:role="line"
+       y="-541.01642"
+       x="229.57353">protease</tspan><tspan
+       id="tspan2441"
+       sodipodi:role="line"
+       y="-529.01642"
+       x="229.57353">chain A</tspan></text>
+  <text
+     inkscape:export-ydpi="200.00000"
+     inkscape:export-xdpi="200.00000"
+     inkscape:export-filename="/home/kljensen/Burns/Papers/jensen2005machine/Images/pockets.png"
+     transform="matrix(0.000000,-1.000000,1.000000,0.000000,0.000000,0.000000)"
+     sodipodi:linespacing="100%"
+     id="text2443"
+     y="315.75958"
+     x="-232.5146"
+     style="font-size:12.000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Verdana;text-anchor:middle;writing-mode:lr-tb"
+     xml:space="preserve"><tspan
+       id="tspan2449"
+       sodipodi:role="line"
+       y="315.75958"
+       x="-232.51460">protease</tspan><tspan
+       id="tspan2451"
+       sodipodi:role="line"
+       y="327.75958"
+       x="-232.51460">chain B</tspan></text>
+</svg>

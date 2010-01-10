@@ -1,0 +1,80 @@
+\hypertarget{structsHash__t}{
+\section{s\-Hash\_\-t Struct Reference}
+\label{structsHash__t}\index{sHash_t@{sHash\_\-t}}
+}
+Collaboration diagram for s\-Hash\_\-t:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=56pt]{structsHash__t__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int $\ast$ \hyperlink{structsHash__t_o0}{hash\-Size}
+\item 
+int $\ast$ \hyperlink{structsHash__t_o1}{i\-Hash\-Size}
+\item 
+int \hyperlink{structsHash__t_o2}{total\-Size}
+\item 
+\hyperlink{structsHashEntry__t}{s\-Hash\-Entry\_\-t} $\ast$$\ast$ \hyperlink{structsHash__t_o3}{hash}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+A data structure for a hash table. At its root, this structure is just an array of hash entry objects. As well, there are members used to track the size of the hash table.
+
+
+
+Definition at line 132 of file words.c.
+
+\subsection*{Field Documentation}
+\hypertarget{structsHash__t_o3}{
+\index{sHash_t@{s\-Hash\_\-t}!hash@{hash}}
+\index{hash@{hash}!sHash_t@{s\-Hash\_\-t}}
+\subsubsection[hash]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{structsHashEntry__t}{s\-Hash\-Entry\_\-t}$\ast$$\ast$ \hyperlink{structsHash__t_o3}{s\-Hash\_\-t::hash}}}
+\label{structsHash__t_o3}
+
+
+An array \hyperlink{structsHashEntry__t}{s\-Hash\-Entry\_\-t} space objects. 
+
+Definition at line 148 of file words.c.
+
+Referenced by destroy\-SHash(), print\-SHash(), and search\-SHash().\hypertarget{structsHash__t_o0}{
+\index{sHash_t@{s\-Hash\_\-t}!hashSize@{hashSize}}
+\index{hashSize@{hashSize}!sHash_t@{s\-Hash\_\-t}}
+\subsubsection[hashSize]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ \hyperlink{structsHash__t_o0}{s\-Hash\_\-t::hash\-Size}}}
+\label{structsHash__t_o0}
+
+
+A pointer to an integer that is used to store an array of integers that keep track of the number of \hyperlink{structsHashEntry__t}{s\-Hash\-Entry\_\-t} objects that are hashed to a particular integer. 
+
+Definition at line 138 of file words.c.
+
+Referenced by destroy\-SHash(), and search\-SHash().\hypertarget{structsHash__t_o1}{
+\index{sHash_t@{s\-Hash\_\-t}!iHashSize@{iHashSize}}
+\index{iHashSize@{iHashSize}!sHash_t@{s\-Hash\_\-t}}
+\subsubsection[iHashSize]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ \hyperlink{structsHash__t_o1}{s\-Hash\_\-t::i\-Hash\-Size}}}
+\label{structsHash__t_o1}
+
+
+A pointer to an integer that is used to store an array of integers that keep track of the number of \hyperlink{structsHashEntry__t}{s\-Hash\-Entry\_\-t} objects that are hashed to a particular integer. 
+
+Definition at line 143 of file words.c.
+
+Referenced by destroy\-SHash(), and search\-SHash().\hypertarget{structsHash__t_o2}{
+\index{sHash_t@{s\-Hash\_\-t}!totalSize@{totalSize}}
+\index{totalSize@{totalSize}!sHash_t@{s\-Hash\_\-t}}
+\subsubsection[totalSize]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsHash__t_o2}{s\-Hash\_\-t::total\-Size}}}
+\label{structsHash__t_o2}
+
+
+An integer that stores the total number of slots available in our hash. 
+
+Definition at line 146 of file words.c.
+
+Referenced by init\-SHash(), and search\-SHash().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{words_8c}{words.c}\end{CompactItemize}

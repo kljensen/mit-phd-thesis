@@ -1,0 +1,64 @@
+% -*- Mode:TeX -*-
+
+%% The documentclass options along with the pagestyle can be used to generate
+%% a technical report, a draft copy, or a regular thesis.  You may need to
+%% re-specify the pagestyle after you \include  cover.tex.  For more
+%% information, see the first few lines of mitthesis.cls. 
+
+%\documentclass[12pt,vi,twoside]{mitthesis}
+%%
+%%  If you want your thesis copyright to you instead of MIT, use the
+%%  ``vi'' option, as above.
+%%
+%\documentclass[12pt,twoside,leftblank]{mitthesis}
+%%
+%% If you want blank pages before new chapters to be labelled ``This
+%% Page Intentionally Left Blank'', use the ``leftblank'' option, as
+%% above. 
+
+%\documentclass[12pt]{mitthesis}
+%\documentclass[12pt,singlespace,twoside]{mitthesis}
+\documentclass[12pt,twoside]{mitthesis}
+%\documentclass[12pt,oneside]{mitthesis}
+%\usepackage{lgrind}
+\input{Body/header.tex}
+\pagestyle{plain}
+
+%% This bit allows you to either specify only the files which you wish to
+%% process, or `all' to process all files which you \include.
+%% Krishna Sethuraman (1990).
+
+%\typein [\files]{Enter file names to process, (chap1,chap2 ...), or `all' to process all files:}
+%\def\all{all}
+%\ifx\files\all \typeout{Including all files.} \else \typeout{Including only \files.} \includeonly{\files} \fi
+
+\begin{document}
+%\fontencoding{LY1}\fontfamily{ACaslonPro}\mdweight
+
+\input{Body/cover}
+\pagestyle{plain}
+\input{Body/contents}
+
+%now start the fancy headings
+\pagestyle{fancyplain}
+\addtolength{\headheight}{\baselineskip}
+%add a nice little line underneath the heading
+%\renewcommand{\headrulewidth}{0.6pt}
+
+
+\input{Body/chap1}
+\input{Body/chap2}
+\input{Body/chap3}
+\input{Body/chap4}
+
+\clearpage
+\appendix
+%\addcontentsline{toc}{part}{Appendix}
+
+\input{Body/appa}
+\import{./Body/appb/}{appb.tex}
+%\input{Body/appc}
+\input{Body/biblio.tex}
+%\input{Body/index.tex}
+\end{document}
+

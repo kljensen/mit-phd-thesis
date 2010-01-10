@@ -1,0 +1,82 @@
+\hypertarget{structsPat__t}{
+\section{s\-Pat\_\-t Struct Reference}
+\label{structsPat__t}\index{sPat_t@{sPat\_\-t}}
+}
+{\tt \#include $<$spat.h$>$}
+
+Collaboration diagram for s\-Pat\_\-t:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=46pt]{structsPat__t__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+char $\ast$ \hyperlink{structsPat__t_o0}{string}
+\item 
+int \hyperlink{structsPat__t_o1}{length}
+\item 
+int \hyperlink{structsPat__t_o2}{support}
+\item 
+\hyperlink{structsOffset__t}{s\-Offset\_\-t} $\ast$ \hyperlink{structsPat__t_o3}{offset}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+This data structure is used to store the locations of all the instances of a particular word of length {\em length\/} in a set of sequences. This data structure is used principally by the string based version of Gemoda and is used to store words that are hashed before the comparison phase.
+
+
+
+Definition at line 36 of file spat.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structsPat__t_o1}{
+\index{sPat_t@{s\-Pat\_\-t}!length@{length}}
+\index{length@{length}!sPat_t@{s\-Pat\_\-t}}
+\subsubsection[length]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsPat__t_o1}{s\-Pat\_\-t::length}}}
+\label{structsPat__t_o1}
+
+
+The length of this word.
+
+Definition at line 43 of file spat.h.
+
+Referenced by count\-Words2(), and print\-SPats().\hypertarget{structsPat__t_o3}{
+\index{sPat_t@{s\-Pat\_\-t}!offset@{offset}}
+\index{offset@{offset}!sPat_t@{s\-Pat\_\-t}}
+\subsubsection[offset]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{structsOffset__t}{s\-Offset\_\-t}$\ast$ \hyperlink{structsPat__t_o3}{s\-Pat\_\-t::offset}}}
+\label{structsPat__t_o3}
+
+
+An array of \hyperlink{structsOffset__t}{s\-Offset\_\-t} objects storing the loci, or offsets where this word occurs.
+
+Definition at line 50 of file spat.h.
+
+Referenced by count\-Words2(), destroy\-SPat\-A(), and main().\hypertarget{structsPat__t_o0}{
+\index{sPat_t@{s\-Pat\_\-t}!string@{string}}
+\index{string@{string}!sPat_t@{s\-Pat\_\-t}}
+\subsubsection[string]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ \hyperlink{structsPat__t_o0}{s\-Pat\_\-t::string}}}
+\label{structsPat__t_o0}
+
+
+The pointer to the string for this word.
+
+Definition at line 40 of file spat.h.
+
+Referenced by count\-Words2().\hypertarget{structsPat__t_o2}{
+\index{sPat_t@{s\-Pat\_\-t}!support@{support}}
+\index{support@{support}!sPat_t@{s\-Pat\_\-t}}
+\subsubsection[support]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structsPat__t_o2}{s\-Pat\_\-t::support}}}
+\label{structsPat__t_o2}
+
+
+The number of times this word occurs in the sequence set.
+
+Definition at line 46 of file spat.h.
+
+Referenced by count\-Words2().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{spat_8h}{spat.h}\end{CompactItemize}

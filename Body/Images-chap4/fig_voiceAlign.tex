@@ -1,0 +1,58 @@
+\psset{xunit=1cm,yunit=1cm}
+\readdata{\dataA}{Figures/voiceSeq1-xy.dat}
+\readdata{\dataB}{Figures/voiceSeq2-xy.dat}
+\begin{pspicture}(0,0)(10,10)%\showgrid
+	\rput(2,9){
+		\rput(-1,0){
+			\psaxes[tickstyle=bottom, dy=\psyunit,Dy=1,Oy=0,Ox=0,Dx=100](0,0)(0,-1)(8,1)
+		}
+		\dataplot[plotstyle=line,linecolor=black,linewidth=0.1mm]{\dataA}
+	}
+	\rput(2,1){
+		\rput(-1,0){
+			\psaxes[tickstyle=bottom, dy=\psyunit,Dy=1,Oy=0,Ox=0,Dx=100](0,0)(0,-1)(8,1)
+		}
+		\dataplot[plotstyle=line,linecolor=black,linewidth=0.1mm]{\dataB}
+	}
+	\rput[l](0.4, 5.5){\normalsize \texttt{SSEMSBVFIHIMBXBMFMLFTYVMMSMTBZBTMMGTZXWTBBWICDGGG}}
+	\rput[l](0.4, 5){\normalsize \texttt{:...:.......:...............:..:..::.:..:..:.....}}
+	\rput[l](0.4, 4.5){\normalsize \texttt{SPQISVBWFFPVBYPPPSYZXVWSSTVBBVWTSPGTBXXYBWFIKGIIM}}
+	\rput(0, 0){
+		\psline[linestyle=dotted](4,2)(0.55,4.3)
+		\psline[linestyle=dotted](4.4,2)(10.6,4.3)
+		\psline[linestyle=dotted](4.4,2)(4.4,1)
+		\psline[linestyle=dotted](4.2,2)(4.2,1)
+	}
+	\rput(0, 0){
+		\psline[linestyle=dotted](4,8)(0.55,5.7)
+		\psline[linestyle=dotted](4.4,8)(10.6,5.7)
+		\psline[linestyle=dotted](4,8)(4,9)
+		\psline[linestyle=dotted](4.4,8)(4.4,9)
+	}
+	\rput[bl](8.5, 8){Speaker 1}
+	\rput[tl](8.5, 2){Speaker 2}
+
+		
+		
+%	\rput(0.8,150){
+%		\rotatebox{90}{ \# sequences}
+%	}
+%	\rput(8.5,150){
+%		\rotatebox{-90}{ \# patterns}
+%	}
+%	\rput(5,0){
+%		bootstrapping iterations
+%	}
+
+
+%	number LSWBBTTTTYZXBW SSEMSBVFIHIMBXBMFMLFTYVMMSMTBZBTMMGTZXWTBBWICD
+%	       .............. :...:.......:...............:..:..::.:..:..:..
+%	number TZXYSMFPYVVVTS SPQISVBWFFPVBYPPPSYZXVWSSTVBBVWTSPGTBXXYBWFIKG
+%	250       260       270       280       290       300
+
+%	310       320       330       340       350       360
+%	number GGGCIWYFMELKKFTKPLILAAAAAAAAAADWZIHWIDDCCDNRAAAAAAAAAAAAAAAA
+%	       ....................:::::::::...... ........::::::::::::::::
+%	number IIMKPFIILHGDMSYTIEHEAAAAAAAAARITBTDEMGQEHCRAAAAAAAAAAAAAAAAA
+
+\end{pspicture}

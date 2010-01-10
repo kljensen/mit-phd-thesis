@@ -1,0 +1,58 @@
+\newcolumntype{H}{>{\columncolor[gray]{0.8}}c}
+
+\begin{table}[ptbh]
+    \caption[The construction of a position weight matrix]{
+        The construction of a position weight matrix from
+        the collection of sequences shown in
+        Figure~\vref{fig:yeast}.  Part A) shows the number of
+        nucleotides of each type that occur in each of the seven
+        positions of the aligned sequences.  For example, in the
+        first position, there are 58 thymines.  Part B) shows the
+        frequency matrix $f$, where each $f_{ij}=(c_{ij}/\sum_j
+        c_{ij})$.  Part C) shows the log--odds matrix $\Theta$,
+        where each $\Theta_{ij} =  \log_2 (f_{ij}/q_j)$
+        and $q$ is the vector of background frequencies for the
+        nucleotides.  Part D) shows the scoring of three different
+        sequences.  To compute the score for a sequence, the
+        corresponding nucleotide at each column is looked up in
+        $\Theta$ and the columns are summed together.
+        }
+            \label{table:pwm}
+                    \centering \scriptsize
+            \begin{tabular}{r|HcHcHcH} %\hline\hline
+\multicolumn{8}{l}{} \\
+\multicolumn{8}{l}{A) Count  Matrix ($c_{ij}$):} \\
+\multicolumn{8}{l}{} \\
+A & 5 & 47 & 0 & 0 & 67 & 75 & 0 \\
+T & 58 & 18 & 9 & 75 & 2 & 0 & 10 \\
+G & 7 & 9 & 0 & 0 & 6 & 0 & 0 \\
+C & 5 & 1 & 66 & 0 & 0 & 0 & 65 \\
+  \multicolumn{4}{c}{ }& $\Downarrow$\\
+\multicolumn{8}{l}{B) Frequency  Matrix ($f_{ij}$):} \\
+\multicolumn{8}{l}{} \\
+A & 0.067 & 0.627 & 0.000 & 0.000 & 0.893 & 1.000 & 0.000 \\
+T & 0.773 & 0.240 & 0.120 & 1.000 & 0.027 & 0.000 & 0.133 \\
+G & 0.093 & 0.120 & 0.000 & 0.000 & 0.080 & 0.000 & 0.000 \\
+C & 0.067 & 0.013 & 0.880 & 0.000 & 0.000 & 0.000 & 0.867 \\
+  \multicolumn{4}{c}{ }& $\Downarrow$\\
+\multicolumn{8}{l}{C) Log--odds  Matrix ($\Theta_{ij}$):} \\
+\multicolumn{8}{l}{} \\
+A & -1.907 & 1.326 & $\varnothing$ & $\varnothing$ & 1.837 & 2.000 & $\varnothing$ \\
+T & 1.629 & -0.059 & -1.059 & 2.000 & -3.229 & $\varnothing$ & -0.907 \\
+G & -1.421 & -1.059 & $\varnothing$ & $\varnothing$ & -1.644 & $\varnothing$ & $\varnothing$ \\
+C & -1.907 & -4.229 & 1.816 & $\varnothing$ & $\varnothing$ & $\varnothing$ & 1.794 \\
+  \multicolumn{4}{c}{ }& $\Downarrow$\\
+\multicolumn{8}{l}{D) Example sequence scoring:} \\
+\multicolumn{8}{l}{} \\
+query1 & T & A & C & T & T & A & C\\
+$\Sigma$ & 1.629  & 1.326 & 1.816 & 2.000 & -3.229 & 2.000 & 1.794\\
+  \multicolumn{4}{c}{ }& $= 7.335$\\
+query2 & T & T & C & T & A & A & C \\
+$\Sigma$ & 1.629  & -0.059 & 1.816 & 2.000 & 1.837 & 2.000 & 1.794\\
+  \multicolumn{4}{c}{ }& $= 11.017$\\
+query3 & G & T & A & T & A & A & T \\
+$\Sigma$ & -1.421  & -0.059 & $\varnothing$ \\
+  \multicolumn{4}{c}{ }& $= \varnothing$\\
+%\hline\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,789 @@
+\indexentry{FastaSeqIO/ Directory Reference@{FastaSeqIO/ Directory Reference}|hyperpage}{1}
+\indexentry{bitGraph_t@{bitGraph\_\discretionary {-}{}{}t}|hyperpage}{3}
+\indexentry{bitGraph_t@{bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}!graph@{graph}|hyperpage}{4}
+\indexentry{graph@{graph}!bitGraph_t@{bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}|hyperpage}{4}
+\indexentry{bitGraph_t@{bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}!size@{size}|hyperpage}{4}
+\indexentry{size@{size}!bitGraph_t@{bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}|hyperpage}{4}
+\indexentry{bitSet_t@{bitSet\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}!bytes@{bytes}|hyperpage}{5}
+\indexentry{bytes@{bytes}!bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}!max@{max}|hyperpage}{5}
+\indexentry{max@{max}!bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}!slots@{slots}|hyperpage}{5}
+\indexentry{slots@{slots}!bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}!tf@{tf}|hyperpage}{6}
+\indexentry{tf@{tf}!bitSet_t@{bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}|hyperpage}{6}
+\indexentry{cnode@{cnode}|hyperpage}{7}
+\indexentry{cnode@{cnode}!id@{id}|hyperpage}{7}
+\indexentry{id@{id}!cnode@{cnode}|hyperpage}{7}
+\indexentry{cnode@{cnode}!length@{length}|hyperpage}{7}
+\indexentry{length@{length}!cnode@{cnode}|hyperpage}{7}
+\indexentry{cnode@{cnode}!next@{next}|hyperpage}{8}
+\indexentry{next@{next}!cnode@{cnode}|hyperpage}{8}
+\indexentry{cnode@{cnode}!set@{set}|hyperpage}{8}
+\indexentry{set@{set}!cnode@{cnode}|hyperpage}{8}
+\indexentry{cnode@{cnode}!stat@{stat}|hyperpage}{8}
+\indexentry{stat@{stat}!cnode@{cnode}|hyperpage}{8}
+\indexentry{cSet_t@{cSet\_\discretionary {-}{}{}t}|hyperpage}{9}
+\indexentry{cSet_t@{c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}!members@{members}|hyperpage}{9}
+\indexentry{members@{members}!cSet_t@{c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}|hyperpage}{9}
+\indexentry{cSet_t@{c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}!size@{size}|hyperpage}{9}
+\indexentry{size@{size}!cSet_t@{c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}|hyperpage}{9}
+\indexentry{fSeq_t@{fSeq\_\discretionary {-}{}{}t}|hyperpage}{11}
+\indexentry{fSeq_t@{f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}!label@{label}|hyperpage}{11}
+\indexentry{label@{label}!fSeq_t@{f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}|hyperpage}{11}
+\indexentry{fSeq_t@{f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}!seq@{seq}|hyperpage}{11}
+\indexentry{seq@{seq}!fSeq_t@{f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}|hyperpage}{11}
+\indexentry{mnode@{mnode}|hyperpage}{12}
+\indexentry{mnode@{mnode}!cliqueMembership@{cliqueMembership}|hyperpage}{12}
+\indexentry{cliqueMembership@{cliqueMembership}!mnode@{mnode}|hyperpage}{12}
+\indexentry{mnode@{mnode}!next@{next}|hyperpage}{12}
+\indexentry{next@{next}!mnode@{mnode}|hyperpage}{12}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{13}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!indexSize@{indexSize}|hyperpage}{13}
+\indexentry{indexSize@{indexSize}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{13}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!indexToPos@{indexToPos}|hyperpage}{13}
+\indexentry{indexToPos@{indexToPos}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{13}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!indexToSeq@{indexToSeq}|hyperpage}{13}
+\indexentry{indexToSeq@{indexToSeq}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{13}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!label@{label}|hyperpage}{14}
+\indexentry{label@{label}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{14}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!offsetToIndex@{offsetToIndex}|hyperpage}{14}
+\indexentry{offsetToIndex@{offsetToIndex}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{14}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!seq@{seq}|hyperpage}{14}
+\indexentry{seq@{seq}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{14}
+\indexentry{rdh_t@{rdh\_\discretionary {-}{}{}t}!size@{size}|hyperpage}{14}
+\indexentry{size@{size}!rdh_t@{rdh\_\discretionary {-}{}{}t}|hyperpage}{14}
+\indexentry{sHash_t@{sHash\_\discretionary {-}{}{}t}|hyperpage}{15}
+\indexentry{sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}!hash@{hash}|hyperpage}{15}
+\indexentry{hash@{hash}!sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}|hyperpage}{15}
+\indexentry{sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}!hashSize@{hashSize}|hyperpage}{15}
+\indexentry{hashSize@{hashSize}!sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}|hyperpage}{15}
+\indexentry{sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}!iHashSize@{iHashSize}|hyperpage}{15}
+\indexentry{iHashSize@{iHashSize}!sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}|hyperpage}{15}
+\indexentry{sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}!totalSize@{totalSize}|hyperpage}{16}
+\indexentry{totalSize@{totalSize}!sHash_t@{s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}|hyperpage}{16}
+\indexentry{sHashEntry_t@{sHashEntry\_\discretionary {-}{}{}t}|hyperpage}{17}
+\indexentry{sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}!data@{data}|hyperpage}{17}
+\indexentry{data@{data}!sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}|hyperpage}{17}
+\indexentry{sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}!idx@{idx}|hyperpage}{17}
+\indexentry{idx@{idx}!sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}|hyperpage}{17}
+\indexentry{sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}!key@{key}|hyperpage}{17}
+\indexentry{key@{key}!sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}|hyperpage}{17}
+\indexentry{sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}!L@{L}|hyperpage}{17}
+\indexentry{L@{L}!sHashEntry_t@{s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}|hyperpage}{17}
+\indexentry{sOffset_t@{sOffset\_\discretionary {-}{}{}t}|hyperpage}{19}
+\indexentry{sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}!next@{next}|hyperpage}{19}
+\indexentry{next@{next}!sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}|hyperpage}{19}
+\indexentry{sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}!pos@{pos}|hyperpage}{19}
+\indexentry{pos@{pos}!sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}|hyperpage}{19}
+\indexentry{sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}!prev@{prev}|hyperpage}{19}
+\indexentry{prev@{prev}!sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}|hyperpage}{19}
+\indexentry{sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}!seq@{seq}|hyperpage}{19}
+\indexentry{seq@{seq}!sOffset_t@{s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}|hyperpage}{19}
+\indexentry{sPat_t@{sPat\_\discretionary {-}{}{}t}|hyperpage}{21}
+\indexentry{sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}!length@{length}|hyperpage}{21}
+\indexentry{length@{length}!sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}|hyperpage}{21}
+\indexentry{sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}!offset@{offset}|hyperpage}{21}
+\indexentry{offset@{offset}!sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}|hyperpage}{21}
+\indexentry{sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}!string@{string}|hyperpage}{22}
+\indexentry{string@{string}!sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}|hyperpage}{22}
+\indexentry{sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}!support@{support}|hyperpage}{22}
+\indexentry{support@{support}!sPat_t@{s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}|hyperpage}{22}
+\indexentry{sSize_t@{sSize\_\discretionary {-}{}{}t}|hyperpage}{23}
+\indexentry{sSize_t@{s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}!size@{size}|hyperpage}{23}
+\indexentry{size@{size}!sSize_t@{s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}|hyperpage}{23}
+\indexentry{sSize_t@{s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}!start@{start}|hyperpage}{23}
+\indexentry{start@{start}!sSize_t@{s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}|hyperpage}{23}
+\indexentry{sSize_t@{s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}!stop@{stop}|hyperpage}{23}
+\indexentry{stop@{stop}!sSize_t@{s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}|hyperpage}{23}
+\indexentry{align.c@{align.c}|hyperpage}{25}
+\indexentry{align.c@{align.c}!ALIGN_ALPHABET@{ALIGN\_\discretionary {-}{}{}ALPHABET}|hyperpage}{27}
+\indexentry{ALIGN_ALPHABET@{ALIGN\_\discretionary {-}{}{}ALPHABET}!align.c@{align.c}|hyperpage}{27}
+\indexentry{align.c@{align.c}!alignMat@{alignMat}|hyperpage}{27}
+\indexentry{alignMat@{alignMat}!align.c@{align.c}|hyperpage}{27}
+\indexentry{align.c@{align.c}!alignWordsMat_bit@{alignWordsMat\_\discretionary {-}{}{}bit}|hyperpage}{28}
+\indexentry{alignWordsMat_bit@{alignWordsMat\_\discretionary {-}{}{}bit}!align.c@{align.c}|hyperpage}{28}
+\indexentry{align.c@{align.c}!aaOrder@{aaOrder}|hyperpage}{29}
+\indexentry{aaOrder@{aaOrder}!align.c@{align.c}|hyperpage}{29}
+\indexentry{bitSet.c@{bitSet.c}|hyperpage}{30}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitcount32@{bitcount32}|hyperpage}{31}
+\indexentry{bitcount32@{bitcount32}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{31}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitcount32_precomp@{bitcount32\_\discretionary {-}{}{}precomp}|hyperpage}{31}
+\indexentry{bitcount32_precomp@{bitcount32\_\discretionary {-}{}{}precomp}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{31}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitcount64@{bitcount64}|hyperpage}{32}
+\indexentry{bitcount64@{bitcount64}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{32}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphCheckBit@{bitGraphCheckBit}|hyperpage}{32}
+\indexentry{bitGraphCheckBit@{bitGraphCheckBit}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{32}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphRowIntersection@{bitGraphRowIntersection}|hyperpage}{32}
+\indexentry{bitGraphRowIntersection@{bitGraphRowIntersection}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{32}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphRowUnion@{bitGraphRowUnion}|hyperpage}{33}
+\indexentry{bitGraphRowUnion@{bitGraphRowUnion}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{33}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphSetFalse@{bitGraphSetFalse}|hyperpage}{33}
+\indexentry{bitGraphSetFalse@{bitGraphSetFalse}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{33}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphSetFalseDiagonal@{bitGraphSetFalseDiagonal}|hyperpage}{34}
+\indexentry{bitGraphSetFalseDiagonal@{bitGraphSetFalseDiagonal}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{34}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphSetFalseSym@{bitGraphSetFalseSym}|hyperpage}{34}
+\indexentry{bitGraphSetFalseSym@{bitGraphSetFalseSym}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{34}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphSetTrue@{bitGraphSetTrue}|hyperpage}{34}
+\indexentry{bitGraphSetTrue@{bitGraphSetTrue}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{34}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphSetTrueDiagonal@{bitGraphSetTrueDiagonal}|hyperpage}{35}
+\indexentry{bitGraphSetTrueDiagonal@{bitGraphSetTrueDiagonal}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{35}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitGraphSetTrueSym@{bitGraphSetTrueSym}|hyperpage}{35}
+\indexentry{bitGraphSetTrueSym@{bitGraphSetTrueSym}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{35}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitSet3WayIntersection@{bitSet3WayIntersection}|hyperpage}{35}
+\indexentry{bitSet3WayIntersection@{bitSet3WayIntersection}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{35}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitSetDifference@{bitSetDifference}|hyperpage}{36}
+\indexentry{bitSetDifference@{bitSetDifference}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{36}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitSetIntersection@{bitSetIntersection}|hyperpage}{37}
+\indexentry{bitSetIntersection@{bitSetIntersection}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{37}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitSetSum@{bitSetSum}|hyperpage}{37}
+\indexentry{bitSetSum@{bitSetSum}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{37}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!bitSetUnion@{bitSetUnion}|hyperpage}{38}
+\indexentry{bitSetUnion@{bitSetUnion}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{38}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!checkBit@{checkBit}|hyperpage}{38}
+\indexentry{checkBit@{checkBit}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{38}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!copyBitGraph@{copyBitGraph}|hyperpage}{39}
+\indexentry{copyBitGraph@{copyBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{39}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!copySet@{copySet}|hyperpage}{39}
+\indexentry{copySet@{copySet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{39}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!countBitGraphNonZero@{countBitGraphNonZero}|hyperpage}{39}
+\indexentry{countBitGraphNonZero@{countBitGraphNonZero}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{39}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!countSet@{countSet}|hyperpage}{40}
+\indexentry{countSet@{countSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{40}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!deleteBitGraph@{deleteBitGraph}|hyperpage}{41}
+\indexentry{deleteBitGraph@{deleteBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{41}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!deleteBitSet@{deleteBitSet}|hyperpage}{41}
+\indexentry{deleteBitSet@{deleteBitSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{41}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!emptyBitGraph@{emptyBitGraph}|hyperpage}{42}
+\indexentry{emptyBitGraph@{emptyBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{42}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!emptyBitGraphRow@{emptyBitGraphRow}|hyperpage}{42}
+\indexentry{emptyBitGraphRow@{emptyBitGraphRow}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{42}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!emptySet@{emptySet}|hyperpage}{42}
+\indexentry{emptySet@{emptySet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{42}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!fillBitGraph@{fillBitGraph}|hyperpage}{43}
+\indexentry{fillBitGraph@{fillBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{43}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!fillSet@{fillSet}|hyperpage}{43}
+\indexentry{fillSet@{fillSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{43}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!flipBits@{flipBits}|hyperpage}{43}
+\indexentry{flipBits@{flipBits}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{43}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!maskBitGraph@{maskBitGraph}|hyperpage}{44}
+\indexentry{maskBitGraph@{maskBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{44}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!newBitArray@{newBitArray}|hyperpage}{44}
+\indexentry{newBitArray@{newBitArray}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{44}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!newBitGraph@{newBitGraph}|hyperpage}{45}
+\indexentry{newBitGraph@{newBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{45}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!newBitSet@{newBitSet}|hyperpage}{45}
+\indexentry{newBitSet@{newBitSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{45}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!nextBitBitSet@{nextBitBitSet}|hyperpage}{46}
+\indexentry{nextBitBitSet@{nextBitBitSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{46}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!printBinaryBitSet@{printBinaryBitSet}|hyperpage}{47}
+\indexentry{printBinaryBitSet@{printBinaryBitSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{47}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!printBitGraph@{printBitGraph}|hyperpage}{48}
+\indexentry{printBitGraph@{printBitGraph}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{48}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!printBitSet@{printBitSet}|hyperpage}{48}
+\indexentry{printBitSet@{printBitSet}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{48}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!setFalse@{setFalse}|hyperpage}{49}
+\indexentry{setFalse@{setFalse}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{49}
+\indexentry{bitSet.c@{bit\discretionary {-}{}{}Set.c}!setTrue@{setTrue}|hyperpage}{49}
+\indexentry{setTrue@{setTrue}!bitSet.c@{bit\discretionary {-}{}{}Set.c}|hyperpage}{49}
+\indexentry{bitSet.h@{bitSet.h}|hyperpage}{51}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BITSLOT@{BITSLOT}|hyperpage}{53}
+\indexentry{BITSLOT@{BITSLOT}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{53}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSBITSIZE@{BSBITSIZE}|hyperpage}{53}
+\indexentry{BSBITSIZE@{BSBITSIZE}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{53}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSCLEAR@{BSCLEAR}|hyperpage}{54}
+\indexentry{BSCLEAR@{BSCLEAR}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{54}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSINTERSECTION@{BSINTERSECTION}|hyperpage}{54}
+\indexentry{BSINTERSECTION@{BSINTERSECTION}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{54}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSMASK@{BSMASK}|hyperpage}{54}
+\indexentry{BSMASK@{BSMASK}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{54}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSNUMSLOTS@{BSNUMSLOTS}|hyperpage}{54}
+\indexentry{BSNUMSLOTS@{BSNUMSLOTS}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{54}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSSET@{BSSET}|hyperpage}{54}
+\indexentry{BSSET@{BSSET}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{54}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSTEST@{BSTEST}|hyperpage}{54}
+\indexentry{BSTEST@{BSTEST}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{54}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!BSUNION@{BSUNION}|hyperpage}{55}
+\indexentry{BSUNION@{BSUNION}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{55}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bit_t@{bit\_\discretionary {-}{}{}t}|hyperpage}{55}
+\indexentry{bit_t@{bit\_\discretionary {-}{}{}t}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{55}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphCheckBit@{bitGraphCheckBit}|hyperpage}{55}
+\indexentry{bitGraphCheckBit@{bitGraphCheckBit}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{55}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphRowIntersection@{bitGraphRowIntersection}|hyperpage}{55}
+\indexentry{bitGraphRowIntersection@{bitGraphRowIntersection}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{55}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphRowUnion@{bitGraphRowUnion}|hyperpage}{55}
+\indexentry{bitGraphRowUnion@{bitGraphRowUnion}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{55}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphSetFalse@{bitGraphSetFalse}|hyperpage}{56}
+\indexentry{bitGraphSetFalse@{bitGraphSetFalse}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{56}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphSetFalseDiagonal@{bitGraphSetFalseDiagonal}|hyperpage}{56}
+\indexentry{bitGraphSetFalseDiagonal@{bitGraphSetFalseDiagonal}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{56}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphSetFalseSym@{bitGraphSetFalseSym}|hyperpage}{56}
+\indexentry{bitGraphSetFalseSym@{bitGraphSetFalseSym}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{56}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphSetTrue@{bitGraphSetTrue}|hyperpage}{56}
+\indexentry{bitGraphSetTrue@{bitGraphSetTrue}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{56}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphSetTrueDiagonal@{bitGraphSetTrueDiagonal}|hyperpage}{57}
+\indexentry{bitGraphSetTrueDiagonal@{bitGraphSetTrueDiagonal}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{57}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitGraphSetTrueSym@{bitGraphSetTrueSym}|hyperpage}{57}
+\indexentry{bitGraphSetTrueSym@{bitGraphSetTrueSym}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{57}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitSet3WayDifference@{bitSet3WayDifference}|hyperpage}{57}
+\indexentry{bitSet3WayDifference@{bitSet3WayDifference}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{57}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitSet3WayIntersection@{bitSet3WayIntersection}|hyperpage}{57}
+\indexentry{bitSet3WayIntersection@{bitSet3WayIntersection}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{57}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitSetDifference@{bitSetDifference}|hyperpage}{57}
+\indexentry{bitSetDifference@{bitSetDifference}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{57}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitSetIntersection@{bitSetIntersection}|hyperpage}{58}
+\indexentry{bitSetIntersection@{bitSetIntersection}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{58}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitSetSum@{bitSetSum}|hyperpage}{58}
+\indexentry{bitSetSum@{bitSetSum}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{58}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!bitSetUnion@{bitSetUnion}|hyperpage}{58}
+\indexentry{bitSetUnion@{bitSetUnion}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{58}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!checkBit@{checkBit}|hyperpage}{58}
+\indexentry{checkBit@{checkBit}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{58}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!copyBitGraph@{copyBitGraph}|hyperpage}{59}
+\indexentry{copyBitGraph@{copyBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{59}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!copySet@{copySet}|hyperpage}{59}
+\indexentry{copySet@{copySet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{59}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!countBitGraphNonZero@{countBitGraphNonZero}|hyperpage}{59}
+\indexentry{countBitGraphNonZero@{countBitGraphNonZero}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{59}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!countSet@{countSet}|hyperpage}{59}
+\indexentry{countSet@{countSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{59}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!deleteBitGraph@{deleteBitGraph}|hyperpage}{60}
+\indexentry{deleteBitGraph@{deleteBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{60}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!deleteBitSet@{deleteBitSet}|hyperpage}{60}
+\indexentry{deleteBitSet@{deleteBitSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{60}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!emptyBitGraph@{emptyBitGraph}|hyperpage}{60}
+\indexentry{emptyBitGraph@{emptyBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{60}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!emptyBitGraphRow@{emptyBitGraphRow}|hyperpage}{60}
+\indexentry{emptyBitGraphRow@{emptyBitGraphRow}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{60}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!emptySet@{emptySet}|hyperpage}{60}
+\indexentry{emptySet@{emptySet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{60}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!fillBitGraph@{fillBitGraph}|hyperpage}{61}
+\indexentry{fillBitGraph@{fillBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{61}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!fillSet@{fillSet}|hyperpage}{61}
+\indexentry{fillSet@{fillSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{61}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!flipBits@{flipBits}|hyperpage}{61}
+\indexentry{flipBits@{flipBits}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{61}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!maskBitGraph@{maskBitGraph}|hyperpage}{61}
+\indexentry{maskBitGraph@{maskBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{61}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!newBitArray@{newBitArray}|hyperpage}{62}
+\indexentry{newBitArray@{newBitArray}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{62}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!newBitGraph@{newBitGraph}|hyperpage}{62}
+\indexentry{newBitGraph@{newBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{62}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!newBitSet@{newBitSet}|hyperpage}{62}
+\indexentry{newBitSet@{newBitSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{62}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!nextBitBitSet@{nextBitBitSet}|hyperpage}{62}
+\indexentry{nextBitBitSet@{nextBitBitSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{62}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!printBinaryBitSet@{printBinaryBitSet}|hyperpage}{63}
+\indexentry{printBinaryBitSet@{printBinaryBitSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{63}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!printBitGraph@{printBitGraph}|hyperpage}{63}
+\indexentry{printBitGraph@{printBitGraph}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{63}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!printBitSet@{printBitSet}|hyperpage}{63}
+\indexentry{printBitSet@{printBitSet}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{63}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!setFalse@{setFalse}|hyperpage}{63}
+\indexentry{setFalse@{setFalse}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{63}
+\indexentry{bitSet.h@{bit\discretionary {-}{}{}Set.h}!setTrue@{setTrue}|hyperpage}{63}
+\indexentry{setTrue@{setTrue}!bitSet.h@{bit\discretionary {-}{}{}Set.h}|hyperpage}{63}
+\indexentry{convll.c@{convll.c}|hyperpage}{65}
+\indexentry{convll.c@{convll.c}!addToStacks@{addToStacks}|hyperpage}{66}
+\indexentry{addToStacks@{addToStacks}!convll.c@{convll.c}|hyperpage}{66}
+\indexentry{convll.c@{convll.c}!bitSetToCSet@{bitSetToCSet}|hyperpage}{67}
+\indexentry{bitSetToCSet@{bitSetToCSet}!convll.c@{convll.c}|hyperpage}{67}
+\indexentry{convll.c@{convll.c}!checkCliquecSet@{checkCliquecSet}|hyperpage}{68}
+\indexentry{checkCliquecSet@{checkCliquecSet}!convll.c@{convll.c}|hyperpage}{68}
+\indexentry{convll.c@{convll.c}!completeConv@{completeConv}|hyperpage}{69}
+\indexentry{completeConv@{completeConv}!convll.c@{convll.c}|hyperpage}{69}
+\indexentry{convll.c@{convll.c}!emptyMemberStacks@{emptyMemberStacks}|hyperpage}{71}
+\indexentry{emptyMemberStacks@{emptyMemberStacks}!convll.c@{convll.c}|hyperpage}{71}
+\indexentry{convll.c@{convll.c}!fillMemberStacks@{fillMemberStacks}|hyperpage}{71}
+\indexentry{fillMemberStacks@{fillMemberStacks}!convll.c@{convll.c}|hyperpage}{71}
+\indexentry{convll.c@{convll.c}!initheadCll@{initheadCll}|hyperpage}{72}
+\indexentry{initheadCll@{initheadCll}!convll.c@{convll.c}|hyperpage}{72}
+\indexentry{convll.c@{convll.c}!mergeIntersect@{mergeIntersect}|hyperpage}{72}
+\indexentry{mergeIntersect@{mergeIntersect}!convll.c@{convll.c}|hyperpage}{72}
+\indexentry{convll.c@{convll.c}!mllToCSet@{mllToCSet}|hyperpage}{73}
+\indexentry{mllToCSet@{mllToCSet}!convll.c@{convll.c}|hyperpage}{73}
+\indexentry{convll.c@{convll.c}!popAllCll@{popAllCll}|hyperpage}{74}
+\indexentry{popAllCll@{popAllCll}!convll.c@{convll.c}|hyperpage}{74}
+\indexentry{convll.c@{convll.c}!popCll@{popCll}|hyperpage}{75}
+\indexentry{popCll@{popCll}!convll.c@{convll.c}|hyperpage}{75}
+\indexentry{convll.c@{convll.c}!popMemStack@{popMemStack}|hyperpage}{76}
+\indexentry{popMemStack@{popMemStack}!convll.c@{convll.c}|hyperpage}{76}
+\indexentry{convll.c@{convll.c}!popWholeMemStack@{popWholeMemStack}|hyperpage}{76}
+\indexentry{popWholeMemStack@{popWholeMemStack}!convll.c@{convll.c}|hyperpage}{76}
+\indexentry{convll.c@{convll.c}!printCll@{printCll}|hyperpage}{77}
+\indexentry{printCll@{printCll}!convll.c@{convll.c}|hyperpage}{77}
+\indexentry{convll.c@{convll.c}!printCllPattern@{printCllPattern}|hyperpage}{77}
+\indexentry{printCllPattern@{printCllPattern}!convll.c@{convll.c}|hyperpage}{77}
+\indexentry{convll.c@{convll.c}!printCSet@{printCSet}|hyperpage}{78}
+\indexentry{printCSet@{printCSet}!convll.c@{convll.c}|hyperpage}{78}
+\indexentry{convll.c@{convll.c}!printMemberStacks@{printMemberStacks}|hyperpage}{79}
+\indexentry{printMemberStacks@{printMemberStacks}!convll.c@{convll.c}|hyperpage}{79}
+\indexentry{convll.c@{convll.c}!pruneCll@{pruneCll}|hyperpage}{79}
+\indexentry{pruneCll@{pruneCll}!convll.c@{convll.c}|hyperpage}{79}
+\indexentry{convll.c@{convll.c}!pushClique@{pushClique}|hyperpage}{81}
+\indexentry{pushClique@{pushClique}!convll.c@{convll.c}|hyperpage}{81}
+\indexentry{convll.c@{convll.c}!pushCll@{pushCll}|hyperpage}{82}
+\indexentry{pushCll@{pushCll}!convll.c@{convll.c}|hyperpage}{82}
+\indexentry{convll.c@{convll.c}!pushConvClique@{pushConvClique}|hyperpage}{83}
+\indexentry{pushConvClique@{pushConvClique}!convll.c@{convll.c}|hyperpage}{83}
+\indexentry{convll.c@{convll.c}!pushcSet@{pushcSet}|hyperpage}{84}
+\indexentry{pushcSet@{pushcSet}!convll.c@{convll.c}|hyperpage}{84}
+\indexentry{convll.c@{convll.c}!pushMemStack@{pushMemStack}|hyperpage}{84}
+\indexentry{pushMemStack@{pushMemStack}!convll.c@{convll.c}|hyperpage}{84}
+\indexentry{convll.c@{convll.c}!removeSupers@{removeSupers}|hyperpage}{85}
+\indexentry{removeSupers@{removeSupers}!convll.c@{convll.c}|hyperpage}{85}
+\indexentry{convll.c@{convll.c}!searchMemsWithList@{searchMemsWithList}|hyperpage}{87}
+\indexentry{searchMemsWithList@{searchMemsWithList}!convll.c@{convll.c}|hyperpage}{87}
+\indexentry{convll.c@{convll.c}!setStackTrue@{setStackTrue}|hyperpage}{88}
+\indexentry{setStackTrue@{setStackTrue}!convll.c@{convll.c}|hyperpage}{88}
+\indexentry{convll.c@{convll.c}!singleCliqueConv@{singleCliqueConv}|hyperpage}{89}
+\indexentry{singleCliqueConv@{singleCliqueConv}!convll.c@{convll.c}|hyperpage}{89}
+\indexentry{convll.c@{convll.c}!swapNodecSet@{swapNodecSet}|hyperpage}{91}
+\indexentry{swapNodecSet@{swapNodecSet}!convll.c@{convll.c}|hyperpage}{91}
+\indexentry{convll.c@{convll.c}!uniqClique@{uniqClique}|hyperpage}{91}
+\indexentry{uniqClique@{uniqClique}!convll.c@{convll.c}|hyperpage}{91}
+\indexentry{convll.c@{convll.c}!wholeCliqueConv@{wholeCliqueConv}|hyperpage}{93}
+\indexentry{wholeCliqueConv@{wholeCliqueConv}!convll.c@{convll.c}|hyperpage}{93}
+\indexentry{convll.c@{convll.c}!wholeRoundConv@{wholeRoundConv}|hyperpage}{95}
+\indexentry{wholeRoundConv@{wholeRoundConv}!convll.c@{convll.c}|hyperpage}{95}
+\indexentry{convll.c@{convll.c}!yankCll@{yankCll}|hyperpage}{96}
+\indexentry{yankCll@{yankCll}!convll.c@{convll.c}|hyperpage}{96}
+\indexentry{convll.c@{convll.c}!cliquecounter@{cliquecounter}|hyperpage}{97}
+\indexentry{cliquecounter@{cliquecounter}!convll.c@{convll.c}|hyperpage}{97}
+\indexentry{convll.h@{convll.h}|hyperpage}{98}
+\indexentry{convll.h@{convll.h}!cll_t@{cll\_\discretionary {-}{}{}t}|hyperpage}{100}
+\indexentry{cll_t@{cll\_\discretionary {-}{}{}t}!convll.h@{convll.h}|hyperpage}{100}
+\indexentry{convll.h@{convll.h}!mll_t@{mll\_\discretionary {-}{}{}t}|hyperpage}{100}
+\indexentry{mll_t@{mll\_\discretionary {-}{}{}t}!convll.h@{convll.h}|hyperpage}{100}
+\indexentry{convll.h@{convll.h}!addToStacks@{addToStacks}|hyperpage}{100}
+\indexentry{addToStacks@{addToStacks}!convll.h@{convll.h}|hyperpage}{100}
+\indexentry{convll.h@{convll.h}!bitSetToCSet@{bitSetToCSet}|hyperpage}{100}
+\indexentry{bitSetToCSet@{bitSetToCSet}!convll.h@{convll.h}|hyperpage}{100}
+\indexentry{convll.h@{convll.h}!completeConv@{completeConv}|hyperpage}{100}
+\indexentry{completeConv@{completeConv}!convll.h@{convll.h}|hyperpage}{100}
+\indexentry{convll.h@{convll.h}!emptyMemberStacks@{emptyMemberStacks}|hyperpage}{101}
+\indexentry{emptyMemberStacks@{emptyMemberStacks}!convll.h@{convll.h}|hyperpage}{101}
+\indexentry{convll.h@{convll.h}!fillMemberStacks@{fillMemberStacks}|hyperpage}{101}
+\indexentry{fillMemberStacks@{fillMemberStacks}!convll.h@{convll.h}|hyperpage}{101}
+\indexentry{convll.h@{convll.h}!initheadCll@{initheadCll}|hyperpage}{101}
+\indexentry{initheadCll@{initheadCll}!convll.h@{convll.h}|hyperpage}{101}
+\indexentry{convll.h@{convll.h}!mergeIntersect@{mergeIntersect}|hyperpage}{102}
+\indexentry{mergeIntersect@{mergeIntersect}!convll.h@{convll.h}|hyperpage}{102}
+\indexentry{convll.h@{convll.h}!mllToCSet@{mllToCSet}|hyperpage}{102}
+\indexentry{mllToCSet@{mllToCSet}!convll.h@{convll.h}|hyperpage}{102}
+\indexentry{convll.h@{convll.h}!popAllCll@{popAllCll}|hyperpage}{102}
+\indexentry{popAllCll@{popAllCll}!convll.h@{convll.h}|hyperpage}{102}
+\indexentry{convll.h@{convll.h}!popCll@{popCll}|hyperpage}{102}
+\indexentry{popCll@{popCll}!convll.h@{convll.h}|hyperpage}{102}
+\indexentry{convll.h@{convll.h}!popMemStack@{popMemStack}|hyperpage}{103}
+\indexentry{popMemStack@{popMemStack}!convll.h@{convll.h}|hyperpage}{103}
+\indexentry{convll.h@{convll.h}!popWholeMemStack@{popWholeMemStack}|hyperpage}{103}
+\indexentry{popWholeMemStack@{popWholeMemStack}!convll.h@{convll.h}|hyperpage}{103}
+\indexentry{convll.h@{convll.h}!printCll@{printCll}|hyperpage}{103}
+\indexentry{printCll@{printCll}!convll.h@{convll.h}|hyperpage}{103}
+\indexentry{convll.h@{convll.h}!printCllPattern@{printCllPattern}|hyperpage}{103}
+\indexentry{printCllPattern@{printCllPattern}!convll.h@{convll.h}|hyperpage}{103}
+\indexentry{convll.h@{convll.h}!printMemberStacks@{printMemberStacks}|hyperpage}{104}
+\indexentry{printMemberStacks@{printMemberStacks}!convll.h@{convll.h}|hyperpage}{104}
+\indexentry{convll.h@{convll.h}!pushClique@{pushClique}|hyperpage}{104}
+\indexentry{pushClique@{pushClique}!convll.h@{convll.h}|hyperpage}{104}
+\indexentry{convll.h@{convll.h}!pushCll@{pushCll}|hyperpage}{104}
+\indexentry{pushCll@{pushCll}!convll.h@{convll.h}|hyperpage}{104}
+\indexentry{convll.h@{convll.h}!pushConvClique@{pushConvClique}|hyperpage}{104}
+\indexentry{pushConvClique@{pushConvClique}!convll.h@{convll.h}|hyperpage}{104}
+\indexentry{convll.h@{convll.h}!pushcSet@{pushcSet}|hyperpage}{105}
+\indexentry{pushcSet@{pushcSet}!convll.h@{convll.h}|hyperpage}{105}
+\indexentry{convll.h@{convll.h}!pushMemStack@{pushMemStack}|hyperpage}{105}
+\indexentry{pushMemStack@{pushMemStack}!convll.h@{convll.h}|hyperpage}{105}
+\indexentry{convll.h@{convll.h}!removeSupers@{removeSupers}|hyperpage}{105}
+\indexentry{removeSupers@{removeSupers}!convll.h@{convll.h}|hyperpage}{105}
+\indexentry{convll.h@{convll.h}!searchMemsWithList@{searchMemsWithList}|hyperpage}{106}
+\indexentry{searchMemsWithList@{searchMemsWithList}!convll.h@{convll.h}|hyperpage}{106}
+\indexentry{convll.h@{convll.h}!setStackTrue@{setStackTrue}|hyperpage}{106}
+\indexentry{setStackTrue@{setStackTrue}!convll.h@{convll.h}|hyperpage}{106}
+\indexentry{convll.h@{convll.h}!singleCliqueConv@{singleCliqueConv}|hyperpage}{106}
+\indexentry{singleCliqueConv@{singleCliqueConv}!convll.h@{convll.h}|hyperpage}{106}
+\indexentry{convll.h@{convll.h}!swapNodecSet@{swapNodecSet}|hyperpage}{107}
+\indexentry{swapNodecSet@{swapNodecSet}!convll.h@{convll.h}|hyperpage}{107}
+\indexentry{convll.h@{convll.h}!uniqClique@{uniqClique}|hyperpage}{107}
+\indexentry{uniqClique@{uniqClique}!convll.h@{convll.h}|hyperpage}{107}
+\indexentry{convll.h@{convll.h}!wholeCliqueConv@{wholeCliqueConv}|hyperpage}{108}
+\indexentry{wholeCliqueConv@{wholeCliqueConv}!convll.h@{convll.h}|hyperpage}{108}
+\indexentry{convll.h@{convll.h}!wholeRoundConv@{wholeRoundConv}|hyperpage}{108}
+\indexentry{wholeRoundConv@{wholeRoundConv}!convll.h@{convll.h}|hyperpage}{108}
+\indexentry{convll.h@{convll.h}!yankCll@{yankCll}|hyperpage}{108}
+\indexentry{yankCll@{yankCll}!convll.h@{convll.h}|hyperpage}{108}
+\indexentry{FastaSeqIO/fastaSeqIO.c@{FastaSeqIO/fastaSeqIO.c}|hyperpage}{110}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!BIG_BUFFER@{BIG\_\discretionary {-}{}{}BUFFER}|hyperpage}{111}
+\indexentry{BIG_BUFFER@{BIG\_\discretionary {-}{}{}BUFFER}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{111}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!BUFFER@{BUFFER}|hyperpage}{111}
+\indexentry{BUFFER@{BUFFER}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{111}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!CountFSeqs@{CountFSeqs}|hyperpage}{111}
+\indexentry{CountFSeqs@{CountFSeqs}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{111}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!countLines@{countLines}|hyperpage}{111}
+\indexentry{countLines@{countLines}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{111}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!FreeFSeqs@{FreeFSeqs}|hyperpage}{112}
+\indexentry{FreeFSeqs@{FreeFSeqs}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{112}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!initAofFSeqs@{initAofFSeqs}|hyperpage}{112}
+\indexentry{initAofFSeqs@{initAofFSeqs}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{112}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!measureLine@{measureLine}|hyperpage}{113}
+\indexentry{measureLine@{measureLine}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{113}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!printFSeqSubSeq@{printFSeqSubSeq}|hyperpage}{113}
+\indexentry{printFSeqSubSeq@{printFSeqSubSeq}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{113}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!ReadFile@{ReadFile}|hyperpage}{113}
+\indexentry{ReadFile@{ReadFile}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{113}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!ReadFSeqs@{ReadFSeqs}|hyperpage}{115}
+\indexentry{ReadFSeqs@{ReadFSeqs}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{115}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!ReadTxtSeqs@{ReadTxtSeqs}|hyperpage}{117}
+\indexentry{ReadTxtSeqs@{ReadTxtSeqs}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{117}
+\indexentry{fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}!WriteFSeqA@{WriteFSeqA}|hyperpage}{117}
+\indexentry{WriteFSeqA@{WriteFSeqA}!fastaSeqIO.c@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}|hyperpage}{117}
+\indexentry{FastaSeqIO/fastaSeqIO.h@{FastaSeqIO/fastaSeqIO.h}|hyperpage}{119}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!CountFSeqs@{CountFSeqs}|hyperpage}{120}
+\indexentry{CountFSeqs@{CountFSeqs}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!countLines@{countLines}|hyperpage}{120}
+\indexentry{countLines@{countLines}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!FreeFSeqs@{FreeFSeqs}|hyperpage}{120}
+\indexentry{FreeFSeqs@{FreeFSeqs}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!initAofFSeqs@{initAofFSeqs}|hyperpage}{120}
+\indexentry{initAofFSeqs@{initAofFSeqs}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!measureLine@{measureLine}|hyperpage}{120}
+\indexentry{measureLine@{measureLine}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!printFSeqSubSeq@{printFSeqSubSeq}|hyperpage}{120}
+\indexentry{printFSeqSubSeq@{printFSeqSubSeq}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!ReadFSeqs@{ReadFSeqs}|hyperpage}{120}
+\indexentry{ReadFSeqs@{ReadFSeqs}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{120}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!ReadTxtSeqs@{ReadTxtSeqs}|hyperpage}{121}
+\indexentry{ReadTxtSeqs@{ReadTxtSeqs}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{121}
+\indexentry{fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}!WriteFSeqA@{WriteFSeqA}|hyperpage}{121}
+\indexentry{WriteFSeqA@{WriteFSeqA}!fastaSeqIO.h@{fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}|hyperpage}{121}
+\indexentry{gemoda-r.c@{gemoda-r.c}|hyperpage}{122}
+\indexentry{gemoda-r.c@{gemoda-r.c}!convolve@{convolve}|hyperpage}{123}
+\indexentry{convolve@{convolve}!gemoda-r.c@{gemoda-r.c}|hyperpage}{123}
+\indexentry{gemoda-r.c@{gemoda-r.c}!countExtraParams@{countExtraParams}|hyperpage}{125}
+\indexentry{countExtraParams@{countExtraParams}!gemoda-r.c@{gemoda-r.c}|hyperpage}{125}
+\indexentry{gemoda-r.c@{gemoda-r.c}!main@{main}|hyperpage}{125}
+\indexentry{main@{main}!gemoda-r.c@{gemoda-r.c}|hyperpage}{125}
+\indexentry{gemoda-r.c@{gemoda-r.c}!parseExtraParams@{parseExtraParams}|hyperpage}{129}
+\indexentry{parseExtraParams@{parseExtraParams}!gemoda-r.c@{gemoda-r.c}|hyperpage}{129}
+\indexentry{gemoda-r.c@{gemoda-r.c}!pruneBitGraph@{pruneBitGraph}|hyperpage}{130}
+\indexentry{pruneBitGraph@{pruneBitGraph}!gemoda-r.c@{gemoda-r.c}|hyperpage}{130}
+\indexentry{gemoda-r.c@{gemoda-r.c}!usage@{usage}|hyperpage}{132}
+\indexentry{usage@{usage}!gemoda-r.c@{gemoda-r.c}|hyperpage}{132}
+\indexentry{gemoda-s.c@{gemoda-s.c}|hyperpage}{134}
+\indexentry{gemoda-s.c@{gemoda-s.c}!alignWordsMat_bit@{alignWordsMat\_\discretionary {-}{}{}bit}|hyperpage}{135}
+\indexentry{alignWordsMat_bit@{alignWordsMat\_\discretionary {-}{}{}bit}!gemoda-s.c@{gemoda-s.c}|hyperpage}{135}
+\indexentry{gemoda-s.c@{gemoda-s.c}!convolve@{convolve}|hyperpage}{136}
+\indexentry{convolve@{convolve}!gemoda-s.c@{gemoda-s.c}|hyperpage}{136}
+\indexentry{gemoda-s.c@{gemoda-s.c}!countWords2@{countWords2}|hyperpage}{138}
+\indexentry{countWords2@{countWords2}!gemoda-s.c@{gemoda-s.c}|hyperpage}{138}
+\indexentry{gemoda-s.c@{gemoda-s.c}!getMatrixByName@{getMatrixByName}|hyperpage}{140}
+\indexentry{getMatrixByName@{getMatrixByName}!gemoda-s.c@{gemoda-s.c}|hyperpage}{140}
+\indexentry{gemoda-s.c@{gemoda-s.c}!main@{main}|hyperpage}{140}
+\indexentry{main@{main}!gemoda-s.c@{gemoda-s.c}|hyperpage}{140}
+\indexentry{gemoda-s.c@{gemoda-s.c}!matrixlist@{matrixlist}|hyperpage}{149}
+\indexentry{matrixlist@{matrixlist}!gemoda-s.c@{gemoda-s.c}|hyperpage}{149}
+\indexentry{gemoda-s.c@{gemoda-s.c}!pruneBitGraph@{pruneBitGraph}|hyperpage}{150}
+\indexentry{pruneBitGraph@{pruneBitGraph}!gemoda-s.c@{gemoda-s.c}|hyperpage}{150}
+\indexentry{gemoda-s.c@{gemoda-s.c}!usage@{usage}|hyperpage}{152}
+\indexentry{usage@{usage}!gemoda-s.c@{gemoda-s.c}|hyperpage}{152}
+\indexentry{matdata.h@{matdata.h}|hyperpage}{154}
+\indexentry{matdata.h@{matdata.h}!MATRIX_SIZE@{MATRIX\_\discretionary {-}{}{}SIZE}|hyperpage}{154}
+\indexentry{MATRIX_SIZE@{MATRIX\_\discretionary {-}{}{}SIZE}!matdata.h@{matdata.h}|hyperpage}{154}
+\indexentry{matrices.c@{matrices.c}|hyperpage}{155}
+\indexentry{matrices.c@{matrices.c}!DEFAULT_MATRIX@{DEFAULT\_\discretionary {-}{}{}MATRIX}|hyperpage}{155}
+\indexentry{DEFAULT_MATRIX@{DEFAULT\_\discretionary {-}{}{}MATRIX}!matrices.c@{matrices.c}|hyperpage}{155}
+\indexentry{matrices.c@{matrices.c}!getMatrixByName@{getMatrixByName}|hyperpage}{156}
+\indexentry{getMatrixByName@{getMatrixByName}!matrices.c@{matrices.c}|hyperpage}{156}
+\indexentry{matrices.h@{matrices.h}|hyperpage}{157}
+\indexentry{matrices.h@{matrices.h}!aaOrder@{aaOrder}|hyperpage}{159}
+\indexentry{aaOrder@{aaOrder}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!alpha_mat@{alpha\_\discretionary {-}{}{}mat}|hyperpage}{159}
+\indexentry{alpha_mat@{alpha\_\discretionary {-}{}{}mat}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!beta_mat@{beta\_\discretionary {-}{}{}mat}|hyperpage}{159}
+\indexentry{beta_mat@{beta\_\discretionary {-}{}{}mat}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum100@{blosum100}|hyperpage}{159}
+\indexentry{blosum100@{blosum100}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum30@{blosum30}|hyperpage}{159}
+\indexentry{blosum30@{blosum30}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum35@{blosum35}|hyperpage}{159}
+\indexentry{blosum35@{blosum35}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum40@{blosum40}|hyperpage}{159}
+\indexentry{blosum40@{blosum40}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum45@{blosum45}|hyperpage}{159}
+\indexentry{blosum45@{blosum45}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum50@{blosum50}|hyperpage}{159}
+\indexentry{blosum50@{blosum50}!matrices.h@{matrices.h}|hyperpage}{159}
+\indexentry{matrices.h@{matrices.h}!blosum55@{blosum55}|hyperpage}{160}
+\indexentry{blosum55@{blosum55}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum60@{blosum60}|hyperpage}{160}
+\indexentry{blosum60@{blosum60}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum62@{blosum62}|hyperpage}{160}
+\indexentry{blosum62@{blosum62}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum65@{blosum65}|hyperpage}{160}
+\indexentry{blosum65@{blosum65}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum70@{blosum70}|hyperpage}{160}
+\indexentry{blosum70@{blosum70}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum75@{blosum75}|hyperpage}{160}
+\indexentry{blosum75@{blosum75}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum80@{blosum80}|hyperpage}{160}
+\indexentry{blosum80@{blosum80}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum85@{blosum85}|hyperpage}{160}
+\indexentry{blosum85@{blosum85}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosum90@{blosum90}|hyperpage}{160}
+\indexentry{blosum90@{blosum90}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!blosumn@{blosumn}|hyperpage}{160}
+\indexentry{blosumn@{blosumn}!matrices.h@{matrices.h}|hyperpage}{160}
+\indexentry{matrices.h@{matrices.h}!coil_mat@{coil\_\discretionary {-}{}{}mat}|hyperpage}{161}
+\indexentry{coil_mat@{coil\_\discretionary {-}{}{}mat}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!dayhoff@{dayhoff}|hyperpage}{161}
+\indexentry{dayhoff@{dayhoff}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!dna_idmat@{dna\_\discretionary {-}{}{}idmat}|hyperpage}{161}
+\indexentry{dna_idmat@{dna\_\discretionary {-}{}{}idmat}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!identity_aa@{identity\_\discretionary {-}{}{}aa}|hyperpage}{161}
+\indexentry{identity_aa@{identity\_\discretionary {-}{}{}aa}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!idmat@{idmat}|hyperpage}{161}
+\indexentry{idmat@{idmat}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!pam100@{pam100}|hyperpage}{161}
+\indexentry{pam100@{pam100}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!pam110@{pam110}|hyperpage}{161}
+\indexentry{pam110@{pam110}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!pam120@{pam120}|hyperpage}{161}
+\indexentry{pam120@{pam120}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!pam130@{pam130}|hyperpage}{161}
+\indexentry{pam130@{pam130}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!pam140@{pam140}|hyperpage}{161}
+\indexentry{pam140@{pam140}!matrices.h@{matrices.h}|hyperpage}{161}
+\indexentry{matrices.h@{matrices.h}!pam150@{pam150}|hyperpage}{162}
+\indexentry{pam150@{pam150}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam160@{pam160}|hyperpage}{162}
+\indexentry{pam160@{pam160}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam190@{pam190}|hyperpage}{162}
+\indexentry{pam190@{pam190}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam200@{pam200}|hyperpage}{162}
+\indexentry{pam200@{pam200}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam210@{pam210}|hyperpage}{162}
+\indexentry{pam210@{pam210}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam220@{pam220}|hyperpage}{162}
+\indexentry{pam220@{pam220}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam230@{pam230}|hyperpage}{162}
+\indexentry{pam230@{pam230}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam240@{pam240}|hyperpage}{162}
+\indexentry{pam240@{pam240}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam250@{pam250}|hyperpage}{162}
+\indexentry{pam250@{pam250}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam260@{pam260}|hyperpage}{162}
+\indexentry{pam260@{pam260}!matrices.h@{matrices.h}|hyperpage}{162}
+\indexentry{matrices.h@{matrices.h}!pam280@{pam280}|hyperpage}{163}
+\indexentry{pam280@{pam280}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam290@{pam290}|hyperpage}{163}
+\indexentry{pam290@{pam290}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam300@{pam300}|hyperpage}{163}
+\indexentry{pam300@{pam300}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam310@{pam310}|hyperpage}{163}
+\indexentry{pam310@{pam310}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam320@{pam320}|hyperpage}{163}
+\indexentry{pam320@{pam320}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam330@{pam330}|hyperpage}{163}
+\indexentry{pam330@{pam330}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam340@{pam340}|hyperpage}{163}
+\indexentry{pam340@{pam340}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam360@{pam360}|hyperpage}{163}
+\indexentry{pam360@{pam360}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam370@{pam370}|hyperpage}{163}
+\indexentry{pam370@{pam370}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam380@{pam380}|hyperpage}{163}
+\indexentry{pam380@{pam380}!matrices.h@{matrices.h}|hyperpage}{163}
+\indexentry{matrices.h@{matrices.h}!pam390@{pam390}|hyperpage}{164}
+\indexentry{pam390@{pam390}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam400@{pam400}|hyperpage}{164}
+\indexentry{pam400@{pam400}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam430@{pam430}|hyperpage}{164}
+\indexentry{pam430@{pam430}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam440@{pam440}|hyperpage}{164}
+\indexentry{pam440@{pam440}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam450@{pam450}|hyperpage}{164}
+\indexentry{pam450@{pam450}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam460@{pam460}|hyperpage}{164}
+\indexentry{pam460@{pam460}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam490@{pam490}|hyperpage}{164}
+\indexentry{pam490@{pam490}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!pam500@{pam500}|hyperpage}{164}
+\indexentry{pam500@{pam500}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!phat_t75_b73@{phat\_\discretionary {-}{}{}t75\_\discretionary {-}{}{}b73}|hyperpage}{164}
+\indexentry{phat_t75_b73@{phat\_\discretionary {-}{}{}t75\_\discretionary {-}{}{}b73}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!phat_t80_b78@{phat\_\discretionary {-}{}{}t80\_\discretionary {-}{}{}b78}|hyperpage}{164}
+\indexentry{phat_t80_b78@{phat\_\discretionary {-}{}{}t80\_\discretionary {-}{}{}b78}!matrices.h@{matrices.h}|hyperpage}{164}
+\indexentry{matrices.h@{matrices.h}!phat_t85_b82@{phat\_\discretionary {-}{}{}t85\_\discretionary {-}{}{}b82}|hyperpage}{165}
+\indexentry{phat_t85_b82@{phat\_\discretionary {-}{}{}t85\_\discretionary {-}{}{}b82}!matrices.h@{matrices.h}|hyperpage}{165}
+\indexentry{matrixmap.h@{matrixmap.h}|hyperpage}{166}
+\indexentry{matrixmap.h@{matrixmap.h}!mat@{mat}|hyperpage}{166}
+\indexentry{mat@{mat}!matrixmap.h@{matrixmap.h}|hyperpage}{166}
+\indexentry{matrixmap.h@{matrixmap.h}!matrix_map@{matrix\_\discretionary {-}{}{}map}|hyperpage}{166}
+\indexentry{matrix_map@{matrix\_\discretionary {-}{}{}map}!matrixmap.h@{matrixmap.h}|hyperpage}{166}
+\indexentry{matrixmap.h@{matrixmap.h}!name@{name}|hyperpage}{166}
+\indexentry{name@{name}!matrixmap.h@{matrixmap.h}|hyperpage}{166}
+\indexentry{newConv.c@{newConv.c}|hyperpage}{168}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!convolve@{convolve}|hyperpage}{169}
+\indexentry{convolve@{convolve}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{169}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!filterGraph@{filterGraph}|hyperpage}{170}
+\indexentry{filterGraph@{filterGraph}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{170}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!filterIter@{filterIter}|hyperpage}{171}
+\indexentry{filterIter@{filterIter}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{171}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!findCliques@{findCliques}|hyperpage}{173}
+\indexentry{findCliques@{findCliques}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{173}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!pruneBitGraph@{pruneBitGraph}|hyperpage}{176}
+\indexentry{pruneBitGraph@{pruneBitGraph}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{176}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!pruneCll@{pruneCll}|hyperpage}{178}
+\indexentry{pruneCll@{pruneCll}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{178}
+\indexentry{newConv.c@{new\discretionary {-}{}{}Conv.c}!singleLinkage@{singleLinkage}|hyperpage}{180}
+\indexentry{singleLinkage@{singleLinkage}!newConv.c@{new\discretionary {-}{}{}Conv.c}|hyperpage}{180}
+\indexentry{patStats.c@{patStats.c}|hyperpage}{182}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!calcStatAllCliqs@{calcStatAllCliqs}|hyperpage}{183}
+\indexentry{calcStatAllCliqs@{calcStatAllCliqs}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{183}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!calcStatCliq@{calcStatCliq}|hyperpage}{183}
+\indexentry{calcStatCliq@{calcStatCliq}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{183}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!cumDMatrix@{cumDMatrix}|hyperpage}{184}
+\indexentry{cumDMatrix@{cumDMatrix}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{184}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!freeD@{freeD}|hyperpage}{186}
+\indexentry{freeD@{freeD}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{186}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!getLargestLength@{getLargestLength}|hyperpage}{187}
+\indexentry{getLargestLength@{getLargestLength}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{187}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!getLargestSupport@{getLargestSupport}|hyperpage}{187}
+\indexentry{getLargestSupport@{getLargestSupport}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{187}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!getStatMat@{getStatMat}|hyperpage}{188}
+\indexentry{getStatMat@{getStatMat}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{188}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!increaseMem@{increaseMem}|hyperpage}{191}
+\indexentry{increaseMem@{increaseMem}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{191}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!measureDiagonal@{measureDiagonal}|hyperpage}{193}
+\indexentry{measureDiagonal@{measureDiagonal}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{193}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!oldGetStatMat@{oldGetStatMat}|hyperpage}{193}
+\indexentry{oldGetStatMat@{oldGetStatMat}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{193}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!sortByStats@{sortByStats}|hyperpage}{196}
+\indexentry{sortByStats@{sortByStats}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{196}
+\indexentry{patStats.c@{pat\discretionary {-}{}{}Stats.c}!statCompare@{statCompare}|hyperpage}{197}
+\indexentry{statCompare@{statCompare}!patStats.c@{pat\discretionary {-}{}{}Stats.c}|hyperpage}{197}
+\indexentry{patStats.h@{patStats.h}|hyperpage}{198}
+\indexentry{patStats.h@{pat\discretionary {-}{}{}Stats.h}!calcStatAllCliqs@{calcStatAllCliqs}|hyperpage}{199}
+\indexentry{calcStatAllCliqs@{calcStatAllCliqs}!patStats.h@{pat\discretionary {-}{}{}Stats.h}|hyperpage}{199}
+\indexentry{patStats.h@{pat\discretionary {-}{}{}Stats.h}!cumDMatrix@{cumDMatrix}|hyperpage}{199}
+\indexentry{cumDMatrix@{cumDMatrix}!patStats.h@{pat\discretionary {-}{}{}Stats.h}|hyperpage}{199}
+\indexentry{patStats.h@{pat\discretionary {-}{}{}Stats.h}!freeD@{freeD}|hyperpage}{199}
+\indexentry{freeD@{freeD}!patStats.h@{pat\discretionary {-}{}{}Stats.h}|hyperpage}{199}
+\indexentry{patStats.h@{pat\discretionary {-}{}{}Stats.h}!getStatMat@{getStatMat}|hyperpage}{199}
+\indexentry{getStatMat@{getStatMat}!patStats.h@{pat\discretionary {-}{}{}Stats.h}|hyperpage}{199}
+\indexentry{patStats.h@{pat\discretionary {-}{}{}Stats.h}!sortByStats@{sortByStats}|hyperpage}{199}
+\indexentry{sortByStats@{sortByStats}!patStats.h@{pat\discretionary {-}{}{}Stats.h}|hyperpage}{199}
+\indexentry{realCompare.c@{realCompare.c}|hyperpage}{201}
+\indexentry{realCompare.c@{real\discretionary {-}{}{}Compare.c}!generalMatchFactor@{generalMatchFactor}|hyperpage}{202}
+\indexentry{generalMatchFactor@{generalMatchFactor}!realCompare.c@{real\discretionary {-}{}{}Compare.c}|hyperpage}{202}
+\indexentry{realCompare.c@{real\discretionary {-}{}{}Compare.c}!getCompFunc@{getCompFunc}|hyperpage}{203}
+\indexentry{getCompFunc@{getCompFunc}!realCompare.c@{real\discretionary {-}{}{}Compare.c}|hyperpage}{203}
+\indexentry{realCompare.c@{real\discretionary {-}{}{}Compare.c}!massSpecCompareWElut@{massSpecCompareWElut}|hyperpage}{203}
+\indexentry{massSpecCompareWElut@{massSpecCompareWElut}!realCompare.c@{real\discretionary {-}{}{}Compare.c}|hyperpage}{203}
+\indexentry{realCompare.c@{real\discretionary {-}{}{}Compare.c}!realComparison@{realComparison}|hyperpage}{205}
+\indexentry{realComparison@{realComparison}!realCompare.c@{real\discretionary {-}{}{}Compare.c}|hyperpage}{205}
+\indexentry{realCompare.c@{real\discretionary {-}{}{}Compare.c}!rmsdCompare@{rmsdCompare}|hyperpage}{206}
+\indexentry{rmsdCompare@{rmsdCompare}!realCompare.c@{real\discretionary {-}{}{}Compare.c}|hyperpage}{206}
+\indexentry{realCompare.h@{realCompare.h}|hyperpage}{209}
+\indexentry{realCompare.h@{real\discretionary {-}{}{}Compare.h}!generalMatchFactor@{generalMatchFactor}|hyperpage}{210}
+\indexentry{generalMatchFactor@{generalMatchFactor}!realCompare.h@{real\discretionary {-}{}{}Compare.h}|hyperpage}{210}
+\indexentry{realCompare.h@{real\discretionary {-}{}{}Compare.h}!massSpecCompareWElut@{massSpecCompareWElut}|hyperpage}{210}
+\indexentry{massSpecCompareWElut@{massSpecCompareWElut}!realCompare.h@{real\discretionary {-}{}{}Compare.h}|hyperpage}{210}
+\indexentry{realCompare.h@{real\discretionary {-}{}{}Compare.h}!realComparison@{realComparison}|hyperpage}{211}
+\indexentry{realComparison@{realComparison}!realCompare.h@{real\discretionary {-}{}{}Compare.h}|hyperpage}{211}
+\indexentry{realCompare.h@{real\discretionary {-}{}{}Compare.h}!rmsdCompare@{rmsdCompare}|hyperpage}{211}
+\indexentry{rmsdCompare@{rmsdCompare}!realCompare.h@{real\discretionary {-}{}{}Compare.h}|hyperpage}{211}
+\indexentry{realCompare.h@{real\discretionary {-}{}{}Compare.h}!getCompFunc@{getCompFunc}|hyperpage}{211}
+\indexentry{getCompFunc@{getCompFunc}!realCompare.h@{real\discretionary {-}{}{}Compare.h}|hyperpage}{211}
+\indexentry{realIo.c@{realIo.c}|hyperpage}{212}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!checkRealDataFormat@{checkRealDataFormat}|hyperpage}{213}
+\indexentry{checkRealDataFormat@{checkRealDataFormat}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{213}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!countFields@{countFields}|hyperpage}{215}
+\indexentry{countFields@{countFields}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{215}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!countTotalFields@{countTotalFields}|hyperpage}{216}
+\indexentry{countTotalFields@{countTotalFields}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{216}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!findCliqueCentroid@{findCliqueCentroid}|hyperpage}{217}
+\indexentry{findCliqueCentroid@{findCliqueCentroid}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{217}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!freeRdh@{freeRdh}|hyperpage}{219}
+\indexentry{freeRdh@{freeRdh}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{219}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!getRdhDim@{getRdhDim}|hyperpage}{220}
+\indexentry{getRdhDim@{getRdhDim}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{220}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!getRdhIndexSeqPos@{getRdhIndexSeqPos}|hyperpage}{220}
+\indexentry{getRdhIndexSeqPos@{getRdhIndexSeqPos}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{220}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!getRdhLabel@{getRdhLabel}|hyperpage}{221}
+\indexentry{getRdhLabel@{getRdhLabel}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{221}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!getRdhSeqLength@{getRdhSeqLength}|hyperpage}{221}
+\indexentry{getRdhSeqLength@{getRdhSeqLength}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{221}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!getRdhValue@{getRdhValue}|hyperpage}{222}
+\indexentry{getRdhValue@{getRdhValue}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{222}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!initRdh@{initRdh}|hyperpage}{222}
+\indexentry{initRdh@{initRdh}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{222}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!initRdhGslMat@{initRdhGslMat}|hyperpage}{223}
+\indexentry{initRdhGslMat@{initRdhGslMat}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{223}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!initRdhIndex@{initRdhIndex}|hyperpage}{224}
+\indexentry{initRdhIndex@{initRdhIndex}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{224}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!makeAlternateCentroid@{makeAlternateCentroid}|hyperpage}{226}
+\indexentry{makeAlternateCentroid@{makeAlternateCentroid}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{226}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!outputRealPats@{outputRealPats}|hyperpage}{227}
+\indexentry{outputRealPats@{outputRealPats}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{227}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!outputRealPatsWCentroid@{outputRealPatsWCentroid}|hyperpage}{228}
+\indexentry{outputRealPatsWCentroid@{outputRealPatsWCentroid}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{228}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!parseRealData@{parseRealData}|hyperpage}{230}
+\indexentry{parseRealData@{parseRealData}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{230}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!printRdhSeq@{printRdhSeq}|hyperpage}{231}
+\indexentry{printRdhSeq@{printRdhSeq}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{231}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!pushOnRdhSeq@{pushOnRdhSeq}|hyperpage}{231}
+\indexentry{pushOnRdhSeq@{pushOnRdhSeq}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{231}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!readRealData@{readRealData}|hyperpage}{233}
+\indexentry{readRealData@{readRealData}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{233}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!setRdhColFromString@{setRdhColFromString}|hyperpage}{234}
+\indexentry{setRdhColFromString@{setRdhColFromString}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{234}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!setRdhIndex@{setRdhIndex}|hyperpage}{235}
+\indexentry{setRdhIndex@{setRdhIndex}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{235}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!setRdhLabel@{setRdhLabel}|hyperpage}{236}
+\indexentry{setRdhLabel@{setRdhLabel}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{236}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!setRdhValue@{setRdhValue}|hyperpage}{237}
+\indexentry{setRdhValue@{setRdhValue}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{237}
+\indexentry{realIo.c@{real\discretionary {-}{}{}Io.c}!wordToDouble@{wordToDouble}|hyperpage}{237}
+\indexentry{wordToDouble@{wordToDouble}!realIo.c@{real\discretionary {-}{}{}Io.c}|hyperpage}{237}
+\indexentry{realIo.h@{realIo.h}|hyperpage}{239}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!freeRdh@{freeRdh}|hyperpage}{240}
+\indexentry{freeRdh@{freeRdh}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{240}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!getRdhDim@{getRdhDim}|hyperpage}{240}
+\indexentry{getRdhDim@{getRdhDim}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{240}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!getRdhIndexSeqPos@{getRdhIndexSeqPos}|hyperpage}{240}
+\indexentry{getRdhIndexSeqPos@{getRdhIndexSeqPos}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{240}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!initRdhIndex@{initRdhIndex}|hyperpage}{241}
+\indexentry{initRdhIndex@{initRdhIndex}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{241}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!outputRealPats@{outputRealPats}|hyperpage}{241}
+\indexentry{outputRealPats@{outputRealPats}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{241}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!outputRealPatsWCentroid@{outputRealPatsWCentroid}|hyperpage}{241}
+\indexentry{outputRealPatsWCentroid@{outputRealPatsWCentroid}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{241}
+\indexentry{realIo.h@{real\discretionary {-}{}{}Io.h}!readRealData@{readRealData}|hyperpage}{241}
+\indexentry{readRealData@{readRealData}!realIo.h@{real\discretionary {-}{}{}Io.h}|hyperpage}{241}
+\indexentry{spat.h@{spat.h}|hyperpage}{243}
+\indexentry{words.c@{words.c}|hyperpage}{244}
+\indexentry{words.c@{words.c}!SHASH_MAX_KEY_SIZE@{SHASH\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}KEY\_\discretionary {-}{}{}SIZE}|hyperpage}{245}
+\indexentry{SHASH_MAX_KEY_SIZE@{SHASH\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}KEY\_\discretionary {-}{}{}SIZE}!words.c@{words.c}|hyperpage}{245}
+\indexentry{words.c@{words.c}!countWords2@{countWords2}|hyperpage}{245}
+\indexentry{countWords2@{countWords2}!words.c@{words.c}|hyperpage}{245}
+\indexentry{words.c@{words.c}!destroySHash@{destroySHash}|hyperpage}{247}
+\indexentry{destroySHash@{destroySHash}!words.c@{words.c}|hyperpage}{247}
+\indexentry{words.c@{words.c}!destroySPatA@{destroySPatA}|hyperpage}{248}
+\indexentry{destroySPatA@{destroySPatA}!words.c@{words.c}|hyperpage}{248}
+\indexentry{words.c@{words.c}!hash1@{hash1}|hyperpage}{248}
+\indexentry{hash1@{hash1}!words.c@{words.c}|hyperpage}{248}
+\indexentry{words.c@{words.c}!hashpjw@{hashpjw}|hyperpage}{249}
+\indexentry{hashpjw@{hashpjw}!words.c@{words.c}|hyperpage}{249}
+\indexentry{words.c@{words.c}!initSHash@{initSHash}|hyperpage}{249}
+\indexentry{initSHash@{initSHash}!words.c@{words.c}|hyperpage}{249}
+\indexentry{words.c@{words.c}!printSHash@{printSHash}|hyperpage}{250}
+\indexentry{printSHash@{printSHash}!words.c@{words.c}|hyperpage}{250}
+\indexentry{words.c@{words.c}!printSPats@{printSPats}|hyperpage}{251}
+\indexentry{printSPats@{printSPats}!words.c@{words.c}|hyperpage}{251}
+\indexentry{words.c@{words.c}!searchSHash@{searchSHash}|hyperpage}{251}
+\indexentry{searchSHash@{searchSHash}!words.c@{words.c}|hyperpage}{251}
+\indexentry{words.c@{words.c}!sieve3@{sieve3}|hyperpage}{253}
+\indexentry{sieve3@{sieve3}!words.c@{words.c}|hyperpage}{253}

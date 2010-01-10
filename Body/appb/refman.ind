@@ -1,0 +1,1194 @@
+\begin{theindex}
+
+  \item {aaOrder}
+    \subitem {align.c}, \hyperpage{29}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {addToStacks}
+    \subitem {convll.c}, \hyperpage{66}
+    \subitem {convll.h}, \hyperpage{100}
+  \item {align.c}, \hyperpage{25}
+    \subitem {aaOrder}, \hyperpage{29}
+    \subitem {ALIGN\_\discretionary {-}{}{}ALPHABET}, \hyperpage{27}
+    \subitem {alignMat}, \hyperpage{27}
+    \subitem {alignWordsMat\_\discretionary {-}{}{}bit}, \hyperpage{28}
+  \item {ALIGN\_\discretionary {-}{}{}ALPHABET}
+    \subitem {align.c}, \hyperpage{27}
+  \item {alignMat}
+    \subitem {align.c}, \hyperpage{27}
+  \item {alignWordsMat\_\discretionary {-}{}{}bit}
+    \subitem {align.c}, \hyperpage{28}
+    \subitem {gemoda-s.c}, \hyperpage{135}
+  \item {alpha\_\discretionary {-}{}{}mat}
+    \subitem {matrices.h}, \hyperpage{159}
+
+  \indexspace
+
+  \item {beta\_\discretionary {-}{}{}mat}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {BIG\_\discretionary {-}{}{}BUFFER}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{111}
+  \item {bit\_\discretionary {-}{}{}t}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{55}
+  \item {bitcount32}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{31}
+  \item {bitcount32\_\discretionary {-}{}{}precomp}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{31}
+  \item {bitcount64}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{32}
+  \item {bitGraph\_\discretionary {-}{}{}t}, \hyperpage{3}
+  \item {bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}
+    \subitem {graph}, \hyperpage{4}
+    \subitem {size}, \hyperpage{4}
+  \item {bitGraphCheckBit}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{32}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{55}
+  \item {bitGraphRowIntersection}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{32}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{55}
+  \item {bitGraphRowUnion}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{33}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{55}
+  \item {bitGraphSetFalse}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{33}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{56}
+  \item {bitGraphSetFalseDiagonal}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{34}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{56}
+  \item {bitGraphSetFalseSym}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{34}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{56}
+  \item {bitGraphSetTrue}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{34}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{56}
+  \item {bitGraphSetTrueDiagonal}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{35}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{57}
+  \item {bitGraphSetTrueSym}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{35}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{57}
+  \item {bitSet.c}, \hyperpage{30}
+  \item {bit\discretionary {-}{}{}Set.c}
+    \subitem {bitcount32}, \hyperpage{31}
+    \subitem {bitcount32\_\discretionary {-}{}{}precomp}, 
+		\hyperpage{31}
+    \subitem {bitcount64}, \hyperpage{32}
+    \subitem {bitGraphCheckBit}, \hyperpage{32}
+    \subitem {bitGraphRowIntersection}, \hyperpage{32}
+    \subitem {bitGraphRowUnion}, \hyperpage{33}
+    \subitem {bitGraphSetFalse}, \hyperpage{33}
+    \subitem {bitGraphSetFalseDiagonal}, \hyperpage{34}
+    \subitem {bitGraphSetFalseSym}, \hyperpage{34}
+    \subitem {bitGraphSetTrue}, \hyperpage{34}
+    \subitem {bitGraphSetTrueDiagonal}, \hyperpage{35}
+    \subitem {bitGraphSetTrueSym}, \hyperpage{35}
+    \subitem {bitSet3WayIntersection}, \hyperpage{35}
+    \subitem {bitSetDifference}, \hyperpage{36}
+    \subitem {bitSetIntersection}, \hyperpage{37}
+    \subitem {bitSetSum}, \hyperpage{37}
+    \subitem {bitSetUnion}, \hyperpage{38}
+    \subitem {checkBit}, \hyperpage{38}
+    \subitem {copyBitGraph}, \hyperpage{39}
+    \subitem {copySet}, \hyperpage{39}
+    \subitem {countBitGraphNonZero}, \hyperpage{39}
+    \subitem {countSet}, \hyperpage{40}
+    \subitem {deleteBitGraph}, \hyperpage{41}
+    \subitem {deleteBitSet}, \hyperpage{41}
+    \subitem {emptyBitGraph}, \hyperpage{42}
+    \subitem {emptyBitGraphRow}, \hyperpage{42}
+    \subitem {emptySet}, \hyperpage{42}
+    \subitem {fillBitGraph}, \hyperpage{43}
+    \subitem {fillSet}, \hyperpage{43}
+    \subitem {flipBits}, \hyperpage{43}
+    \subitem {maskBitGraph}, \hyperpage{44}
+    \subitem {newBitArray}, \hyperpage{44}
+    \subitem {newBitGraph}, \hyperpage{45}
+    \subitem {newBitSet}, \hyperpage{45}
+    \subitem {nextBitBitSet}, \hyperpage{46}
+    \subitem {printBinaryBitSet}, \hyperpage{47}
+    \subitem {printBitGraph}, \hyperpage{48}
+    \subitem {printBitSet}, \hyperpage{48}
+    \subitem {setFalse}, \hyperpage{49}
+    \subitem {setTrue}, \hyperpage{49}
+  \item {bitSet.h}, \hyperpage{51}
+  \item {bit\discretionary {-}{}{}Set.h}
+    \subitem {bit\_\discretionary {-}{}{}t}, \hyperpage{55}
+    \subitem {bitGraphCheckBit}, \hyperpage{55}
+    \subitem {bitGraphRowIntersection}, \hyperpage{55}
+    \subitem {bitGraphRowUnion}, \hyperpage{55}
+    \subitem {bitGraphSetFalse}, \hyperpage{56}
+    \subitem {bitGraphSetFalseDiagonal}, \hyperpage{56}
+    \subitem {bitGraphSetFalseSym}, \hyperpage{56}
+    \subitem {bitGraphSetTrue}, \hyperpage{56}
+    \subitem {bitGraphSetTrueDiagonal}, \hyperpage{57}
+    \subitem {bitGraphSetTrueSym}, \hyperpage{57}
+    \subitem {bitSet3WayDifference}, \hyperpage{57}
+    \subitem {bitSet3WayIntersection}, \hyperpage{57}
+    \subitem {bitSetDifference}, \hyperpage{57}
+    \subitem {bitSetIntersection}, \hyperpage{58}
+    \subitem {bitSetSum}, \hyperpage{58}
+    \subitem {bitSetUnion}, \hyperpage{58}
+    \subitem {BITSLOT}, \hyperpage{53}
+    \subitem {BSBITSIZE}, \hyperpage{53}
+    \subitem {BSCLEAR}, \hyperpage{54}
+    \subitem {BSINTERSECTION}, \hyperpage{54}
+    \subitem {BSMASK}, \hyperpage{54}
+    \subitem {BSNUMSLOTS}, \hyperpage{54}
+    \subitem {BSSET}, \hyperpage{54}
+    \subitem {BSTEST}, \hyperpage{54}
+    \subitem {BSUNION}, \hyperpage{55}
+    \subitem {checkBit}, \hyperpage{58}
+    \subitem {copyBitGraph}, \hyperpage{59}
+    \subitem {copySet}, \hyperpage{59}
+    \subitem {countBitGraphNonZero}, \hyperpage{59}
+    \subitem {countSet}, \hyperpage{59}
+    \subitem {deleteBitGraph}, \hyperpage{60}
+    \subitem {deleteBitSet}, \hyperpage{60}
+    \subitem {emptyBitGraph}, \hyperpage{60}
+    \subitem {emptyBitGraphRow}, \hyperpage{60}
+    \subitem {emptySet}, \hyperpage{60}
+    \subitem {fillBitGraph}, \hyperpage{61}
+    \subitem {fillSet}, \hyperpage{61}
+    \subitem {flipBits}, \hyperpage{61}
+    \subitem {maskBitGraph}, \hyperpage{61}
+    \subitem {newBitArray}, \hyperpage{62}
+    \subitem {newBitGraph}, \hyperpage{62}
+    \subitem {newBitSet}, \hyperpage{62}
+    \subitem {nextBitBitSet}, \hyperpage{62}
+    \subitem {printBinaryBitSet}, \hyperpage{63}
+    \subitem {printBitGraph}, \hyperpage{63}
+    \subitem {printBitSet}, \hyperpage{63}
+    \subitem {setFalse}, \hyperpage{63}
+    \subitem {setTrue}, \hyperpage{63}
+  \item {bitSet3WayDifference}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{57}
+  \item {bitSet3WayIntersection}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{35}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{57}
+  \item {bitSet\_\discretionary {-}{}{}t}, \hyperpage{5}
+  \item {bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}
+    \subitem {bytes}, \hyperpage{5}
+    \subitem {max}, \hyperpage{5}
+    \subitem {slots}, \hyperpage{5}
+    \subitem {tf}, \hyperpage{6}
+  \item {bitSetDifference}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{36}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{57}
+  \item {bitSetIntersection}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{37}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{58}
+  \item {bitSetSum}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{37}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{58}
+  \item {bitSetToCSet}
+    \subitem {convll.c}, \hyperpage{67}
+    \subitem {convll.h}, \hyperpage{100}
+  \item {bitSetUnion}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{38}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{58}
+  \item {BITSLOT}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{53}
+  \item {blosum100}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {blosum30}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {blosum35}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {blosum40}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {blosum45}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {blosum50}
+    \subitem {matrices.h}, \hyperpage{159}
+  \item {blosum55}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum60}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum62}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum65}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum70}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum75}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum80}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum85}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosum90}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {blosumn}
+    \subitem {matrices.h}, \hyperpage{160}
+  \item {BSBITSIZE}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{53}
+  \item {BSCLEAR}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{54}
+  \item {BSINTERSECTION}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{54}
+  \item {BSMASK}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{54}
+  \item {BSNUMSLOTS}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{54}
+  \item {BSSET}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{54}
+  \item {BSTEST}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{54}
+  \item {BSUNION}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{55}
+  \item {BUFFER}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{111}
+  \item {bytes}
+    \subitem {bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}, 
+		\hyperpage{5}
+
+  \indexspace
+
+  \item {calcStatAllCliqs}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{183}
+    \subitem {pat\discretionary {-}{}{}Stats.h}, \hyperpage{199}
+  \item {calcStatCliq}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{183}
+  \item {checkBit}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{38}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{58}
+  \item {checkCliquecSet}
+    \subitem {convll.c}, \hyperpage{68}
+  \item {checkRealDataFormat}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{213}
+  \item {cliquecounter}
+    \subitem {convll.c}, \hyperpage{97}
+  \item {cliqueMembership}
+    \subitem {mnode}, \hyperpage{12}
+  \item {cll\_\discretionary {-}{}{}t}
+    \subitem {convll.h}, \hyperpage{100}
+  \item {cnode}, \hyperpage{7}
+    \subitem {id}, \hyperpage{7}
+    \subitem {length}, \hyperpage{7}
+    \subitem {next}, \hyperpage{8}
+    \subitem {set}, \hyperpage{8}
+    \subitem {stat}, \hyperpage{8}
+  \item {coil\_\discretionary {-}{}{}mat}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {completeConv}
+    \subitem {convll.c}, \hyperpage{69}
+    \subitem {convll.h}, \hyperpage{100}
+  \item {convll.c}, \hyperpage{65}
+    \subitem {addToStacks}, \hyperpage{66}
+    \subitem {bitSetToCSet}, \hyperpage{67}
+    \subitem {checkCliquecSet}, \hyperpage{68}
+    \subitem {cliquecounter}, \hyperpage{97}
+    \subitem {completeConv}, \hyperpage{69}
+    \subitem {emptyMemberStacks}, \hyperpage{71}
+    \subitem {fillMemberStacks}, \hyperpage{71}
+    \subitem {initheadCll}, \hyperpage{72}
+    \subitem {mergeIntersect}, \hyperpage{72}
+    \subitem {mllToCSet}, \hyperpage{73}
+    \subitem {popAllCll}, \hyperpage{74}
+    \subitem {popCll}, \hyperpage{75}
+    \subitem {popMemStack}, \hyperpage{76}
+    \subitem {popWholeMemStack}, \hyperpage{76}
+    \subitem {printCll}, \hyperpage{77}
+    \subitem {printCllPattern}, \hyperpage{77}
+    \subitem {printCSet}, \hyperpage{78}
+    \subitem {printMemberStacks}, \hyperpage{79}
+    \subitem {pruneCll}, \hyperpage{79}
+    \subitem {pushClique}, \hyperpage{81}
+    \subitem {pushCll}, \hyperpage{82}
+    \subitem {pushConvClique}, \hyperpage{83}
+    \subitem {pushcSet}, \hyperpage{84}
+    \subitem {pushMemStack}, \hyperpage{84}
+    \subitem {removeSupers}, \hyperpage{85}
+    \subitem {searchMemsWithList}, \hyperpage{87}
+    \subitem {setStackTrue}, \hyperpage{88}
+    \subitem {singleCliqueConv}, \hyperpage{89}
+    \subitem {swapNodecSet}, \hyperpage{91}
+    \subitem {uniqClique}, \hyperpage{91}
+    \subitem {wholeCliqueConv}, \hyperpage{93}
+    \subitem {wholeRoundConv}, \hyperpage{95}
+    \subitem {yankCll}, \hyperpage{96}
+  \item {convll.h}, \hyperpage{98}
+    \subitem {addToStacks}, \hyperpage{100}
+    \subitem {bitSetToCSet}, \hyperpage{100}
+    \subitem {cll\_\discretionary {-}{}{}t}, \hyperpage{100}
+    \subitem {completeConv}, \hyperpage{100}
+    \subitem {emptyMemberStacks}, \hyperpage{101}
+    \subitem {fillMemberStacks}, \hyperpage{101}
+    \subitem {initheadCll}, \hyperpage{101}
+    \subitem {mergeIntersect}, \hyperpage{102}
+    \subitem {mll\_\discretionary {-}{}{}t}, \hyperpage{100}
+    \subitem {mllToCSet}, \hyperpage{102}
+    \subitem {popAllCll}, \hyperpage{102}
+    \subitem {popCll}, \hyperpage{102}
+    \subitem {popMemStack}, \hyperpage{103}
+    \subitem {popWholeMemStack}, \hyperpage{103}
+    \subitem {printCll}, \hyperpage{103}
+    \subitem {printCllPattern}, \hyperpage{103}
+    \subitem {printMemberStacks}, \hyperpage{104}
+    \subitem {pushClique}, \hyperpage{104}
+    \subitem {pushCll}, \hyperpage{104}
+    \subitem {pushConvClique}, \hyperpage{104}
+    \subitem {pushcSet}, \hyperpage{105}
+    \subitem {pushMemStack}, \hyperpage{105}
+    \subitem {removeSupers}, \hyperpage{105}
+    \subitem {searchMemsWithList}, \hyperpage{106}
+    \subitem {setStackTrue}, \hyperpage{106}
+    \subitem {singleCliqueConv}, \hyperpage{106}
+    \subitem {swapNodecSet}, \hyperpage{107}
+    \subitem {uniqClique}, \hyperpage{107}
+    \subitem {wholeCliqueConv}, \hyperpage{108}
+    \subitem {wholeRoundConv}, \hyperpage{108}
+    \subitem {yankCll}, \hyperpage{108}
+  \item {convolve}
+    \subitem {gemoda-r.c}, \hyperpage{123}
+    \subitem {gemoda-s.c}, \hyperpage{136}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{169}
+  \item {copyBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{39}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{59}
+  \item {copySet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{39}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{59}
+  \item {countBitGraphNonZero}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{39}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{59}
+  \item {countExtraParams}
+    \subitem {gemoda-r.c}, \hyperpage{125}
+  \item {countFields}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{215}
+  \item {CountFSeqs}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{111}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {countLines}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{111}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {countSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{40}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{59}
+  \item {countTotalFields}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{216}
+  \item {countWords2}
+    \subitem {gemoda-s.c}, \hyperpage{138}
+    \subitem {words.c}, \hyperpage{245}
+  \item {cSet\_\discretionary {-}{}{}t}, \hyperpage{9}
+  \item {c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}
+    \subitem {members}, \hyperpage{9}
+    \subitem {size}, \hyperpage{9}
+  \item {cumDMatrix}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{184}
+    \subitem {pat\discretionary {-}{}{}Stats.h}, \hyperpage{199}
+
+  \indexspace
+
+  \item {data}
+    \subitem {s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}, 
+		\hyperpage{17}
+  \item {dayhoff}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {DEFAULT\_\discretionary {-}{}{}MATRIX}
+    \subitem {matrices.c}, \hyperpage{155}
+  \item {deleteBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{41}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{60}
+  \item {deleteBitSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{41}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{60}
+  \item {destroySHash}
+    \subitem {words.c}, \hyperpage{247}
+  \item {destroySPatA}
+    \subitem {words.c}, \hyperpage{248}
+  \item {dna\_\discretionary {-}{}{}idmat}
+    \subitem {matrices.h}, \hyperpage{161}
+
+  \indexspace
+
+  \item {emptyBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{42}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{60}
+  \item {emptyBitGraphRow}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{42}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{60}
+  \item {emptyMemberStacks}
+    \subitem {convll.c}, \hyperpage{71}
+    \subitem {convll.h}, \hyperpage{101}
+  \item {emptySet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{42}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{60}
+
+  \indexspace
+
+  \item {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}
+    \subitem {BIG\_\discretionary {-}{}{}BUFFER}, \hyperpage{111}
+    \subitem {BUFFER}, \hyperpage{111}
+    \subitem {CountFSeqs}, \hyperpage{111}
+    \subitem {countLines}, \hyperpage{111}
+    \subitem {FreeFSeqs}, \hyperpage{112}
+    \subitem {initAofFSeqs}, \hyperpage{112}
+    \subitem {measureLine}, \hyperpage{113}
+    \subitem {printFSeqSubSeq}, \hyperpage{113}
+    \subitem {ReadFile}, \hyperpage{113}
+    \subitem {ReadFSeqs}, \hyperpage{115}
+    \subitem {ReadTxtSeqs}, \hyperpage{117}
+    \subitem {WriteFSeqA}, \hyperpage{117}
+  \item {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}
+    \subitem {CountFSeqs}, \hyperpage{120}
+    \subitem {countLines}, \hyperpage{120}
+    \subitem {FreeFSeqs}, \hyperpage{120}
+    \subitem {initAofFSeqs}, \hyperpage{120}
+    \subitem {measureLine}, \hyperpage{120}
+    \subitem {printFSeqSubSeq}, \hyperpage{120}
+    \subitem {ReadFSeqs}, \hyperpage{120}
+    \subitem {ReadTxtSeqs}, \hyperpage{121}
+    \subitem {WriteFSeqA}, \hyperpage{121}
+  \item {FastaSeqIO/ Directory Reference}, \hyperpage{1}
+  \item {FastaSeqIO/fastaSeqIO.c}, \hyperpage{110}
+  \item {FastaSeqIO/fastaSeqIO.h}, \hyperpage{119}
+  \item {fillBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{43}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{61}
+  \item {fillMemberStacks}
+    \subitem {convll.c}, \hyperpage{71}
+    \subitem {convll.h}, \hyperpage{101}
+  \item {fillSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{43}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{61}
+  \item {filterGraph}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{170}
+  \item {filterIter}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{171}
+  \item {findCliqueCentroid}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{217}
+  \item {findCliques}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{173}
+  \item {flipBits}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{43}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{61}
+  \item {freeD}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{186}
+    \subitem {pat\discretionary {-}{}{}Stats.h}, \hyperpage{199}
+  \item {FreeFSeqs}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{112}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {freeRdh}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{219}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{240}
+  \item {fSeq\_\discretionary {-}{}{}t}, \hyperpage{11}
+  \item {f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}
+    \subitem {label}, \hyperpage{11}
+    \subitem {seq}, \hyperpage{11}
+
+  \indexspace
+
+  \item {gemoda-r.c}, \hyperpage{122}
+    \subitem {convolve}, \hyperpage{123}
+    \subitem {countExtraParams}, \hyperpage{125}
+    \subitem {main}, \hyperpage{125}
+    \subitem {parseExtraParams}, \hyperpage{129}
+    \subitem {pruneBitGraph}, \hyperpage{130}
+    \subitem {usage}, \hyperpage{132}
+  \item {gemoda-s.c}, \hyperpage{134}
+    \subitem {alignWordsMat\_\discretionary {-}{}{}bit}, 
+		\hyperpage{135}
+    \subitem {convolve}, \hyperpage{136}
+    \subitem {countWords2}, \hyperpage{138}
+    \subitem {getMatrixByName}, \hyperpage{140}
+    \subitem {main}, \hyperpage{140}
+    \subitem {matrixlist}, \hyperpage{149}
+    \subitem {pruneBitGraph}, \hyperpage{150}
+    \subitem {usage}, \hyperpage{152}
+  \item {generalMatchFactor}
+    \subitem {real\discretionary {-}{}{}Compare.c}, \hyperpage{202}
+    \subitem {real\discretionary {-}{}{}Compare.h}, \hyperpage{210}
+  \item {getCompFunc}
+    \subitem {real\discretionary {-}{}{}Compare.c}, \hyperpage{203}
+    \subitem {real\discretionary {-}{}{}Compare.h}, \hyperpage{211}
+  \item {getLargestLength}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{187}
+  \item {getLargestSupport}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{187}
+  \item {getMatrixByName}
+    \subitem {gemoda-s.c}, \hyperpage{140}
+    \subitem {matrices.c}, \hyperpage{156}
+  \item {getRdhDim}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{220}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{240}
+  \item {getRdhIndexSeqPos}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{220}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{240}
+  \item {getRdhLabel}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{221}
+  \item {getRdhSeqLength}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{221}
+  \item {getRdhValue}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{222}
+  \item {getStatMat}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{188}
+    \subitem {pat\discretionary {-}{}{}Stats.h}, \hyperpage{199}
+  \item {graph}
+    \subitem {bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}, 
+		\hyperpage{4}
+
+  \indexspace
+
+  \item {hash}
+    \subitem {s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}, 
+		\hyperpage{15}
+  \item {hash1}
+    \subitem {words.c}, \hyperpage{248}
+  \item {hashpjw}
+    \subitem {words.c}, \hyperpage{249}
+  \item {hashSize}
+    \subitem {s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}, 
+		\hyperpage{15}
+
+  \indexspace
+
+  \item {id}
+    \subitem {cnode}, \hyperpage{7}
+  \item {identity\_\discretionary {-}{}{}aa}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {idmat}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {idx}
+    \subitem {s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}, 
+		\hyperpage{17}
+  \item {iHashSize}
+    \subitem {s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}, 
+		\hyperpage{15}
+  \item {increaseMem}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{191}
+  \item {indexSize}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{13}
+  \item {indexToPos}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{13}
+  \item {indexToSeq}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{13}
+  \item {initAofFSeqs}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{112}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {initheadCll}
+    \subitem {convll.c}, \hyperpage{72}
+    \subitem {convll.h}, \hyperpage{101}
+  \item {initRdh}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{222}
+  \item {initRdhGslMat}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{223}
+  \item {initRdhIndex}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{224}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{241}
+  \item {initSHash}
+    \subitem {words.c}, \hyperpage{249}
+
+  \indexspace
+
+  \item {key}
+    \subitem {s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {L}
+    \subitem {s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}, 
+		\hyperpage{17}
+  \item {label}
+    \subitem {f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}, 
+		\hyperpage{11}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{14}
+  \item {length}
+    \subitem {cnode}, \hyperpage{7}
+    \subitem {s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {main}
+    \subitem {gemoda-r.c}, \hyperpage{125}
+    \subitem {gemoda-s.c}, \hyperpage{140}
+  \item {makeAlternateCentroid}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{226}
+  \item {maskBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{44}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{61}
+  \item {massSpecCompareWElut}
+    \subitem {real\discretionary {-}{}{}Compare.c}, \hyperpage{203}
+    \subitem {real\discretionary {-}{}{}Compare.h}, \hyperpage{210}
+  \item {mat}
+    \subitem {matrixmap.h}, \hyperpage{166}
+  \item {matdata.h}, \hyperpage{154}
+    \subitem {MATRIX\_\discretionary {-}{}{}SIZE}, \hyperpage{154}
+  \item {matrices.c}, \hyperpage{155}
+    \subitem {DEFAULT\_\discretionary {-}{}{}MATRIX}, \hyperpage{155}
+    \subitem {getMatrixByName}, \hyperpage{156}
+  \item {matrices.h}, \hyperpage{157}
+    \subitem {aaOrder}, \hyperpage{159}
+    \subitem {alpha\_\discretionary {-}{}{}mat}, \hyperpage{159}
+    \subitem {beta\_\discretionary {-}{}{}mat}, \hyperpage{159}
+    \subitem {blosum100}, \hyperpage{159}
+    \subitem {blosum30}, \hyperpage{159}
+    \subitem {blosum35}, \hyperpage{159}
+    \subitem {blosum40}, \hyperpage{159}
+    \subitem {blosum45}, \hyperpage{159}
+    \subitem {blosum50}, \hyperpage{159}
+    \subitem {blosum55}, \hyperpage{160}
+    \subitem {blosum60}, \hyperpage{160}
+    \subitem {blosum62}, \hyperpage{160}
+    \subitem {blosum65}, \hyperpage{160}
+    \subitem {blosum70}, \hyperpage{160}
+    \subitem {blosum75}, \hyperpage{160}
+    \subitem {blosum80}, \hyperpage{160}
+    \subitem {blosum85}, \hyperpage{160}
+    \subitem {blosum90}, \hyperpage{160}
+    \subitem {blosumn}, \hyperpage{160}
+    \subitem {coil\_\discretionary {-}{}{}mat}, \hyperpage{161}
+    \subitem {dayhoff}, \hyperpage{161}
+    \subitem {dna\_\discretionary {-}{}{}idmat}, \hyperpage{161}
+    \subitem {identity\_\discretionary {-}{}{}aa}, \hyperpage{161}
+    \subitem {idmat}, \hyperpage{161}
+    \subitem {pam100}, \hyperpage{161}
+    \subitem {pam110}, \hyperpage{161}
+    \subitem {pam120}, \hyperpage{161}
+    \subitem {pam130}, \hyperpage{161}
+    \subitem {pam140}, \hyperpage{161}
+    \subitem {pam150}, \hyperpage{162}
+    \subitem {pam160}, \hyperpage{162}
+    \subitem {pam190}, \hyperpage{162}
+    \subitem {pam200}, \hyperpage{162}
+    \subitem {pam210}, \hyperpage{162}
+    \subitem {pam220}, \hyperpage{162}
+    \subitem {pam230}, \hyperpage{162}
+    \subitem {pam240}, \hyperpage{162}
+    \subitem {pam250}, \hyperpage{162}
+    \subitem {pam260}, \hyperpage{162}
+    \subitem {pam280}, \hyperpage{163}
+    \subitem {pam290}, \hyperpage{163}
+    \subitem {pam300}, \hyperpage{163}
+    \subitem {pam310}, \hyperpage{163}
+    \subitem {pam320}, \hyperpage{163}
+    \subitem {pam330}, \hyperpage{163}
+    \subitem {pam340}, \hyperpage{163}
+    \subitem {pam360}, \hyperpage{163}
+    \subitem {pam370}, \hyperpage{163}
+    \subitem {pam380}, \hyperpage{163}
+    \subitem {pam390}, \hyperpage{164}
+    \subitem {pam400}, \hyperpage{164}
+    \subitem {pam430}, \hyperpage{164}
+    \subitem {pam440}, \hyperpage{164}
+    \subitem {pam450}, \hyperpage{164}
+    \subitem {pam460}, \hyperpage{164}
+    \subitem {pam490}, \hyperpage{164}
+    \subitem {pam500}, \hyperpage{164}
+    \subitem {phat\_\discretionary {-}{}{}t75\_\discretionary {-}{}{}b73}, 
+		\hyperpage{164}
+    \subitem {phat\_\discretionary {-}{}{}t80\_\discretionary {-}{}{}b78}, 
+		\hyperpage{164}
+    \subitem {phat\_\discretionary {-}{}{}t85\_\discretionary {-}{}{}b82}, 
+		\hyperpage{165}
+  \item {matrix\_\discretionary {-}{}{}map}
+    \subitem {matrixmap.h}, \hyperpage{166}
+  \item {MATRIX\_\discretionary {-}{}{}SIZE}
+    \subitem {matdata.h}, \hyperpage{154}
+  \item {matrixlist}
+    \subitem {gemoda-s.c}, \hyperpage{149}
+  \item {matrixmap.h}, \hyperpage{166}
+    \subitem {mat}, \hyperpage{166}
+    \subitem {matrix\_\discretionary {-}{}{}map}, \hyperpage{166}
+    \subitem {name}, \hyperpage{166}
+  \item {max}
+    \subitem {bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}, 
+		\hyperpage{5}
+  \item {measureDiagonal}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{193}
+  \item {measureLine}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{113}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {members}
+    \subitem {c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}, 
+		\hyperpage{9}
+  \item {mergeIntersect}
+    \subitem {convll.c}, \hyperpage{72}
+    \subitem {convll.h}, \hyperpage{102}
+  \item {mll\_\discretionary {-}{}{}t}
+    \subitem {convll.h}, \hyperpage{100}
+  \item {mllToCSet}
+    \subitem {convll.c}, \hyperpage{73}
+    \subitem {convll.h}, \hyperpage{102}
+  \item {mnode}, \hyperpage{12}
+    \subitem {cliqueMembership}, \hyperpage{12}
+    \subitem {next}, \hyperpage{12}
+
+  \indexspace
+
+  \item {name}
+    \subitem {matrixmap.h}, \hyperpage{166}
+  \item {newBitArray}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{44}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{62}
+  \item {newBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{45}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{62}
+  \item {newBitSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{45}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{62}
+  \item {newConv.c}, \hyperpage{168}
+  \item {new\discretionary {-}{}{}Conv.c}
+    \subitem {convolve}, \hyperpage{169}
+    \subitem {filterGraph}, \hyperpage{170}
+    \subitem {filterIter}, \hyperpage{171}
+    \subitem {findCliques}, \hyperpage{173}
+    \subitem {pruneBitGraph}, \hyperpage{176}
+    \subitem {pruneCll}, \hyperpage{178}
+    \subitem {singleLinkage}, \hyperpage{180}
+  \item {next}
+    \subitem {cnode}, \hyperpage{8}
+    \subitem {mnode}, \hyperpage{12}
+    \subitem {s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}, 
+		\hyperpage{19}
+  \item {nextBitBitSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{46}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{62}
+
+  \indexspace
+
+  \item {offset}
+    \subitem {s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}, 
+		\hyperpage{21}
+  \item {offsetToIndex}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{14}
+  \item {oldGetStatMat}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{193}
+  \item {outputRealPats}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{227}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{241}
+  \item {outputRealPatsWCentroid}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{228}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{241}
+
+  \indexspace
+
+  \item {pam100}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {pam110}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {pam120}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {pam130}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {pam140}
+    \subitem {matrices.h}, \hyperpage{161}
+  \item {pam150}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam160}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam190}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam200}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam210}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam220}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam230}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam240}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam250}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam260}
+    \subitem {matrices.h}, \hyperpage{162}
+  \item {pam280}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam290}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam300}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam310}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam320}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam330}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam340}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam360}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam370}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam380}
+    \subitem {matrices.h}, \hyperpage{163}
+  \item {pam390}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam400}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam430}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam440}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam450}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam460}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam490}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {pam500}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {parseExtraParams}
+    \subitem {gemoda-r.c}, \hyperpage{129}
+  \item {parseRealData}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{230}
+  \item {patStats.c}, \hyperpage{182}
+  \item {pat\discretionary {-}{}{}Stats.c}
+    \subitem {calcStatAllCliqs}, \hyperpage{183}
+    \subitem {calcStatCliq}, \hyperpage{183}
+    \subitem {cumDMatrix}, \hyperpage{184}
+    \subitem {freeD}, \hyperpage{186}
+    \subitem {getLargestLength}, \hyperpage{187}
+    \subitem {getLargestSupport}, \hyperpage{187}
+    \subitem {getStatMat}, \hyperpage{188}
+    \subitem {increaseMem}, \hyperpage{191}
+    \subitem {measureDiagonal}, \hyperpage{193}
+    \subitem {oldGetStatMat}, \hyperpage{193}
+    \subitem {sortByStats}, \hyperpage{196}
+    \subitem {statCompare}, \hyperpage{197}
+  \item {patStats.h}, \hyperpage{198}
+  \item {pat\discretionary {-}{}{}Stats.h}
+    \subitem {calcStatAllCliqs}, \hyperpage{199}
+    \subitem {cumDMatrix}, \hyperpage{199}
+    \subitem {freeD}, \hyperpage{199}
+    \subitem {getStatMat}, \hyperpage{199}
+    \subitem {sortByStats}, \hyperpage{199}
+  \item {phat\_\discretionary {-}{}{}t75\_\discretionary {-}{}{}b73}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {phat\_\discretionary {-}{}{}t80\_\discretionary {-}{}{}b78}
+    \subitem {matrices.h}, \hyperpage{164}
+  \item {phat\_\discretionary {-}{}{}t85\_\discretionary {-}{}{}b82}
+    \subitem {matrices.h}, \hyperpage{165}
+  \item {popAllCll}
+    \subitem {convll.c}, \hyperpage{74}
+    \subitem {convll.h}, \hyperpage{102}
+  \item {popCll}
+    \subitem {convll.c}, \hyperpage{75}
+    \subitem {convll.h}, \hyperpage{102}
+  \item {popMemStack}
+    \subitem {convll.c}, \hyperpage{76}
+    \subitem {convll.h}, \hyperpage{103}
+  \item {popWholeMemStack}
+    \subitem {convll.c}, \hyperpage{76}
+    \subitem {convll.h}, \hyperpage{103}
+  \item {pos}
+    \subitem {s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}, 
+		\hyperpage{19}
+  \item {prev}
+    \subitem {s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}, 
+		\hyperpage{19}
+  \item {printBinaryBitSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{47}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{63}
+  \item {printBitGraph}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{48}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{63}
+  \item {printBitSet}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{48}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{63}
+  \item {printCll}
+    \subitem {convll.c}, \hyperpage{77}
+    \subitem {convll.h}, \hyperpage{103}
+  \item {printCllPattern}
+    \subitem {convll.c}, \hyperpage{77}
+    \subitem {convll.h}, \hyperpage{103}
+  \item {printCSet}
+    \subitem {convll.c}, \hyperpage{78}
+  \item {printFSeqSubSeq}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{113}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {printMemberStacks}
+    \subitem {convll.c}, \hyperpage{79}
+    \subitem {convll.h}, \hyperpage{104}
+  \item {printRdhSeq}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{231}
+  \item {printSHash}
+    \subitem {words.c}, \hyperpage{250}
+  \item {printSPats}
+    \subitem {words.c}, \hyperpage{251}
+  \item {pruneBitGraph}
+    \subitem {gemoda-r.c}, \hyperpage{130}
+    \subitem {gemoda-s.c}, \hyperpage{150}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{176}
+  \item {pruneCll}
+    \subitem {convll.c}, \hyperpage{79}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{178}
+  \item {pushClique}
+    \subitem {convll.c}, \hyperpage{81}
+    \subitem {convll.h}, \hyperpage{104}
+  \item {pushCll}
+    \subitem {convll.c}, \hyperpage{82}
+    \subitem {convll.h}, \hyperpage{104}
+  \item {pushConvClique}
+    \subitem {convll.c}, \hyperpage{83}
+    \subitem {convll.h}, \hyperpage{104}
+  \item {pushcSet}
+    \subitem {convll.c}, \hyperpage{84}
+    \subitem {convll.h}, \hyperpage{105}
+  \item {pushMemStack}
+    \subitem {convll.c}, \hyperpage{84}
+    \subitem {convll.h}, \hyperpage{105}
+  \item {pushOnRdhSeq}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{231}
+
+  \indexspace
+
+  \item {rdh\_\discretionary {-}{}{}t}, \hyperpage{13}
+    \subitem {indexSize}, \hyperpage{13}
+    \subitem {indexToPos}, \hyperpage{13}
+    \subitem {indexToSeq}, \hyperpage{13}
+    \subitem {label}, \hyperpage{14}
+    \subitem {offsetToIndex}, \hyperpage{14}
+    \subitem {seq}, \hyperpage{14}
+    \subitem {size}, \hyperpage{14}
+  \item {ReadFile}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{113}
+  \item {ReadFSeqs}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{115}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{120}
+  \item {readRealData}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{233}
+    \subitem {real\discretionary {-}{}{}Io.h}, \hyperpage{241}
+  \item {ReadTxtSeqs}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{117}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{121}
+  \item {realCompare.c}, \hyperpage{201}
+  \item {real\discretionary {-}{}{}Compare.c}
+    \subitem {generalMatchFactor}, \hyperpage{202}
+    \subitem {getCompFunc}, \hyperpage{203}
+    \subitem {massSpecCompareWElut}, \hyperpage{203}
+    \subitem {realComparison}, \hyperpage{205}
+    \subitem {rmsdCompare}, \hyperpage{206}
+  \item {realCompare.h}, \hyperpage{209}
+  \item {real\discretionary {-}{}{}Compare.h}
+    \subitem {generalMatchFactor}, \hyperpage{210}
+    \subitem {getCompFunc}, \hyperpage{211}
+    \subitem {massSpecCompareWElut}, \hyperpage{210}
+    \subitem {realComparison}, \hyperpage{211}
+    \subitem {rmsdCompare}, \hyperpage{211}
+  \item {realComparison}
+    \subitem {real\discretionary {-}{}{}Compare.c}, \hyperpage{205}
+    \subitem {real\discretionary {-}{}{}Compare.h}, \hyperpage{211}
+  \item {realIo.c}, \hyperpage{212}
+  \item {real\discretionary {-}{}{}Io.c}
+    \subitem {checkRealDataFormat}, \hyperpage{213}
+    \subitem {countFields}, \hyperpage{215}
+    \subitem {countTotalFields}, \hyperpage{216}
+    \subitem {findCliqueCentroid}, \hyperpage{217}
+    \subitem {freeRdh}, \hyperpage{219}
+    \subitem {getRdhDim}, \hyperpage{220}
+    \subitem {getRdhIndexSeqPos}, \hyperpage{220}
+    \subitem {getRdhLabel}, \hyperpage{221}
+    \subitem {getRdhSeqLength}, \hyperpage{221}
+    \subitem {getRdhValue}, \hyperpage{222}
+    \subitem {initRdh}, \hyperpage{222}
+    \subitem {initRdhGslMat}, \hyperpage{223}
+    \subitem {initRdhIndex}, \hyperpage{224}
+    \subitem {makeAlternateCentroid}, \hyperpage{226}
+    \subitem {outputRealPats}, \hyperpage{227}
+    \subitem {outputRealPatsWCentroid}, \hyperpage{228}
+    \subitem {parseRealData}, \hyperpage{230}
+    \subitem {printRdhSeq}, \hyperpage{231}
+    \subitem {pushOnRdhSeq}, \hyperpage{231}
+    \subitem {readRealData}, \hyperpage{233}
+    \subitem {setRdhColFromString}, \hyperpage{234}
+    \subitem {setRdhIndex}, \hyperpage{235}
+    \subitem {setRdhLabel}, \hyperpage{236}
+    \subitem {setRdhValue}, \hyperpage{237}
+    \subitem {wordToDouble}, \hyperpage{237}
+  \item {realIo.h}, \hyperpage{239}
+  \item {real\discretionary {-}{}{}Io.h}
+    \subitem {freeRdh}, \hyperpage{240}
+    \subitem {getRdhDim}, \hyperpage{240}
+    \subitem {getRdhIndexSeqPos}, \hyperpage{240}
+    \subitem {initRdhIndex}, \hyperpage{241}
+    \subitem {outputRealPats}, \hyperpage{241}
+    \subitem {outputRealPatsWCentroid}, \hyperpage{241}
+    \subitem {readRealData}, \hyperpage{241}
+  \item {removeSupers}
+    \subitem {convll.c}, \hyperpage{85}
+    \subitem {convll.h}, \hyperpage{105}
+  \item {rmsdCompare}
+    \subitem {real\discretionary {-}{}{}Compare.c}, \hyperpage{206}
+    \subitem {real\discretionary {-}{}{}Compare.h}, \hyperpage{211}
+
+  \indexspace
+
+  \item {searchMemsWithList}
+    \subitem {convll.c}, \hyperpage{87}
+    \subitem {convll.h}, \hyperpage{106}
+  \item {searchSHash}
+    \subitem {words.c}, \hyperpage{251}
+  \item {seq}
+    \subitem {f\discretionary {-}{}{}Seq\_\discretionary {-}{}{}t}, 
+		\hyperpage{11}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{14}
+    \subitem {s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}, 
+		\hyperpage{19}
+  \item {set}
+    \subitem {cnode}, \hyperpage{8}
+  \item {setFalse}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{49}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{63}
+  \item {setRdhColFromString}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{234}
+  \item {setRdhIndex}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{235}
+  \item {setRdhLabel}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{236}
+  \item {setRdhValue}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{237}
+  \item {setStackTrue}
+    \subitem {convll.c}, \hyperpage{88}
+    \subitem {convll.h}, \hyperpage{106}
+  \item {setTrue}
+    \subitem {bit\discretionary {-}{}{}Set.c}, \hyperpage{49}
+    \subitem {bit\discretionary {-}{}{}Set.h}, \hyperpage{63}
+  \item {SHASH\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}KEY\_\discretionary {-}{}{}SIZE}
+    \subitem {words.c}, \hyperpage{245}
+  \item {sHash\_\discretionary {-}{}{}t}, \hyperpage{15}
+  \item {s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}
+    \subitem {hash}, \hyperpage{15}
+    \subitem {hashSize}, \hyperpage{15}
+    \subitem {iHashSize}, \hyperpage{15}
+    \subitem {totalSize}, \hyperpage{16}
+  \item {sHashEntry\_\discretionary {-}{}{}t}, \hyperpage{17}
+  \item {s\discretionary {-}{}{}Hash\discretionary {-}{}{}Entry\_\discretionary {-}{}{}t}
+    \subitem {data}, \hyperpage{17}
+    \subitem {idx}, \hyperpage{17}
+    \subitem {key}, \hyperpage{17}
+    \subitem {L}, \hyperpage{17}
+  \item {sieve3}
+    \subitem {words.c}, \hyperpage{253}
+  \item {singleCliqueConv}
+    \subitem {convll.c}, \hyperpage{89}
+    \subitem {convll.h}, \hyperpage{106}
+  \item {singleLinkage}
+    \subitem {new\discretionary {-}{}{}Conv.c}, \hyperpage{180}
+  \item {size}
+    \subitem {bit\discretionary {-}{}{}Graph\_\discretionary {-}{}{}t}, 
+		\hyperpage{4}
+    \subitem {c\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}, 
+		\hyperpage{9}
+    \subitem {rdh\_\discretionary {-}{}{}t}, \hyperpage{14}
+    \subitem {s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}, 
+		\hyperpage{23}
+  \item {slots}
+    \subitem {bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}, 
+		\hyperpage{5}
+  \item {sOffset\_\discretionary {-}{}{}t}, \hyperpage{19}
+  \item {s\discretionary {-}{}{}Offset\_\discretionary {-}{}{}t}
+    \subitem {next}, \hyperpage{19}
+    \subitem {pos}, \hyperpage{19}
+    \subitem {prev}, \hyperpage{19}
+    \subitem {seq}, \hyperpage{19}
+  \item {sortByStats}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{196}
+    \subitem {pat\discretionary {-}{}{}Stats.h}, \hyperpage{199}
+  \item {spat.h}, \hyperpage{243}
+  \item {sPat\_\discretionary {-}{}{}t}, \hyperpage{21}
+  \item {s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}
+    \subitem {length}, \hyperpage{21}
+    \subitem {offset}, \hyperpage{21}
+    \subitem {string}, \hyperpage{22}
+    \subitem {support}, \hyperpage{22}
+  \item {sSize\_\discretionary {-}{}{}t}, \hyperpage{23}
+  \item {s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}
+    \subitem {size}, \hyperpage{23}
+    \subitem {start}, \hyperpage{23}
+    \subitem {stop}, \hyperpage{23}
+  \item {start}
+    \subitem {s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}, 
+		\hyperpage{23}
+  \item {stat}
+    \subitem {cnode}, \hyperpage{8}
+  \item {statCompare}
+    \subitem {pat\discretionary {-}{}{}Stats.c}, \hyperpage{197}
+  \item {stop}
+    \subitem {s\discretionary {-}{}{}Size\_\discretionary {-}{}{}t}, 
+		\hyperpage{23}
+  \item {string}
+    \subitem {s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}, 
+		\hyperpage{22}
+  \item {support}
+    \subitem {s\discretionary {-}{}{}Pat\_\discretionary {-}{}{}t}, 
+		\hyperpage{22}
+  \item {swapNodecSet}
+    \subitem {convll.c}, \hyperpage{91}
+    \subitem {convll.h}, \hyperpage{107}
+
+  \indexspace
+
+  \item {tf}
+    \subitem {bit\discretionary {-}{}{}Set\_\discretionary {-}{}{}t}, 
+		\hyperpage{6}
+  \item {totalSize}
+    \subitem {s\discretionary {-}{}{}Hash\_\discretionary {-}{}{}t}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {uniqClique}
+    \subitem {convll.c}, \hyperpage{91}
+    \subitem {convll.h}, \hyperpage{107}
+  \item {usage}
+    \subitem {gemoda-r.c}, \hyperpage{132}
+    \subitem {gemoda-s.c}, \hyperpage{152}
+
+  \indexspace
+
+  \item {wholeCliqueConv}
+    \subitem {convll.c}, \hyperpage{93}
+    \subitem {convll.h}, \hyperpage{108}
+  \item {wholeRoundConv}
+    \subitem {convll.c}, \hyperpage{95}
+    \subitem {convll.h}, \hyperpage{108}
+  \item {words.c}, \hyperpage{244}
+    \subitem {countWords2}, \hyperpage{245}
+    \subitem {destroySHash}, \hyperpage{247}
+    \subitem {destroySPatA}, \hyperpage{248}
+    \subitem {hash1}, \hyperpage{248}
+    \subitem {hashpjw}, \hyperpage{249}
+    \subitem {initSHash}, \hyperpage{249}
+    \subitem {printSHash}, \hyperpage{250}
+    \subitem {printSPats}, \hyperpage{251}
+    \subitem {searchSHash}, \hyperpage{251}
+    \subitem {SHASH\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}KEY\_\discretionary {-}{}{}SIZE}, 
+		\hyperpage{245}
+    \subitem {sieve3}, \hyperpage{253}
+  \item {wordToDouble}
+    \subitem {real\discretionary {-}{}{}Io.c}, \hyperpage{237}
+  \item {WriteFSeqA}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.c}, 
+		\hyperpage{117}
+    \subitem {fasta\discretionary {-}{}{}Seq\discretionary {-}{}{}IO.h}, 
+		\hyperpage{121}
+
+  \indexspace
+
+  \item {yankCll}
+    \subitem {convll.c}, \hyperpage{96}
+    \subitem {convll.h}, \hyperpage{108}
+
+\end{theindex}

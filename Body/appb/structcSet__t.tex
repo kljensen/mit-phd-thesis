@@ -1,0 +1,50 @@
+\hypertarget{structcSet__t}{
+\section{c\-Set\_\-t Struct Reference}
+\label{structcSet__t}\index{cSet_t@{cSet\_\-t}}
+}
+{\tt \#include $<$convll.h$>$}
+
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+int \hyperlink{structcSet__t_o0}{size}
+\item 
+int $\ast$ \hyperlink{structcSet__t_o1}{members}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+A c\-Set\_\-t is used to hold a set of integers, in cases where the upper limit of integers size is unknown. Or, in cases where using a bit set would be impractical. This data structure is used throughout the convolution, where we have found heuristically that intersections of this data type are much faster than those for bit\-Set\_\-t's, which would require a bit shift.
+
+
+
+Definition at line 21 of file convll.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structcSet__t_o1}{
+\index{cSet_t@{c\-Set\_\-t}!members@{members}}
+\index{members@{members}!cSet_t@{c\-Set\_\-t}}
+\subsubsection[members]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ \hyperlink{structcSet__t_o1}{c\-Set\_\-t::members}}}
+\label{structcSet__t_o1}
+
+
+Array of pointers to ints that holds the members of this set. 
+
+Definition at line 26 of file convll.h.
+
+Referenced by add\-To\-Stacks(), bit\-Set\-To\-CSet(), check\-Cliquec\-Set(), find\-Clique\-Centroid(), main(), make\-Alternate\-Centroid(), merge\-Intersect(), mll\-To\-CSet(), output\-Real\-Pats(), output\-Real\-Pats\-WCentroid(), pop\-Cll(), print\-Cll(), print\-Cll\-Pattern(), print\-CSet(), prune\-Cll(), push\-Conv\-Clique(), remove\-Supers(), swap\-Nodec\-Set(), uniq\-Clique(), and whole\-Clique\-Conv().\hypertarget{structcSet__t_o0}{
+\index{cSet_t@{c\-Set\_\-t}!size@{size}}
+\index{size@{size}!cSet_t@{c\-Set\_\-t}}
+\subsubsection[size]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structcSet__t_o0}{c\-Set\_\-t::size}}}
+\label{structcSet__t_o0}
+
+
+Number of members in this set. 
+
+Definition at line 24 of file convll.h.
+
+Referenced by bit\-Set\-To\-CSet(), calc\-Stat\-Cliq(), check\-Cliquec\-Set(), find\-Clique\-Centroid(), get\-Largest\-Support(), main(), mll\-To\-CSet(), output\-Real\-Pats(), output\-Real\-Pats\-WCentroid(), print\-Cll(), print\-Cll\-Pattern(), print\-CSet(), prune\-Cll(), remove\-Supers(), single\-Clique\-Conv(), uniq\-Clique(), and whole\-Clique\-Conv().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{convll_8h}{convll.h}\end{CompactItemize}

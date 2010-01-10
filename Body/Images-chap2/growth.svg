@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 10.0.3, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<svg
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   xmlns:ns1="http://ns.adobe.com/Flows/1.0/"
+   xmlns:ns0="http://ns.adobe.com/SaveForWeb/1.0/"
+   xmlns:ns="http://ns.adobe.com/Variables/1.0/"
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:x="http://ns.adobe.com/Extensibility/1.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   i:viewOrigin="-1.3989 151.248"
+   i:rulerOrigin="0 0"
+   i:pageBounds="0 150 213 0"
+   width="215.596"
+   height="151.779"
+   viewBox="0 0 215.596 151.779"
+   overflow="visible"
+   enable-background="new 0 0 215.596 151.779"
+   xml:space="preserve"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   sodipodi:docname="growth.svg"
+   sodipodi:docbase="/home/kljensen/Burns/Papers/jensen2006thesis/Body/Images-chap2"><defs
+   id="defs175">
+		<foreignObject
+   id="foreignObject10"
+   height="1"
+   width="1"
+   y="0"
+   x="0"
+   requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/">
+			<i:pgfRef
+   xlink:href="#adobe_illustrator_pgf">
+			</i:pgfRef>
+		</foreignObject>
+		
+	
+			
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject169">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M136.39,149.288" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>iterations</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_19_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject162">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M83.274,149.288" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>otstrapping</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_18_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject155">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M78.003,149.288" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>o</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_17_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject148">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M72.243,149.288" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>b</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_16_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject141">
+						<ns1:flowDef>
+							<ns1:region
+   textMatrix="0 -1 1 0 0 0">
+								<ns1:path
+   d="M8.279,75.125" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>sequences</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_15_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject134">
+						<ns1:flowDef>
+							<ns1:region
+   textMatrix="0 -1 1 0 0 0">
+								<ns1:path
+   d="M8.279,86.764" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>#</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_14_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject125">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M13.2,8.279" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>1000</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_13_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject118">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M18.12,30.961" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>960</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_12_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject111">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M18.12,53.642" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>920</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_11_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject104">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M18.12,76.323" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>880</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_10_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject97">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M18.12,99.005" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>840</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_9_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject90">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M18.12,121.687" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>800</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_8_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject73">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M208.999,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>6</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_7_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject66">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M180.685,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>5</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_6_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject59">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M152.373,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>4</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_5_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject52">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M123.94,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>3</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_4_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject45">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M95.627,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>2</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_3_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject38">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M67.314,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>1</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_2_" />
+					</foreignObject>
+					
+				
+					<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject31">
+						<ns1:flowDef>
+							<ns1:region>
+								<ns1:path
+   d="M39.001,133.207" />
+							</ns1:region>
+							<ns1:flow
+   font-family="'CMR10'"
+   font-size="9.9633"
+   a:adobe-justification-word-spacing-max="1"
+   a:adobe-justification-letter-spacing-max="1"
+   kerning="0em">
+								<ns1:p><ns1:span>0</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#XMLID_1_" />
+					</foreignObject>
+					
+				</defs><sodipodi:namedview
+   inkscape:cy="75.656395"
+   inkscape:cx="107.91889"
+   inkscape:zoom="1.3390851"
+   inkscape:window-height="587"
+   inkscape:window-width="809"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   inkscape:window-x="0"
+   inkscape:window-y="27"
+   inkscape:current-layer="svg2" />
+	<style
+   type="text/css"
+   id="style4">
+	
+	
+	</style>
+	<metadata
+   id="metadata6">
+		<ns:variableSets>
+			<ns:variableSet
+   varSetName="binding1"
+   locked="none">
+				<ns:variables />
+				<ns:sampleDataSets />
+			</ns:variableSet>
+		</ns:variableSets>
+		<ns0:sfw>
+			<ns0:slices />
+			<ns0:sliceSourceBounds
+   y="-0.531"
+   x="-1.399"
+   width="215.596"
+   height="151.779"
+   bottomLeftOrigin="true" />
+		</ns0:sfw>
+	<rdf:RDF><cc:Work
+     rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata>
+	<path
+   style="fill:none;stroke:#000000;stroke-width:2.00000006;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path15"
+   d="M 41.521,118.446 L 211.61,118.446 L 211.61,5.031 L 41.521,5.031 L 41.521,118.446 z "
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path17"
+   d="M 69.87,121.834 L 69.87,118.446"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path19"
+   d="M 98.218,121.834 L 98.218,118.446"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path21"
+   d="M 126.566,121.834 L 126.566,118.446"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path23"
+   d="M 154.915,121.834 L 154.915,118.446"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path25"
+   d="M 183.262,121.834 L 183.262,118.446"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path27"
+   d="M 211.611,121.834 L 211.611,118.446"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><text
+   id="XMLID_1_"
+   x="39.001499"
+   y="133.207"><tspan
+     x="39.001499"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan34"
+     style="font-size:9.96329975px;font-family:CMR10">0</tspan></text>
+<text
+   id="XMLID_2_"
+   x="67.314003"
+   y="133.207"><tspan
+     x="67.314003"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan41"
+     style="font-size:9.96329975px;font-family:CMR10">1</tspan></text>
+<text
+   id="XMLID_3_"
+   x="95.626999"
+   y="133.207"><tspan
+     x="95.626999"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan48"
+     style="font-size:9.96329975px;font-family:CMR10">2</tspan></text>
+<text
+   id="XMLID_4_"
+   x="123.9399"
+   y="133.207"><tspan
+     x="123.9399"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan55"
+     style="font-size:9.96329975px;font-family:CMR10">3</tspan></text>
+<text
+   id="XMLID_5_"
+   x="152.3726"
+   y="133.207"><tspan
+     x="152.3726"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan62"
+     style="font-size:9.96329975px;font-family:CMR10">4</tspan></text>
+<text
+   id="XMLID_6_"
+   x="180.6851"
+   y="133.207"><tspan
+     x="180.6851"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan69"
+     style="font-size:9.96329975px;font-family:CMR10">5</tspan></text>
+<text
+   id="XMLID_7_"
+   x="208.9985"
+   y="133.207"><tspan
+     x="208.9985"
+     y="133.207"
+     font-size="9.9633"
+     id="tspan76"
+     style="font-size:9.96329975px;font-family:CMR10">6</tspan></text>
+<path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path78"
+   d="M 41.521,95.763 L 38.133,95.763"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path80"
+   d="M 41.521,73.08 L 38.133,73.08"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path82"
+   d="M 41.521,50.397 L 38.133,50.397"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path84"
+   d="M 41.521,27.713 L 38.133,27.713"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><path
+   style="fill:none;stroke:#000000;stroke-width:1.00000003;stroke-miterlimit:10;stroke-dasharray:none"
+   id="path86"
+   d="M 41.521,5.031 L 38.133,5.031"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><text
+   id="XMLID_8_"
+   x="18.1201"
+   y="121.6865"><tspan
+     x="18.1201"
+     y="121.6865"
+     font-size="9.9633"
+     id="tspan93"
+     style="font-size:9.96329975px;font-family:CMR10">800</tspan></text>
+<text
+   id="XMLID_9_"
+   x="18.1201"
+   y="99.004898"><tspan
+     x="18.1201"
+     y="99.004898"
+     font-size="9.9633"
+     id="tspan100"
+     style="font-size:9.96329975px;font-family:CMR10">840</tspan></text>
+<text
+   id="XMLID_10_"
+   x="18.1201"
+   y="76.323196"><tspan
+     x="18.1201"
+     y="76.323196"
+     font-size="9.9633"
+     id="tspan107"
+     style="font-size:9.96329975px;font-family:CMR10">880</tspan></text>
+<text
+   id="XMLID_11_"
+   x="18.1201"
+   y="53.642101"><tspan
+     x="18.1201"
+     y="53.642101"
+     font-size="9.9633"
+     id="tspan114"
+     style="font-size:9.96329975px;font-family:CMR10">920</tspan></text>
+<text
+   id="XMLID_12_"
+   x="18.1201"
+   y="30.960899"><tspan
+     x="18.1201"
+     y="30.960899"
+     font-size="9.9633"
+     id="tspan121"
+     style="font-size:9.96329975px;font-family:CMR10">960</tspan></text>
+<text
+   id="XMLID_13_"
+   x="13.1997"
+   y="8.2792997"><tspan
+     x="13.1997"
+     y="8.2792997"
+     font-size="9.9633"
+     id="tspan128"
+     style="font-size:9.96329975px;font-family:CMR10">1000</tspan></text>
+<path
+   style="fill:none;stroke:#000000;stroke-width:2.83500009;stroke-miterlimit:10;stroke-dasharray:none;stroke-linecap:round"
+   id="path130"
+   d="M 41.521,97.996 L 69.869,78.716 L 98.217,45.826 L 126.565,44.124 L 158.31705,19.599204"
+   stroke-miterlimit="10"
+   i:knockout="Off" /><text
+   id="XMLID_14_"
+   transform="matrix(0,-1,1,0,0,0)"
+   x="-86.763702"
+   y="8.2792997"><tspan
+     x="-86.763702"
+     y="8.2792997"
+     font-size="9.9633"
+     id="tspan137"
+     style="font-size:9.96329975px;font-family:CMR10">#</tspan></text>
+<text
+   id="XMLID_15_"
+   transform="matrix(0,-1,1,0,0,0)"
+   x="-75.124496"
+   y="8.2792997"><tspan
+     x="-75.124496"
+     y="8.2792997"
+     font-size="9.9633"
+     id="tspan144"
+     style="font-size:9.96329975px;font-family:CMR10">sequences</tspan></text>
+<text
+   id="XMLID_16_"
+   x="63.739262"
+   y="149.2881"><tspan
+     x="63.739262"
+     y="149.2881"
+     font-size="9.9633"
+     id="tspan151"
+     style="font-size:9.96329975px;font-family:CMR10">b</tspan></text>
+<text
+   id="XMLID_17_"
+   x="69.498955"
+   y="149.2881"><tspan
+     x="69.498955"
+     y="149.2881"
+     font-size="9.9633"
+     id="tspan158"
+     style="font-size:9.96329975px;font-family:CMR10">o</tspan></text>
+<text
+   id="XMLID_18_"
+   x="74.770454"
+   y="149.2881"><tspan
+     x="74.770454"
+     y="149.2881"
+     font-size="9.9633"
+     id="tspan165"
+     style="font-size:9.96329975px;font-family:CMR10">otstrapping</tspan></text>
+<text
+   id="XMLID_19_"
+   x="136.39011"
+   y="149.2881"><tspan
+     x="136.39011"
+     y="149.2881"
+     font-size="9.9633"
+     id="tspan172"
+     style="font-size:9.96329975px;font-family:CMR10">iterations</tspan></text>
+
+	<i:pgf
+   id="adobe_illustrator_pgf">
+		
+		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
+		
+	</i:pgf>
+</svg>

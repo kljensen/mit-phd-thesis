@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   sodipodi:docbase="/home/kljensen/Burns/Papers/jensen2006thesis/Body/Images-chap1"
+   sodipodi:docname="genbank-record.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.523584"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.18109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="735"
+     inkscape:window-x="0"
+     inkscape:window-y="6" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#7f7f7f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 185.26158,892.83923 L 649.3705,892.83923 L 649.3705,706.30251 L 620.36369,714.80645 L 591.35689,709.13716 L 562.35008,703.46786 L 533.34327,717.64109 L 504.33646,709.13716 L 475.32966,694.96393 L 446.32285,700.63322 L 417.31604,703.46787 L 388.30923,703.46786 L 359.30243,706.30251 L 330.29562,703.46786 L 301.28881,694.96393 L 272.282,700.63322 L 243.2752,709.13715 L 214.26839,706.30251 L 185.26158,706.30251 L 185.26158,892.83923 z "
+       id="path4493"
+       sodipodi:nodetypes="cccccccccccccccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       id="path3618"
+       d="M 182.42693,887.16993 L 646.53585,887.16993 L 646.53585,700.63321 L 617.52904,709.13715 L 588.52224,703.46786 L 559.51543,697.79856 L 530.50862,711.97179 L 501.50181,703.46786 L 472.49501,689.29463 L 443.4882,694.96392 L 414.48139,697.79857 L 385.47458,697.79856 L 356.46778,700.63321 L 327.46097,697.79856 L 298.45416,689.29463 L 269.44735,694.96392 L 240.44055,703.46785 L 211.43374,700.63321 L 182.42693,700.63321 L 182.42693,887.16993 z "
+       style="color:#000000;fill:#f5f5f5;fill-opacity:1;fill-rule:nonzero;stroke:#202020;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text1513"
+       y="726.68787"
+       x="225.83134"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#343434;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan1717"
+         x="225.83134"
+         y="726.68787" /><tspan
+         sodipodi:role="line"
+         id="tspan1719"
+         x="225.83134"
+         y="734.68787">                     /standard_name=&quot;PMC24644P6&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1721"
+         x="225.83134"
+         y="742.68787">                     /db_xref=&quot;UniSTS:265494&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1723"
+         x="225.83134"
+         y="750.68787">     STS             232..450</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1725"
+         x="225.83134"
+         y="758.68787">                     /gene=&quot;INS&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1727"
+         x="225.83134"
+         y="766.68787">                     /standard_name=&quot;GDB:179433&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1729"
+         x="225.83134"
+         y="774.68787">                     /db_xref=&quot;UniSTS:155046&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1731"
+         x="225.83134"
+         y="782.68787">ORIGIN      </tspan><tspan
+         sodipodi:role="line"
+         id="tspan1733"
+         x="225.83134"
+         y="790.68787">        1 gctgcatcag aagaggccat caagcacatc actgtccttc tgccatggcc ctgtggatgc</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1735"
+         x="225.83134"
+         y="798.68787">       61 gcctcctgcc cctgctggcg ctgctggccc tctggggacc tgacccagcc gcagcctttg</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1737"
+         x="225.83134"
+         y="806.68787">      121 tgaaccaaca cctgtgcggc tcacacctgg tggaagctct ctacctagtg tgcggggaac</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1739"
+         x="225.83134"
+         y="814.68787">      181 gaggcttctt ctacacaccc aagacccgcc gggaggcaga ggacctgcag gtggggcagg</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1741"
+         x="225.83134"
+         y="822.68787">      241 tggagctggg cgggggccct ggtgcaggca gcctgcagcc cttggccctg gaggggtccc</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1743"
+         x="225.83134"
+         y="830.68787">      301 tgcagaagcg tggcattgtg gaacaatgct gtaccagcat ctgctccctc taccagctgg</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1745"
+         x="225.83134"
+         y="838.68787">      361 agaactactg caactagacg cagcccgcag gcagcccccc acccgccgcc tcctgcaccg</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1747"
+         x="225.83134"
+         y="846.68787">      421 agagagatgg aataaagccc ttgaaccagc</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1749"
+         x="225.83134"
+         y="854.68787">//</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1751"
+         x="225.83134"
+         y="862.68787" /><tspan
+         sodipodi:role="line"
+         id="tspan1753"
+         x="225.83134"
+         y="870.68787" /></text>
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       id="path2743"
+       d="M 139.42367,289.88095 L 603.53258,289.88095 L 603.53258,771.22087 L 574.52577,762.71693 L 545.51897,768.38622 L 516.51216,774.05552 L 487.50535,759.88229 L 458.49854,768.38622 L 429.49174,782.55945 L 400.48493,776.89016 L 371.47812,774.05551 L 342.47131,774.05552 L 313.46451,771.22087 L 284.4577,774.05552 L 255.45089,782.55945 L 226.44408,776.89016 L 197.43728,768.38623 L 168.43047,771.22087 L 139.42367,771.22087 L 139.42367,289.88095 z "
+       style="color:#000000;fill:#747474;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:#202020;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 138.49893,286.12156 L 167.50573,283.28691 L 196.51254,286.12156 L 225.51935,277.61761 L 254.52616,288.95621 L 283.53296,283.28691 L 312.53977,283.28691 L 341.54658,280.45226 L 370.55338,288.95621 L 399.56019,288.95621 L 428.567,288.95621 L 457.5738,283.28691 L 486.58061,280.45226 L 515.58742,283.28691 L 544.59423,288.95621 L 573.60103,280.45226 L 602.60784,286.12156 L 602.60784,767.46148 L 573.60103,758.95754 L 544.59423,764.62683 L 515.58742,770.29613 L 486.58061,756.1229 L 457.5738,764.62683 L 428.567,778.80006 L 399.56019,773.13077 L 370.55338,770.29612 L 341.54657,770.29613 L 312.53977,767.46148 L 283.53296,770.29613 L 254.52615,778.80006 L 225.51934,773.13077 L 196.51254,764.62684 L 167.50573,767.46148 L 138.49893,767.46148 L 138.49893,286.12156 z "
+       id="rect1867"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#343434;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="156.04822"
+       y="314.12439"
+       id="text1307"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan1755"
+         x="156.04822"
+         y="314.12439">FEATURES             Location/Qualifiers</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1757"
+         x="156.04822"
+         y="322.12439">     source          1..450</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1759"
+         x="156.04822"
+         y="330.12439">                     /organism=&quot;Homo sapiens&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1761"
+         x="156.04822"
+         y="338.12439">                     /mol_type=&quot;mRNA&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1763"
+         x="156.04822"
+         y="346.12439">                     /db_xref=&quot;taxon:9606&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1765"
+         x="156.04822"
+         y="354.12439">                     /chromosome=&quot;11&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1767"
+         x="156.04822"
+         y="362.12439">                     /map=&quot;11p15.5&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1769"
+         x="156.04822"
+         y="370.12439">     gene            1..450</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1771"
+         x="156.04822"
+         y="378.12439">                     /gene=&quot;INS&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1773"
+         x="156.04822"
+         y="386.12439">                     /db_xref=&quot;GeneID:3630&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1775"
+         x="156.04822"
+         y="394.12439">                     /db_xref=&quot;HGNC:6081&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1777"
+         x="156.04822"
+         y="402.12439">                     /db_xref=&quot;HPRD:01455&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1779"
+         x="156.04822"
+         y="410.12439">                     /db_xref=&quot;MIM:176730&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1781"
+         x="156.04822"
+         y="418.12439">     STS             1..171</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1783"
+         x="156.04822"
+         y="426.12439">                     /gene=&quot;INS&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1785"
+         x="156.04822"
+         y="434.12439">                     /standard_name=&quot;GDB:181496&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1787"
+         x="156.04822"
+         y="442.12439">                     /db_xref=&quot;UniSTS:155248&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1789"
+         x="156.04822"
+         y="450.12439">     CDS             45..377</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1791"
+         x="156.04822"
+         y="458.12439">                     /gene=&quot;INS&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1793"
+         x="156.04822"
+         y="466.12439">                     /go_component=&quot;extracellular region [pmid 7556975]&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1795"
+         x="156.04822"
+         y="474.12439">                     /go_function=&quot;hormone activity [pmid 14986111]; insulin</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1797"
+         x="156.04822"
+         y="482.12439">                     receptor binding [pmid 7556975]; insulin-like growth</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1799"
+         x="156.04822"
+         y="490.12439">                     factor binding [pmid 9388210]; protein binding [pmid</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1801"
+         x="156.04822"
+         y="498.12439">                     9773776]&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1803"
+         x="156.04822"
+         y="506.12439">                     /go_process=&quot;acute-phase response [pmid 14739855];</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1805"
+         x="156.04822"
+         y="514.12439">                     alpha-beta T cell activation [pmid 10604997]; carbohydrate</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1807"
+         x="156.04822"
+         y="522.12439">                     metabolism; cell death [pmid 15194403]; cell surface</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1809"
+         x="156.04822"
+         y="530.12439">                     receptor linked signal transduction [pmid 381941];</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1811"
+         x="156.04822"
+         y="538.12439">                     cell-cell signaling [pmid 7556975]; generation of</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1813"
+         x="156.04822"
+         y="546.12439">                     precursor metabolites and energy [pmid 381941]; glucose</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1815"
+         x="156.04822"
+         y="554.12439">                     metabolism [pmid 381941]; glucose transport [pmid</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1817"
+         x="156.04822"
+         y="562.12439">                     14615391] [pmid 15792832]; negative regulation of protein</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1819"
+         x="156.04822"
+         y="570.12439">                     catabolism [pmid 15185208]; negative regulation of</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1821"
+         x="156.04822"
+         y="578.12439">                     vasodilation [pmid 12946932]; physiological process;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1823"
+         x="156.04822"
+         y="586.12439">                     positive regulation of cytokine secretion [pmid 15473891];</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1825"
+         x="156.04822"
+         y="594.12439">                     positive regulation of nitric oxide biosynthesis [pmid</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1827"
+         x="156.04822"
+         y="602.12439">                     14615391]; positive regulation of nitric-oxide synthase</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1829"
+         x="156.04822"
+         y="610.12439">                     activity [pmid 12135947]; positive regulation of</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1831"
+         x="156.04822"
+         y="618.12439">                     vasodilation [pmid 14744991]; regulation of protein</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1833"
+         x="156.04822"
+         y="626.12439">                     secretion [pmid 15591776]&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1835"
+         x="156.04822"
+         y="634.12439">                     /note=&quot;proinsulin&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1837"
+         x="156.04822"
+         y="642.12439">                     /codon_start=1</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1839"
+         x="156.04822"
+         y="650.12439">                     /product=&quot;proinsulin precursor&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1841"
+         x="156.04822"
+         y="658.12439">                     /protein_id=&quot;NP_000198.1&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1843"
+         x="156.04822"
+         y="666.12439">                     /db_xref=&quot;GI:4557671&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1845"
+         x="156.04822"
+         y="674.12439">                     /db_xref=&quot;CCDS:CCDS7729.1&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1847"
+         x="156.04822"
+         y="682.12439">                     /db_xref=&quot;GeneID:3630&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1849"
+         x="156.04822"
+         y="690.12439">                     /db_xref=&quot;HGNC:6081&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1851"
+         x="156.04822"
+         y="698.12439">                     /db_xref=&quot;HPRD:01455&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1853"
+         x="156.04822"
+         y="706.12439">                     /db_xref=&quot;MIM:176730&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1855"
+         x="156.04822"
+         y="714.12439">                     /translation=&quot;MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCG</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1857"
+         x="156.04822"
+         y="722.12439">                     ERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSL</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1859"
+         x="156.04822"
+         y="730.12439">                     YQLENYCN&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1861"
+         x="156.04822"
+         y="738.12439">     proprotein      45..374</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1863"
+         x="156.04822"
+         y="746.12439">                     /gene=&quot;INS&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1865"
+         x="156.04822"
+         y="754.12439"> </tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       id="path6279"
+       d="M 99.315489,165.85912 L 563.42441,165.85912 L 563.42441,352.39589 L 534.4176,343.89195 L 505.4108,349.56124 L 476.40399,355.23054 L 447.39718,341.05731 L 418.39037,349.56124 L 389.38357,363.73447 L 360.37676,358.06518 L 331.36995,355.23053 L 302.36314,355.23054 L 273.35634,352.39589 L 244.34953,355.23054 L 215.34272,363.73447 L 186.33591,358.06518 L 157.32911,349.56125 L 128.3223,352.39589 L 99.315489,352.39589 L 99.315489,165.85912 z "
+       style="color:#000000;fill:#7f7f7f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#fafafa;fill-opacity:1;fill-rule:nonzero;stroke:#202020;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 96.480839,160.18983 L 560.58976,160.18983 L 560.58976,346.72659 L 531.58295,338.22265 L 502.57615,343.89194 L 473.56934,349.56124 L 444.56253,335.38801 L 415.55572,343.89194 L 386.54892,358.06517 L 357.54211,352.39588 L 328.5353,349.56123 L 299.52849,349.56124 L 270.52169,346.72659 L 241.51488,349.56124 L 212.50807,358.06517 L 183.50126,352.39588 L 154.49446,343.89195 L 125.48765,346.72659 L 96.480839,346.72659 L 96.480839,160.18983 z "
+       id="path6281"
+       sodipodi:nodetypes="cccccccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#343434;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="135.4669"
+       y="192.1546"
+       id="text6241"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan6245"
+         x="135.4669"
+         y="192.1546">LOCUS       NM_000207                450 bp    mRNA    linear   PRI 05-MAR-2006</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6247"
+         x="135.4669"
+         y="200.1546">DEFINITION  Homo sapiens insulin (INS), mRNA.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6249"
+         x="135.4669"
+         y="208.1546">ACCESSION   NM_000207</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6251"
+         x="135.4669"
+         y="216.1546">VERSION     NM_000207.1  GI:4557670</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6253"
+         x="135.4669"
+         y="224.1546">KEYWORDS    .</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6255"
+         x="135.4669"
+         y="232.1546">SOURCE      Homo sapiens (human)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6257"
+         x="135.4669"
+         y="240.1546">  ORGANISM  Homo sapiens</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6259"
+         x="135.4669"
+         y="248.1546">            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6261"
+         x="135.4669"
+         y="256.1546">            Mammalia; Eutheria; Euarchontoglires; Primates; Catarrhini;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6263"
+         x="135.4669"
+         y="264.1546">            Hominidae; Homo.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6265"
+         x="135.4669"
+         y="272.1546">REFERENCE   1  (bases 1 to 450)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6267"
+         x="135.4669"
+         y="280.1546">  AUTHORS   Ahmad,A., Uversky,V.N., Hong,D. and Fink,A.L.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6269"
+         x="135.4669"
+         y="288.1546">  TITLE     Early events in the fibrillation of monomeric insulin</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6271"
+         x="135.4669"
+         y="296.1546">  JOURNAL   J. Biol. Chem. 280 (52), 42669-42675 (2005)</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6273"
+         x="135.4669"
+         y="304.1546">   PUBMED   16246845</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6275"
+         x="135.4669"
+         y="312.1546">  REMARK    GeneRIF: there are at least two major populations of oligomeric</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6277"
+         x="135.4669"
+         y="320.1546">            intermediates between the native monomer and fibrils of insulin</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path8935"
+       d="M 229.07479,116.6114 L 327.20573,116.6114 L 327.20573,145.381 L 252.62845,145.381 L 229.64711,177.18571 L 239.43429,145.381 L 229.07479,145.381 L 229.07479,116.6114 z "
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 226.24014,113.77676 L 324.37108,113.77676 L 324.37108,142.54635 L 249.7938,142.54635 L 229.0235,176.5621 L 236.59964,142.54635 L 226.24014,142.54635 L 226.24014,113.77676 z "
+       id="rect8053"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       x="237.44389"
+       y="131.98201"
+       id="text8929"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan8933"
+         x="237.44389"
+         y="131.98201">Accession #</tspan></text>
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 303.96234,170.92104 L 373.74682,170.92104 L 373.74682,199.69063 L 327.516,199.69063 L 296.03072,228.66069 L 314.32184,199.69063 L 303.96234,199.69063 L 303.96234,170.92104 z "
+       id="path12437"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path12439"
+       d="M 301.12769,168.08639 L 370.91217,168.08639 L 370.91217,196.85598 L 324.68135,196.85598 L 295.40711,228.03709 L 311.48719,196.85598 L 301.12769,196.85598 L 301.12769,168.08639 z "
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text12441"
+       y="186.29164"
+       x="312.33142"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan12445"
+         x="312.33142"
+         y="186.29164">Species</tspan></text>
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 448.69749,220.15086 L 609.19063,220.15086 L 609.19063,248.92045 L 472.25115,248.92045 L 449.26981,280.72516 L 459.05699,248.92045 L 448.69749,248.92045 L 448.69749,220.15086 z "
+       id="path12455"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path12457"
+       d="M 445.86284,217.31621 L 606.35598,217.31621 L 606.35598,246.08581 L 469.4165,246.08581 L 448.6462,280.10156 L 456.22234,246.08581 L 445.86284,246.08581 L 445.86284,217.31621 z "
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text12459"
+       y="235.52148"
+       x="457.06659"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan12463"
+         x="457.06659"
+         y="235.52148">References to literature</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path12465"
+       d="M 499.78767,391.86171 L 660.28081,391.86171 L 660.28081,363.09212 L 526.17598,363.09212 L 500.35999,327.46758 L 510.14717,363.09212 L 499.78767,363.09212 L 499.78767,391.86171 z "
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 496.95302,389.02706 L 657.44616,389.02706 L 657.44616,360.25746 L 520.50668,360.25746 L 499.73638,326.24171 L 507.31252,360.25746 L 496.95302,360.25746 L 496.95302,389.02706 z "
+       id="path12467"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       x="506.24686"
+       y="377.81003"
+       id="text12469"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan12473"
+         x="506.24686"
+         y="377.81003">Findings from literature</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path12475"
+       d="M 260.95178,339.20074 L 66.442887,339.20074 L 66.442887,367.97033 L 237.39812,367.97033 L 256.10587,396.72248 L 250.59228,367.97033 L 260.95178,367.97033 L 260.95178,339.20074 z "
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 258.11713,336.36609 L 63.608245,336.36609 L 63.608245,365.13569 L 234.56347,365.13569 L 255.33377,399.15144 L 247.75763,365.13569 L 258.11713,365.13569 L 258.11713,336.36609 z "
+       id="path12477"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Verdana"
+       x="75.539696"
+       y="354.57138"
+       id="text12479"
+       sodipodi:linespacing="100%"><tspan
+         y="354.57138"
+         x="75.539696"
+         id="tspan12481"
+         sodipodi:role="line">Links to external databases</tspan></text>
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path12483"
+       d="M 519.5994,418.67621 L 663.08467,418.67621 L 663.08467,447.4458 L 543.15306,447.4458 L 505.99849,465.07728 L 529.9589,447.4458 L 519.5994,447.4458 L 519.5994,418.67621 z "
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 516.76475,415.84156 L 660.25002,415.84156 L 660.25002,444.61116 L 540.31841,444.61116 L 505.37488,464.45368 L 527.12425,444.61116 L 516.76475,444.61116 L 516.76475,415.84156 z "
+       id="path12485"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       x="527.96851"
+       y="434.04684"
+       id="text12487"
+       sodipodi:linespacing="100%"><tspan
+         y="434.04684"
+         x="527.96851"
+         id="tspan12489"
+         sodipodi:role="line">Cellular localization</tspan></text>
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 219.76115,543.12814 L 207.98432,543.12814 L 244.16938,512.74161 L 196.20749,543.12814 L 67.771942,543.12814 L 67.771942,571.89774 L 196.20749,571.89774 L 214.95202,601.1867 L 209.40165,571.89774 L 219.76115,571.89774 L 219.76115,556.2014 L 248.37485,554.13666 L 219.76115,550.32054 L 219.76115,543.12814 z "
+       id="path13372"
+       sodipodi:nodetypes="cccccccccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccccccccc"
+       id="path12493"
+       d="M 216.9265,540.29349 L 205.14967,540.29349 L 245.38627,509.90696 L 193.37284,540.29349 L 64.937296,540.29349 L 64.937296,569.06309 L 193.37284,569.06309 L 214.14314,603.07884 L 206.567,569.06309 L 216.9265,569.06309 L 216.9265,553.36675 L 250.94225,554.67829 L 216.9265,547.48589 L 216.9265,540.29349 z "
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text12495"
+       y="557.82349"
+       x="83.642776"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Verdana"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan13374"
+         x="83.642776"
+         y="557.82349">Cellular functions</tspan></text>
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 556.06324,656.36643 L 651.35953,656.36643 L 651.35953,685.13602 L 579.6169,685.13602 L 542.46233,702.7675 L 566.42274,685.13602 L 556.06324,685.13602 L 556.06324,656.36643 z "
+       id="path13376"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path13378"
+       d="M 553.22859,653.53178 L 648.52488,653.53178 L 648.52488,682.30138 L 576.78225,682.30138 L 541.83872,702.1439 L 563.58809,682.30138 L 553.22859,682.30138 L 553.22859,653.53178 z "
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text13380"
+       y="671.73706"
+       x="561.59766"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan13384"
+         x="561.59766"
+         y="671.73706">Protein form</tspan></text>
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 300.11665,758.12689 L 128.28492,758.12689 L 128.28492,786.89648 L 276.56299,786.89648 L 295.27074,815.64863 L 289.75715,786.89648 L 300.11665,786.89648 L 300.11665,758.12689 z "
+       id="path13386"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path13388"
+       d="M 297.282,755.29224 L 125.45028,755.29224 L 125.45028,784.06184 L 273.72834,784.06184 L 294.49864,818.07759 L 286.9225,784.06184 L 297.282,784.06184 L 297.282,755.29224 z "
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:bevel;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text13390"
+       y="773.49756"
+       x="148.72034"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Verdana"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan13394"
+         x="148.72034"
+         y="773.49756">Nucleotide sequence</tspan></text>
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       id="path13408"
+       d="M 465.25054,540.5706 L 477.02737,540.5706 L 487.07228,510.18407 L 488.8042,540.5706 L 617.23975,540.5706 L 617.23975,580.67878 L 488.8042,580.67878 L 475.61004,580.67878 L 465.25054,580.67878 L 465.25054,553.64386 L 424.04089,539.08827 L 463.63145,546.79154 L 465.25054,540.5706 z "
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 462.41589,537.73595 L 474.19272,537.73595 L 486.50436,507.99706 L 485.96955,537.73595 L 614.4051,537.73595 L 614.4051,577.84413 L 485.96955,577.84413 L 472.77539,577.84413 L 462.41589,577.84413 L 462.41589,556.4785 L 422.82533,537.22508 L 462.41589,544.92835 L 462.41589,537.73595 z "
+       id="path13398"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;font-family:Verdana"
+       x="475.53183"
+       y="555.58978"
+       id="text13400"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan13404"
+         x="475.53183"
+         y="555.58978">Literature references</tspan><tspan
+         sodipodi:role="line"
+         id="tspan13406"
+         x="475.53183"
+         y="567.58978">for cellular functions</tspan></text>
+  </g>
+</svg>

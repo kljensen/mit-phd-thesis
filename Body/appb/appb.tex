@@ -1,0 +1,112 @@
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.2cm}
+\addtocounter{secnumdepth}{1}
+\sloppy
+
+
+
+\chapter{Gemoda file documentation}\label{chapter:gfiles}
+\section{Introduction}
+    This chapter contains detailed documentation of the source code
+    implementation of the Gemoda algorithm described in
+    Chapter~\vref{chapter:gemoda}.
+    The Gemoda software is written in the C programming language
+    and
+    segmented in such a way as to allow the extension of the
+    algorithm to varieties of sequential data that were not
+    anticipated by the authors.  Furthermore, where possible the
+    code was crafted to be ``object--oriented like'' for maximum
+    readability.  The software makes extensive use of the GNU
+    Scientific Library~\cite{galassi2003gnu} and the popular Basic Linear
+    Algebra Subprograms
+    (BLAS)~\cite{blackford2002updated,dongarra2002basicI,dongarra2002basicII}
+    to speed--up computationally intensive operations associated
+    with the discovery of motifs in three--dimensional protein
+    structures and other real--valued data.
+
+    The Gemoda source code is available from \url{http://web.mit.edu/bamel/gemoda}.
+    The software includes a number of ``helper'' applications
+    for interoperability with common bioinformatics
+    tools.
+
+    This software is designed for UNIX--like systems and
+     uses the GNU autotools framework for managing
+    installation tasks and properly configuring itself for different
+    computer architectures.  Gemoda is distributed with a
+    \texttt{configure} shell script that tries to guess
+    system--dependent variables and to create a ``makefile'' that
+    can be used as an input for GNU make.
+
+    To install Gemoda, use the following recipe:
+    \begin{enumerate}
+      \item Change directories to the folder that contains the ``src''
+      directory as a subfolder.  From this location, run the command
+      \texttt{./configure}.  To install Gemoda to a nonstandard
+      location, use the optional flag \texttt{--prefix=PATH}, where
+      \texttt{PATH} is the desired location, such as
+      ``/usr/local/software''.
+      \item Type \texttt{make} to compile the software using your
+      default C compiler, which is specified by the ``CC''
+      environment variable.
+      \item Type \texttt{make install} to install the software.
+    \end{enumerate}
+    There are many other options for the \texttt{configure} script.
+    To see a list of available options, use the optional flag \texttt{--help}.
+
+    In the following sections of this appendix, I describe in detail
+    the organization and design of the Gemoda software.  These
+    sections are organized by file and are designed to show the
+    dependencies and interactions of different functions.  As
+    described in Chapter~\vref{chapter:gemoda}, Gemoda operates in
+    three steps: comparison, clustering, and convolution.  The
+    software keeps the steps clearly segmented.
+
+\begin{singlespace}
+\input{align_8c}
+\include{bitSet_8c}
+%\include{bitSet_8h}
+\include{convll_8c}
+\include{convll_8h}
+\include{fastaSeqIO_8c}
+\include{fastaSeqIO_8h}
+\include{gemoda-r_8c}
+\include{gemoda-s_8c}
+\include{matdata_8h}
+\include{matrices_8c}
+\include{matrices_8h}
+\include{matrixmap_8h}
+\include{newConv_8c}
+\include{patStats_8c}
+\include{patStats_8h}
+\include{realCompare_8c}
+\include{realCompare_8h}
+\include{realIo_8c}
+\include{realIo_8h}
+\include{spat_8h}
+\include{words_8c}
+\end{singlespace}
+
+\chapter{Gemoda data structure documentation}\label{chapter:gstructs}
+
+\section{Introduction}
+This appendix describes in detail the data structures used in the
+Gemoda software, which is described in the appendix on
+page~\pageref{chapter:gfiles}.  Although C is not an
+object--oriented programming language, we have tried where possible
+to use a similar philosophy in our programming.
+
+\begin{singlespace}
+\input{structbitGraph__t}
+\include{structbitSet__t}
+\include{structcnode}
+\include{structcSet__t}
+\include{structfSeq__t}
+\include{structmnode}
+\include{structrdh__t}
+\include{structsHash__t}
+\include{structsHashEntry__t}
+\include{structsOffset__t}
+\include{structsPat__t}
+\include{structsSize__t}
+\end{singlespace}

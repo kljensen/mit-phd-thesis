@@ -1,0 +1,95 @@
+\hypertarget{structcnode}{
+\section{cnode Struct Reference}
+\label{structcnode}\index{cnode@{cnode}}
+}
+{\tt \#include $<$convll.h$>$}
+
+Collaboration diagram for cnode:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=59pt]{structcnode__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Data Fields}
+\begin{CompactItemize}
+\item 
+\hyperlink{structcSet__t}{c\-Set\_\-t} $\ast$ \hyperlink{structcnode_o0}{set}
+\item 
+int \hyperlink{structcnode_o1}{id}
+\item 
+int \hyperlink{structcnode_o2}{length}
+\item 
+\hyperlink{structcnode}{cnode} $\ast$ \hyperlink{structcnode_o3}{next}
+\item 
+double \hyperlink{structcnode_o4}{stat}
+\end{CompactItemize}
+
+
+\subsection*{Detailed Description}
+This data structure is a linked list for storing cliques. Each member of the linked list has a set, an ID number, a length (which gives the number of characters in the motif), a pointer to the next member of the linked list, and a floating-point number for storing statistical information.
+
+
+
+Definition at line 35 of file convll.h.
+
+\subsection*{Field Documentation}
+\hypertarget{structcnode_o1}{
+\index{cnode@{cnode}!id@{id}}
+\index{id@{id}!cnode@{cnode}}
+\subsubsection[id]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structcnode_o1}{cnode::id}}}
+\label{structcnode_o1}
+
+
+Identification number for this member. 
+
+Definition at line 38 of file convll.h.
+
+Referenced by add\-To\-Stacks(), print\-Cll(), print\-Cll\-Pattern(), push\-Cll(), remove\-Supers(), single\-Clique\-Conv(), sort\-By\-Stats(), swap\-Nodec\-Set(), uniq\-Clique(), whole\-Clique\-Conv(), whole\-Round\-Conv(), and yank\-Cll().\hypertarget{structcnode_o2}{
+\index{cnode@{cnode}!length@{length}}
+\index{length@{length}!cnode@{cnode}}
+\subsubsection[length]{\setlength{\rightskip}{0pt plus 5cm}int \hyperlink{structcnode_o2}{cnode::length}}}
+\label{structcnode_o2}
+
+
+Length of this motif. 
+
+Definition at line 41 of file convll.h.
+
+Referenced by calc\-Stat\-Cliq(), get\-Largest\-Length(), main(), output\-Real\-Pats(), output\-Real\-Pats\-WCentroid(), print\-Cll(), and push\-Cll().\hypertarget{structcnode_o3}{
+\index{cnode@{cnode}!next@{next}}
+\index{next@{next}!cnode@{cnode}}
+\subsubsection[next]{\setlength{\rightskip}{0pt plus 5cm}struct \hyperlink{structcnode}{cnode}$\ast$ \hyperlink{structcnode_o3}{cnode::next}}}
+\label{structcnode_o3}
+
+
+A pointer to the next member, or the next motif. 
+
+Definition at line 42 of file convll.h.
+
+Referenced by calc\-Stat\-All\-Cliqs(), fill\-Member\-Stacks(), get\-Largest\-Length(), get\-Largest\-Support(), main(), output\-Real\-Pats(), output\-Real\-Pats\-WCentroid(), pop\-Cll(), print\-Cll(), prune\-Cll(), push\-Cll(), remove\-Supers(), single\-Clique\-Conv(), sort\-By\-Stats(), swap\-Nodec\-Set(), uniq\-Clique(), whole\-Round\-Conv(), and yank\-Cll().\hypertarget{structcnode_o0}{
+\index{cnode@{cnode}!set@{set}}
+\index{set@{set}!cnode@{cnode}}
+\subsubsection[set]{\setlength{\rightskip}{0pt plus 5cm}\hyperlink{structcSet__t}{c\-Set\_\-t}$\ast$ \hyperlink{structcnode_o0}{cnode::set}}}
+\label{structcnode_o0}
+
+
+The set for this member of the linked list. 
+
+Definition at line 37 of file convll.h.
+
+Referenced by add\-To\-Stacks(), calc\-Stat\-Cliq(), find\-Clique\-Centroid(), get\-Largest\-Support(), inithead\-Cll(), main(), make\-Alternate\-Centroid(), merge\-Intersect(), output\-Real\-Pats(), output\-Real\-Pats\-WCentroid(), pop\-Cll(), print\-Cll(), print\-Cll\-Pattern(), prune\-Cll(), push\-Cll(), remove\-Supers(), single\-Clique\-Conv(), swap\-Nodec\-Set(), uniq\-Clique(), and whole\-Clique\-Conv().\hypertarget{structcnode_o4}{
+\index{cnode@{cnode}!stat@{stat}}
+\index{stat@{stat}!cnode@{cnode}}
+\subsubsection[stat]{\setlength{\rightskip}{0pt plus 5cm}double \hyperlink{structcnode_o4}{cnode::stat}}}
+\label{structcnode_o4}
+
+
+Used to store the statistical store of a motif. 
+
+Definition at line 43 of file convll.h.
+
+Referenced by calc\-Stat\-All\-Cliqs(), main(), output\-Real\-Pats(), and push\-Cll().
+
+The documentation for this struct was generated from the following file:\begin{CompactItemize}
+\item 
+\hyperlink{convll_8h}{convll.h}\end{CompactItemize}
